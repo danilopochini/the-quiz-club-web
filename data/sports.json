@@ -240,7 +240,7 @@
     "difficulty": "Hard"
   },
   {
-    "question": "Which country hosted the 2016 Summer Olympics in Rio de Janeiro?",
+    "question": "Which country hosted the 2016 Summer Olympics?",
     "answers": [
       "Brazil",
       "United Kingdom",
@@ -252,7 +252,7 @@
     "difficulty": "Easy"
   },
   {
-    "question": "Which country hosted the 2012 Summer Olympics in London?",
+    "question": "Which country hosted the 2012 Summer Olympics?",
     "answers": [
       "United Kingdom",
       "China",
@@ -264,7 +264,7 @@
     "difficulty": "Easy"
   },
   {
-    "question": "Which country hosted the 2008 Summer Olympics in Beijing?",
+    "question": "Which country hosted the 2008 Summer Olympics?",
     "answers": [
       "China",
       "Australia",
@@ -276,7 +276,7 @@
     "difficulty": "Easy"
   },
   {
-    "question": "Which country hosted the 2000 Summer Olympics in Sydney?",
+    "question": "Which country hosted the 2000 Summer Olympics?",
     "answers": [
       "Australia",
       "Spain",
@@ -288,7 +288,7 @@
     "difficulty": "Easy"
   },
   {
-    "question": "Which country hosted the 1992 Summer Olympics in Barcelona?",
+    "question": "Which country hosted the 1992 Summer Olympics?",
     "answers": [
       "Spain",
       "Japan",
@@ -300,7 +300,7 @@
     "difficulty": "Medium"
   },
   {
-    "question": "Which country hosted the 1964 Summer Olympics in Tokyo?",
+    "question": "Which country hosted the 1964 Summer Olympics?",
     "answers": [
       "Japan",
       "Qatar",
@@ -517,10 +517,10 @@
   {"question":"What is the standard number of players on the field or court for one team in netball?","answers":["7","5","11","6"],"correct":0,"explanation":"A netball team has seven players on court.","difficulty":"Medium"},
   {"question":"What is the standard number of players on the field or court for one team in futsal?","answers":["5","11","6","15"],"correct":0,"explanation":"A futsal side has four outfield players and a goalkeeper.","difficulty":"Medium"},
   {"question":"Which country hosted the 2019 men's Rugby World Cup?","answers":["Japan","Canada","Germany","Spain"],"correct":0,"explanation":"Japan hosted the tournament won by South Africa.","difficulty":"Medium"},
-  {"question":"Which country hosted the 1988 Winter Olympics in Calgary?","answers":["Canada","Germany","Spain","France"],"correct":0,"explanation":"Calgary hosted the Winter Games in Alberta.","difficulty":"Medium"},
+  {"question":"Which country hosted the 1988 Winter Olympics?","answers":["Canada","Germany","Spain","France"],"correct":0,"explanation":"Calgary hosted the Winter Games in Alberta.","difficulty":"Medium"},
   {"question":"Which country hosted the 1998 men's FIFA World Cup?","answers":["France","South Korea","Mexico","Greece"],"correct":0,"explanation":"France hosted and won the 1998 tournament.","difficulty":"Medium"},
-  {"question":"Which country hosted the 2018 Winter Olympics in Pyeongchang?","answers":["South Korea","Mexico","Greece","Qatar"],"correct":0,"explanation":"Pyeongchang hosted the Winter Games in 2018.","difficulty":"Medium"},
-  {"question":"Which country hosted the 2004 Summer Olympics in Athens?","answers":["Greece","Qatar","Brazil","Australia"],"correct":0,"explanation":"The Games returned to Athens in 2004.","difficulty":"Medium"},
+  {"question":"Which country hosted the 2018 Winter Olympics?","answers":["South Korea","Mexico","Greece","Qatar"],"correct":0,"explanation":"Pyeongchang hosted the Winter Games in 2018.","difficulty":"Medium"},
+  {"question":"Which country hosted the 2004 Summer Olympics?","answers":["Greece","Qatar","Brazil","Australia"],"correct":0,"explanation":"The Games returned to Athens in 2004.","difficulty":"Medium"},
   {"question":"Which city hosted the 2008 Summer Olympics?","answers":["Beijing","London","Sydney","Barcelona"],"correct":0,"explanation":"Beijing hosted the 2008 Summer Games.","difficulty":"Medium"},
   {"question":"Which city hosted the 2012 Summer Olympics?","answers":["London","Sydney","Barcelona","Montreal"],"correct":0,"explanation":"London hosted the 2012 Summer Games.","difficulty":"Medium"},
   {"question":"Which city hosted the 2000 Summer Olympics?","answers":["Sydney","Barcelona","Montreal","Los Angeles"],"correct":0,"explanation":"Sydney hosted the 2000 Summer Games.","difficulty":"Medium"},

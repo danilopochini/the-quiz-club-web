@@ -30,6 +30,15 @@ test('all category banks contain complete, unique questions', () => {
   }
 });
 
+test('Olympic host questions do not include a city in the prompt', () => {
+  const sports = JSON.parse(fs.readFileSync(path.join(root, 'data', 'sports.json'), 'utf8'));
+  const hostQuestions = sports.filter(item => /^Which (?:country|city) hosted the \d{4} (?:Summer|Winter) Olympics\b/i.test(item.question));
+  assert.ok(hostQuestions.length > 0, 'expected Olympic host questions');
+  for (const item of hostQuestions) {
+    assert.match(item.question, /^Which (?:country|city) hosted the \d{4} (?:Summer|Winter) Olympics\?$/, item.question);
+  }
+});
+
 test('homepage links to each quiz and category artwork exists', () => {
   const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   for (const category of categories) {
