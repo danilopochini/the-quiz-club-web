@@ -1,6 +1,6 @@
 # The Quiz Club
 
-A static, framework-free trivia platform. All twelve categories are playable; the daily challenge is coming soon.
+A static, framework-free trivia platform. All twelve categories are playable, each with a bank of at least 100 questions; each game draws 10. The daily challenge is coming soon.
 
 ## Run locally
 

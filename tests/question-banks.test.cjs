@@ -13,7 +13,7 @@ const categories = [
 test('all category banks contain complete, unique questions', () => {
   for (const category of categories) {
     const bank = JSON.parse(fs.readFileSync(path.join(root, 'data', `${category}.json`), 'utf8'));
-    assert.ok(bank.length >= 40, `${category} needs at least 40 questions`);
+    assert.ok(bank.length >= 100, `${category} needs at least 100 questions`);
     assert.equal(new Set(bank.map(item => item.question)).size, bank.length, `${category} has duplicate questions`);
     for (const item of bank) {
       assert.ok(typeof item.question === 'string' && item.question.trim(), category);
