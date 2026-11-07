@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f2">
+  <meta name="description" content="Explore the world through photographs in Picture Perfect, a geography quiz from The Quiz Club.">
+  <title>Picture Perfect: Around the World — The Quiz Club</title>
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" sizes="180x180">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/picture-perfect.css">
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/picture-perfect.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="The Quiz Club home"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav class="site-nav" id="primary-navigation" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="daily.html">Daily Challenge</a></nav>
+  </div></header>
+  <main class="quiz-main">
+    <div class="quiz-shell picture-shell">
+      <a class="quiz-back" href="index.html#categories"><span aria-hidden="true">←</span> All categories</a>
+      <div class="quiz-intro picture-intro">
+        <div><div class="section-kicker"><span>✳</span> PICTURE PERFECT</div><h1>Around the <em>world.</em></h1><p>Look closer. Follow the clues. Discover the world, one image at a time.</p></div>
+      </div>
+      <section class="quiz-card picture-card" aria-label="Picture Perfect: Around the World">
+        <div id="loading" role="status">Getting your journey ready...</div>
+        <div id="load-error" class="load-error" role="alert" hidden>
+          <h2>We couldn't load the game.</h2>
+          <p>Check your connection and try again. If you're opening this page from your computer, use a local web server.</p>
+          <button class="button button-blue" id="retry" type="button">Try again <span aria-hidden="true">↗</span></button>
+        </div>
+        <noscript><style>#loading { display: none; }</style><p class="load-error">This game needs JavaScript. Enable it and reload the page to play.</p></noscript>
+        <div id="welcome" class="picture-welcome" hidden>
+          <div class="picture-welcome-mark" aria-hidden="true">✳</div>
+          <p class="question-kicker">10 PHOTOGRAPHS / ONE WORLD</p>
+          <h2>Ready to look closer?</h2>
+          <p>Explore landscapes, cities and natural wonders. Each image holds a clue.</p>
+          <button class="button button-blue" id="start" type="button">Start playing <span aria-hidden="true">↗</span></button>
+        </div>
+        <div id="game" hidden>
+          <div class="quiz-meta"><span id="question-count">Question 1 of 10</span><span class="score-pill">✦ <span id="score">0</span> / 10 correct</span></div>
+          <div id="progress" class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" aria-valuetext="0 of 10 questions answered"><span id="progress-fill"></span></div>
+          <figure class="picture-figure">
+            <img id="question-image" alt="" width="800" height="500">
+            <figcaption id="photo-credit" hidden></figcaption>
+          </figure>
+          <div id="image-error" class="picture-image-error" role="alert" hidden>
+            <p>This photograph couldn't be loaded. Please try loading it again.</p>
+            <button type="button" id="retry-image" class="picture-retry">Retry image</button>
+          </div>
+          <div class="question-heading"><span class="question-kicker"><span id="topic"></span> <span aria-hidden="true">/</span> <span id="difficulty"></span></span><h2 id="question" tabindex="-1"></h2><p>Choose the answer you think is right.</p></div>
+          <div id="answers" class="answers" role="group" aria-labelledby="question"></div>
+          <div id="feedback" class="feedback" role="status" aria-live="polite" hidden>
+            <p id="feedback-title" class="feedback-title"></p><p id="explanation"></p>
+          </div>
+          <div class="quiz-actions"><span class="quiz-hint">A little curiosity goes a long way. ✦</span><button class="button button-blue" id="next" type="button" hidden>Next Question <span aria-hidden="true">→</span></button></div>
+        </div>
+        <div id="results" class="results" hidden>
+          <div class="section-kicker"><span>✳</span> YOUR JOURNEY, IN NUMBERS</div>
+          <div class="result-badge" aria-hidden="true"><span id="result-ring-score"></span><small>OUT OF 10</small></div>
+          <h2 id="result-title" tabindex="-1"></h2>
+          <p id="result-summary"></p>
+          <p id="result-breakdown" class="result-note"></p>
+          <div class="result-actions"><button class="button button-blue" id="play-again" type="button">Play Again <span aria-hidden="true">↗</span></button><a class="button result-back" href="index.html#categories">Back to Categories <span aria-hidden="true">→</span></a></div>
+        </div>
+      </section>
+      <p class="quiz-footer-note">GOOD QUESTIONS. GOOD TIMES. <span aria-hidden="true">✦</span></p>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid">
+    <div class="footer-about"><a class="brand footer-brand" href="index.html"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a><p>For the curious, the competitive,<br>and everyone in between.</p></div>
+    <div><h2>NAVIGATION</h2><a href="index.html">Home</a><a href="daily.html">Daily Challenge</a></div>
+    <div><h2>THE CLUB</h2><a href="about.html#about">About</a><a href="about.html#privacy">Privacy</a><a href="about.html#contact">Contact</a></div>
+    <div class="footer-signoff">STAY CURIOUS.<br><span>PLAY OFTEN.</span><span class="footer-star" aria-hidden="true">✳</span></div>
+  </div><div class="container footer-bottom"><span>© The Quiz Club. Made for curious minds.</span><span>GOOD QUESTIONS. GOOD TIMES. ✦</span></div></footer>
+</body>
+</html>

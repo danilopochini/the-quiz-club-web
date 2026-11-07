@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "uyuni",
+    "question": "This vast Andean salt flat forms a mirror after rain. In which country would you find it?",
+    "image": "assets/images/picture-perfect/geography/uyuni.jpg",
+    "imageAlt": "Salt mounds spread across a broad flat landscape beneath distant mountains.",
+    "answers": [
+      "Bolivia",
+      "Argentina",
+      "Peru",
+      "Colombia"
+    ],
+    "correct": 0,
+    "explanation": "Salar de Uyuni lies on Bolivia’s high-altitude Altiplano.",
+    "difficulty": "Easy",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "Luca Galuzzi ( Lucag ), edit by Trialsanderrors",
+      "source": "https://commons.wikimedia.org/wiki/File:Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
+  },
+  {
+    "id": "pamukkale",
+    "question": "These white terraces were formed by mineral-rich hot springs. In which country are they found?",
+    "image": "assets/images/picture-perfect/geography/pamukkale.jpg",
+    "imageAlt": "White mineral terraces descend a hillside.",
+    "answers": [
+      "Turkey",
+      "Georgia",
+      "Greece",
+      "Iran"
+    ],
+    "correct": 0,
+    "explanation": "The travertine terraces of Pamukkale lie in southwestern Turkey.",
+    "difficulty": "Easy",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "Slyronit",
+      "source": "https://commons.wikimedia.org/wiki/File:The_travertine_terraces_of_Pamukkale_4.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "giants-causeway",
+    "question": "The striking columns on this coast formed when which material cooled and fractured?",
+    "image": "assets/images/picture-perfect/geography/giants-causeway.jpg",
+    "imageAlt": "Dark polygonal rock columns rise together.",
+    "answers": [
+      "Basaltic lava",
+      "Glacial ice",
+      "Sandstone sediment",
+      "Coral limestone"
+    ],
+    "correct": 0,
+    "explanation": "The Giant’s Causeway’s basalt columns formed as lava cooled and contracted.",
+    "difficulty": "Medium",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "David Dixon",
+      "source": "https://commons.wikimedia.org/wiki/File:Basalt_Columns_at_Giant%27s_Causeway_in_Northern_Ireland_-_geograph_5571889.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  },
+  {
+    "id": "danakil",
+    "question": "This arid depression is part of the Afar region, where tectonic plates are pulling apart. Which country contains much of it?",
+    "image": "assets/images/picture-perfect/geography/danakil.jpg",
+    "imageAlt": "An arid landscape in a low-lying desert region.",
+    "answers": [
+      "Ethiopia",
+      "Algeria",
+      "Namibia",
+      "Ghana"
+    ],
+    "correct": 0,
+    "explanation": "The Danakil Depression extends across northeastern Ethiopia and into neighbouring countries.",
+    "difficulty": "Hard",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "Thomas Fuhrmann",
+      "source": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_dry_landscape_in_the_Danakil_Depression.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "waitomo",
+    "question": "In the caves of New Zealand, the glow of tiny larvae is used primarily to attract what?",
+    "image": "assets/images/picture-perfect/geography/waitomo.jpg",
+    "imageAlt": "A dark underground cave environment.",
+    "answers": [
+      "Prey",
+      "A mate",
+      "Sunlight",
+      "Minerals"
+    ],
+    "correct": 0,
+    "explanation": "New Zealand glowworm larvae use light to lure small flying insects into sticky threads.",
+    "difficulty": "Hard",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "Donnie Ray Jones",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_Glow_Caves_in_New_Zealand_(6563152219).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  },
+  {
+    "id": "zhangye",
+    "question": "These multicoloured bands in northwest China are largely layers of what?",
+    "image": "assets/images/picture-perfect/geography/zhangye.jpg",
+    "imageAlt": "Multicoloured bands of rock ripple across a landscape.",
+    "answers": [
+      "Sedimentary rock",
+      "Glacial ice",
+      "Coral reef",
+      "Volcanic glass"
+    ],
+    "correct": 0,
+    "explanation": "The colourful Zhangye landforms expose layers of sandstone and other sedimentary rocks.",
+    "difficulty": "Medium",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "noeliashic",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E6%8E%96%E4%B8%B9%E9%9C%9E%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD_(Parque_geol%C3%B3gico_nacional_Zhangye_Danxia).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "lencois",
+    "question": "Seasonal rainwater collects between these coastal dunes in northeastern Brazil. What are the pools called?",
+    "image": "assets/images/picture-perfect/geography/lencois.jpg",
+    "imageAlt": "Pale sand dunes surround pools of water.",
+    "answers": [
+      "Freshwater lagoons",
+      "Salt pans",
+      "Glacial tarns",
+      "Hot springs"
+    ],
+    "correct": 0,
+    "explanation": "Seasonal freshwater lagoons appear among the dunes of Lençóis Maranhenses.",
+    "difficulty": "Hard",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "Julius Dadalti",
+      "source": "https://commons.wikimedia.org/wiki/File:Len%C3%A7%C3%B3is_Maranhenses_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "stone-forest",
+    "question": "This Chinese landscape is a karst formation. Which process is most responsible for shaping its limestone pillars?",
+    "image": "assets/images/picture-perfect/geography/stone-forest.jpg",
+    "imageAlt": "Tall pale rock pillars form a rugged landscape.",
+    "answers": [
+      "Dissolution by water",
+      "Deposition by glaciers",
+      "Cooling lava",
+      "Impact by a meteorite"
+    ],
+    "correct": 0,
+    "explanation": "Slightly acidic water dissolves limestone over long periods, producing karst formations.",
+    "difficulty": "Medium",
+    "topic": "Unusual landscapes",
+    "attribution": {
+      "author": "CEphoto, Uwe Aranas",
+      "source": "https://commons.wikimedia.org/wiki/File:Shilin_Yunnan_China_Shilin-Stone-Forest-03a.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "nile-delta",
+    "question": "The fertile triangular region at the mouth of this north-flowing African river meets which sea?",
+    "image": "assets/images/picture-perfect/geography/nile-delta.jpg",
+    "imageAlt": "Satellite view of a river branching into a green fan at a coast.",
+    "answers": [
+      "Mediterranean Sea",
+      "Red Sea",
+      "Arabian Sea",
+      "Black Sea"
+    ],
+    "correct": 0,
+    "explanation": "The Nile’s delta spreads across northern Egypt to the Mediterranean.",
+    "difficulty": "Easy",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "National Aeronautics and Space Administration (NASA)",
+      "source": "https://commons.wikimedia.org/wiki/File:Satellite_picture_of_the_Nile_Delta,_Egypt.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "richat",
+    "question": "This circular structure in Mauritania is visible from space. It is best understood as an eroded what?",
+    "image": "assets/images/picture-perfect/geography/richat.jpg",
+    "imageAlt": "Satellite view of concentric rocky rings in a desert.",
+    "answers": [
+      "Geological dome",
+      "Coral atoll",
+      "Impact crater",
+      "Volcanic caldera"
+    ],
+    "correct": 0,
+    "explanation": "The Richat Structure is an eroded geological dome whose layered rocks form concentric rings.",
+    "difficulty": "Hard",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "NASA/JPL/NIMA",
+      "source": "https://commons.wikimedia.org/wiki/File:Richat_Structure_-_SRTM.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "lake-natron",
+    "question": "This highly alkaline lake in northern Tanzania can appear reddish because of which organisms?",
+    "image": "assets/images/picture-perfect/geography/lake-natron.jpg",
+    "imageAlt": "A satellite view of a reddish lake in an arid landscape.",
+    "answers": [
+      "Salt-loving microorganisms",
+      "Coral polyps",
+      "Freshwater mussels",
+      "Mangrove trees"
+    ],
+    "correct": 0,
+    "explanation": "Pigments produced by microorganisms thrive in Lake Natron’s saline, alkaline water.",
+    "difficulty": "Hard",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Natron_satellite.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "great-salt-lake",
+    "question": "A causeway separates this North American salt lake into differently coloured arms. Which US state contains it?",
+    "image": "assets/images/picture-perfect/geography/great-salt-lake.jpg",
+    "imageAlt": "Aerial view of a lake divided into different-coloured sections.",
+    "answers": [
+      "Utah",
+      "Florida",
+      "Maine",
+      "Louisiana"
+    ],
+    "correct": 0,
+    "explanation": "Utah’s Great Salt Lake can have contrasting colours on either side of its railroad causeway.",
+    "difficulty": "Hard",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "MODIS Land Rapid Response Team, NASA GSFC",
+      "source": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_(MODIS_2025-06-16).jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "namib-dunes",
+    "question": "The dune sea in this southwest African desert meets which ocean?",
+    "image": "assets/images/picture-perfect/geography/namib-dunes.jpg",
+    "imageAlt": "Aerial view of sand dunes in a desert.",
+    "answers": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correct": 0,
+    "explanation": "The Namib Desert reaches the Atlantic coast of Namibia.",
+    "difficulty": "Medium",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "MODIS Land Rapid Response Team, NASA GSFC",
+      "source": "https://commons.wikimedia.org/wiki/File:Namib_Desert_(MODIS_2019-08-20).jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "lake-eyre",
+    "question": "This Australian basin is usually dry but can fill after inland floods. What type of feature is it?",
+    "image": "assets/images/picture-perfect/geography/lake-eyre.jpg",
+    "imageAlt": "Satellite image of a pale inland basin in an arid region.",
+    "answers": [
+      "A salt lake",
+      "A coral reef",
+      "A volcanic island",
+      "A coastal fjord"
+    ],
+    "correct": 0,
+    "explanation": "Kati Thanda–Lake Eyre is a salt lake in a low-lying drainage basin in South Australia.",
+    "difficulty": "Hard",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "NASA/USGS/Landsat; NASA Goddard Space Flight Center",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Eyre_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "mount-fuji",
+    "question": "This nearly symmetrical volcanic cone is on Honshu, the largest island of which country?",
+    "image": "assets/images/picture-perfect/geography/mount-fuji.jpg",
+    "imageAlt": "Aerial view of a volcanic cone.",
+    "answers": [
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "New Zealand"
+    ],
+    "correct": 0,
+    "explanation": "Mount Fuji is an active stratovolcano on Japan’s island of Honshu.",
+    "difficulty": "Easy",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "NASA Earth Observatory images by Wanmei Liang, using Landsat data from the U.S. Geological Survey. Story by Lindsey Doermann.",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_Bare_Again_After_Fleeting_Snow_(153593_-_2_20231030_lrg).jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "sahara-oasis",
+    "question": "An oasis in the Sahara is possible mainly because water reaches the surface from where?",
+    "image": "assets/images/picture-perfect/geography/sahara-oasis.jpg",
+    "imageAlt": "A green settlement lies amid a dry desert landscape.",
+    "answers": [
+      "Underground aquifers",
+      "Ocean tides",
+      "Glacial melt every summer",
+      "Monsoon-fed coral reefs"
+    ],
+    "correct": 0,
+    "explanation": "Oases can form where groundwater reaches the surface or is brought up from aquifers.",
+    "difficulty": "Hard",
+    "topic": "Satellite and aerial",
+    "attribution": {
+      "author": "© Vyacheslav Argenberg / www.vascoplanet.com",
+      "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_Sahara_Desert,_Egypt.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "id": "chefchaouen",
+    "question": "The blue-painted streets shown here are in a mountain city in which North African country?",
+    "image": "assets/images/picture-perfect/geography/chefchaouen.jpg",
+    "imageAlt": "A narrow street lined with blue-painted walls and steps.",
+    "answers": [
+      "Morocco",
+      "Egypt",
+      "Sudan",
+      "Libya"
+    ],
+    "correct": 0,
+    "explanation": "Chefchaouen sits in Morocco’s Rif Mountains and is known for its blue buildings.",
+    "difficulty": "Easy",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "Fbrandao.1963",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_01_(Blue)_-_Chaouen.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "shibam",
+    "question": "These tall mud-brick buildings stand in a historic city on the Arabian Peninsula. Which country is it in?",
+    "image": "assets/images/picture-perfect/geography/shibam.jpg",
+    "imageAlt": "Tall earthen buildings cluster together in a dry valley.",
+    "answers": [
+      "Yemen",
+      "Oman",
+      "Bahrain",
+      "Kuwait"
+    ],
+    "correct": 0,
+    "explanation": "Shibam in Yemen’s Hadhramaut region is famous for its high-rise mud-brick buildings.",
+    "difficulty": "Hard",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "Ala Askool",
+      "source": "https://commons.wikimedia.org/wiki/File:Shibam_Hadramaut.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "lalibela",
+    "question": "These churches were carved downward into rock in the highlands of which African country?",
+    "image": "assets/images/picture-perfect/geography/lalibela.jpg",
+    "imageAlt": "A church-like structure is carved into rock.",
+    "answers": [
+      "Ethiopia",
+      "Senegal",
+      "Angola",
+      "Tunisia"
+    ],
+    "correct": 0,
+    "explanation": "Lalibela’s medieval churches were carved into volcanic rock in northern Ethiopia.",
+    "difficulty": "Medium",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "A. Davey from Where I Live Now: Pacific Northwest",
+      "source": "https://commons.wikimedia.org/wiki/File:At_the_Base_of_Bet_Giorgis,_Lalibela,_Ethiopia_(3273497042).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  },
+  {
+    "id": "matera",
+    "question": "The cave dwellings known as the Sassi are in a city in which country?",
+    "image": "assets/images/picture-perfect/geography/matera.jpg",
+    "imageAlt": "Stone buildings and cave openings cover a hillside.",
+    "answers": [
+      "Italy",
+      "Portugal",
+      "Croatia",
+      "Albania"
+    ],
+    "correct": 0,
+    "explanation": "The Sassi of Matera in southern Italy include dwellings cut into limestone.",
+    "difficulty": "Hard",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "Velvet",
+      "source": "https://commons.wikimedia.org/wiki/File:Matera_maisons_sassi.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "sanaa",
+    "question": "These decorated multi-storey tower houses are characteristic of the old city of Sana’a. On which peninsula is the city?",
+    "image": "assets/images/picture-perfect/geography/sanaa.jpg",
+    "imageAlt": "Multi-storey earthen buildings have white decorative window surrounds.",
+    "answers": [
+      "Arabian Peninsula",
+      "Iberian Peninsula",
+      "Korean Peninsula",
+      "Balkan Peninsula"
+    ],
+    "correct": 0,
+    "explanation": "Sana’a is in Yemen, in the southern part of the Arabian Peninsula.",
+    "difficulty": "Medium",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "Ayah Alakwaa",
+      "source": "https://commons.wikimedia.org/wiki/File:%D8%A8%D9%8A%D9%88%D8%AA_%D8%B5%D9%86%D8%B9%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9_%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB%D9%8A%D8%A9_%D9%88%D9%81%D9%8A_%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A%D8%A9_%D8%AC%D8%A8%D9%84_%D9%86%D9%82%D9%85%D8%8C_%D8%A7%D9%84%D9%8A%D9%85%D9%86_o_Historic_tower_houses_of_Old_Sana%27a_with_Mount_Nuqum_in_the_background,_Yemen.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "bern",
+    "question": "This historic European city sits in a bend of the Aare River. Which country is it the federal city of?",
+    "image": "assets/images/picture-perfect/geography/bern.jpg",
+    "imageAlt": "A historic city rises above a river and wooded banks.",
+    "answers": [
+      "Switzerland",
+      "Austria",
+      "Belgium",
+      "Slovenia"
+    ],
+    "correct": 0,
+    "explanation": "Bern’s old town occupies a peninsula formed by the Aare River.",
+    "difficulty": "Medium",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "Daniel Kraft",
+      "source": "https://commons.wikimedia.org/wiki/File:Bern_Panorama_von_Rosengarten_20211007.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "cusco",
+    "question": "This highland city was once the capital of the Inca Empire. In which mountain range is it?",
+    "image": "assets/images/picture-perfect/geography/cusco.jpg",
+    "imageAlt": "A densely built city sits in a high mountain valley.",
+    "answers": [
+      "Andes",
+      "Alps",
+      "Rockies",
+      "Atlas Mountains"
+    ],
+    "correct": 0,
+    "explanation": "Cusco lies high in the Peruvian Andes and was the capital of the Inca Empire.",
+    "difficulty": "Easy",
+    "topic": "Cities and architecture",
+    "attribution": {
+      "author": "Colin W",
+      "source": "https://commons.wikimedia.org/wiki/File:Cuzco,_Peru_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "okavango",
+    "question": "This inland delta in Botswana spreads into which desert region rather than reaching the sea?",
+    "image": "assets/images/picture-perfect/geography/okavango.jpg",
+    "imageAlt": "Aerial view of channels and green wetlands in a dry landscape.",
+    "answers": [
+      "Kalahari",
+      "Sahara",
+      "Gobi",
+      "Atacama"
+    ],
+    "correct": 0,
+    "explanation": "The Okavango Delta fans out into the Kalahari region of Botswana.",
+    "difficulty": "Medium",
+    "topic": "Rivers and deltas",
+    "attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_39.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "mekong-delta",
+    "question": "The delta pictured lies in southern Vietnam. Which river feeds its network of channels?",
+    "image": "assets/images/picture-perfect/geography/mekong-delta.jpg",
+    "imageAlt": "A boat floats on a broad river beside a low shoreline.",
+    "answers": [
+      "Mekong",
+      "Yangtze",
+      "Ganges",
+      "Irrawaddy"
+    ],
+    "correct": 0,
+    "explanation": "The Mekong flows through several Southeast Asian countries before reaching its delta in Vietnam.",
+    "difficulty": "Medium",
+    "topic": "Rivers and deltas",
+    "attribution": {
+      "author": "© Vyacheslav Argenberg / www.vascoplanet.com",
+      "source": "https://commons.wikimedia.org/wiki/File:Vietnam,_Bassac_River,_Chau_Doc,_Mekong_Delta.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "id": "iguazu",
+    "question": "These falls lie on a river that forms part of the border between Brazil and which other country?",
+    "image": "assets/images/picture-perfect/geography/iguazu.jpg",
+    "imageAlt": "Multiple waterfalls plunge over a broad forested escarpment.",
+    "answers": [
+      "Argentina",
+      "Chile",
+      "Peru",
+      "Ecuador"
+    ],
+    "correct": 0,
+    "explanation": "Iguazú Falls lie on the Iguazú River at the Argentina–Brazil border.",
+    "difficulty": "Easy",
+    "topic": "Rivers and deltas",
+    "attribution": {
+      "author": "Bernard Gagnon",
+      "source": "https://commons.wikimedia.org/wiki/File:Iguaz%C3%BA_Falls_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "victoria-falls",
+    "question": "These falls span the Zambezi River on the border between Zambia and which country?",
+    "image": "assets/images/picture-perfect/geography/victoria-falls.jpg",
+    "imageAlt": "A wide waterfall drops into a narrow gorge.",
+    "answers": [
+      "Zimbabwe",
+      "Kenya",
+      "Angola",
+      "Namibia"
+    ],
+    "correct": 0,
+    "explanation": "Victoria Falls lies on the Zambezi at the border of Zambia and Zimbabwe.",
+    "difficulty": "Easy",
+    "topic": "Rivers and deltas",
+    "attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_16-20_PAN.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "lake-titicaca",
+    "question": "The floating islands on this Andean lake are traditionally made from which plant?",
+    "image": "assets/images/picture-perfect/geography/lake-titicaca.jpg",
+    "imageAlt": "A reed-built island floats on a high-altitude lake.",
+    "answers": [
+      "Totora reeds",
+      "Bamboo",
+      "Mangrove roots",
+      "Papyrus"
+    ],
+    "correct": 0,
+    "explanation": "The Uros people use totora reeds to build floating islands on Lake Titicaca.",
+    "difficulty": "Medium",
+    "topic": "Rivers and lakes",
+    "attribution": {
+      "author": "Thomas Quine",
+      "source": "https://commons.wikimedia.org/wiki/File:Reed_Islands_of_Lake_Titicaca.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  },
+  {
+    "id": "lake-baikal",
+    "question": "This Siberian lake freezes in winter. What is remarkable about its depth?",
+    "image": "assets/images/picture-perfect/geography/lake-baikal.jpg",
+    "imageAlt": "A large frozen lake stretches towards distant mountains.",
+    "answers": [
+      "It is the deepest lake on Earth",
+      "It is the shallowest lake on Earth",
+      "It has no measurable depth",
+      "It is entirely beneath the sea"
+    ],
+    "correct": 0,
+    "explanation": "Lake Baikal is the world’s deepest lake, reaching more than 1.6 kilometres at its deepest point.",
+    "difficulty": "Medium",
+    "topic": "Rivers and lakes",
+    "attribution": {
+      "author": "TomZelinsky",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Baikal_frozen_surface_in_winter.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "id": "santorini",
+    "question": "The flooded basin at the centre of this Greek island group was shaped mainly by what?",
+    "image": "assets/images/picture-perfect/geography/santorini.jpg",
+    "imageAlt": "An island coastline curves around a sea-filled basin.",
+    "answers": [
+      "A volcanic eruption",
+      "A coral reef",
+      "A meteor strike",
+      "A river delta"
+    ],
+    "correct": 0,
+    "explanation": "Santorini’s caldera formed through major volcanic eruptions and collapse.",
+    "difficulty": "Medium",
+    "topic": "Islands and archipelagos",
+    "attribution": {
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_tram_Fira_Santorini_06_2017.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "galapagos",
+    "question": "These Pacific islands lie west of South America and belong to which country?",
+    "image": "assets/images/picture-perfect/geography/galapagos.jpg",
+    "imageAlt": "A dark rocky island shoreline meets the sea.",
+    "answers": [
+      "Ecuador",
+      "Chile",
+      "Colombia",
+      "Peru"
+    ],
+    "correct": 0,
+    "explanation": "The Galápagos Islands are an Ecuadorian archipelago in the eastern Pacific.",
+    "difficulty": "Easy",
+    "topic": "Islands and archipelagos",
+    "attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Paisaje_en_Punta_Pitt,_isla_de_San_Crist%C3%B3bal,_islas_Gal%C3%A1pagos,_Ecuador,_2015-07-24,_DD_48.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "socotra",
+    "question": "The umbrella-shaped dragon’s blood trees are native to an island in which ocean?",
+    "image": "assets/images/picture-perfect/geography/socotra.jpg",
+    "imageAlt": "Umbrella-shaped trees stand on a rocky island landscape.",
+    "answers": [
+      "Indian Ocean",
+      "Atlantic Ocean",
+      "Arctic Ocean",
+      "Southern Ocean"
+    ],
+    "correct": 0,
+    "explanation": "Socotra lies in the northwestern Indian Ocean near the Gulf of Aden.",
+    "difficulty": "Hard",
+    "topic": "Islands and archipelagos",
+    "attribution": {
+      "author": "Alex38",
+      "source": "https://commons.wikimedia.org/wiki/File:Dragonblood_tree_in_Socotra_2.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "id": "faroe",
+    "question": "These North Atlantic islands are a self-governing territory within the Kingdom of which country?",
+    "image": "assets/images/picture-perfect/geography/faroe.jpg",
+    "imageAlt": "Steep green islands and coastal cliffs rise above the sea.",
+    "answers": [
+      "Denmark",
+      "Norway",
+      "Iceland",
+      "United Kingdom"
+    ],
+    "correct": 0,
+    "explanation": "The Faroe Islands are a self-governing territory of the Kingdom of Denmark.",
+    "difficulty": "Medium",
+    "topic": "Islands and archipelagos",
+    "attribution": {
+      "author": "Raki_Man",
+      "source": "https://commons.wikimedia.org/wiki/File:Coastal_Cliffs_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  },
+  {
+    "id": "iceland",
+    "question": "This island lies across the boundary between the North American and which other tectonic plate?",
+    "image": "assets/images/picture-perfect/geography/iceland.jpg",
+    "imageAlt": "A rugged volcanic island landscape.",
+    "answers": [
+      "Eurasian Plate",
+      "Pacific Plate",
+      "African Plate",
+      "Antarctic Plate"
+    ],
+    "correct": 0,
+    "explanation": "The Mid-Atlantic Ridge crosses Iceland where the North American and Eurasian plates diverge.",
+    "difficulty": "Medium",
+    "topic": "Islands and archipelagos",
+    "attribution": {
+      "author": "© Giles Laurent , gileslaurent.com , License CC BY-SA",
+      "source": "https://commons.wikimedia.org/wiki/File:001_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "table-mountain",
+    "question": "These layered cliffs are part of Table Mountain, overlooking a coastal city at the southern end of which continent?",
+    "image": "assets/images/picture-perfect/geography/table-mountain.jpg",
+    "imageAlt": "Steep, layered cliffs rise on a mountainside.",
+    "answers": [
+      "Africa",
+      "South America",
+      "Asia",
+      "Australia"
+    ],
+    "correct": 0,
+    "explanation": "Table Mountain overlooks Cape Town in South Africa.",
+    "difficulty": "Easy",
+    "topic": "Mountains and formations",
+    "attribution": {
+      "author": "Matti Blume",
+      "source": "https://commons.wikimedia.org/wiki/File:Table_Mountain,_Cape_Town_(P1050222).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "kilimanjaro",
+    "question": "This high peak near the equator is the highest mountain on which continent?",
+    "image": "assets/images/picture-perfect/geography/kilimanjaro.jpg",
+    "imageAlt": "A high mountain rises above the surrounding landscape.",
+    "answers": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "South America"
+    ],
+    "correct": 0,
+    "explanation": "Kilimanjaro is a volcanic mountain in Tanzania and Africa’s highest peak.",
+    "difficulty": "Medium",
+    "topic": "Mountains and formations",
+    "attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Kilimanjaro,_Tanzania,_2024-05-22,_DD_110.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "uluru",
+    "question": "This sandstone monolith lies in the arid interior of which country?",
+    "image": "assets/images/picture-perfect/geography/uluru.jpg",
+    "imageAlt": "A large reddish sandstone formation rises above a dry plain.",
+    "answers": [
+      "Australia",
+      "Namibia",
+      "Mexico",
+      "India"
+    ],
+    "correct": 0,
+    "explanation": "Uluru is a sandstone formation in Australia’s Northern Territory.",
+    "difficulty": "Easy",
+    "topic": "Mountains and formations",
+    "attribution": {
+      "author": "Dietmar Rabich",
+      "source": "https://commons.wikimedia.org/wiki/File:Petermann_Ranges_(AU),_Uluru-Kata_Tjuta_National_Park,_Uluru_--_2019_--_3602-6.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "wadi-rum",
+    "question": "This desert valley’s sandstone cliffs and sands are in which Middle Eastern country?",
+    "image": "assets/images/picture-perfect/geography/wadi-rum.jpg",
+    "imageAlt": "Sandstone cliffs rise above a wide red desert valley.",
+    "answers": [
+      "Jordan",
+      "Lebanon",
+      "Qatar",
+      "Cyprus"
+    ],
+    "correct": 0,
+    "explanation": "Wadi Rum is a desert landscape in southern Jordan.",
+    "difficulty": "Medium",
+    "topic": "Mountains and formations",
+    "attribution": {
+      "author": "Daniel Case",
+      "source": "https://commons.wikimedia.org/wiki/File:Desert_landscape_in_Jordan_off_Desert_Highway_near_Wadi_Rum.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "atacama",
+    "question": "This exceptionally dry desert lies chiefly between the Andes and which ocean?",
+    "image": "assets/images/picture-perfect/geography/atacama.jpg",
+    "imageAlt": "A dry desert plain lies beneath distant mountains.",
+    "answers": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correct": 0,
+    "explanation": "The Atacama Desert is primarily in northern Chile, between the Andes and the Pacific.",
+    "difficulty": "Hard",
+    "topic": "Mountains and formations",
+    "attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Catedrales_de_Tara,_Chile,_2016-02-07,_DD_62.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "grand-canyon",
+    "question": "The river that carved this enormous canyon shares its name with which US state?",
+    "image": "assets/images/picture-perfect/geography/grand-canyon.jpg",
+    "imageAlt": "A vast layered canyon cuts through a dry plateau.",
+    "answers": [
+      "Colorado",
+      "Arizona",
+      "Nevada",
+      "Utah"
+    ],
+    "correct": 0,
+    "explanation": "The Colorado River carved the Grand Canyon, which is largely in Arizona.",
+    "difficulty": "Easy",
+    "topic": "Mountains and formations",
+    "attribution": {
+      "author": "Tuxyso / Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "gibraltar",
+    "question": "This narrow strait connects the Mediterranean Sea to which ocean?",
+    "image": "assets/images/picture-perfect/geography/gibraltar.jpg",
+    "imageAlt": "A narrow strait separates two coastlines.",
+    "answers": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correct": 0,
+    "explanation": "The Strait of Gibraltar separates southern Spain from northern Morocco and links the Mediterranean to the Atlantic.",
+    "difficulty": "Medium",
+    "topic": "Borders and coastlines",
+    "attribution": {
+      "author": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:STS059-238-074_Strait_of_Gibraltar.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "panama-canal",
+    "question": "This canal lets ships travel between the Atlantic and which other ocean without going around South America?",
+    "image": "assets/images/picture-perfect/geography/panama-canal.jpg",
+    "imageAlt": "A ship passes through locks on a canal.",
+    "answers": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Southern Ocean"
+    ],
+    "correct": 0,
+    "explanation": "The Panama Canal connects the Caribbean Sea, part of the Atlantic, with the Pacific Ocean.",
+    "difficulty": "Easy",
+    "topic": "Borders and coastlines",
+    "attribution": {
+      "author": "Stan Shebs",
+      "source": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Miraflores_Locks.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "bosporus",
+    "question": "This strait divides parts of Istanbul between Europe and which continent?",
+    "image": "assets/images/picture-perfect/geography/bosporus.jpg",
+    "imageAlt": "A bridge spans a busy waterway between built-up shores.",
+    "answers": [
+      "Asia",
+      "Africa",
+      "North America",
+      "Australia"
+    ],
+    "correct": 0,
+    "explanation": "The Bosporus separates the European and Asian sides of Istanbul.",
+    "difficulty": "Medium",
+    "topic": "Borders and coastlines",
+    "attribution": {
+      "author": "Glabb",
+      "source": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge1.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  },
+  {
+    "id": "cape-good-hope",
+    "question": "This rocky coastline is near the Cape of Good Hope in South Africa. What is the southernmost point of mainland Africa?",
+    "image": "assets/images/picture-perfect/geography/cape-good-hope.jpg",
+    "imageAlt": "Waves break on a rocky coast.",
+    "answers": [
+      "Cape Agulhas",
+      "Cape of Good Hope",
+      "Cape Horn",
+      "Cape Verde"
+    ],
+    "correct": 0,
+    "explanation": "Cape Agulhas, east of the Cape of Good Hope, is the southernmost point of mainland Africa.",
+    "difficulty": "Hard",
+    "topic": "Borders and coastlines",
+    "attribution": {
+      "author": "Diego Delso",
+      "source": "https://commons.wikimedia.org/wiki/File:Cabo_de_Buena_Esperanza,_Sud%C3%A1frica,_2018-07-23,_DD_62.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "cape-horn",
+    "question": "This headland is at the southern edge of which archipelago?",
+    "image": "assets/images/picture-perfect/geography/cape-horn.jpg",
+    "imageAlt": "A rugged headland meets open ocean.",
+    "answers": [
+      "Tierra del Fuego",
+      "Galápagos Islands",
+      "Hawaiian Islands",
+      "Canary Islands"
+    ],
+    "correct": 0,
+    "explanation": "Cape Horn is on Hornos Island in the Tierra del Fuego archipelago.",
+    "difficulty": "Hard",
+    "topic": "Borders and coastlines",
+    "attribution": {
+      "author": "Pietbarber at the English-language Wikipedia",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Horn_2003.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  },
+  {
+    "id": "namib-coast",
+    "question": "Where a desert meets the sea, what is the most direct source of the sand shaped into coastal dunes?",
+    "image": "assets/images/picture-perfect/geography/namib-coast.jpg",
+    "imageAlt": "A broad desert meets the ocean along a coastline.",
+    "answers": [
+      "Sediment transported to shore",
+      "Living coral on mountaintops",
+      "Deep ocean ice",
+      "Volcanic ash from the Moon"
+    ],
+    "correct": 0,
+    "explanation": "Wind reworks sand supplied to the Namib coast by rivers and ocean currents.",
+    "difficulty": "Medium",
+    "topic": "Visual geographic details",
+    "attribution": {
+      "author": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:ISS-40_Namib_Desert_coast_and_dust_plumes.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+    }
+  },
+  {
+    "id": "mud-volcano",
+    "question": "These small cones release mud and gas rather than molten rock. What are they?",
+    "image": "assets/images/picture-perfect/geography/mud-volcano.jpg",
+    "imageAlt": "Small muddy cones and pools dot a dry plain.",
+    "answers": [
+      "Mud volcanoes",
+      "Cinder cones",
+      "Glaciers",
+      "Coral atolls"
+    ],
+    "correct": 0,
+    "explanation": "Mud volcanoes form when gas and water push sediment to the surface; Azerbaijan has many examples.",
+    "difficulty": "Hard",
+    "topic": "Visual geographic details",
+    "attribution": {
+      "author": "Bernard Gagnon",
+      "source": "https://commons.wikimedia.org/wiki/File:Gobustan_mud_volcanoes_08.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "id": "rice-terrace",
+    "question": "These mountainside terraces are engineered chiefly to grow which crop?",
+    "image": "assets/images/picture-perfect/geography/rice-terrace.jpg",
+    "imageAlt": "Green terraces step down a steep hillside.",
+    "answers": [
+      "Rice",
+      "Wheat",
+      "Olives",
+      "Cocoa"
+    ],
+    "correct": 0,
+    "explanation": "The Ifugao rice terraces of the Philippines use irrigation across mountain slopes.",
+    "difficulty": "Easy",
+    "topic": "Visual geographic details",
+    "attribution": {
+      "author": "CEphoto, Uwe Aranas",
+      "source": "https://commons.wikimedia.org/wiki/File:Banaue_Philippines_Batad-Rice-Terraces-02.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "giant-saguaro",
+    "question": "The tall branching cactus in this landscape is native to which North American desert?",
+    "image": "assets/images/picture-perfect/geography/giant-saguaro.jpg",
+    "imageAlt": "Tall branching cacti rise above dry desert vegetation.",
+    "answers": [
+      "Sonoran Desert",
+      "Sahara",
+      "Atacama Desert",
+      "Gobi"
+    ],
+    "correct": 0,
+    "explanation": "Saguaro cacti are native to the Sonoran Desert of the southwestern United States and northwestern Mexico.",
+    "difficulty": "Easy",
+    "topic": "Visual geographic details",
+    "attribution": {
+      "author": "W. Bulach",
+      "source": "https://commons.wikimedia.org/wiki/File:00_5008_Arizona_(USA)_Sonora-W%C3%BCste_-_Saguaro_Kakteen.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "fjord",
+    "question": "The steep-sided sea inlet shown here was primarily carved by what?",
+    "image": "assets/images/picture-perfect/geography/fjord.jpg",
+    "imageAlt": "Steep green mountains frame a long narrow sea inlet.",
+    "answers": [
+      "A glacier",
+      "A coral reef",
+      "A meteorite",
+      "Wind-blown sand"
+    ],
+    "correct": 0,
+    "explanation": "Fjords are glacially carved valleys flooded by the sea after ice retreats.",
+    "difficulty": "Medium",
+    "topic": "Visual geographic details",
+    "attribution": {
+      "author": "Ximonic (Simo Räsänen)",
+      "source": "https://commons.wikimedia.org/wiki/File:Geirangerfjord_from_%C3%98rnesvingen,_2013_June.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  }
+]
