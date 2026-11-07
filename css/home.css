@@ -57,13 +57,18 @@
 .daily-stamp { position: absolute; left: 10%; bottom: 38px; width: 95px; height: 95px; border-radius: 50%; display: grid; align-content: center; text-align: center; background: var(--mint); color: var(--navy); font-size: 9px; line-height: 1.4; font-weight: 700; transform: rotate(-15deg); }
 .daily-stamp strong { font-size: 11px; }
 .category-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-.category-card { min-height: 185px; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: flex-start; padding: 20px; border-radius: 13px; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
-.category-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px #17233b18; }
+.category-card { min-height: 218px; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: flex-start; padding: 20px; border-radius: 13px; text-decoration: none; transition: transform .25s ease, box-shadow .25s ease; }
+.category-card::before { content: ''; position: absolute; width: 140px; height: 140px; right: -60px; top: -65px; border: 1px solid #17233b1c; border-radius: 50%; box-shadow: 0 0 0 12px #17233b08, 0 0 0 24px #17233b08; pointer-events: none; }
+.category-card:hover, .category-card:focus-visible { transform: translateY(-5px); box-shadow: 0 12px 24px #17233b24; }
 .cat-yellow { background: #ffdf80; }.cat-lavender { background: #d7caff; }.cat-coral { background: #ffb2a7; }.cat-mint { background: #adebd6; }.cat-blue { background: #b8d0ff; }.cat-peach { background: #ffd1a9; }.cat-pink { background: #f5c5dc; }
-.cat-number { font-size: 9px; font-weight: 800; letter-spacing: 1px; opacity: .7; }
-.cat-icon { display: grid; place-items: center; flex: 1; align-self: center; font: 700 62px/1 var(--heading); transform: rotate(-10deg); }
-.cat-name { max-width: 80%; font: 700 16px/1.15 var(--heading); letter-spacing: -.4px; }
-.cat-arrow { position: absolute; bottom: 18px; right: 18px; display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid #17233b55; border-radius: 50%; font-size: 16px; }
+.cat-number { position: relative; font-size: 9px; font-weight: 800; letter-spacing: 1px; opacity: .78; }
+.cat-art { display: block; align-self: center; width: 100%; height: 112px; flex: none; margin: 3px 0 8px; overflow: visible; filter: drop-shadow(0 5px 3px #17233b12); transition: transform .3s ease; }
+.category-card:hover .cat-art, .category-card:focus-visible .cat-art { transform: translateY(-3px) rotate(-2deg) scale(1.03); }
+.category-card:nth-child(even):hover .cat-art, .category-card:nth-child(even):focus-visible .cat-art { transform: translateY(-3px) rotate(2deg) scale(1.03); }
+.cat-name { max-width: calc(100% - 35px); margin-top: auto; font: 700 16px/1.15 var(--heading); letter-spacing: -.4px; }
+.cat-description { max-width: calc(100% - 35px); margin-top: 5px; font-size: 11px; font-weight: 600; line-height: 1.35; color: #34445a; }
+.cat-arrow { position: absolute; bottom: 18px; right: 18px; display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid #17233b88; border-radius: 50%; font-size: 16px; transition: transform .25s ease, background-color .25s ease, color .25s ease; }
+.category-card:hover .cat-arrow, .category-card:focus-visible .cat-arrow { transform: translate(2px, -2px); background: var(--navy); color: var(--white); }
 .modes-section { background: #f0eee7; }
 .coming-label { color: var(--blue); font-size: 10px; font-weight: 800; letter-spacing: 1px; }
 .coming-label span { color: var(--coral); }
@@ -102,9 +107,10 @@
   .hero h1 { letter-spacing: -3.5px; }
   .hero-art { margin-inline: -30px; transform: scale(.75); }
   .category-grid, .modes-grid { gap: 10px; }
-  .category-card { min-height: 155px; padding: 15px; }
-  .cat-icon { font-size: 48px; }
+  .category-card { min-height: 210px; padding: 15px; }
+  .cat-art { height: 94px; margin: 4px 0 8px; }
   .cat-name { font-size: 14px; }
+  .cat-description { font-size: 10px; }
   .cat-arrow { width: 26px; height: 26px; right: 12px; bottom: 12px; }
   .mode-card { padding: 18px; }
   .mode-card h3 { font-size: 17px; }
