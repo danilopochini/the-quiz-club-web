@@ -1,0 +1,482 @@
+[
+  {
+    "question": "In which sport would you find a shuttlecock?",
+    "answers": [
+      "badminton",
+      "rugby union",
+      "gymnastics",
+      "golf"
+    ],
+    "correct": 0,
+    "explanation": "A shuttlecock is associated with Badminton.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which sport would you find a scrum?",
+    "answers": [
+      "rugby union",
+      "gymnastics",
+      "golf",
+      "ten-pin bowling"
+    ],
+    "correct": 0,
+    "explanation": "A scrum is associated with Rugby union.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which sport would you find a pommel horse?",
+    "answers": [
+      "gymnastics",
+      "golf",
+      "ten-pin bowling",
+      "fencing"
+    ],
+    "correct": 0,
+    "explanation": "A pommel horse is associated with Gymnastics.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which sport would you find a birdie?",
+    "answers": [
+      "golf",
+      "ten-pin bowling",
+      "fencing",
+      "ice hockey"
+    ],
+    "correct": 0,
+    "explanation": "A birdie is associated with Golf.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which sport would you find a strike and a spare?",
+    "answers": [
+      "ten-pin bowling",
+      "fencing",
+      "ice hockey",
+      "track cycling"
+    ],
+    "correct": 0,
+    "explanation": "A strike and a spare is associated with Ten-pin bowling.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which sport would you find a foil and a sabre?",
+    "answers": [
+      "fencing",
+      "ice hockey",
+      "track cycling",
+      "snooker"
+    ],
+    "correct": 0,
+    "explanation": "A foil and a sabre is associated with Fencing.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which sport would you find a puck?",
+    "answers": [
+      "ice hockey",
+      "track cycling",
+      "snooker",
+      "darts"
+    ],
+    "correct": 0,
+    "explanation": "A puck is associated with Ice hockey.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which sport would you find a velodrome?",
+    "answers": [
+      "track cycling",
+      "snooker",
+      "darts",
+      "badminton"
+    ],
+    "correct": 0,
+    "explanation": "A velodrome is associated with Track cycling.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which sport would you find a cue and coloured balls?",
+    "answers": [
+      "snooker",
+      "darts",
+      "badminton",
+      "rugby union"
+    ],
+    "correct": 0,
+    "explanation": "A cue and coloured balls is associated with Snooker.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In which sport would you find a bullseye and a treble twenty?",
+    "answers": [
+      "darts",
+      "badminton",
+      "rugby union",
+      "gymnastics"
+    ],
+    "correct": 0,
+    "explanation": "A bullseye and a treble twenty is associated with Darts.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which athlete is associated with 23 Grand Slam singles tennis titles in the Open Era?",
+    "answers": [
+      "Serena Williams",
+      "Usain Bolt",
+      "Muhammad Ali",
+      "Lewis Hamilton"
+    ],
+    "correct": 0,
+    "explanation": "Serena Williams is known for 23 Grand Slam singles tennis titles in the Open Era.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which athlete is associated with eight Olympic gold medals in sprinting?",
+    "answers": [
+      "Usain Bolt",
+      "Muhammad Ali",
+      "Lewis Hamilton",
+      "Nadia Comăneci"
+    ],
+    "correct": 0,
+    "explanation": "Usain Bolt is known for eight Olympic gold medals in sprinting.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which athlete is associated with the nickname The Greatest in boxing?",
+    "answers": [
+      "Muhammad Ali",
+      "Lewis Hamilton",
+      "Nadia Comăneci",
+      "Michael Jordan"
+    ],
+    "correct": 0,
+    "explanation": "Muhammad Ali is known for the nickname The Greatest in boxing.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which athlete is associated with seven Formula One world championships and the team Mercedes?",
+    "answers": [
+      "Lewis Hamilton",
+      "Nadia Comăneci",
+      "Michael Jordan",
+      "Megan Rapinoe"
+    ],
+    "correct": 0,
+    "explanation": "Lewis Hamilton is known for seven Formula One world championships and the team Mercedes.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which athlete is associated with the first perfect Olympic gymnastics score of 10?",
+    "answers": [
+      "Nadia Comăneci",
+      "Michael Jordan",
+      "Megan Rapinoe",
+      "Michael Phelps"
+    ],
+    "correct": 0,
+    "explanation": "Nadia Comăneci is known for the first perfect Olympic gymnastics score of 10.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which athlete is associated with six NBA championships with the Chicago Bulls?",
+    "answers": [
+      "Michael Jordan",
+      "Megan Rapinoe",
+      "Michael Phelps",
+      "Wayne Gretzky"
+    ],
+    "correct": 0,
+    "explanation": "Michael Jordan is known for six NBA championships with the Chicago Bulls.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which athlete is associated with winning the 2015 and 2019 Women's World Cups with the United States?",
+    "answers": [
+      "Megan Rapinoe",
+      "Michael Phelps",
+      "Wayne Gretzky",
+      "Lionel Messi"
+    ],
+    "correct": 0,
+    "explanation": "Megan Rapinoe is known for winning the 2015 and 2019 Women's World Cups with the United States.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which athlete is associated with a record eight gold medals at the 2008 Olympics?",
+    "answers": [
+      "Michael Phelps",
+      "Wayne Gretzky",
+      "Lionel Messi",
+      "Serena Williams"
+    ],
+    "correct": 0,
+    "explanation": "Michael Phelps is known for a record eight gold medals at the 2008 Olympics.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which athlete is associated with the nickname The Great One in ice hockey?",
+    "answers": [
+      "Wayne Gretzky",
+      "Lionel Messi",
+      "Serena Williams",
+      "Usain Bolt"
+    ],
+    "correct": 0,
+    "explanation": "Wayne Gretzky is known for the nickname The Great One in ice hockey.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which athlete is associated with winning the 2022 men's football World Cup with Argentina?",
+    "answers": [
+      "Lionel Messi",
+      "Serena Williams",
+      "Usain Bolt",
+      "Muhammad Ali"
+    ],
+    "correct": 0,
+    "explanation": "Lionel Messi is known for winning the 2022 men's football World Cup with Argentina.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics in Rio de Janeiro?",
+    "answers": [
+      "Brazil",
+      "United Kingdom",
+      "China",
+      "Australia"
+    ],
+    "correct": 0,
+    "explanation": "Brazil hosted the 2016 Summer Olympics in Rio de Janeiro.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country hosted the 2012 Summer Olympics in London?",
+    "answers": [
+      "United Kingdom",
+      "China",
+      "Australia",
+      "Spain"
+    ],
+    "correct": 0,
+    "explanation": "United Kingdom hosted the 2012 Summer Olympics in London.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country hosted the 2008 Summer Olympics in Beijing?",
+    "answers": [
+      "China",
+      "Australia",
+      "Spain",
+      "Japan"
+    ],
+    "correct": 0,
+    "explanation": "China hosted the 2008 Summer Olympics in Beijing.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country hosted the 2000 Summer Olympics in Sydney?",
+    "answers": [
+      "Australia",
+      "Spain",
+      "Japan",
+      "Qatar"
+    ],
+    "correct": 0,
+    "explanation": "Australia hosted the 2000 Summer Olympics in Sydney.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country hosted the 1992 Summer Olympics in Barcelona?",
+    "answers": [
+      "Spain",
+      "Japan",
+      "Qatar",
+      "South Africa"
+    ],
+    "correct": 0,
+    "explanation": "Spain hosted the 1992 Summer Olympics in Barcelona.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country hosted the 1964 Summer Olympics in Tokyo?",
+    "answers": [
+      "Japan",
+      "Qatar",
+      "South Africa",
+      "Germany"
+    ],
+    "correct": 0,
+    "explanation": "Japan hosted the 1964 Summer Olympics in Tokyo.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country hosted the 2022 men's football World Cup?",
+    "answers": [
+      "Qatar",
+      "South Africa",
+      "Germany",
+      "Mexico"
+    ],
+    "correct": 0,
+    "explanation": "Qatar hosted the 2022 men's football World Cup.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country hosted the 2010 men's football World Cup?",
+    "answers": [
+      "South Africa",
+      "Germany",
+      "Mexico",
+      "Brazil"
+    ],
+    "correct": 0,
+    "explanation": "South Africa hosted the 2010 men's football World Cup.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country hosted the 2006 men's football World Cup?",
+    "answers": [
+      "Germany",
+      "Mexico",
+      "Brazil",
+      "United Kingdom"
+    ],
+    "correct": 0,
+    "explanation": "Germany hosted the 2006 men's football World Cup.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which country hosted the 1986 men's football World Cup?",
+    "answers": [
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "China"
+    ],
+    "correct": 0,
+    "explanation": "Mexico hosted the 1986 men's football World Cup.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the standard number of players on a football team on the field at the start of a match?",
+    "answers": [
+      "11",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of players on a football team on the field at the start of a match is 11.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the standard number of players on a basketball team on the court?",
+    "answers": [
+      "5",
+      "6",
+      "4",
+      "18"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of players on a basketball team on the court is 5.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the standard number of players on a volleyball team on the court?",
+    "answers": [
+      "6",
+      "4",
+      "18",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of players on a volleyball team on the court is 6.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the standard number of bases on a baseball diamond including home plate?",
+    "answers": [
+      "4",
+      "18",
+      "2",
+      "7"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of bases on a baseball diamond including home plate is 4.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the standard number of holes in a standard round of golf?",
+    "answers": [
+      "18",
+      "2",
+      "7",
+      "9"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of holes in a standard round of golf is 18.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the standard number of players on a doubles tennis team?",
+    "answers": [
+      "2",
+      "7",
+      "9",
+      "15"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of players on a doubles tennis team is 2.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the standard number of players on a rugby sevens team on the field?",
+    "answers": [
+      "7",
+      "9",
+      "15",
+      "90"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of players on a rugby sevens team on the field is 7.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the standard number of innings in a standard professional baseball game?",
+    "answers": [
+      "9",
+      "15",
+      "90",
+      "11"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of innings in a standard professional baseball game is 9.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the standard number of reds at the start of a standard snooker frame?",
+    "answers": [
+      "15",
+      "90",
+      "11",
+      "5"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of reds at the start of a standard snooker frame is 15.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the standard number of minutes in a standard football match before added time?",
+    "answers": [
+      "90",
+      "11",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "The standard number of minutes in a standard football match before added time is 90.",
+    "difficulty": "Hard"
+  }
+]

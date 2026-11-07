@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which brand is associated with the Swoosh logo?",
+    "answers": [
+      "Nike",
+      "Adidas",
+      "Apple",
+      "Chanel"
+    ],
+    "correct": 0,
+    "explanation": "Nike is associated with the Swoosh logo.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which brand is associated with the three-stripe sportswear design?",
+    "answers": [
+      "Adidas",
+      "Apple",
+      "Chanel",
+      "Ferrari"
+    ],
+    "correct": 0,
+    "explanation": "Adidas is associated with the three-stripe sportswear design.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which brand is associated with the bitten apple logo?",
+    "answers": [
+      "Apple",
+      "Chanel",
+      "Ferrari",
+      "IKEA"
+    ],
+    "correct": 0,
+    "explanation": "Apple is associated with the bitten apple logo.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which brand is associated with the interlocking double-C fashion logo?",
+    "answers": [
+      "Chanel",
+      "Ferrari",
+      "IKEA",
+      "Victorinox"
+    ],
+    "correct": 0,
+    "explanation": "Chanel is associated with the interlocking double-C fashion logo.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which brand is associated with the prancing horse sports-car emblem?",
+    "answers": [
+      "Ferrari",
+      "IKEA",
+      "Victorinox",
+      "LEGO"
+    ],
+    "correct": 0,
+    "explanation": "Ferrari is associated with the prancing horse sports-car emblem.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which brand is associated with the Swedish flat-pack furniture retailer?",
+    "answers": [
+      "IKEA",
+      "Victorinox",
+      "LEGO",
+      "Starbucks"
+    ],
+    "correct": 0,
+    "explanation": "IKEA is associated with the Swedish flat-pack furniture retailer.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which brand is associated with the Swiss army knife made by Victorinox?",
+    "answers": [
+      "Victorinox",
+      "LEGO",
+      "Starbucks",
+      "Coca-Cola"
+    ],
+    "correct": 0,
+    "explanation": "Victorinox is associated with the Swiss army knife made by Victorinox.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which brand is associated with the toy building brick system?",
+    "answers": [
+      "LEGO",
+      "Starbucks",
+      "Coca-Cola",
+      "Nike"
+    ],
+    "correct": 0,
+    "explanation": "LEGO is associated with the toy building brick system.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which brand is associated with the green mermaid coffeehouse logo?",
+    "answers": [
+      "Starbucks",
+      "Coca-Cola",
+      "Nike",
+      "Adidas"
+    ],
+    "correct": 0,
+    "explanation": "Starbucks is associated with the green mermaid coffeehouse logo.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which brand is associated with the red-and-white script logo on a cola drink?",
+    "answers": [
+      "Coca-Cola",
+      "Nike",
+      "Adidas",
+      "Apple"
+    ],
+    "correct": 0,
+    "explanation": "Coca-Cola is associated with the red-and-white script logo on a cola drink.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which material is associated with fabric made from silkworm fibre?",
+    "answers": [
+      "silk",
+      "linen",
+      "wool",
+      "cotton"
+    ],
+    "correct": 0,
+    "explanation": "Silk is associated with fabric made from silkworm fibre.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which material is associated with fabric made from the flax plant?",
+    "answers": [
+      "linen",
+      "wool",
+      "cotton",
+      "ceramic"
+    ],
+    "correct": 0,
+    "explanation": "Linen is associated with fabric made from the flax plant.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which material is associated with fabric made from sheep's fleece?",
+    "answers": [
+      "wool",
+      "cotton",
+      "ceramic",
+      "gold"
+    ],
+    "correct": 0,
+    "explanation": "Wool is associated with fabric made from sheep's fleece.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which material is associated with fabric made from the cotton plant?",
+    "answers": [
+      "cotton",
+      "ceramic",
+      "gold",
+      "animal skin"
+    ],
+    "correct": 0,
+    "explanation": "Cotton is associated with fabric made from the cotton plant.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which material is associated with a material made by firing shaped clay?",
+    "answers": [
+      "ceramic",
+      "gold",
+      "animal skin",
+      "bamboo viscose"
+    ],
+    "correct": 0,
+    "explanation": "Ceramic is associated with a material made by firing shaped clay.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which material is associated with a precious yellow metal used in jewellery?",
+    "answers": [
+      "gold",
+      "animal skin",
+      "bamboo viscose",
+      "aluminium"
+    ],
+    "correct": 0,
+    "explanation": "Gold is associated with a precious yellow metal used in jewellery.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which material is associated with the hide used to make leather?",
+    "answers": [
+      "animal skin",
+      "bamboo viscose",
+      "aluminium",
+      "cork"
+    ],
+    "correct": 0,
+    "explanation": "Animal skin is associated with the hide used to make leather.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which material is associated with a fabric made from bamboo cellulose?",
+    "answers": [
+      "bamboo viscose",
+      "aluminium",
+      "cork",
+      "silk"
+    ],
+    "correct": 0,
+    "explanation": "Bamboo viscose is associated with a fabric made from bamboo cellulose.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which material is associated with a lightweight metal often used in drink cans?",
+    "answers": [
+      "aluminium",
+      "cork",
+      "silk",
+      "linen"
+    ],
+    "correct": 0,
+    "explanation": "Aluminium is associated with a lightweight metal often used in drink cans.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which material is associated with a natural material harvested from cork oak bark?",
+    "answers": [
+      "cork",
+      "silk",
+      "linen",
+      "wool"
+    ],
+    "correct": 0,
+    "explanation": "Cork is associated with a natural material harvested from cork oak bark.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which item is most closely associated with telling time on the wrist?",
+    "answers": [
+      "watch",
+      "handbag",
+      "sunglasses",
+      "belt"
+    ],
+    "correct": 0,
+    "explanation": "A Watch is associated with telling time on the wrist.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which item is most closely associated with carrying personal items by hand?",
+    "answers": [
+      "handbag",
+      "sunglasses",
+      "belt",
+      "cufflink"
+    ],
+    "correct": 0,
+    "explanation": "A Handbag is associated with carrying personal items by hand.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which item is most closely associated with protecting eyes from bright sunlight?",
+    "answers": [
+      "sunglasses",
+      "belt",
+      "cufflink",
+      "hat"
+    ],
+    "correct": 0,
+    "explanation": "A Sunglasses is associated with protecting eyes from bright sunlight.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which item is most closely associated with holding trousers up at the waist?",
+    "answers": [
+      "belt",
+      "cufflink",
+      "hat",
+      "wallet"
+    ],
+    "correct": 0,
+    "explanation": "A Belt is associated with holding trousers up at the waist.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which item is most closely associated with fastening a shirt at the cuff?",
+    "answers": [
+      "cufflink",
+      "hat",
+      "wallet",
+      "collar"
+    ],
+    "correct": 0,
+    "explanation": "A Cufflink is associated with fastening a shirt at the cuff.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which item is most closely associated with covering the head for warmth?",
+    "answers": [
+      "hat",
+      "wallet",
+      "collar",
+      "umbrella"
+    ],
+    "correct": 0,
+    "explanation": "A Hat is associated with covering the head for warmth.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which item is most closely associated with carrying cards and banknotes?",
+    "answers": [
+      "wallet",
+      "collar",
+      "umbrella",
+      "ring"
+    ],
+    "correct": 0,
+    "explanation": "A Wallet is associated with carrying cards and banknotes.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which item is most closely associated with tying a necktie around?",
+    "answers": [
+      "collar",
+      "umbrella",
+      "ring",
+      "watch"
+    ],
+    "correct": 0,
+    "explanation": "A Collar is associated with tying a necktie around.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which item is most closely associated with keeping rain off a person's head?",
+    "answers": [
+      "umbrella",
+      "ring",
+      "watch",
+      "handbag"
+    ],
+    "correct": 0,
+    "explanation": "A Umbrella is associated with keeping rain off a person's head.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which item is most closely associated with decorating a finger?",
+    "answers": [
+      "ring",
+      "watch",
+      "handbag",
+      "sunglasses"
+    ],
+    "correct": 0,
+    "explanation": "A Ring is associated with decorating a finger.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which drink is traditionally associated with espresso prepared under pressure?",
+    "answers": [
+      "coffee",
+      "tea",
+      "wine",
+      "beer"
+    ],
+    "correct": 0,
+    "explanation": "Coffee is associated with espresso prepared under pressure.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which drink is traditionally associated with leaves steeped in hot water?",
+    "answers": [
+      "tea",
+      "wine",
+      "beer",
+      "cider"
+    ],
+    "correct": 0,
+    "explanation": "Tea is associated with leaves steeped in hot water.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which drink is traditionally associated with fermented grapes?",
+    "answers": [
+      "wine",
+      "beer",
+      "cider",
+      "sake"
+    ],
+    "correct": 0,
+    "explanation": "Wine is associated with fermented grapes.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which drink is traditionally associated with fermented malted barley and hops?",
+    "answers": [
+      "beer",
+      "cider",
+      "sake",
+      "hot chocolate"
+    ],
+    "correct": 0,
+    "explanation": "Beer is associated with fermented malted barley and hops.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which drink is traditionally associated with pressed apples fermented into an alcoholic drink?",
+    "answers": [
+      "cider",
+      "sake",
+      "hot chocolate",
+      "smoothie"
+    ],
+    "correct": 0,
+    "explanation": "Cider is associated with pressed apples fermented into an alcoholic drink.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which drink is traditionally associated with a Japanese drink made from fermented rice?",
+    "answers": [
+      "sake",
+      "hot chocolate",
+      "smoothie",
+      "lemonade"
+    ],
+    "correct": 0,
+    "explanation": "Sake is associated with a Japanese drink made from fermented rice.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which drink is traditionally associated with cocoa powder and hot milk?",
+    "answers": [
+      "hot chocolate",
+      "smoothie",
+      "lemonade",
+      "sparkling water"
+    ],
+    "correct": 0,
+    "explanation": "Hot chocolate is associated with cocoa powder and hot milk.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which drink is traditionally associated with a drink of blended fruit and yoghurt?",
+    "answers": [
+      "smoothie",
+      "lemonade",
+      "sparkling water",
+      "coffee"
+    ],
+    "correct": 0,
+    "explanation": "Smoothie is associated with a drink of blended fruit and yoghurt.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which drink is traditionally associated with a drink made from lemons, water and sugar?",
+    "answers": [
+      "lemonade",
+      "sparkling water",
+      "coffee",
+      "tea"
+    ],
+    "correct": 0,
+    "explanation": "Lemonade is associated with a drink made from lemons, water and sugar.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which drink is traditionally associated with water containing dissolved carbon dioxide?",
+    "answers": [
+      "sparkling water",
+      "coffee",
+      "tea",
+      "wine"
+    ],
+    "correct": 0,
+    "explanation": "Sparkling water is associated with water containing dissolved carbon dioxide.",
+    "difficulty": "Hard"
+  }
+]

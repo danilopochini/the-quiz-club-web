@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which character is associated with the video-game series Super Mario?",
+    "answers": [
+      "Mario",
+      "Pikachu",
+      "Batman",
+      "Spider-Man"
+    ],
+    "correct": 0,
+    "explanation": "Mario is associated with the video-game series Super Mario.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which character is associated with the Pokémon franchise and electric attacks?",
+    "answers": [
+      "Pikachu",
+      "Batman",
+      "Spider-Man",
+      "Indiana Jones"
+    ],
+    "correct": 0,
+    "explanation": "Pikachu is associated with the Pokémon franchise and electric attacks.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which character is associated with the comic-book city of Gotham?",
+    "answers": [
+      "Batman",
+      "Spider-Man",
+      "Indiana Jones",
+      "Sherlock Holmes"
+    ],
+    "correct": 0,
+    "explanation": "Batman is associated with the comic-book city of Gotham.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which character is associated with the Marvel hero whose alter ego is Peter Parker?",
+    "answers": [
+      "Spider-Man",
+      "Indiana Jones",
+      "Sherlock Holmes",
+      "SpongeBob SquarePants"
+    ],
+    "correct": 0,
+    "explanation": "Spider-Man is associated with the Marvel hero whose alter ego is Peter Parker.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which character is associated with the fictional archaeologist with a whip and fedora?",
+    "answers": [
+      "Indiana Jones",
+      "Sherlock Holmes",
+      "SpongeBob SquarePants",
+      "Luke Skywalker"
+    ],
+    "correct": 0,
+    "explanation": "Indiana Jones is associated with the fictional archaeologist with a whip and fedora.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which character is associated with the detective living at 221B Baker Street?",
+    "answers": [
+      "Sherlock Holmes",
+      "SpongeBob SquarePants",
+      "Luke Skywalker",
+      "Sonic"
+    ],
+    "correct": 0,
+    "explanation": "Sherlock Holmes is associated with the detective living at 221B Baker Street.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which character is associated with the animated underwater town of Bikini Bottom?",
+    "answers": [
+      "SpongeBob SquarePants",
+      "Luke Skywalker",
+      "Sonic",
+      "Shrek"
+    ],
+    "correct": 0,
+    "explanation": "SpongeBob SquarePants is associated with the animated underwater town of Bikini Bottom.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which character is associated with the Star Wars phrase 'May the Force be with you'?",
+    "answers": [
+      "Luke Skywalker",
+      "Sonic",
+      "Shrek",
+      "Mario"
+    ],
+    "correct": 0,
+    "explanation": "Luke Skywalker is associated with the Star Wars phrase 'May the Force be with you'.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which character is associated with the blue hedgehog from Sega games?",
+    "answers": [
+      "Sonic",
+      "Shrek",
+      "Mario",
+      "Pikachu"
+    ],
+    "correct": 0,
+    "explanation": "Sonic is associated with the blue hedgehog from Sega games.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which character is associated with the green ogre in a DreamWorks film series?",
+    "answers": [
+      "Shrek",
+      "Mario",
+      "Pikachu",
+      "Batman"
+    ],
+    "correct": 0,
+    "explanation": "Shrek is associated with the green ogre in a DreamWorks film series.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which performer released the album 1989?",
+    "answers": [
+      "Taylor Swift",
+      "Beyoncé",
+      "Dua Lipa",
+      "Adele"
+    ],
+    "correct": 0,
+    "explanation": "Taylor Swift released the album 1989.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which performer released the album Lemonade?",
+    "answers": [
+      "Beyoncé",
+      "Dua Lipa",
+      "Adele",
+      "Michael Jackson"
+    ],
+    "correct": 0,
+    "explanation": "Beyoncé released the album Lemonade.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which performer released the album Future Nostalgia?",
+    "answers": [
+      "Dua Lipa",
+      "Adele",
+      "Michael Jackson",
+      "Lady Gaga"
+    ],
+    "correct": 0,
+    "explanation": "Dua Lipa released the album Future Nostalgia.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which performer released the album 25?",
+    "answers": [
+      "Adele",
+      "Michael Jackson",
+      "Lady Gaga",
+      "Prince"
+    ],
+    "correct": 0,
+    "explanation": "Adele released the album 25.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which performer released the album Bad?",
+    "answers": [
+      "Michael Jackson",
+      "Lady Gaga",
+      "Prince",
+      "Amy Winehouse"
+    ],
+    "correct": 0,
+    "explanation": "Michael Jackson released the album Bad.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which performer released the album Born This Way?",
+    "answers": [
+      "Lady Gaga",
+      "Prince",
+      "Amy Winehouse",
+      "Olivia Rodrigo"
+    ],
+    "correct": 0,
+    "explanation": "Lady Gaga released the album Born This Way.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which performer released the album Purple Rain?",
+    "answers": [
+      "Prince",
+      "Amy Winehouse",
+      "Olivia Rodrigo",
+      "Billie Eilish"
+    ],
+    "correct": 0,
+    "explanation": "Prince released the album Purple Rain.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which performer released the album Back to Black?",
+    "answers": [
+      "Amy Winehouse",
+      "Olivia Rodrigo",
+      "Billie Eilish",
+      "Taylor Swift"
+    ],
+    "correct": 0,
+    "explanation": "Amy Winehouse released the album Back to Black.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which performer released the album Sour?",
+    "answers": [
+      "Olivia Rodrigo",
+      "Billie Eilish",
+      "Taylor Swift",
+      "Beyoncé"
+    ],
+    "correct": 0,
+    "explanation": "Olivia Rodrigo released the album Sour.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which performer released the album When We All Fall Asleep, Where Do We Go??",
+    "answers": [
+      "Billie Eilish",
+      "Taylor Swift",
+      "Beyoncé",
+      "Dua Lipa"
+    ],
+    "correct": 0,
+    "explanation": "Billie Eilish released the album When We All Fall Asleep, Where Do We Go?.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which franchise features the school Hogwarts?",
+    "answers": [
+      "Harry Potter",
+      "Black Panther",
+      "Avatar",
+      "Game of Thrones"
+    ],
+    "correct": 0,
+    "explanation": "The school Hogwarts features in Harry Potter.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which franchise features the kingdom of Wakanda?",
+    "answers": [
+      "Black Panther",
+      "Avatar",
+      "Game of Thrones",
+      "Toy Story"
+    ],
+    "correct": 0,
+    "explanation": "The kingdom of Wakanda features in Black Panther.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which franchise features the planet Pandora and the Na'vi?",
+    "answers": [
+      "Avatar",
+      "Game of Thrones",
+      "Toy Story",
+      "Star Wars"
+    ],
+    "correct": 0,
+    "explanation": "The planet Pandora and the Na'vi features in Avatar.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which franchise features the fictional continent of Westeros?",
+    "answers": [
+      "Game of Thrones",
+      "Toy Story",
+      "Star Wars",
+      "Doctor Who"
+    ],
+    "correct": 0,
+    "explanation": "The fictional continent of Westeros features in Game of Thrones.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which franchise features the toy Buzz Lightyear?",
+    "answers": [
+      "Toy Story",
+      "Star Wars",
+      "Doctor Who",
+      "Zootopia"
+    ],
+    "correct": 0,
+    "explanation": "The toy Buzz Lightyear features in Toy Story.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which franchise features the ship Millennium Falcon?",
+    "answers": [
+      "Star Wars",
+      "Doctor Who",
+      "Zootopia",
+      "Frozen"
+    ],
+    "correct": 0,
+    "explanation": "The ship Millennium Falcon features in Star Wars.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which franchise features the time machine called the TARDIS?",
+    "answers": [
+      "Doctor Who",
+      "Zootopia",
+      "Frozen",
+      "Jurassic Park"
+    ],
+    "correct": 0,
+    "explanation": "The time machine called the TARDIS features in Doctor Who.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which franchise features the city of Zootopia?",
+    "answers": [
+      "Zootopia",
+      "Frozen",
+      "Jurassic Park",
+      "Harry Potter"
+    ],
+    "correct": 0,
+    "explanation": "The city of Zootopia features in Zootopia.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which franchise features a princess named Elsa?",
+    "answers": [
+      "Frozen",
+      "Jurassic Park",
+      "Harry Potter",
+      "Black Panther"
+    ],
+    "correct": 0,
+    "explanation": "A princess named Elsa features in Frozen.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which franchise features a theme park populated by cloned dinosaurs?",
+    "answers": [
+      "Jurassic Park",
+      "Harry Potter",
+      "Black Panther",
+      "Avatar"
+    ],
+    "correct": 0,
+    "explanation": "A theme park populated by cloned dinosaurs features in Jurassic Park.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which term is associated with a short piece of video that spreads widely online?",
+    "answers": [
+      "viral video",
+      "meme",
+      "cosplay",
+      "podcast"
+    ],
+    "correct": 0,
+    "explanation": "Viral video describes a short piece of video that spreads widely online.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with an image or idea copied and adapted online?",
+    "answers": [
+      "meme",
+      "cosplay",
+      "podcast",
+      "trailer"
+    ],
+    "correct": 0,
+    "explanation": "Meme describes an image or idea copied and adapted online.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with a public event where fans dress as fictional characters?",
+    "answers": [
+      "cosplay",
+      "podcast",
+      "trailer",
+      "encore"
+    ],
+    "correct": 0,
+    "explanation": "Cosplay describes a public event where fans dress as fictional characters.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with a series released as audio episodes?",
+    "answers": [
+      "podcast",
+      "trailer",
+      "encore",
+      "debut"
+    ],
+    "correct": 0,
+    "explanation": "Podcast describes a series released as audio episodes.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with a short promotional film for a movie?",
+    "answers": [
+      "trailer",
+      "encore",
+      "debut",
+      "sequel"
+    ],
+    "correct": 0,
+    "explanation": "Trailer describes a short promotional film for a movie.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with a song performed again at a concert after the main set?",
+    "answers": [
+      "encore",
+      "debut",
+      "sequel",
+      "prequel"
+    ],
+    "correct": 0,
+    "explanation": "Encore describes a song performed again at a concert after the main set.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with a fictional character's first public appearance?",
+    "answers": [
+      "debut",
+      "sequel",
+      "prequel",
+      "fan fiction"
+    ],
+    "correct": 0,
+    "explanation": "Debut describes a fictional character's first public appearance.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with a film following an earlier film's story?",
+    "answers": [
+      "sequel",
+      "prequel",
+      "fan fiction",
+      "viral video"
+    ],
+    "correct": 0,
+    "explanation": "Sequel describes a film following an earlier film's story.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with a film telling a story before an earlier film?",
+    "answers": [
+      "prequel",
+      "fan fiction",
+      "viral video",
+      "meme"
+    ],
+    "correct": 0,
+    "explanation": "Prequel describes a film telling a story before an earlier film.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which term is associated with a story set in an established fictional universe by a fan?",
+    "answers": [
+      "fan fiction",
+      "viral video",
+      "meme",
+      "cosplay"
+    ],
+    "correct": 0,
+    "explanation": "Fan fiction describes a story set in an established fictional universe by a fan.",
+    "difficulty": "Hard"
+  }
+]

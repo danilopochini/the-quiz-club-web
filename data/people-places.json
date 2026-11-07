@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which person is associated with the theory of relativity?",
+    "answers": [
+      "Albert Einstein",
+      "Alexander Fleming",
+      "Yuri Gagarin",
+      "Marie Curie"
+    ],
+    "correct": 0,
+    "explanation": "Albert Einstein is associated with the theory of relativity.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the discovery of penicillin?",
+    "answers": [
+      "Alexander Fleming",
+      "Yuri Gagarin",
+      "Marie Curie",
+      "Amelia Earhart"
+    ],
+    "correct": 0,
+    "explanation": "Alexander Fleming is associated with the discovery of penicillin.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the first human spaceflight?",
+    "answers": [
+      "Yuri Gagarin",
+      "Marie Curie",
+      "Amelia Earhart",
+      "Neil Armstrong"
+    ],
+    "correct": 0,
+    "explanation": "Yuri Gagarin is associated with the first human spaceflight.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the first woman to win a Nobel Prize?",
+    "answers": [
+      "Marie Curie",
+      "Amelia Earhart",
+      "Neil Armstrong",
+      "Michelangelo"
+    ],
+    "correct": 0,
+    "explanation": "Marie Curie is associated with the first woman to win a Nobel Prize.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the first woman to fly solo across the Atlantic?",
+    "answers": [
+      "Amelia Earhart",
+      "Neil Armstrong",
+      "Michelangelo",
+      "Tim Berners-Lee"
+    ],
+    "correct": 0,
+    "explanation": "Amelia Earhart is associated with the first woman to fly solo across the Atlantic.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the first crewed Moon landing as mission commander?",
+    "answers": [
+      "Neil Armstrong",
+      "Michelangelo",
+      "Tim Berners-Lee",
+      "Charles Darwin"
+    ],
+    "correct": 0,
+    "explanation": "Neil Armstrong is associated with the first crewed Moon landing as mission commander.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the painting of the Sistine Chapel ceiling?",
+    "answers": [
+      "Michelangelo",
+      "Tim Berners-Lee",
+      "Charles Darwin",
+      "Malala Yousafzai"
+    ],
+    "correct": 0,
+    "explanation": "Michelangelo is associated with the painting of the Sistine Chapel ceiling.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the development of the World Wide Web?",
+    "answers": [
+      "Tim Berners-Lee",
+      "Charles Darwin",
+      "Malala Yousafzai",
+      "Albert Einstein"
+    ],
+    "correct": 0,
+    "explanation": "Tim Berners-Lee is associated with the development of the World Wide Web.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the publication of On the Origin of Species?",
+    "answers": [
+      "Charles Darwin",
+      "Malala Yousafzai",
+      "Albert Einstein",
+      "Alexander Fleming"
+    ],
+    "correct": 0,
+    "explanation": "Charles Darwin is associated with the publication of On the Origin of Species.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is associated with the Nobel Peace Prize awarded to a Pakistani education activist in 2014?",
+    "answers": [
+      "Malala Yousafzai",
+      "Albert Einstein",
+      "Alexander Fleming",
+      "Yuri Gagarin"
+    ],
+    "correct": 0,
+    "explanation": "Malala Yousafzai is associated with the Nobel Peace Prize awarded to a Pakistani education activist in 2014.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In which city would you find the Eiffel Tower?",
+    "answers": [
+      "Paris",
+      "Rome",
+      "Sydney",
+      "Barcelona"
+    ],
+    "correct": 0,
+    "explanation": "The Eiffel Tower is in Paris.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which city would you find the Colosseum?",
+    "answers": [
+      "Rome",
+      "Sydney",
+      "Barcelona",
+      "New York City"
+    ],
+    "correct": 0,
+    "explanation": "The Colosseum is in Rome.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which city would you find the Sydney Opera House?",
+    "answers": [
+      "Sydney",
+      "Barcelona",
+      "New York City",
+      "Athens"
+    ],
+    "correct": 0,
+    "explanation": "The Sydney Opera House is in Sydney.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which city would you find the Sagrada Família?",
+    "answers": [
+      "Barcelona",
+      "New York City",
+      "Athens",
+      "Dubai"
+    ],
+    "correct": 0,
+    "explanation": "The Sagrada Família is in Barcelona.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which city would you find the Statue of Liberty?",
+    "answers": [
+      "New York City",
+      "Athens",
+      "Dubai",
+      "San Francisco"
+    ],
+    "correct": 0,
+    "explanation": "The Statue of Liberty is in New York City.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which city would you find the Acropolis?",
+    "answers": [
+      "Athens",
+      "Dubai",
+      "San Francisco",
+      "Berlin"
+    ],
+    "correct": 0,
+    "explanation": "The Acropolis is in Athens.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which city would you find the Burj Khalifa?",
+    "answers": [
+      "Dubai",
+      "San Francisco",
+      "Berlin",
+      "Copenhagen"
+    ],
+    "correct": 0,
+    "explanation": "The Burj Khalifa is in Dubai.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which city would you find the Golden Gate Bridge?",
+    "answers": [
+      "San Francisco",
+      "Berlin",
+      "Copenhagen",
+      "Paris"
+    ],
+    "correct": 0,
+    "explanation": "The Golden Gate Bridge is in San Francisco.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which city would you find the Brandenburg Gate?",
+    "answers": [
+      "Berlin",
+      "Copenhagen",
+      "Paris",
+      "Rome"
+    ],
+    "correct": 0,
+    "explanation": "The Brandenburg Gate is in Berlin.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In which city would you find the Little Mermaid statue?",
+    "answers": [
+      "Copenhagen",
+      "Paris",
+      "Rome",
+      "Sydney"
+    ],
+    "correct": 0,
+    "explanation": "The Little Mermaid statue is in Copenhagen.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which country is associated with the ancient city of Petra?",
+    "answers": [
+      "Jordan",
+      "India",
+      "Cambodia",
+      "Egypt"
+    ],
+    "correct": 0,
+    "explanation": "The ancient city of Petra is in Jordan.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country is associated with the Taj Mahal?",
+    "answers": [
+      "India",
+      "Cambodia",
+      "Egypt",
+      "Peru"
+    ],
+    "correct": 0,
+    "explanation": "The Taj Mahal is in India.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country is associated with Angkor Wat?",
+    "answers": [
+      "Cambodia",
+      "Egypt",
+      "Peru",
+      "China"
+    ],
+    "correct": 0,
+    "explanation": "Angkor Wat is in Cambodia.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country is associated with the pyramids of Giza?",
+    "answers": [
+      "Egypt",
+      "Peru",
+      "China",
+      "Spain"
+    ],
+    "correct": 0,
+    "explanation": "The pyramids of Giza is in Egypt.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which country is associated with Machu Picchu?",
+    "answers": [
+      "Peru",
+      "China",
+      "Spain",
+      "Mexico"
+    ],
+    "correct": 0,
+    "explanation": "Machu Picchu is in Peru.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country is associated with the Great Wall?",
+    "answers": [
+      "China",
+      "Spain",
+      "Mexico",
+      "Italy"
+    ],
+    "correct": 0,
+    "explanation": "The Great Wall is in China.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country is associated with the Alhambra?",
+    "answers": [
+      "Spain",
+      "Mexico",
+      "Italy",
+      "Greece"
+    ],
+    "correct": 0,
+    "explanation": "The Alhambra is in Spain.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country is associated with the ancient site of Chichén Itzá?",
+    "answers": [
+      "Mexico",
+      "Italy",
+      "Greece",
+      "Jordan"
+    ],
+    "correct": 0,
+    "explanation": "The ancient site of Chichén Itzá is in Mexico.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which country is associated with the city of Venice?",
+    "answers": [
+      "Italy",
+      "Greece",
+      "Jordan",
+      "India"
+    ],
+    "correct": 0,
+    "explanation": "The city of Venice is in Italy.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which country is associated with the Parthenon?",
+    "answers": [
+      "Greece",
+      "Jordan",
+      "India",
+      "Cambodia"
+    ],
+    "correct": 0,
+    "explanation": "The Parthenon is in Greece.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is known for a diary written while hiding during the Second World War?",
+    "answers": [
+      "Anne Frank",
+      "Claude Monet",
+      "Valentina Tereshkova",
+      "Mahatma Gandhi"
+    ],
+    "correct": 0,
+    "explanation": "Anne Frank is known for a diary written while hiding during the Second World War.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is known for a series of paintings of water lilies?",
+    "answers": [
+      "Claude Monet",
+      "Valentina Tereshkova",
+      "Mahatma Gandhi",
+      "Martin Luther King Jr."
+    ],
+    "correct": 0,
+    "explanation": "Claude Monet is known for a series of paintings of water lilies.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is known for being the first woman in space?",
+    "answers": [
+      "Valentina Tereshkova",
+      "Mahatma Gandhi",
+      "Martin Luther King Jr.",
+      "Johannes Gutenberg"
+    ],
+    "correct": 0,
+    "explanation": "Valentina Tereshkova is known for being the first woman in space.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is known for the leadership of the Indian independence movement through nonviolence?",
+    "answers": [
+      "Mahatma Gandhi",
+      "Martin Luther King Jr.",
+      "Johannes Gutenberg",
+      "Jane Austen"
+    ],
+    "correct": 0,
+    "explanation": "Mahatma Gandhi is known for the leadership of the Indian independence movement through nonviolence.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is known for the civil rights speech 'I Have a Dream'?",
+    "answers": [
+      "Martin Luther King Jr.",
+      "Johannes Gutenberg",
+      "Jane Austen",
+      "Henri Becquerel"
+    ],
+    "correct": 0,
+    "explanation": "Martin Luther King Jr. is known for the civil rights speech 'I Have a Dream'.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is known for the invention of the movable-type printing press in Europe?",
+    "answers": [
+      "Johannes Gutenberg",
+      "Jane Austen",
+      "Henri Becquerel",
+      "Michelangelo"
+    ],
+    "correct": 0,
+    "explanation": "Johannes Gutenberg is known for the invention of the movable-type printing press in Europe.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is known for the novel Pride and Prejudice?",
+    "answers": [
+      "Jane Austen",
+      "Henri Becquerel",
+      "Michelangelo",
+      "Jane Goodall"
+    ],
+    "correct": 0,
+    "explanation": "Jane Austen is known for the novel Pride and Prejudice.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is known for the discovery of radioactivity?",
+    "answers": [
+      "Henri Becquerel",
+      "Michelangelo",
+      "Jane Goodall",
+      "Anne Frank"
+    ],
+    "correct": 0,
+    "explanation": "Henri Becquerel is known for the discovery of radioactivity.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is known for the sculptures David and Pietà?",
+    "answers": [
+      "Michelangelo",
+      "Jane Goodall",
+      "Anne Frank",
+      "Claude Monet"
+    ],
+    "correct": 0,
+    "explanation": "Michelangelo is known for the sculptures David and Pietà.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is known for the pioneering study of chimpanzees at Gombe?",
+    "answers": [
+      "Jane Goodall",
+      "Anne Frank",
+      "Claude Monet",
+      "Valentina Tereshkova"
+    ],
+    "correct": 0,
+    "explanation": "Jane Goodall is known for the pioneering study of chimpanzees at Gombe.",
+    "difficulty": "Hard"
+  }
+]

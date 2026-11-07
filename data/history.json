@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which ancient civilisation is associated with the city of Carthage?",
+    "answers": [
+      "Carthaginians",
+      "ancient Greeks",
+      "Aztecs",
+      "Inca"
+    ],
+    "correct": 0,
+    "explanation": "Carthaginians are associated with the city of Carthage.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Sparta?",
+    "answers": [
+      "ancient Greeks",
+      "Aztecs",
+      "Inca",
+      "Sumerians"
+    ],
+    "correct": 0,
+    "explanation": "Ancient Greeks are associated with the city of Sparta.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Tenochtitlan?",
+    "answers": [
+      "Aztecs",
+      "Inca",
+      "Sumerians",
+      "ancient Romans"
+    ],
+    "correct": 0,
+    "explanation": "Aztecs are associated with the city of Tenochtitlan.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Machu Picchu?",
+    "answers": [
+      "Inca",
+      "Sumerians",
+      "ancient Romans",
+      "ancient Egyptians"
+    ],
+    "correct": 0,
+    "explanation": "Inca are associated with the city of Machu Picchu.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ancient civilisation is associated with cuneiform writing in Mesopotamia?",
+    "answers": [
+      "Sumerians",
+      "ancient Romans",
+      "ancient Egyptians",
+      "Minoans"
+    ],
+    "correct": 0,
+    "explanation": "Sumerians are associated with cuneiform writing in Mesopotamia.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Rome?",
+    "answers": [
+      "ancient Romans",
+      "ancient Egyptians",
+      "Minoans",
+      "Maya"
+    ],
+    "correct": 0,
+    "explanation": "Ancient Romans are associated with the city of Rome.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the Great Pyramid of Giza?",
+    "answers": [
+      "ancient Egyptians",
+      "Minoans",
+      "Maya",
+      "Achaemenid Persians"
+    ],
+    "correct": 0,
+    "explanation": "Ancient Egyptians are associated with the Great Pyramid of Giza.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Knossos?",
+    "answers": [
+      "Minoans",
+      "Maya",
+      "Achaemenid Persians",
+      "Carthaginians"
+    ],
+    "correct": 0,
+    "explanation": "Minoans are associated with the city of Knossos.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Chichén Itzá?",
+    "answers": [
+      "Maya",
+      "Achaemenid Persians",
+      "Carthaginians",
+      "ancient Greeks"
+    ],
+    "correct": 0,
+    "explanation": "Maya are associated with the city of Chichén Itzá.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which ancient civilisation is associated with the city of Persepolis?",
+    "answers": [
+      "Achaemenid Persians",
+      "Carthaginians",
+      "ancient Greeks",
+      "Aztecs"
+    ],
+    "correct": 0,
+    "explanation": "Achaemenid Persians are associated with the city of Persepolis.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is associated with the leadership of India’s nonviolent independence movement?",
+    "answers": [
+      "Mahatma Gandhi",
+      "Harriet Tubman",
+      "Genghis Khan",
+      "Joan of Arc"
+    ],
+    "correct": 0,
+    "explanation": "Mahatma Gandhi is known for the leadership of India’s nonviolent independence movement.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the abolitionist Underground Railroad?",
+    "answers": [
+      "Harriet Tubman",
+      "Genghis Khan",
+      "Joan of Arc",
+      "Nelson Mandela"
+    ],
+    "correct": 0,
+    "explanation": "Harriet Tubman is known for the abolitionist Underground Railroad.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the unification of the Mongol tribes in the early 13th century?",
+    "answers": [
+      "Genghis Khan",
+      "Joan of Arc",
+      "Nelson Mandela",
+      "Alexander the Great"
+    ],
+    "correct": 0,
+    "explanation": "Genghis Khan is known for the unification of the Mongol tribes in the early 13th century.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the French resistance at the siege of Orléans in 1429?",
+    "answers": [
+      "Joan of Arc",
+      "Nelson Mandela",
+      "Alexander the Great",
+      "Augustus"
+    ],
+    "correct": 0,
+    "explanation": "Joan of Arc is known for the French resistance at the siege of Orléans in 1429.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the South African anti-apartheid movement and presidency?",
+    "answers": [
+      "Nelson Mandela",
+      "Alexander the Great",
+      "Augustus",
+      "Rosa Parks"
+    ],
+    "correct": 0,
+    "explanation": "Nelson Mandela is known for the South African anti-apartheid movement and presidency.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the Macedonian conquest of the Persian Empire?",
+    "answers": [
+      "Alexander the Great",
+      "Augustus",
+      "Rosa Parks",
+      "Qin Shi Huang"
+    ],
+    "correct": 0,
+    "explanation": "Alexander the Great is known for the Macedonian conquest of the Persian Empire.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the first emperor of Rome?",
+    "answers": [
+      "Augustus",
+      "Rosa Parks",
+      "Qin Shi Huang",
+      "Winston Churchill"
+    ],
+    "correct": 0,
+    "explanation": "Augustus is known for the first emperor of Rome.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the 1955 Montgomery bus boycott?",
+    "answers": [
+      "Rosa Parks",
+      "Qin Shi Huang",
+      "Winston Churchill",
+      "Mahatma Gandhi"
+    ],
+    "correct": 0,
+    "explanation": "Rosa Parks is known for the 1955 Montgomery bus boycott.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the first emperor of a unified China?",
+    "answers": [
+      "Qin Shi Huang",
+      "Winston Churchill",
+      "Mahatma Gandhi",
+      "Harriet Tubman"
+    ],
+    "correct": 0,
+    "explanation": "Qin Shi Huang is known for the first emperor of a unified China.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is associated with the leadership of Britain for most of the Second World War?",
+    "answers": [
+      "Winston Churchill",
+      "Mahatma Gandhi",
+      "Harriet Tubman",
+      "Genghis Khan"
+    ],
+    "correct": 0,
+    "explanation": "Winston Churchill is known for the leadership of Britain for most of the Second World War.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In which century did the Battle of Hastings in 1066 occur?",
+    "answers": [
+      "11th century",
+      "15th century",
+      "18th century",
+      "20th century"
+    ],
+    "correct": 0,
+    "explanation": "The Battle of Hastings in 1066 took place in the 11th century.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which century did the fall of Constantinople in 1453 occur?",
+    "answers": [
+      "15th century",
+      "18th century",
+      "20th century",
+      "19th century"
+    ],
+    "correct": 0,
+    "explanation": "The fall of Constantinople in 1453 took place in the 15th century.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which century did the French Revolution beginning in 1789 occur?",
+    "answers": [
+      "18th century",
+      "20th century",
+      "19th century",
+      "17th century"
+    ],
+    "correct": 0,
+    "explanation": "The French Revolution beginning in 1789 took place in the 18th century.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which century did the First World War beginning in 1914 occur?",
+    "answers": [
+      "20th century",
+      "19th century",
+      "17th century",
+      "14th century"
+    ],
+    "correct": 0,
+    "explanation": "The First World War beginning in 1914 took place in the 20th century.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which century did the American Civil War beginning in 1861 occur?",
+    "answers": [
+      "19th century",
+      "17th century",
+      "14th century",
+      "16th century"
+    ],
+    "correct": 0,
+    "explanation": "The American Civil War beginning in 1861 took place in the 19th century.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which century did the English Civil War beginning in 1642 occur?",
+    "answers": [
+      "17th century",
+      "14th century",
+      "16th century",
+      "11th century"
+    ],
+    "correct": 0,
+    "explanation": "The English Civil War beginning in 1642 took place in the 17th century.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which century did the Norman conquest of southern Italy beginning around 1016 occur?",
+    "answers": [
+      "11th century",
+      "15th century",
+      "18th century",
+      "20th century"
+    ],
+    "correct": 0,
+    "explanation": "The Norman conquest of southern Italy beginning around 1016 took place in the 11th century.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which century did the printing of the Gutenberg Bible around 1455 occur?",
+    "answers": [
+      "15th century",
+      "18th century",
+      "20th century",
+      "19th century"
+    ],
+    "correct": 0,
+    "explanation": "The printing of the Gutenberg Bible around 1455 took place in the 15th century.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which century did the Black Death reaching Europe in 1347 occur?",
+    "answers": [
+      "14th century",
+      "16th century",
+      "11th century",
+      "15th century"
+    ],
+    "correct": 0,
+    "explanation": "The Black Death reaching Europe in 1347 took place in the 14th century.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In which century did the Protestant Reformation beginning in 1517 occur?",
+    "answers": [
+      "16th century",
+      "11th century",
+      "15th century",
+      "18th century"
+    ],
+    "correct": 0,
+    "explanation": "The Protestant Reformation beginning in 1517 took place in the 16th century.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which historical event is associated with a ship named Mayflower arriving in North America in 1620?",
+    "answers": [
+      "the Pilgrims’ voyage",
+      "the Cold War",
+      "American independence",
+      "Magna Carta"
+    ],
+    "correct": 0,
+    "explanation": "The Pilgrims’ voyage is associated with a ship named Mayflower arriving in North America in 1620.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which historical event is associated with a wall dividing Berlin from 1961 to 1989?",
+    "answers": [
+      "the Cold War",
+      "American independence",
+      "Magna Carta",
+      "Tutankhamun’s tomb"
+    ],
+    "correct": 0,
+    "explanation": "The Cold War is associated with a wall dividing Berlin from 1961 to 1989.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which historical event is associated with a declaration adopted in Philadelphia on 4 July 1776?",
+    "answers": [
+      "American independence",
+      "Magna Carta",
+      "Tutankhamun’s tomb",
+      "the Silk Road"
+    ],
+    "correct": 0,
+    "explanation": "American independence is associated with a declaration adopted in Philadelphia on 4 July 1776.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which historical event is associated with a treaty signed at Runnymede in 1215?",
+    "answers": [
+      "Magna Carta",
+      "Tutankhamun’s tomb",
+      "the Silk Road",
+      "Apollo 11"
+    ],
+    "correct": 0,
+    "explanation": "Magna Carta is associated with a treaty signed at Runnymede in 1215.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which historical event is associated with a 1922 discovery by Howard Carter?",
+    "answers": [
+      "Tutankhamun’s tomb",
+      "the Silk Road",
+      "Apollo 11",
+      "the Titanic disaster"
+    ],
+    "correct": 0,
+    "explanation": "Tutankhamun’s tomb is associated with a 1922 discovery by Howard Carter.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which historical event is associated with a long trade route linking East Asia and the Mediterranean?",
+    "answers": [
+      "the Silk Road",
+      "Apollo 11",
+      "the Titanic disaster",
+      "the French Revolution"
+    ],
+    "correct": 0,
+    "explanation": "The Silk Road is associated with a long trade route linking East Asia and the Mediterranean.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which historical event is associated with a 1969 first crewed Moon landing?",
+    "answers": [
+      "Apollo 11",
+      "the Titanic disaster",
+      "the French Revolution",
+      "the eruption of Vesuvius"
+    ],
+    "correct": 0,
+    "explanation": "Apollo 11 is associated with a 1969 first crewed Moon landing.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which historical event is associated with a ship sinking on its maiden voyage in 1912?",
+    "answers": [
+      "the Titanic disaster",
+      "the French Revolution",
+      "the eruption of Vesuvius",
+      "the Pilgrims’ voyage"
+    ],
+    "correct": 0,
+    "explanation": "The Titanic disaster is associated with a ship sinking on its maiden voyage in 1912.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which historical event is associated with the end of French royal rule in 1792?",
+    "answers": [
+      "the French Revolution",
+      "the eruption of Vesuvius",
+      "the Pilgrims’ voyage",
+      "the Cold War"
+    ],
+    "correct": 0,
+    "explanation": "The French Revolution is associated with the end of French royal rule in 1792.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which historical event is associated with the 79 CE eruption that buried Pompeii?",
+    "answers": [
+      "the eruption of Vesuvius",
+      "the Pilgrims’ voyage",
+      "the Cold War",
+      "American independence"
+    ],
+    "correct": 0,
+    "explanation": "The eruption of Vesuvius is associated with the 79 CE eruption that buried Pompeii.",
+    "difficulty": "Hard"
+  }
+]

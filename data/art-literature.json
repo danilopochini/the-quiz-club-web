@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Who wrote Pride and Prejudice?",
+    "answers": [
+      "Jane Austen",
+      "William Shakespeare",
+      "J. R. R. Tolkien",
+      "Toni Morrison"
+    ],
+    "correct": 0,
+    "explanation": "Jane Austen wrote Pride and Prejudice.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Who wrote Hamlet?",
+    "answers": [
+      "William Shakespeare",
+      "J. R. R. Tolkien",
+      "Toni Morrison",
+      "Gabriel García Márquez"
+    ],
+    "correct": 0,
+    "explanation": "William Shakespeare wrote Hamlet.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Who wrote The Hobbit?",
+    "answers": [
+      "J. R. R. Tolkien",
+      "Toni Morrison",
+      "Gabriel García Márquez",
+      "Mary Shelley"
+    ],
+    "correct": 0,
+    "explanation": "J. R. R. Tolkien wrote The Hobbit.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Who wrote Beloved?",
+    "answers": [
+      "Toni Morrison",
+      "Gabriel García Márquez",
+      "Mary Shelley",
+      "F. Scott Fitzgerald"
+    ],
+    "correct": 0,
+    "explanation": "Toni Morrison wrote Beloved.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Who wrote One Hundred Years of Solitude?",
+    "answers": [
+      "Gabriel García Márquez",
+      "Mary Shelley",
+      "F. Scott Fitzgerald",
+      "Chinua Achebe"
+    ],
+    "correct": 0,
+    "explanation": "Gabriel García Márquez wrote One Hundred Years of Solitude.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Who wrote Frankenstein?",
+    "answers": [
+      "Mary Shelley",
+      "F. Scott Fitzgerald",
+      "Chinua Achebe",
+      "Homer"
+    ],
+    "correct": 0,
+    "explanation": "Mary Shelley wrote Frankenstein.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Who wrote The Great Gatsby?",
+    "answers": [
+      "F. Scott Fitzgerald",
+      "Chinua Achebe",
+      "Homer",
+      "Margaret Atwood"
+    ],
+    "correct": 0,
+    "explanation": "F. Scott Fitzgerald wrote The Great Gatsby.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Who wrote Things Fall Apart?",
+    "answers": [
+      "Chinua Achebe",
+      "Homer",
+      "Margaret Atwood",
+      "Jane Austen"
+    ],
+    "correct": 0,
+    "explanation": "Chinua Achebe wrote Things Fall Apart.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Who wrote The Odyssey?",
+    "answers": [
+      "Homer",
+      "Margaret Atwood",
+      "Jane Austen",
+      "William Shakespeare"
+    ],
+    "correct": 0,
+    "explanation": "Homer wrote The Odyssey.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Who wrote The Handmaid's Tale?",
+    "answers": [
+      "Margaret Atwood",
+      "Jane Austen",
+      "William Shakespeare",
+      "J. R. R. Tolkien"
+    ],
+    "correct": 0,
+    "explanation": "Margaret Atwood wrote The Handmaid's Tale.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which artist created The Starry Night?",
+    "answers": [
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Salvador Dalí",
+      "Pablo Picasso"
+    ],
+    "correct": 0,
+    "explanation": "Vincent van Gogh created The Starry Night.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which artist created Mona Lisa?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Katsushika Hokusai"
+    ],
+    "correct": 0,
+    "explanation": "Leonardo da Vinci created Mona Lisa.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which artist created The Persistence of Memory?",
+    "answers": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Katsushika Hokusai",
+      "Gustav Klimt"
+    ],
+    "correct": 0,
+    "explanation": "Salvador Dalí created The Persistence of Memory.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which artist created Guernica?",
+    "answers": [
+      "Pablo Picasso",
+      "Katsushika Hokusai",
+      "Gustav Klimt",
+      "Grant Wood"
+    ],
+    "correct": 0,
+    "explanation": "Pablo Picasso created Guernica.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which artist created The Great Wave off Kanagawa?",
+    "answers": [
+      "Katsushika Hokusai",
+      "Gustav Klimt",
+      "Grant Wood",
+      "Andy Warhol"
+    ],
+    "correct": 0,
+    "explanation": "Katsushika Hokusai created The Great Wave off Kanagawa.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which artist created The Kiss?",
+    "answers": [
+      "Gustav Klimt",
+      "Grant Wood",
+      "Andy Warhol",
+      "Johannes Vermeer"
+    ],
+    "correct": 0,
+    "explanation": "Gustav Klimt created The Kiss.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which artist created American Gothic?",
+    "answers": [
+      "Grant Wood",
+      "Andy Warhol",
+      "Johannes Vermeer",
+      "Claude Monet"
+    ],
+    "correct": 0,
+    "explanation": "Grant Wood created American Gothic.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which artist created Campbell's Soup Cans?",
+    "answers": [
+      "Andy Warhol",
+      "Johannes Vermeer",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ],
+    "correct": 0,
+    "explanation": "Andy Warhol created Campbell's Soup Cans.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which artist created Girl with a Pearl Earring?",
+    "answers": [
+      "Johannes Vermeer",
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Leonardo da Vinci"
+    ],
+    "correct": 0,
+    "explanation": "Johannes Vermeer created Girl with a Pearl Earring.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which artist created Water Lilies paintings?",
+    "answers": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Salvador Dalí"
+    ],
+    "correct": 0,
+    "explanation": "Claude Monet created Water Lilies paintings.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which literary character appears in The Adventures of Sherlock Holmes?",
+    "answers": [
+      "Sherlock Holmes",
+      "Alice",
+      "Captain Ahab",
+      "Jay Gatsby"
+    ],
+    "correct": 0,
+    "explanation": "Sherlock Holmes appears in The Adventures of Sherlock Holmes.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which literary character appears in Alice's Adventures in Wonderland?",
+    "answers": [
+      "Alice",
+      "Captain Ahab",
+      "Jay Gatsby",
+      "Sancho Panza"
+    ],
+    "correct": 0,
+    "explanation": "Alice appears in Alice's Adventures in Wonderland.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which literary character appears in Moby-Dick?",
+    "answers": [
+      "Captain Ahab",
+      "Jay Gatsby",
+      "Sancho Panza",
+      "Frodo Baggins"
+    ],
+    "correct": 0,
+    "explanation": "Captain Ahab appears in Moby-Dick.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which literary character appears in The Great Gatsby?",
+    "answers": [
+      "Jay Gatsby",
+      "Sancho Panza",
+      "Frodo Baggins",
+      "Jane Eyre"
+    ],
+    "correct": 0,
+    "explanation": "Jay Gatsby appears in The Great Gatsby.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which literary character appears in Don Quixote?",
+    "answers": [
+      "Sancho Panza",
+      "Frodo Baggins",
+      "Jane Eyre",
+      "the Little Prince"
+    ],
+    "correct": 0,
+    "explanation": "Sancho Panza appears in Don Quixote.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which literary character appears in The Lord of the Rings?",
+    "answers": [
+      "Frodo Baggins",
+      "Jane Eyre",
+      "the Little Prince",
+      "Tom Sawyer"
+    ],
+    "correct": 0,
+    "explanation": "Frodo Baggins appears in The Lord of the Rings.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which literary character appears in Jane Eyre?",
+    "answers": [
+      "Jane Eyre",
+      "the Little Prince",
+      "Tom Sawyer",
+      "Ebenezer Scrooge"
+    ],
+    "correct": 0,
+    "explanation": "Jane Eyre appears in Jane Eyre.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which literary character appears in The Little Prince?",
+    "answers": [
+      "the Little Prince",
+      "Tom Sawyer",
+      "Ebenezer Scrooge",
+      "Sherlock Holmes"
+    ],
+    "correct": 0,
+    "explanation": "The Little Prince appears in The Little Prince.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which literary character appears in The Adventures of Tom Sawyer?",
+    "answers": [
+      "Tom Sawyer",
+      "Ebenezer Scrooge",
+      "Sherlock Holmes",
+      "Alice"
+    ],
+    "correct": 0,
+    "explanation": "Tom Sawyer appears in The Adventures of Tom Sawyer.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which literary character appears in A Christmas Carol?",
+    "answers": [
+      "Ebenezer Scrooge",
+      "Sherlock Holmes",
+      "Alice",
+      "Captain Ahab"
+    ],
+    "correct": 0,
+    "explanation": "Ebenezer Scrooge appears in A Christmas Carol.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which term is associated with a poem of fourteen lines?",
+    "answers": [
+      "sonnet",
+      "simile",
+      "fable",
+      "origami"
+    ],
+    "correct": 0,
+    "explanation": "Sonnet describes a poem of fourteen lines.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with a comparison using 'like' or 'as'?",
+    "answers": [
+      "simile",
+      "fable",
+      "origami",
+      "fresco"
+    ],
+    "correct": 0,
+    "explanation": "Simile describes a comparison using 'like' or 'as'.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with a story with animals used to convey a moral?",
+    "answers": [
+      "fable",
+      "origami",
+      "fresco",
+      "sculpture"
+    ],
+    "correct": 0,
+    "explanation": "Fable describes a story with animals used to convey a moral.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with the art of folding paper?",
+    "answers": [
+      "origami",
+      "fresco",
+      "sculpture",
+      "alliteration"
+    ],
+    "correct": 0,
+    "explanation": "Origami describes the art of folding paper.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term is associated with painting on freshly laid wet plaster?",
+    "answers": [
+      "fresco",
+      "sculpture",
+      "alliteration",
+      "autobiography"
+    ],
+    "correct": 0,
+    "explanation": "Fresco describes painting on freshly laid wet plaster.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with a three-dimensional artwork made by shaping material?",
+    "answers": [
+      "sculpture",
+      "alliteration",
+      "autobiography",
+      "protagonist"
+    ],
+    "correct": 0,
+    "explanation": "Sculpture describes a three-dimensional artwork made by shaping material.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with the repetition of initial consonant sounds?",
+    "answers": [
+      "alliteration",
+      "autobiography",
+      "protagonist",
+      "mosaic"
+    ],
+    "correct": 0,
+    "explanation": "Alliteration describes the repetition of initial consonant sounds.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with a story of someone's life written by that person?",
+    "answers": [
+      "autobiography",
+      "protagonist",
+      "mosaic",
+      "sonnet"
+    ],
+    "correct": 0,
+    "explanation": "Autobiography describes a story of someone's life written by that person.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term is associated with the central character of a narrative?",
+    "answers": [
+      "protagonist",
+      "mosaic",
+      "sonnet",
+      "simile"
+    ],
+    "correct": 0,
+    "explanation": "Protagonist describes the central character of a narrative.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which term is associated with a picture made from small pieces of stone or glass?",
+    "answers": [
+      "mosaic",
+      "sonnet",
+      "simile",
+      "fable"
+    ],
+    "correct": 0,
+    "explanation": "Mosaic describes a picture made from small pieces of stone or glass.",
+    "difficulty": "Hard"
+  }
+]

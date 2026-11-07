@@ -6,7 +6,7 @@
 .quiz-intro h1 { margin: 12px 0; font: 700 clamp(38px, 6vw, 55px)/1.04 var(--heading); letter-spacing: -2px; }
 .quiz-intro h1 em { font-style: normal; color: var(--blue); }
 .quiz-intro p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
-.quiz-intro-art { width: 105px; height: 105px; flex: none; border: 5px solid white; border-radius: 50%; background: #ffdf80 url('../assets/images/categories/geography.jpg') center 25% / cover; box-shadow: 0 8px 22px #17233b1a; transform: rotate(9deg); }
+.quiz-intro-art { width: 105px; height: 105px; flex: none; border: 5px solid white; border-radius: 50%; background: #ffdf80 center 25% / cover; box-shadow: 0 8px 22px #17233b1a; transform: rotate(9deg); }
 .quiz-card { padding: clamp(24px, 5vw, 46px); border: 1px solid #eae8e2; border-radius: 20px; background: var(--white); box-shadow: 0 14px 40px #17233b0c; }
 .quiz-card [hidden] { display: none; }
 .quiz-meta { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 12px; font-weight: 800; }

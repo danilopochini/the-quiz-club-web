@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which planet is associated with the Great Red Spot?",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Mercury",
+      "Venus"
+    ],
+    "correct": 0,
+    "explanation": "Jupiter is associated with the Great Red Spot.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which planet is associated with the most prominent ring system?",
+    "answers": [
+      "Saturn",
+      "Mercury",
+      "Venus",
+      "Mars"
+    ],
+    "correct": 0,
+    "explanation": "Saturn is associated with the most prominent ring system.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which planet is associated with the shortest orbit around the Sun?",
+    "answers": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Uranus"
+    ],
+    "correct": 0,
+    "explanation": "Mercury is associated with the shortest orbit around the Sun.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which planet is associated with the hottest surface in the Solar System?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Uranus",
+      "Neptune"
+    ],
+    "correct": 0,
+    "explanation": "Venus is associated with the hottest surface in the Solar System.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which planet is associated with Olympus Mons?",
+    "answers": [
+      "Mars",
+      "Uranus",
+      "Neptune",
+      "Earth"
+    ],
+    "correct": 0,
+    "explanation": "Mars is associated with Olympus Mons.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which planet is associated with a rotation on its side?",
+    "answers": [
+      "Uranus",
+      "Neptune",
+      "Earth",
+      "Jupiter"
+    ],
+    "correct": 0,
+    "explanation": "Uranus is associated with a rotation on its side.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which planet is associated with the moon Triton?",
+    "answers": [
+      "Neptune",
+      "Earth",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correct": 0,
+    "explanation": "Neptune is associated with the moon Triton.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which planet is associated with liquid water on its surface?",
+    "answers": [
+      "Earth",
+      "Jupiter",
+      "Saturn",
+      "Mercury"
+    ],
+    "correct": 0,
+    "explanation": "Earth is associated with liquid water on its surface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which planet is associated with the moons Phobos and Deimos?",
+    "answers": [
+      "Mars",
+      "Uranus",
+      "Neptune",
+      "Earth"
+    ],
+    "correct": 0,
+    "explanation": "Mars is associated with the moons Phobos and Deimos.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which planet is associated with the moon Titan?",
+    "answers": [
+      "Saturn",
+      "Mercury",
+      "Venus",
+      "Mars"
+    ],
+    "correct": 0,
+    "explanation": "Saturn is associated with the moon Titan.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which element has the chemical symbol O?",
+    "answers": [
+      "oxygen",
+      "iron",
+      "gold",
+      "sodium"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol O represents Oxygen.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which element has the chemical symbol Fe?",
+    "answers": [
+      "iron",
+      "gold",
+      "sodium",
+      "potassium"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol Fe represents Iron.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which element has the chemical symbol Au?",
+    "answers": [
+      "gold",
+      "sodium",
+      "potassium",
+      "silver"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol Au represents Gold.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which element has the chemical symbol Na?",
+    "answers": [
+      "sodium",
+      "potassium",
+      "silver",
+      "helium"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol Na represents Sodium.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which element has the chemical symbol K?",
+    "answers": [
+      "potassium",
+      "silver",
+      "helium",
+      "carbon"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol K represents Potassium.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which element has the chemical symbol Ag?",
+    "answers": [
+      "silver",
+      "helium",
+      "carbon",
+      "copper"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol Ag represents Silver.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which element has the chemical symbol He?",
+    "answers": [
+      "helium",
+      "carbon",
+      "copper",
+      "mercury"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol He represents Helium.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which element has the chemical symbol C?",
+    "answers": [
+      "carbon",
+      "copper",
+      "mercury",
+      "oxygen"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol C represents Carbon.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which element has the chemical symbol Cu?",
+    "answers": [
+      "copper",
+      "mercury",
+      "oxygen",
+      "iron"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol Cu represents Copper.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which element has the chemical symbol Hg?",
+    "answers": [
+      "mercury",
+      "oxygen",
+      "iron",
+      "gold"
+    ],
+    "correct": 0,
+    "explanation": "The chemical symbol Hg represents Mercury.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which animal is associated with echolocation and flight among mammals?",
+    "answers": [
+      "bat",
+      "giant panda",
+      "platypus",
+      "blue whale"
+    ],
+    "correct": 0,
+    "explanation": "Bat is associated with echolocation and flight among mammals.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which animal is associated with a black-and-white coat and bamboo diet?",
+    "answers": [
+      "giant panda",
+      "platypus",
+      "blue whale",
+      "kangaroo"
+    ],
+    "correct": 0,
+    "explanation": "Giant panda is associated with a black-and-white coat and bamboo diet.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which animal is associated with laying eggs and having a duck-like bill?",
+    "answers": [
+      "platypus",
+      "blue whale",
+      "kangaroo",
+      "octopus"
+    ],
+    "correct": 0,
+    "explanation": "Platypus is associated with laying eggs and having a duck-like bill.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which animal is associated with the largest living animal?",
+    "answers": [
+      "blue whale",
+      "kangaroo",
+      "octopus",
+      "giraffe"
+    ],
+    "correct": 0,
+    "explanation": "Blue whale is associated with the largest living animal.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which animal is associated with a pouch and powerful hind legs in Australia?",
+    "answers": [
+      "kangaroo",
+      "octopus",
+      "giraffe",
+      "snail"
+    ],
+    "correct": 0,
+    "explanation": "Kangaroo is associated with a pouch and powerful hind legs in Australia.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which animal is associated with changing colour using chromatophores and eight arms?",
+    "answers": [
+      "octopus",
+      "giraffe",
+      "snail",
+      "spider"
+    ],
+    "correct": 0,
+    "explanation": "Octopus is associated with changing colour using chromatophores and eight arms.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which animal is associated with a long neck and spots on the African savanna?",
+    "answers": [
+      "giraffe",
+      "snail",
+      "spider",
+      "zebra"
+    ],
+    "correct": 0,
+    "explanation": "Giraffe is associated with a long neck and spots on the African savanna.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which animal is associated with a spiral shell and a muscular foot?",
+    "answers": [
+      "snail",
+      "spider",
+      "zebra",
+      "bat"
+    ],
+    "correct": 0,
+    "explanation": "Snail is associated with a spiral shell and a muscular foot.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which animal is associated with a web spun from silk?",
+    "answers": [
+      "spider",
+      "zebra",
+      "bat",
+      "giant panda"
+    ],
+    "correct": 0,
+    "explanation": "Spider is associated with a web spun from silk.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which animal is associated with a distinctive black-and-white striped coat?",
+    "answers": [
+      "zebra",
+      "bat",
+      "giant panda",
+      "platypus"
+    ],
+    "correct": 0,
+    "explanation": "Zebra is associated with a distinctive black-and-white striped coat.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which scientific term describes the conversion of light energy into chemical energy in plants?",
+    "answers": [
+      "photosynthesis",
+      "condensation",
+      "evaporation",
+      "gravity"
+    ],
+    "correct": 0,
+    "explanation": "Photosynthesis describes the conversion of light energy into chemical energy in plants.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which scientific term describes water vapour turning into liquid?",
+    "answers": [
+      "condensation",
+      "evaporation",
+      "gravity",
+      "genetics"
+    ],
+    "correct": 0,
+    "explanation": "Condensation describes water vapour turning into liquid.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which scientific term describes liquid water changing into vapour at the surface?",
+    "answers": [
+      "evaporation",
+      "gravity",
+      "genetics",
+      "plate tectonics"
+    ],
+    "correct": 0,
+    "explanation": "Evaporation describes liquid water changing into vapour at the surface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which scientific term describes the force attracting objects with mass?",
+    "answers": [
+      "gravity",
+      "genetics",
+      "plate tectonics",
+      "ecological niche"
+    ],
+    "correct": 0,
+    "explanation": "Gravity describes the force attracting objects with mass.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which scientific term describes the study of heredity?",
+    "answers": [
+      "genetics",
+      "plate tectonics",
+      "ecological niche",
+      "sublimation"
+    ],
+    "correct": 0,
+    "explanation": "Genetics describes the study of heredity.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which scientific term describes the movement of tectonic plates?",
+    "answers": [
+      "plate tectonics",
+      "ecological niche",
+      "sublimation",
+      "nucleus"
+    ],
+    "correct": 0,
+    "explanation": "Plate tectonics describes the movement of tectonic plates.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which scientific term describes an organism's role in its environment?",
+    "answers": [
+      "ecological niche",
+      "sublimation",
+      "nucleus",
+      "evolution"
+    ],
+    "correct": 0,
+    "explanation": "Ecological niche describes an organism's role in its environment.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which scientific term describes a solid changing directly into gas?",
+    "answers": [
+      "sublimation",
+      "nucleus",
+      "evolution",
+      "photosynthesis"
+    ],
+    "correct": 0,
+    "explanation": "Sublimation describes a solid changing directly into gas.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which scientific term describes the centre of an atom?",
+    "answers": [
+      "nucleus",
+      "evolution",
+      "photosynthesis",
+      "condensation"
+    ],
+    "correct": 0,
+    "explanation": "Nucleus describes the centre of an atom.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which scientific term describes the process by which living things develop inherited changes over generations?",
+    "answers": [
+      "evolution",
+      "photosynthesis",
+      "condensation",
+      "evaporation"
+    ],
+    "correct": 0,
+    "explanation": "Evolution describes the process by which living things develop inherited changes over generations.",
+    "difficulty": "Hard"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "question": "What is 12 multiplied by 8?",
+    "answers": [
+      "96",
+      "105",
+      "12",
+      "9"
+    ],
+    "correct": 0,
+    "explanation": "12 multiplied by 8 is 96.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is 15 multiplied by 7?",
+    "answers": [
+      "105",
+      "12",
+      "9",
+      "27"
+    ],
+    "correct": 0,
+    "explanation": "15 multiplied by 7 is 105.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is 144 divided by 12?",
+    "answers": [
+      "12",
+      "9",
+      "27",
+      "50"
+    ],
+    "correct": 0,
+    "explanation": "144 divided by 12 is 12.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the square root of 81?",
+    "answers": [
+      "9",
+      "27",
+      "50",
+      "60"
+    ],
+    "correct": 0,
+    "explanation": "The square root of 81 is 9.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the cube of 3?",
+    "answers": [
+      "27",
+      "50",
+      "60",
+      "49"
+    ],
+    "correct": 0,
+    "explanation": "The cube of 3 is 27.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is 25 percent of 200?",
+    "answers": [
+      "50",
+      "60",
+      "49",
+      "180"
+    ],
+    "correct": 0,
+    "explanation": "25 percent of 200 is 50.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is three quarters of 80?",
+    "answers": [
+      "60",
+      "49",
+      "180",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "Three quarters of 80 is 60.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is 7 squared?",
+    "answers": [
+      "49",
+      "180",
+      "6",
+      "96"
+    ],
+    "correct": 0,
+    "explanation": "7 squared is 49.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the sum of angles in a triangle in degrees?",
+    "answers": [
+      "180",
+      "6",
+      "96",
+      "105"
+    ],
+    "correct": 0,
+    "explanation": "The sum of angles in a triangle in degrees is 180.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the number of sides of a hexagon?",
+    "answers": [
+      "6",
+      "96",
+      "105",
+      "12"
+    ],
+    "correct": 0,
+    "explanation": "The number of sides of a hexagon is 6.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which mathematical term describes a whole number greater than one with exactly two positive divisors?",
+    "answers": [
+      "prime number",
+      "octagon",
+      "hypotenuse",
+      "circumference"
+    ],
+    "correct": 0,
+    "explanation": "A Prime number is a whole number greater than one with exactly two positive divisors.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which mathematical term describes a polygon with eight sides?",
+    "answers": [
+      "octagon",
+      "hypotenuse",
+      "circumference",
+      "radius"
+    ],
+    "correct": 0,
+    "explanation": "A Octagon is a polygon with eight sides.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which mathematical term describes the longest side of a right triangle?",
+    "answers": [
+      "hypotenuse",
+      "circumference",
+      "radius",
+      "even number"
+    ],
+    "correct": 0,
+    "explanation": "A Hypotenuse is the longest side of a right triangle.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which mathematical term describes the distance around a circle?",
+    "answers": [
+      "circumference",
+      "radius",
+      "even number",
+      "mean"
+    ],
+    "correct": 0,
+    "explanation": "A Circumference is the distance around a circle.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which mathematical term describes a line from a circle's centre to its edge?",
+    "answers": [
+      "radius",
+      "even number",
+      "mean",
+      "median"
+    ],
+    "correct": 0,
+    "explanation": "A Radius is a line from a circle's centre to its edge.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which mathematical term describes a number divisible by two?",
+    "answers": [
+      "even number",
+      "mean",
+      "median",
+      "equilateral triangle"
+    ],
+    "correct": 0,
+    "explanation": "A Even number is a number divisible by two.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which mathematical term describes the average found by summing values and dividing by their count?",
+    "answers": [
+      "mean",
+      "median",
+      "equilateral triangle",
+      "rectangle"
+    ],
+    "correct": 0,
+    "explanation": "A Mean is the average found by summing values and dividing by their count.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which mathematical term describes the middle value in an ordered list?",
+    "answers": [
+      "median",
+      "equilateral triangle",
+      "rectangle",
+      "prime number"
+    ],
+    "correct": 0,
+    "explanation": "A Median is the middle value in an ordered list.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which mathematical term describes a triangle with three equal sides?",
+    "answers": [
+      "equilateral triangle",
+      "rectangle",
+      "prime number",
+      "octagon"
+    ],
+    "correct": 0,
+    "explanation": "A Equilateral triangle is a triangle with three equal sides.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which mathematical term describes a four-sided shape with four right angles?",
+    "answers": [
+      "rectangle",
+      "prime number",
+      "octagon",
+      "hypotenuse"
+    ],
+    "correct": 0,
+    "explanation": "A Rectangle is a four-sided shape with four right angles.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the value of 2 to the power of 5?",
+    "answers": [
+      "32",
+      "10",
+      "50",
+      "100"
+    ],
+    "correct": 0,
+    "explanation": "2 to the power of 5 is 32.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the value of the Roman numeral X?",
+    "answers": [
+      "10",
+      "50",
+      "100",
+      "three quarters"
+    ],
+    "correct": 0,
+    "explanation": "The Roman numeral X is 10.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the value of the Roman numeral L?",
+    "answers": [
+      "50",
+      "100",
+      "three quarters",
+      "0.1"
+    ],
+    "correct": 0,
+    "explanation": "The Roman numeral L is 50.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the value of the Roman numeral C?",
+    "answers": [
+      "100",
+      "three quarters",
+      "0.1",
+      "48"
+    ],
+    "correct": 0,
+    "explanation": "The Roman numeral C is 100.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the value of one half plus one quarter?",
+    "answers": [
+      "three quarters",
+      "0.1",
+      "48",
+      "25"
+    ],
+    "correct": 0,
+    "explanation": "One half plus one quarter is Three quarters.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the value of the decimal equivalent of one tenth?",
+    "answers": [
+      "0.1",
+      "48",
+      "25",
+      "90"
+    ],
+    "correct": 0,
+    "explanation": "The decimal equivalent of one tenth is 0.1.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the value of the next number when 3, 6, 12, 24 is continued by doubling?",
+    "answers": [
+      "48",
+      "25",
+      "90",
+      "360"
+    ],
+    "correct": 0,
+    "explanation": "The next number when 3, 6, 12, 24 is continued by doubling is 48.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the value of the next perfect square after 16?",
+    "answers": [
+      "25",
+      "90",
+      "360",
+      "32"
+    ],
+    "correct": 0,
+    "explanation": "The next perfect square after 16 is 25.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the value of the number of degrees in a right angle?",
+    "answers": [
+      "90",
+      "360",
+      "32",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "The number of degrees in a right angle is 90.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the value of the number of degrees in a full turn?",
+    "answers": [
+      "360",
+      "32",
+      "10",
+      "50"
+    ],
+    "correct": 0,
+    "explanation": "The number of degrees in a full turn is 360.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which concept is associated with the ratio of a circle's circumference to its diameter?",
+    "answers": [
+      "pi",
+      "Fibonacci sequence",
+      "theorem",
+      "probability"
+    ],
+    "correct": 0,
+    "explanation": "Pi is associated with the ratio of a circle's circumference to its diameter.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which concept is associated with a sequence beginning 0, 1, 1, 2, 3, 5?",
+    "answers": [
+      "Fibonacci sequence",
+      "theorem",
+      "probability",
+      "symmetry"
+    ],
+    "correct": 0,
+    "explanation": "Fibonacci sequence is associated with a sequence beginning 0, 1, 1, 2, 3, 5.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which concept is associated with a statement proved using logical reasoning?",
+    "answers": [
+      "theorem",
+      "probability",
+      "symmetry",
+      "numerator"
+    ],
+    "correct": 0,
+    "explanation": "Theorem is associated with a statement proved using logical reasoning.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which concept is associated with the likelihood of an event?",
+    "answers": [
+      "probability",
+      "symmetry",
+      "numerator",
+      "denominator"
+    ],
+    "correct": 0,
+    "explanation": "Probability is associated with the likelihood of an event.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which concept is associated with a shape with the same appearance after reflection?",
+    "answers": [
+      "symmetry",
+      "numerator",
+      "denominator",
+      "origin"
+    ],
+    "correct": 0,
+    "explanation": "Symmetry is associated with a shape with the same appearance after reflection.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which concept is associated with a number written above the line in a fraction?",
+    "answers": [
+      "numerator",
+      "denominator",
+      "origin",
+      "rotation"
+    ],
+    "correct": 0,
+    "explanation": "Numerator is associated with a number written above the line in a fraction.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which concept is associated with a number written below the line in a fraction?",
+    "answers": [
+      "denominator",
+      "origin",
+      "rotation",
+      "cube"
+    ],
+    "correct": 0,
+    "explanation": "Denominator is associated with a number written below the line in a fraction.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which concept is associated with the point at which coordinate axes meet?",
+    "answers": [
+      "origin",
+      "rotation",
+      "cube",
+      "pi"
+    ],
+    "correct": 0,
+    "explanation": "Origin is associated with the point at which coordinate axes meet.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which concept is associated with a transformation that turns a shape around a point?",
+    "answers": [
+      "rotation",
+      "cube",
+      "pi",
+      "Fibonacci sequence"
+    ],
+    "correct": 0,
+    "explanation": "Rotation is associated with a transformation that turns a shape around a point.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which concept is associated with a three-dimensional shape with six square faces?",
+    "answers": [
+      "cube",
+      "pi",
+      "Fibonacci sequence",
+      "theorem"
+    ],
+    "correct": 0,
+    "explanation": "Cube is associated with a three-dimensional shape with six square faces.",
+    "difficulty": "Hard"
+  }
+]

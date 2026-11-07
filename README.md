@@ -1,6 +1,6 @@
 # The Quiz Club
 
-A static, framework-free trivia platform. Geography is playable now; the other categories and daily challenge are coming soon.
+A static, framework-free trivia platform. All twelve categories are playable; the daily challenge is coming soon.
 
 ## Run locally
 
@@ -16,11 +16,15 @@ Opening pages directly as `file://` may prevent the quiz data from loading; use 
 ## Structure
 
 - `index.html` — homepage.
-- `geography.html` — playable Geography quiz.
+- `quiz.html` — shared quiz page; choose a category with `?category=...`.
+- `geography.html` — compatibility link to the Geography quiz.
 - `explore.html`, `daily.html`, `about.html` — category directory and informational pages.
 - `css/style.css` — shared design system and page styles.
 - `css/home.css` — homepage-specific styles and illustrations.
 - `css/quiz.css` — quiz interface styles.
 - `js/navigation.js` — accessible mobile navigation.
 - `js/quiz.js` — quiz state, answer feedback and results.
-- `data/geography.json` — Geography question bank.
+- `data/` — separate JSON question banks for each category.
+- `tests/question-banks.test.cjs` — question-bank and category-link checks.
+
+Run the data checks with `node --test tests/question-banks.test.cjs`.

@@ -1,5 +1,22 @@
 (() => {
   const gameLength = 10;
+  const categories = {
+    'geography': 'Geography',
+    'movies-television': 'Movies & Television',
+    'music': 'Music',
+    'history': 'History',
+    'sports': 'Sports',
+    'science-nature': 'Science & Nature',
+    'art-literature': 'Art & Literature',
+    'lifestyle-brands': 'Lifestyle & Brands',
+    'people-places': 'People & Places',
+    'mathematics-logic': 'Mathematics & Logic',
+    'pop-culture': 'Pop Culture',
+    'general-knowledge': 'General Knowledge'
+  };
+  const requestedCategory = new URLSearchParams(location.search).get('category');
+  const categoryId = requestedCategory;
+  const category = Object.hasOwn(categories, categoryId) ? categories[categoryId] : null;
   const elements = {
     loading: document.querySelector('#loading'),
     error: document.querySelector('#load-error'),
@@ -29,6 +46,15 @@
   let score = 0;
   let answered = false;
 
+  if (category) {
+    document.title = `${category} Quiz — The Quiz Club`;
+    document.querySelector('#category-title').textContent = `${category}.`;
+    document.querySelector('#category-name').textContent = category;
+    document.querySelector('#quiz-card').setAttribute('aria-label', `${category} quiz`);
+    document.querySelector('.quiz-back').href = `explore.html#${categoryId}`;
+    document.querySelector('#category-art').style.backgroundImage = `url("assets/images/categories/${categoryId}.jpg")`;
+  }
+
   function shuffle(items) {
     const shuffled = [...items];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -52,7 +78,8 @@
     elements.loading.hidden = false;
     elements.error.hidden = true;
     try {
-      const response = await fetch('data/geography.json');
+      if (!category) throw new Error('Choose a valid category from the categories page.');
+      const response = await fetch(`data/${categoryId}.json`);
       if (!response.ok) throw new Error(`Question bank request failed (${response.status})`);
       const data = await response.json();
       if (!Array.isArray(data) || data.length < gameLength + 1 ||
@@ -63,8 +90,12 @@
       elements.loading.hidden = true;
       startGame();
     } catch (error) {
-      console.error('Unable to load the Geography quiz:', error);
+      console.error('Unable to load the quiz:', error);
       elements.loading.hidden = true;
+      if (!category) {
+        elements.error.querySelector('p').textContent = 'This category is not available. Choose a category from Explore to play.';
+        elements.retry.hidden = true;
+      }
       elements.error.hidden = false;
     }
   }
@@ -145,7 +176,7 @@
   function showResults() {
     elements.game.hidden = true;
     elements.results.hidden = false;
-    elements.resultTitle.textContent = score >= 9 ? 'Geography Master!' : score >= 7 ? 'Excellent knowledge!' : score >= 5 ? 'Not bad! Keep exploring.' : 'Time to brush up on your geography!';
+    elements.resultTitle.textContent = score >= 9 ? `${category} Master!` : score >= 7 ? 'Excellent knowledge!' : score >= 5 ? 'Not bad! Keep exploring.' : `Time to brush up on ${category.toLowerCase()}!`;
     elements.resultSummary.textContent = `You got ${score} out of ${gameLength} correct — ${score / gameLength * 100}%.`;
     elements.resultRingScore.textContent = score;
     elements.resultTitle.focus();

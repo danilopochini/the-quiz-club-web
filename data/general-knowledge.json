@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which subject is associated with the study of stars and planets?",
+    "answers": [
+      "astronomy",
+      "archaeology",
+      "biology",
+      "meteorology"
+    ],
+    "correct": 0,
+    "explanation": "Astronomy is the study of stars and planets.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which subject is associated with the study of past societies through material remains?",
+    "answers": [
+      "archaeology",
+      "biology",
+      "meteorology",
+      "geology"
+    ],
+    "correct": 0,
+    "explanation": "Archaeology is the study of past societies through material remains.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which subject is associated with the study of living organisms?",
+    "answers": [
+      "biology",
+      "meteorology",
+      "geology",
+      "linguistics"
+    ],
+    "correct": 0,
+    "explanation": "Biology is the study of living organisms.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which subject is associated with the study of weather?",
+    "answers": [
+      "meteorology",
+      "geology",
+      "linguistics",
+      "anthropology"
+    ],
+    "correct": 0,
+    "explanation": "Meteorology is the study of weather.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which subject is associated with the study of rocks and Earth's structure?",
+    "answers": [
+      "geology",
+      "linguistics",
+      "anthropology",
+      "mathematics"
+    ],
+    "correct": 0,
+    "explanation": "Geology is the study of rocks and Earth's structure.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which subject is associated with the study of language?",
+    "answers": [
+      "linguistics",
+      "anthropology",
+      "mathematics",
+      "chemistry"
+    ],
+    "correct": 0,
+    "explanation": "Linguistics is the study of language.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which subject is associated with the study of human societies?",
+    "answers": [
+      "anthropology",
+      "mathematics",
+      "chemistry",
+      "physics"
+    ],
+    "correct": 0,
+    "explanation": "Anthropology is the study of human societies.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which subject is associated with the study of numbers and shapes?",
+    "answers": [
+      "mathematics",
+      "chemistry",
+      "physics",
+      "astronomy"
+    ],
+    "correct": 0,
+    "explanation": "Mathematics is the study of numbers and shapes.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which subject is associated with the study of matter and its reactions?",
+    "answers": [
+      "chemistry",
+      "physics",
+      "astronomy",
+      "archaeology"
+    ],
+    "correct": 0,
+    "explanation": "Chemistry is the study of matter and its reactions.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which subject is associated with the study of sound and motion?",
+    "answers": [
+      "physics",
+      "astronomy",
+      "archaeology",
+      "biology"
+    ],
+    "correct": 0,
+    "explanation": "Physics is the study of sound and motion.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which object is associated with showing direction using a magnetised needle?",
+    "answers": [
+      "compass",
+      "barometer",
+      "thermometer",
+      "telescope"
+    ],
+    "correct": 0,
+    "explanation": "A Compass is used for showing direction using a magnetised needle.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which object is associated with measuring atmospheric pressure?",
+    "answers": [
+      "barometer",
+      "thermometer",
+      "telescope",
+      "microscope"
+    ],
+    "correct": 0,
+    "explanation": "A Barometer is used for measuring atmospheric pressure.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which object is associated with measuring temperature?",
+    "answers": [
+      "thermometer",
+      "telescope",
+      "microscope",
+      "hourglass"
+    ],
+    "correct": 0,
+    "explanation": "A Thermometer is used for measuring temperature.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which object is associated with viewing distant objects using lenses or mirrors?",
+    "answers": [
+      "telescope",
+      "microscope",
+      "hourglass",
+      "anemometer"
+    ],
+    "correct": 0,
+    "explanation": "A Telescope is used for viewing distant objects using lenses or mirrors.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which object is associated with viewing very small objects?",
+    "answers": [
+      "microscope",
+      "hourglass",
+      "anemometer",
+      "protractor"
+    ],
+    "correct": 0,
+    "explanation": "A Microscope is used for viewing very small objects.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which object is associated with measuring the passage of time using falling sand?",
+    "answers": [
+      "hourglass",
+      "anemometer",
+      "protractor",
+      "balance scale"
+    ],
+    "correct": 0,
+    "explanation": "A Hourglass is used for measuring the passage of time using falling sand.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which object is associated with measuring wind speed?",
+    "answers": [
+      "anemometer",
+      "protractor",
+      "balance scale",
+      "seismograph"
+    ],
+    "correct": 0,
+    "explanation": "A Anemometer is used for measuring wind speed.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which object is associated with measuring angles in geometry?",
+    "answers": [
+      "protractor",
+      "balance scale",
+      "seismograph",
+      "compass"
+    ],
+    "correct": 0,
+    "explanation": "A Protractor is used for measuring angles in geometry.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which object is associated with weighing objects against known masses?",
+    "answers": [
+      "balance scale",
+      "seismograph",
+      "compass",
+      "barometer"
+    ],
+    "correct": 0,
+    "explanation": "A Balance scale is used for weighing objects against known masses.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which object is associated with recording vibrations from earthquakes?",
+    "answers": [
+      "seismograph",
+      "compass",
+      "barometer",
+      "thermometer"
+    ],
+    "correct": 0,
+    "explanation": "A Seismograph is used for recording vibrations from earthquakes.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is associated with the theory of evolution by natural selection?",
+    "answers": [
+      "Charles Darwin",
+      "Leonardo da Vinci",
+      "Neil Armstrong",
+      "William Shakespeare"
+    ],
+    "correct": 0,
+    "explanation": "Charles Darwin is associated with the theory of evolution by natural selection.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the Mona Lisa?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Neil Armstrong",
+      "William Shakespeare",
+      "Albert Einstein"
+    ],
+    "correct": 0,
+    "explanation": "Leonardo da Vinci is associated with the Mona Lisa.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the first crewed Moon landing?",
+    "answers": [
+      "Neil Armstrong",
+      "William Shakespeare",
+      "Albert Einstein",
+      "Alexander Fleming"
+    ],
+    "correct": 0,
+    "explanation": "Neil Armstrong is associated with the first crewed Moon landing.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the plays Hamlet and Macbeth?",
+    "answers": [
+      "William Shakespeare",
+      "Albert Einstein",
+      "Alexander Fleming",
+      "Mary Shelley"
+    ],
+    "correct": 0,
+    "explanation": "William Shakespeare is associated with the plays Hamlet and Macbeth.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which person is associated with the theory of relativity?",
+    "answers": [
+      "Albert Einstein",
+      "Alexander Fleming",
+      "Mary Shelley",
+      "Jane Goodall"
+    ],
+    "correct": 0,
+    "explanation": "Albert Einstein is associated with the theory of relativity.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the discovery of penicillin?",
+    "answers": [
+      "Alexander Fleming",
+      "Mary Shelley",
+      "Jane Goodall",
+      "Tim Berners-Lee"
+    ],
+    "correct": 0,
+    "explanation": "Alexander Fleming is associated with the discovery of penicillin.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the novel Frankenstein?",
+    "answers": [
+      "Mary Shelley",
+      "Jane Goodall",
+      "Tim Berners-Lee",
+      "Vincent van Gogh"
+    ],
+    "correct": 0,
+    "explanation": "Mary Shelley is associated with the novel Frankenstein.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the study of chimpanzees at Gombe?",
+    "answers": [
+      "Jane Goodall",
+      "Tim Berners-Lee",
+      "Vincent van Gogh",
+      "Charles Darwin"
+    ],
+    "correct": 0,
+    "explanation": "Jane Goodall is associated with the study of chimpanzees at Gombe.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which person is associated with the invention of the World Wide Web?",
+    "answers": [
+      "Tim Berners-Lee",
+      "Vincent van Gogh",
+      "Charles Darwin",
+      "Leonardo da Vinci"
+    ],
+    "correct": 0,
+    "explanation": "Tim Berners-Lee is associated with the invention of the World Wide Web.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which person is associated with the painting The Starry Night?",
+    "answers": [
+      "Vincent van Gogh",
+      "Charles Darwin",
+      "Leonardo da Vinci",
+      "Neil Armstrong"
+    ],
+    "correct": 0,
+    "explanation": "Vincent van Gogh is associated with the painting The Starry Night.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which term describes a word that means the opposite of another word?",
+    "answers": [
+      "antonym",
+      "synonym",
+      "triangle",
+      "Pacific Ocean"
+    ],
+    "correct": 0,
+    "explanation": "Antonym describes a word that means the opposite of another word.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term describes a word with a similar meaning to another word?",
+    "answers": [
+      "synonym",
+      "triangle",
+      "Pacific Ocean",
+      "photosynthesis"
+    ],
+    "correct": 0,
+    "explanation": "Synonym describes a word with a similar meaning to another word.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term describes a figure with three sides?",
+    "answers": [
+      "triangle",
+      "Pacific Ocean",
+      "photosynthesis",
+      "atlas"
+    ],
+    "correct": 0,
+    "explanation": "Triangle describes a figure with three sides.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term describes the largest ocean on Earth?",
+    "answers": [
+      "Pacific Ocean",
+      "photosynthesis",
+      "atlas",
+      "acronym"
+    ],
+    "correct": 0,
+    "explanation": "Pacific Ocean describes the largest ocean on Earth.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term describes the process plants use to make sugars using light?",
+    "answers": [
+      "photosynthesis",
+      "atlas",
+      "acronym",
+      "soprano"
+    ],
+    "correct": 0,
+    "explanation": "Photosynthesis describes the process plants use to make sugars using light.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term describes a book of maps?",
+    "answers": [
+      "atlas",
+      "acronym",
+      "soprano",
+      "Portuguese"
+    ],
+    "correct": 0,
+    "explanation": "Atlas describes a book of maps.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term describes a word formed from initial letters and pronounced as a word?",
+    "answers": [
+      "acronym",
+      "soprano",
+      "Portuguese",
+      "thermometer"
+    ],
+    "correct": 0,
+    "explanation": "Acronym describes a word formed from initial letters and pronounced as a word.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term describes the highest female standard singing voice?",
+    "answers": [
+      "soprano",
+      "Portuguese",
+      "thermometer",
+      "antonym"
+    ],
+    "correct": 0,
+    "explanation": "Soprano describes the highest female standard singing voice.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which term describes the primary language of Brazil?",
+    "answers": [
+      "Portuguese",
+      "thermometer",
+      "antonym",
+      "synonym"
+    ],
+    "correct": 0,
+    "explanation": "Portuguese describes the primary language of Brazil.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which term describes the instrument that measures temperature?",
+    "answers": [
+      "thermometer",
+      "antonym",
+      "synonym",
+      "triangle"
+    ],
+    "correct": 0,
+    "explanation": "Thermometer describes the instrument that measures temperature.",
+    "difficulty": "Hard"
+  }
+]

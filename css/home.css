@@ -66,18 +66,18 @@
 .category-card::after { background: linear-gradient(90deg, rgba(var(--cat-color), .96) 0%, rgba(var(--cat-color), .9) 30%, rgba(var(--cat-color), .45) 47%, rgba(var(--cat-color), 0) 62%); }
 .cat-number { position: relative; z-index: 2; padding: 5px 7px; margin: -5px 0 0 -7px; border-radius: 4px; background: #faf8f2e8; font-size: 9px; font-weight: 800; letter-spacing: 1px; }
 .cat-art { position: absolute; z-index: 0; inset: 0; display: block; background-size: cover; background-position: var(--art-position, center); transition: transform .3s ease, filter .3s ease; }
-.category-card[href$="geography.html"] { --art-position: 48% 26%; }
-.category-card[href$="#movies-television"] { --art-position: 42% 38%; }
-.category-card[href$="#music"] { --art-position: 55% 40%; }
-.category-card[href$="#history"] { --art-position: 55% 28%; }
-.category-card[href$="#sports"] { --art-position: 45% 40%; }
-.category-card[href$="#science-nature"] { --art-position: 52% 42%; }
-.category-card[href$="#art-literature"] { --art-position: 50% 55%; }
-.category-card[href$="#lifestyle-brands"] { --art-position: 60% 48%; }
-.category-card[href$="#people-places"] { --art-position: 56% 38%; }
-.category-card[href$="#mathematics-logic"] { --art-position: 48% 46%; }
-.category-card[href$="#pop-culture"] { --art-position: 47% 47%; }
-.category-card[href$="#general-knowledge"] { --art-position: 54% 40%; }
+.category-card[href$="=geography"] { --art-position: 48% 26%; }
+.category-card[href$="=movies-television"] { --art-position: 42% 38%; }
+.category-card[href$="=music"] { --art-position: 55% 40%; }
+.category-card[href$="=history"] { --art-position: 55% 28%; }
+.category-card[href$="=sports"] { --art-position: 45% 40%; }
+.category-card[href$="=science-nature"] { --art-position: 52% 42%; }
+.category-card[href$="=art-literature"] { --art-position: 50% 55%; }
+.category-card[href$="=lifestyle-brands"] { --art-position: 60% 48%; }
+.category-card[href$="=people-places"] { --art-position: 56% 38%; }
+.category-card[href$="=mathematics-logic"] { --art-position: 48% 46%; }
+.category-card[href$="=pop-culture"] { --art-position: 47% 47%; }
+.category-card[href$="=general-knowledge"] { --art-position: 54% 40%; }
 .category-card:hover .cat-art, .category-card:focus-visible .cat-art { transform: scale(1.055); filter: saturate(1.06) contrast(1.03); }
 .cat-name { position: relative; z-index: 2; max-width: 53%; margin-top: auto; font: 700 17px/1.15 var(--heading); letter-spacing: -.4px; }
 .cat-description { position: relative; z-index: 2; max-width: 53%; margin-top: 6px; font-size: 11px; font-weight: 600; line-height: 1.4; color: var(--navy); }
