@@ -32,6 +32,19 @@
           <button class="button button-blue" id="retry" type="button">Try again <span aria-hidden="true">↗</span></button>
         </div>
         <noscript><style>#loading { display: none; }</style><p class="load-error">This quiz needs JavaScript. Enable it and reload the page to play.</p></noscript>
+        <div id="quiz-settings" class="quiz-settings" hidden>
+          <div class="difficulty-control">
+            <label for="difficulty-select">Difficulty</label>
+            <select id="difficulty-select" aria-describedby="difficulty-help">
+              <option value="Miscellaneous" selected>Miscellaneous</option>
+              <option value="Easy">Easy</option>
+              <option value="Medium">Medium</option>
+              <option value="Hard">Hard</option>
+            </select>
+          </div>
+          <button class="button difficulty-start" id="start-new" type="button">Start new quiz <span aria-hidden="true">↗</span></button>
+          <p id="difficulty-help">Choose a difficulty, then select Start new quiz or Play Again. Starting a new quiz resets your current progress.</p>
+        </div>
         <div id="game" hidden>
           <div class="quiz-meta"><span id="question-count">Question 1 of 10</span><span class="score-pill">✦ <span id="score">0</span> / 10 correct</span></div>
           <div id="progress" class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" aria-valuetext="0 of 10 questions answered"><span id="progress-fill"></span></div>

@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Sonic is associated with the blue hedgehog from Sega games.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which character is associated with the green ogre in a DreamWorks film series?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Shrek is associated with the green ogre in a DreamWorks film series.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which performer released the album 1989?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "Olivia Rodrigo released the album Sour.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which performer released the album When We All Fall Asleep, Where Do We Go??",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "Billie Eilish released the album When We All Fall Asleep, Where Do We Go?.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which franchise features the school Hogwarts?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "A princess named Elsa features in Frozen.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which franchise features a theme park populated by cloned dinosaurs?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "A theme park populated by cloned dinosaurs features in Jurassic Park.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which term is associated with a short piece of video that spreads widely online?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "Prequel describes a film telling a story before an earlier film.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which term is associated with a story set in an established fictional universe by a fan?",
@@ -477,11 +477,11 @@
     ],
     "correct": 0,
     "explanation": "Fan fiction describes a story set in an established fictional universe by a fan.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Which fictional character is the princess of the Mushroom Kingdom in the Super Mario games?","answers":["Princess Peach","Indiana Jones","Alfred Pennyworth","Diana Prince"],"correct":0,"explanation":"Peach is a recurring character in Nintendo's Mario series.","difficulty":"Medium"},
   {"question":"Which fictional character is Batman's butler and confidant?","answers":["Alfred Pennyworth","Diana Prince","Hercule Poirot","Yoda"],"correct":0,"explanation":"Alfred assists Bruce Wayne at Wayne Manor.","difficulty":"Medium"},
-  {"question":"Which fictional character is the alter ego of Wonder Woman?","answers":["Diana Prince","Hercule Poirot","Yoda","Ariel"],"correct":0,"explanation":"Diana Prince is the civilian identity commonly used by Wonder Woman.","difficulty":"Medium"},
+  {"question":"Which fictional character is the alter ego of Wonder Woman?","answers":["Diana Prince","Hercule Poirot","Yoda","Ariel"],"correct":0,"explanation":"Diana Prince is the civilian identity commonly used by Wonder Woman.","difficulty": "Hard"},
   {"question":"Which fictional character is a detective created by Agatha Christie with a distinctive moustache?","answers":["Hercule Poirot","Yoda","Ariel","Anna"],"correct":0,"explanation":"Poirot appears in many Christie mysteries.","difficulty":"Medium"},
   {"question":"Which fictional character is the green Jedi master introduced in The Empire Strikes Back?","answers":["Yoda","Ariel","Anna","Superman"],"correct":0,"explanation":"Yoda trains Luke Skywalker on Dagobah.","difficulty":"Medium"},
   {"question":"Which fictional character is the red-haired mermaid in Disney's 1989 animated film The Little Mermaid?","answers":["Ariel","Anna","Superman","Leia Organa"],"correct":0,"explanation":"Ariel dreams of life beyond the sea.","difficulty":"Medium"},
@@ -492,12 +492,12 @@
   {"question":"Which performer released the album Thriller?","answers":["Michael Jackson","Beyoncé","Lady Gaga","Dua Lipa"],"correct":0,"explanation":"Thriller was released in 1982.","difficulty":"Medium"},
   {"question":"Which performer released the song Single Ladies (Put a Ring on It)?","answers":["Beyoncé","Lady Gaga","Dua Lipa","Aretha Franklin"],"correct":0,"explanation":"The song appears on the 2008 album I Am... Sasha Fierce.","difficulty":"Medium"},
   {"question":"Which performer released the song Bad Romance?","answers":["Lady Gaga","Dua Lipa","Aretha Franklin","David Bowie"],"correct":0,"explanation":"Bad Romance was released in 2009.","difficulty":"Medium"},
-  {"question":"Which performer released the song Respect in a famous 1967 recording?","answers":["Aretha Franklin","David Bowie","Dolly Parton","Shakira"],"correct":0,"explanation":"Franklin's recording became an anthem of empowerment.","difficulty":"Medium"},
-  {"question":"Which performer released the song Heroes in 1977?","answers":["David Bowie","Dolly Parton","Shakira","Miley Cyrus"],"correct":0,"explanation":"Heroes was recorded in Berlin and released in 1977.","difficulty":"Medium"},
+  {"question":"Which performer released the song Respect in a famous 1967 recording?","answers":["Aretha Franklin","David Bowie","Dolly Parton","Shakira"],"correct":0,"explanation":"Franklin's recording became an anthem of empowerment.","difficulty": "Hard"},
+  {"question":"Which performer released the song Heroes in 1977?","answers":["David Bowie","Dolly Parton","Shakira","Miley Cyrus"],"correct":0,"explanation":"Heroes was recorded in Berlin and released in 1977.","difficulty": "Hard"},
   {"question":"Which performer released the song Jolene?","answers":["Dolly Parton","Shakira","Miley Cyrus","Bruce Springsteen"],"correct":0,"explanation":"Parton wrote and released Jolene in 1973.","difficulty":"Medium"},
   {"question":"Which performer released the song Hips Don't Lie?","answers":["Shakira","Miley Cyrus","Bruce Springsteen","ABBA"],"correct":0,"explanation":"The 2006 hit features Wyclef Jean.","difficulty":"Medium"},
   {"question":"Which performer released the song Flowers in 2023?","answers":["Miley Cyrus","Bruce Springsteen","ABBA","Adele"],"correct":0,"explanation":"Flowers appears on the album Endless Summer Vacation.","difficulty":"Medium"},
-  {"question":"Which performer released the album Born in the U.S.A.?","answers":["Bruce Springsteen","ABBA","Adele","Michael Jackson"],"correct":0,"explanation":"Springsteen released the album in 1984.","difficulty":"Medium"},
+  {"question":"Which performer released the album Born in the U.S.A.?","answers":["Bruce Springsteen","ABBA","Adele","Michael Jackson"],"correct":0,"explanation":"Springsteen released the album in 1984.","difficulty": "Hard"},
   {"question":"Which performer released the song Dancing Queen?","answers":["ABBA","Adele","Michael Jackson","Beyoncé"],"correct":0,"explanation":"The Swedish group released Dancing Queen in 1976.","difficulty":"Medium"},
   {"question":"Which game series features the characters Link and Princess Zelda?","answers":["The Legend of Zelda","Minecraft","Pokémon","Sonic the Hedgehog"],"correct":0,"explanation":"Link is the playable hero in many games in the series.","difficulty":"Medium"},
   {"question":"Which game series features the block-building world with creepers and endermen?","answers":["Minecraft","Pokémon","Sonic the Hedgehog","Super Mario"],"correct":0,"explanation":"Minecraft is a sandbox game originally created by Markus Persson.","difficulty":"Medium"},
@@ -506,12 +506,12 @@
   {"question":"Which game series features the mushroom power-up and the villain Bowser?","answers":["Super Mario","Tomb Raider","Fortnite","The Sims"],"correct":0,"explanation":"Bowser is a recurring antagonist in the Mario series.","difficulty":"Medium"},
   {"question":"Which game series features the archaeologist Lara Croft?","answers":["Tomb Raider","Fortnite","The Sims","Pac-Man"],"correct":0,"explanation":"Lara Croft debuted in the 1996 game Tomb Raider.","difficulty":"Medium"},
   {"question":"Which game series features the battle royale map known as the Island and a shrinking storm?","answers":["Fortnite","The Sims","Pac-Man","Crash Bandicoot"],"correct":0,"explanation":"Fortnite Battle Royale features a shrinking playable area.","difficulty":"Medium"},
-  {"question":"Which game series features the life-simulation characters who speak Simlish?","answers":["The Sims","Pac-Man","Crash Bandicoot","Animal Crossing"],"correct":0,"explanation":"Simlish is the invented language spoken by Sims.","difficulty":"Medium"},
-  {"question":"Which game series features the ghost hunters Blinky, Pinky, Inky and Clyde?","answers":["Pac-Man","Crash Bandicoot","Animal Crossing","God of War"],"correct":0,"explanation":"The four ghosts chase Pac-Man around a maze.","difficulty":"Medium"},
-  {"question":"Which game series features the villages inhabited by Isabelle and Tom Nook?","answers":["Animal Crossing","God of War","The Legend of Zelda","Minecraft"],"correct":0,"explanation":"Players live among animal neighbours in the series.","difficulty":"Medium"},
-  {"question":"Which game series features the character Kratos and his son Atreus in Norse mythology?","answers":["God of War","The Legend of Zelda","Minecraft","Pokémon"],"correct":0,"explanation":"The 2018 game follows Kratos and Atreus.","difficulty":"Medium"},
+  {"question":"Which game series features the life-simulation characters who speak Simlish?","answers":["The Sims","Pac-Man","Crash Bandicoot","Animal Crossing"],"correct":0,"explanation":"Simlish is the invented language spoken by Sims.","difficulty": "Hard"},
+  {"question":"Which game series features the ghost hunters Blinky, Pinky, Inky and Clyde?","answers":["Pac-Man","Crash Bandicoot","Animal Crossing","God of War"],"correct":0,"explanation":"The four ghosts chase Pac-Man around a maze.","difficulty": "Hard"},
+  {"question":"Which game series features the villages inhabited by Isabelle and Tom Nook?","answers":["Animal Crossing","God of War","The Legend of Zelda","Minecraft"],"correct":0,"explanation":"Players live among animal neighbours in the series.","difficulty": "Hard"},
+  {"question":"Which game series features the character Kratos and his son Atreus in Norse mythology?","answers":["God of War","The Legend of Zelda","Minecraft","Pokémon"],"correct":0,"explanation":"The 2018 game follows Kratos and Atreus.","difficulty": "Hard"},
   {"question":"Which franchise features the spaceship Enterprise and the character Spock?","answers":["Star Trek","Dune","Game of Thrones","Transformers"],"correct":0,"explanation":"Spock is a Vulcan and a member of the Enterprise crew.","difficulty":"Medium"},
-  {"question":"Which franchise features the planet Arrakis and the substance called spice?","answers":["Dune","Game of Thrones","Transformers","Stranger Things"],"correct":0,"explanation":"Arrakis is central to Frank Herbert's science-fiction universe.","difficulty":"Medium"},
+  {"question":"Which franchise features the planet Arrakis and the substance called spice?","answers":["Dune","Game of Thrones","Transformers","Stranger Things"],"correct":0,"explanation":"Arrakis is central to Frank Herbert's science-fiction universe.","difficulty": "Hard"},
   {"question":"Which franchise features the robots Optimus Prime and Megatron?","answers":["Transformers","Stranger Things","Jurassic Park","Back to the Future"],"correct":0,"explanation":"The characters lead opposing groups of transforming robots.","difficulty":"Medium"},
   {"question":"Which franchise features the character Eleven and the town of Hawkins?","answers":["Stranger Things","Jurassic Park","Back to the Future","The Avengers"],"correct":0,"explanation":"Eleven has unusual abilities in the Netflix series.","difficulty":"Medium"},
   {"question":"Which franchise features the time-travelling DeLorean and Marty McFly?","answers":["Back to the Future","The Avengers","The Addams Family","The Hunger Games"],"correct":0,"explanation":"The 1985 film follows Marty as he travels into the past.","difficulty":"Medium"},
@@ -533,8 +533,8 @@
   {"question":"Which fictional character is the space ranger toy voiced by Tim Allen in Toy Story?","answers":["Buzz Lightyear","Harry Potter","Olaf","Grogu"],"correct":0,"explanation":"Buzz initially believes he is a real space ranger.","difficulty":"Medium"},
   {"question":"Which fictional character is the young wizard played by Daniel Radcliffe in eight films?","answers":["Harry Potter","Olaf","Grogu","Harvey Dent"],"correct":0,"explanation":"Radcliffe played the character from 2001 to 2011.","difficulty":"Medium"},
   {"question":"Which fictional character is the snowman who loves warm hugs in Frozen?","answers":["Olaf","Grogu","Harvey Dent","Tony Stark"],"correct":0,"explanation":"Olaf is brought to life by Elsa's magic.","difficulty":"Medium"},
-  {"question":"Which fictional character is the Mandalorian's young companion nicknamed the Child?","answers":["Grogu","Harvey Dent","Tony Stark","Buzz Lightyear"],"correct":0,"explanation":"Grogu belongs to the same species as Yoda.","difficulty":"Medium"},
-  {"question":"Which fictional character is the Gotham district attorney who becomes Two-Face?","answers":["Harvey Dent","Tony Stark","Buzz Lightyear","Harry Potter"],"correct":0,"explanation":"Dent is disfigured and becomes the villain Two-Face.","difficulty":"Medium"},
+  {"question":"Which fictional character is the Mandalorian's young companion nicknamed the Child?","answers":["Grogu","Harvey Dent","Tony Stark","Buzz Lightyear"],"correct":0,"explanation":"Grogu belongs to the same species as Yoda.","difficulty": "Hard"},
+  {"question":"Which fictional character is the Gotham district attorney who becomes Two-Face?","answers":["Harvey Dent","Tony Stark","Buzz Lightyear","Harry Potter"],"correct":0,"explanation":"Dent is disfigured and becomes the villain Two-Face.","difficulty": "Hard"},
   {"question":"Which fictional character is the inventor who becomes Iron Man?","answers":["Tony Stark","Buzz Lightyear","Harry Potter","Olaf"],"correct":0,"explanation":"Stark builds a powered suit of armour.","difficulty":"Medium"},
   {"question":"Which character appears in the films Monsters, Inc. and Monsters University?","answers":["Mike Wazowski","Snoopy","Donkey","Yoda"],"correct":0,"explanation":"Mike is a one-eyed monster who works with Sulley.","difficulty":"Medium"},
   {"question":"Which character appears in the comic strip Peanuts as Charlie Brown's dog?","answers":["Snoopy","Donkey","Yoda","Edna Mode"],"correct":0,"explanation":"Snoopy is the beagle created by Charles M. Schulz.","difficulty":"Medium"},

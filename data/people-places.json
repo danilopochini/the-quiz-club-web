@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Charles Darwin is associated with the publication of On the Origin of Species.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is associated with the Nobel Peace Prize awarded to a Pakistani education activist in 2014?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Malala Yousafzai is associated with the Nobel Peace Prize awarded to a Pakistani education activist in 2014.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "In which city would you find the Eiffel Tower?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "The Brandenburg Gate is in Berlin.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "In which city would you find the Little Mermaid statue?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "The Little Mermaid statue is in Copenhagen.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which country is associated with the ancient city of Petra?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "The city of Venice is in Italy.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which country is associated with the Parthenon?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "The Parthenon is in Greece.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is known for a diary written while hiding during the Second World War?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "Michelangelo is known for the sculptures David and Pietà.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is known for the pioneering study of chimpanzees at Gombe?",
@@ -477,7 +477,7 @@
     ],
     "correct": 0,
     "explanation": "Jane Goodall is known for the pioneering study of chimpanzees at Gombe.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Who is known for leading the first expedition to reach the South Pole?","answers":["Roald Amundsen","Amelia Earhart","James Cook","Yuri Gagarin"],"correct":0,"explanation":"Amundsen's Norwegian expedition reached the South Pole in 1911.","difficulty":"Medium"},
   {"question":"Who is known for mapping much of the Pacific on voyages aboard HMS Endeavour?","answers":["James Cook","Yuri Gagarin","Valentina Tereshkova","Edmund Hillary"],"correct":0,"explanation":"Cook's first Pacific voyage included the Endeavour.","difficulty":"Medium"},
@@ -490,7 +490,7 @@
   {"question":"Who is known for being the first Black woman in space?","answers":["Mae Jemison","Roald Amundsen","Amelia Earhart","James Cook"],"correct":0,"explanation":"Jemison flew aboard the space shuttle Endeavour in 1992.","difficulty":"Medium"},
   {"question":"In which city can you visit the Uffizi Gallery?","answers":["Florence","Madrid","Amsterdam","Beijing"],"correct":0,"explanation":"The Uffizi is an art museum in Florence, Italy.","difficulty":"Medium"},
   {"question":"In which city can you visit the Prado Museum?","answers":["Madrid","Amsterdam","Beijing","Istanbul"],"correct":0,"explanation":"The Prado is Spain's national art museum in Madrid.","difficulty":"Medium"},
-  {"question":"In which city can you visit the Rijksmuseum?","answers":["Amsterdam","Beijing","Istanbul","Saint Petersburg"],"correct":0,"explanation":"The Rijksmuseum is known for Dutch art and history.","difficulty":"Medium"},
+  {"question":"In which city can you visit the Rijksmuseum?","answers":["Amsterdam","Beijing","Istanbul","Saint Petersburg"],"correct":0,"explanation":"The Rijksmuseum is known for Dutch art and history.","difficulty": "Hard"},
   {"question":"In which city can you visit the Forbidden City?","answers":["Beijing","Istanbul","Saint Petersburg","Paris"],"correct":0,"explanation":"The Forbidden City is a former imperial palace complex.","difficulty":"Medium"},
   {"question":"In which city can you visit the Hagia Sophia?","answers":["Istanbul","Saint Petersburg","Paris","Mumbai"],"correct":0,"explanation":"Hagia Sophia has served as a church, mosque and museum.","difficulty":"Medium"},
   {"question":"In which city can you visit the Hermitage Museum?","answers":["Saint Petersburg","Paris","Mumbai","Seattle"],"correct":0,"explanation":"The Hermitage occupies several buildings including the Winter Palace.","difficulty":"Medium"},
@@ -504,28 +504,28 @@
   {"question":"Which person is associated with the development of the first successful polio vaccine?","answers":["Jonas Salk","Francis Crick","Rosalind Franklin","Ada Lovelace"],"correct":0,"explanation":"Salk's inactivated polio vaccine was announced successful in 1955.","difficulty":"Medium"},
   {"question":"Who co-authored the 1953 paper proposing DNA's double-helix structure with James Watson?","answers":["Francis Crick","Rosalind Franklin","Ada Lovelace","Nikola Tesla"],"correct":0,"explanation":"Watson and Crick proposed the double-helix structure in 1953, drawing on evidence including Franklin's X-ray work.","difficulty":"Medium"},
   {"question":"Which person is associated with the X-ray diffraction work that helped reveal DNA's structure?","answers":["Rosalind Franklin","Ada Lovelace","Nikola Tesla","James Chadwick"],"correct":0,"explanation":"Franklin's research provided important evidence about DNA's structure.","difficulty":"Medium"},
-  {"question":"Which person is associated with the first published algorithm intended for Charles Babbage's Analytical Engine?","answers":["Ada Lovelace","Nikola Tesla","James Chadwick","Johannes Kepler"],"correct":0,"explanation":"Lovelace's notes described an algorithm for the proposed machine.","difficulty":"Medium"},
+  {"question":"Which person is associated with the first published algorithm intended for Charles Babbage's Analytical Engine?","answers":["Ada Lovelace","Nikola Tesla","James Chadwick","Johannes Kepler"],"correct":0,"explanation":"Lovelace's notes described an algorithm for the proposed machine.","difficulty": "Hard"},
   {"question":"Which person is associated with the development of the alternating-current induction motor?","answers":["Nikola Tesla","James Chadwick","Johannes Kepler","Tim Berners-Lee"],"correct":0,"explanation":"Tesla's work contributed to alternating-current electrical systems.","difficulty":"Medium"},
-  {"question":"Which person is associated with the discovery of the neutron?","answers":["James Chadwick","Johannes Kepler","Tim Berners-Lee","Edward Jenner"],"correct":0,"explanation":"Chadwick identified the neutron in 1932.","difficulty":"Medium"},
-  {"question":"Which person is associated with the formulation of the laws of planetary motion?","answers":["Johannes Kepler","Tim Berners-Lee","Edward Jenner","Ernest Rutherford"],"correct":0,"explanation":"Kepler described planetary orbits using three laws.","difficulty":"Medium"},
+  {"question":"Which person is associated with the discovery of the neutron?","answers":["James Chadwick","Johannes Kepler","Tim Berners-Lee","Edward Jenner"],"correct":0,"explanation":"Chadwick identified the neutron in 1932.","difficulty": "Hard"},
+  {"question":"Which person is associated with the formulation of the laws of planetary motion?","answers":["Johannes Kepler","Tim Berners-Lee","Edward Jenner","Ernest Rutherford"],"correct":0,"explanation":"Kepler described planetary orbits using three laws.","difficulty": "Hard"},
   {"question":"Which person is associated with the first practical smallpox vaccine?","answers":["Edward Jenner","Ernest Rutherford","Jocelyn Bell Burnell","Alexander Graham Bell"],"correct":0,"explanation":"Jenner used cowpox material in his vaccination work.","difficulty":"Medium"},
   {"question":"Which person is associated with the discovery of the nucleus of the atom through scattering experiments?","answers":["Ernest Rutherford","Jocelyn Bell Burnell","Alexander Graham Bell","Jonas Salk"],"correct":0,"explanation":"Rutherford proposed the nuclear model of the atom.","difficulty":"Medium"},
-  {"question":"Which person is associated with the discovery of pulsars as a graduate student in 1967?","answers":["Jocelyn Bell Burnell","Alexander Graham Bell","Jonas Salk","Francis Crick"],"correct":0,"explanation":"Bell Burnell identified unusual radio signals that led to the discovery.","difficulty":"Medium"},
-  {"question":"Which country is home to the ancient city of Bagan?","answers":["Myanmar","India","Turkey","Syria"],"correct":0,"explanation":"Bagan is known for its many historic temples.","difficulty":"Medium"},
-  {"question":"Which country is home to the archaeological site of Hampi?","answers":["India","Turkey","Syria","Jordan"],"correct":0,"explanation":"Hampi contains the remains of the Vijayanagara capital.","difficulty":"Medium"},
-  {"question":"Which country is home to the ancient city of Ephesus?","answers":["Turkey","Syria","Jordan","Egypt"],"correct":0,"explanation":"Ephesus is an archaeological site near Selçuk.","difficulty":"Medium"},
+  {"question":"Which person is associated with the discovery of pulsars as a graduate student in 1967?","answers":["Jocelyn Bell Burnell","Alexander Graham Bell","Jonas Salk","Francis Crick"],"correct":0,"explanation":"Bell Burnell identified unusual radio signals that led to the discovery.","difficulty": "Hard"},
+  {"question":"Which country is home to the ancient city of Bagan?","answers":["Myanmar","India","Turkey","Syria"],"correct":0,"explanation":"Bagan is known for its many historic temples.","difficulty": "Hard"},
+  {"question":"Which country is home to the archaeological site of Hampi?","answers":["India","Turkey","Syria","Jordan"],"correct":0,"explanation":"Hampi contains the remains of the Vijayanagara capital.","difficulty": "Hard"},
+  {"question":"Which country is home to the ancient city of Ephesus?","answers":["Turkey","Syria","Jordan","Egypt"],"correct":0,"explanation":"Ephesus is an archaeological site near Selçuk.","difficulty": "Hard"},
   {"question":"Which country is home to the archaeological site of Palmyra?","answers":["Syria","Jordan","Egypt","Italy"],"correct":0,"explanation":"Palmyra was an important ancient trading city.","difficulty":"Medium"},
   {"question":"Which country is home to the temples of Abu Simbel?","answers":["Egypt","Italy","Indonesia","United States"],"correct":0,"explanation":"The temples were relocated in the 1960s to protect them from flooding.","difficulty":"Medium"},
   {"question":"Which country is home to the ancient city of Pompeii?","answers":["Italy","Indonesia","United States","Jordan"],"correct":0,"explanation":"Pompeii was buried by the eruption of Mount Vesuvius.","difficulty":"Medium"},
-  {"question":"Which country is home to the temple complex of Borobudur?","answers":["Indonesia","United States","Jordan","Guatemala"],"correct":0,"explanation":"Borobudur is a Buddhist monument on Java.","difficulty":"Medium"},
+  {"question":"Which country is home to the temple complex of Borobudur?","answers":["Indonesia","United States","Jordan","Guatemala"],"correct":0,"explanation":"Borobudur is a Buddhist monument on Java.","difficulty": "Hard"},
   {"question":"Which country is home to the archaeological site of Mesa Verde?","answers":["United States","Jordan","Guatemala","Zimbabwe"],"correct":0,"explanation":"Mesa Verde preserves ancestral Pueblo cliff dwellings.","difficulty":"Medium"},
-  {"question":"Which country is home to the ancient city of Jerash?","answers":["Jordan","Guatemala","Zimbabwe","Greece"],"correct":0,"explanation":"Jerash is known for its well-preserved Roman-era remains.","difficulty":"Medium"},
+  {"question":"Which country is home to the ancient city of Jerash?","answers":["Jordan","Guatemala","Zimbabwe","Greece"],"correct":0,"explanation":"Jerash is known for its well-preserved Roman-era remains.","difficulty": "Hard"},
   {"question":"Which country is home to the archaeological site of Tikal?","answers":["Guatemala","Zimbabwe","Greece","Myanmar"],"correct":0,"explanation":"Tikal was a major ancient Maya city.","difficulty":"Medium"},
   {"question":"Which country is home to the ancient site of Delphi?","answers":["Greece","Myanmar","India","Turkey"],"correct":0,"explanation":"Delphi was the site of an important oracle.","difficulty":"Medium"},
   {"question":"Who is associated with the novel Things Fall Apart?","answers":["Chinua Achebe","Salvador Dalí","Marie Curie","Filippo Brunelleschi"],"correct":0,"explanation":"Achebe's 1958 novel is set in precolonial and colonial Nigeria.","difficulty":"Medium"},
   {"question":"Who is associated with the painting The Persistence of Memory?","answers":["Salvador Dalí","Marie Curie","Filippo Brunelleschi","Dian Fossey"],"correct":0,"explanation":"Dalí's surrealist painting features melting clocks.","difficulty":"Medium"},
   {"question":"Who is associated with the discovery of radium with Pierre Curie?","answers":["Marie Curie","Filippo Brunelleschi","Dian Fossey","Gabriel García Márquez"],"correct":0,"explanation":"Marie and Pierre Curie announced the discovery in 1898.","difficulty":"Medium"},
-  {"question":"Who is associated with the design of the dome of Florence Cathedral?","answers":["Filippo Brunelleschi","Dian Fossey","Gabriel García Márquez","Édith Piaf"],"correct":0,"explanation":"Brunelleschi engineered the cathedral's vast masonry dome.","difficulty":"Medium"},
+  {"question":"Who is associated with the design of the dome of Florence Cathedral?","answers":["Filippo Brunelleschi","Dian Fossey","Gabriel García Márquez","Édith Piaf"],"correct":0,"explanation":"Brunelleschi engineered the cathedral's vast masonry dome.","difficulty": "Hard"},
   {"question":"Who is associated with the pioneering study of gorillas in Rwanda?","answers":["Dian Fossey","Gabriel García Márquez","Édith Piaf","Johannes Gutenberg"],"correct":0,"explanation":"Fossey researched mountain gorillas in the Virunga Mountains.","difficulty":"Medium"},
   {"question":"Who is associated with the novel One Hundred Years of Solitude?","answers":["Gabriel García Márquez","Édith Piaf","Johannes Gutenberg","Alberto Giacometti"],"correct":0,"explanation":"García Márquez's novel follows the Buendía family.","difficulty":"Medium"},
   {"question":"Who is associated with the song La Vie en rose?","answers":["Édith Piaf","Johannes Gutenberg","Alberto Giacometti","Pyotr Ilyich Tchaikovsky"],"correct":0,"explanation":"Piaf made the song internationally famous.","difficulty":"Medium"},

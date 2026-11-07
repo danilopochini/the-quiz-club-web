@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Chemistry is the study of matter and its reactions.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which subject is associated with the study of sound and motion?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Physics is the study of sound and motion.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which object is associated with showing direction using a magnetised needle?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "A Balance scale is used for weighing objects against known masses.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which object is associated with recording vibrations from earthquakes?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "A Seismograph is used for recording vibrations from earthquakes.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is associated with the theory of evolution by natural selection?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "Tim Berners-Lee is associated with the invention of the World Wide Web.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is associated with the painting The Starry Night?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "Vincent van Gogh is associated with the painting The Starry Night.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which term describes a word that means the opposite of another word?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "Portuguese describes the primary language of Brazil.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which term describes the instrument that measures temperature?",
@@ -477,7 +477,7 @@
     ],
     "correct": 0,
     "explanation": "Thermometer describes the instrument that measures temperature.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Which language is primarily spoken in Austria?","answers":["German","Persian","Japanese","Polish"],"correct":0,"explanation":"German is Austria's official language.","difficulty":"Easy"},
   {"question":"Which language is primarily spoken in Iran?","answers":["Persian","Japanese","Polish","Greek"],"correct":0,"explanation":"Persian, also known as Farsi, is Iran's official language.","difficulty":"Easy"},
@@ -496,7 +496,7 @@
   {"question":"Which instrument is used to measure angles?","answers":["protractor","digital scale","odometer","echo sounder"],"correct":0,"explanation":"A protractor is marked in degrees for measuring angles.","difficulty":"Medium"},
   {"question":"Which instrument is used to measure mass using a calibrated electronic device?","answers":["digital scale","odometer","echo sounder","speedometer"],"correct":0,"explanation":"A digital scale measures mass or weight.","difficulty":"Medium"},
   {"question":"Which instrument is used to measure distance travelled by a vehicle?","answers":["odometer","echo sounder","speedometer","barometer"],"correct":0,"explanation":"An odometer records distance travelled.","difficulty":"Medium"},
-  {"question":"Which instrument is used to measure the depth of water under a ship using sound?","answers":["echo sounder","speedometer","barometer","thermometer"],"correct":0,"explanation":"An echo sounder times reflected sound waves to estimate depth.","difficulty":"Medium"},
+  {"question":"Which instrument is used to measure the depth of water under a ship using sound?","answers":["echo sounder","speedometer","barometer","thermometer"],"correct":0,"explanation":"An echo sounder times reflected sound waves to estimate depth.","difficulty": "Hard"},
   {"question":"Which instrument is used to measure the speed of a moving vehicle?","answers":["speedometer","barometer","thermometer","anemometer"],"correct":0,"explanation":"A speedometer displays a vehicle's speed.","difficulty":"Medium"},
   {"question":"Which invention is associated with Johannes Gutenberg and movable type in Europe?","answers":["printing press","telephone","World Wide Web","aeroplane"],"correct":0,"explanation":"Gutenberg's press helped make books more widely available.","difficulty":"Medium"},
   {"question":"Which invention is associated with Alexander Graham Bell's 1876 US patent?","answers":["telephone","World Wide Web","aeroplane","Braille"],"correct":0,"explanation":"Bell patented a device for transmitting speech electrically.","difficulty":"Medium"},
@@ -509,19 +509,19 @@
   {"question":"Which invention is associated with Jonas Salk's vaccine against a paralysing viral disease?","answers":["polio vaccine","compass","microscope","printing press"],"correct":0,"explanation":"Salk developed an inactivated polio vaccine.","difficulty":"Medium"},
   {"question":"What is the name for a group of stars forming a recognised pattern in the sky?","answers":["constellation","seismology","numismatics","mycology"],"correct":0,"explanation":"Astronomers divide the sky into 88 recognised constellations.","difficulty":"Medium"},
   {"question":"What is the name for the study of earthquakes?","answers":["seismology","numismatics","mycology","ornithology"],"correct":0,"explanation":"Seismology studies earthquakes and seismic waves.","difficulty":"Medium"},
-  {"question":"What is the name for the study of coins and currency?","answers":["numismatics","mycology","ornithology","palaeontology"],"correct":0,"explanation":"Numismatics includes the study of coins, medals and currency.","difficulty":"Medium"},
-  {"question":"What is the name for the study of fungi?","answers":["mycology","ornithology","palaeontology","etymology"],"correct":0,"explanation":"Mycology is the branch of biology that studies fungi.","difficulty":"Medium"},
+  {"question":"What is the name for the study of coins and currency?","answers":["numismatics","mycology","ornithology","palaeontology"],"correct":0,"explanation":"Numismatics includes the study of coins, medals and currency.","difficulty": "Hard"},
+  {"question":"What is the name for the study of fungi?","answers":["mycology","ornithology","palaeontology","etymology"],"correct":0,"explanation":"Mycology is the branch of biology that studies fungi.","difficulty": "Hard"},
   {"question":"What is the name for the study of birds?","answers":["ornithology","palaeontology","etymology","cartography"],"correct":0,"explanation":"Ornithologists study birds.","difficulty":"Medium"},
   {"question":"What is the name for the study of ancient life through fossils?","answers":["palaeontology","etymology","cartography","entomology"],"correct":0,"explanation":"Palaeontology uses fossils to investigate past life.","difficulty":"Medium"},
-  {"question":"What is the name for the study of word origins?","answers":["etymology","cartography","entomology","meteorology"],"correct":0,"explanation":"Etymology traces the history and origins of words.","difficulty":"Medium"},
+  {"question":"What is the name for the study of word origins?","answers":["etymology","cartography","entomology","meteorology"],"correct":0,"explanation":"Etymology traces the history and origins of words.","difficulty": "Hard"},
   {"question":"What is the name for the study of maps and mapmaking?","answers":["cartography","entomology","meteorology","lexicographer"],"correct":0,"explanation":"Cartography is the science and art of making maps.","difficulty":"Medium"},
-  {"question":"What is the name for the study of insects?","answers":["entomology","meteorology","lexicographer","architect"],"correct":0,"explanation":"Entomology is a branch of zoology.","difficulty":"Medium"},
+  {"question":"What is the name for the study of insects?","answers":["entomology","meteorology","lexicographer","architect"],"correct":0,"explanation":"Entomology is a branch of zoology.","difficulty": "Hard"},
   {"question":"What is the name for the study of the Earth's atmosphere and weather?","answers":["meteorology","lexicographer","architect","constellation"],"correct":0,"explanation":"Meteorologists study atmospheric processes.","difficulty":"Medium"},
-  {"question":"What is the name for a person who compiles a dictionary?","answers":["lexicographer","architect","constellation","seismology"],"correct":0,"explanation":"Lexicographers research and describe words and their meanings.","difficulty":"Medium"},
+  {"question":"What is the name for a person who compiles a dictionary?","answers":["lexicographer","architect","constellation","seismology"],"correct":0,"explanation":"Lexicographers research and describe words and their meanings.","difficulty": "Hard"},
   {"question":"What is the name for a person who designs buildings?","answers":["architect","constellation","seismology","numismatics"],"correct":0,"explanation":"Architects design buildings and other structures.","difficulty":"Medium"},
-  {"question":"Which unit is commonly used to measure electrical resistance?","answers":["ohm","ampere","hertz","newton"],"correct":0,"explanation":"Electrical resistance is measured in ohms.","difficulty":"Medium"},
+  {"question":"Which unit is commonly used to measure electrical resistance?","answers":["ohm","ampere","hertz","newton"],"correct":0,"explanation":"Electrical resistance is measured in ohms.","difficulty": "Hard"},
   {"question":"Which unit is commonly used to measure electric current?","answers":["ampere","hertz","newton","joule"],"correct":0,"explanation":"Electric current is measured in amperes.","difficulty":"Medium"},
-  {"question":"Which unit is commonly used to measure frequency?","answers":["hertz","newton","joule","watt"],"correct":0,"explanation":"One hertz equals one cycle per second.","difficulty":"Medium"},
+  {"question":"Which unit is commonly used to measure frequency?","answers":["hertz","newton","joule","watt"],"correct":0,"explanation":"One hertz equals one cycle per second.","difficulty": "Hard"},
   {"question":"Which unit is commonly used to measure force?","answers":["newton","joule","watt","kelvin"],"correct":0,"explanation":"The newton is the SI unit of force.","difficulty":"Medium"},
   {"question":"Which unit is commonly used to measure energy?","answers":["joule","watt","kelvin","kilogram"],"correct":0,"explanation":"The joule is the SI unit of energy.","difficulty":"Medium"},
   {"question":"Which unit is commonly used to measure power?","answers":["watt","kelvin","kilogram","metre"],"correct":0,"explanation":"The watt measures the rate of energy transfer.","difficulty":"Medium"},
@@ -529,11 +529,11 @@
   {"question":"Which unit is commonly used to measure mass in the SI base system?","answers":["kilogram","metre","second","pascal"],"correct":0,"explanation":"The kilogram is the SI base unit of mass.","difficulty":"Medium"},
   {"question":"Which unit is commonly used to measure length in the SI base system?","answers":["metre","second","pascal","coulomb"],"correct":0,"explanation":"The metre is the SI base unit of length.","difficulty":"Medium"},
   {"question":"Which unit is commonly used to measure time in the SI base system?","answers":["second","pascal","coulomb","ohm"],"correct":0,"explanation":"The second is the SI base unit of time.","difficulty":"Medium"},
-  {"question":"Which unit is commonly used to measure pressure?","answers":["pascal","coulomb","ohm","ampere"],"correct":0,"explanation":"One pascal equals one newton per square metre.","difficulty":"Medium"},
-  {"question":"Which unit is commonly used to measure electric charge?","answers":["coulomb","ohm","ampere","hertz"],"correct":0,"explanation":"The coulomb is the SI unit of electric charge.","difficulty":"Medium"},
+  {"question":"Which unit is commonly used to measure pressure?","answers":["pascal","coulomb","ohm","ampere"],"correct":0,"explanation":"One pascal equals one newton per square metre.","difficulty": "Hard"},
+  {"question":"Which unit is commonly used to measure electric charge?","answers":["coulomb","ohm","ampere","hertz"],"correct":0,"explanation":"The coulomb is the SI unit of electric charge.","difficulty": "Hard"},
   {"question":"Which field studies the origin and evolution of the universe?","answers":["cosmology","linguistics","macroeconomics","chemistry"],"correct":0,"explanation":"Cosmology studies the universe as a whole.","difficulty":"Medium"},
   {"question":"Which field studies human languages?","answers":["linguistics","macroeconomics","chemistry","geology"],"correct":0,"explanation":"Linguistics investigates how languages work and change.","difficulty":"Medium"},
-  {"question":"Which field studies the behaviour of the economy as a whole?","answers":["macroeconomics","chemistry","geology","ecology"],"correct":0,"explanation":"Macroeconomics studies broad measures such as inflation and output.","difficulty":"Medium"},
+  {"question":"Which field studies the behaviour of the economy as a whole?","answers":["macroeconomics","chemistry","geology","ecology"],"correct":0,"explanation":"Macroeconomics studies broad measures such as inflation and output.","difficulty": "Hard"},
   {"question":"Which field studies the structure and properties of matter?","answers":["chemistry","geology","ecology","cosmology"],"correct":0,"explanation":"Chemistry studies substances and their transformations.","difficulty":"Medium"},
   {"question":"Which field studies the Earth's rocks and physical history?","answers":["geology","ecology","cosmology","linguistics"],"correct":0,"explanation":"Geology investigates the materials and history of Earth.","difficulty":"Medium"},
   {"question":"Which field studies the distribution of organisms and their environment?","answers":["ecology","cosmology","linguistics","macroeconomics"],"correct":0,"explanation":"Ecology studies relationships between organisms and their environment.","difficulty":"Medium"},

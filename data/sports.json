@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "A cue and coloured balls is associated with Snooker.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "In which sport would you find a bullseye and a treble twenty?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "A bullseye and a treble twenty is associated with Darts.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which athlete is associated with 23 Grand Slam singles tennis titles in the Open Era?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "Wayne Gretzky is known for the nickname The Great One in ice hockey.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which athlete is associated with winning the 2022 men's football World Cup with Argentina?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "Lionel Messi is known for winning the 2022 men's football World Cup with Argentina.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which country hosted the 2016 Summer Olympics?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "Germany hosted the 2006 men's football World Cup.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which country hosted the 1986 men's football World Cup?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "Mexico hosted the 1986 men's football World Cup.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the standard number of players on a football team on the field at the start of a match?",
@@ -432,15 +432,15 @@
     "difficulty": "Medium"
   },
   {
-    "question": "What is the standard number of players on a rugby sevens team on the field?",
+    "question": "How many points is a try worth in rugby union?",
     "answers": [
-      "7",
-      "9",
-      "15",
-      "90"
+      "5",
+      "3",
+      "2",
+      "7"
     ],
     "correct": 0,
-    "explanation": "The standard number of players on a rugby sevens team on the field is 7.",
+    "explanation": "A try scores five points; a successful conversion adds two more.",
     "difficulty": "Medium"
   },
   {
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "The standard number of reds at the start of a standard snooker frame is 15.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the standard number of minutes in a standard football match before added time?",
@@ -477,7 +477,7 @@
     ],
     "correct": 0,
     "explanation": "The standard number of minutes in a standard football match before added time is 90.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Which sport features the Tour de France?","answers":["cycling","ice hockey","golf","tennis"],"correct":0,"explanation":"The Tour de France is a multi-stage road cycling race.","difficulty":"Medium"},
   {"question":"Which sport features the Stanley Cup?","answers":["ice hockey","golf","tennis","cricket"],"correct":0,"explanation":"The Stanley Cup is awarded to the NHL playoff champion.","difficulty":"Medium"},
@@ -486,20 +486,20 @@
   {"question":"Which sport features the Ashes?","answers":["cricket","American football","rugby union","badminton"],"correct":0,"explanation":"The Ashes is a Test cricket series between England and Australia.","difficulty":"Medium"},
   {"question":"Which sport features the Vince Lombardi Trophy?","answers":["American football","rugby union","badminton","sailing"],"correct":0,"explanation":"The trophy is awarded to the Super Bowl winner.","difficulty":"Medium"},
   {"question":"Which sport features the Webb Ellis Cup?","answers":["rugby union","badminton","sailing","college football"],"correct":0,"explanation":"The trophy is awarded to the men's Rugby World Cup winner.","difficulty":"Medium"},
-  {"question":"Which sport features the Thomas Cup?","answers":["badminton","sailing","college football","golf"],"correct":0,"explanation":"The Thomas Cup is a men's international team competition.","difficulty":"Medium"},
+  {"question":"Which sport features the Thomas Cup?","answers":["badminton","sailing","college football","golf"],"correct":0,"explanation":"The Thomas Cup is a men's international team competition.","difficulty": "Hard"},
   {"question":"Which sport features the America's Cup?","answers":["sailing","college football","golf","basketball"],"correct":0,"explanation":"The America's Cup is a match-racing sailing competition.","difficulty":"Medium"},
   {"question":"Which sport features the Heisman Trophy?","answers":["college football","golf","basketball","tennis"],"correct":0,"explanation":"The Heisman Trophy honours an outstanding US college football player.","difficulty":"Medium"},
-  {"question":"Which sport features the Claret Jug?","answers":["golf","basketball","tennis","cycling"],"correct":0,"explanation":"The Claret Jug is awarded to the winner of the Open Championship.","difficulty":"Medium"},
-  {"question":"Which sport features the Larry O'Brien Championship Trophy?","answers":["basketball","tennis","cycling","ice hockey"],"correct":0,"explanation":"The trophy is awarded to the NBA champion.","difficulty":"Medium"},
-  {"question":"Which sport features the Billie Jean King Cup?","answers":["tennis","cycling","ice hockey","golf"],"correct":0,"explanation":"The Billie Jean King Cup is an international women's team competition.","difficulty":"Medium"},
+  {"question":"Which sport features the Claret Jug?","answers":["golf","basketball","tennis","cycling"],"correct":0,"explanation":"The Claret Jug is awarded to the winner of the Open Championship.","difficulty": "Hard"},
+  {"question":"Which sport features the Larry O'Brien Championship Trophy?","answers":["basketball","tennis","cycling","ice hockey"],"correct":0,"explanation":"The trophy is awarded to the NBA champion.","difficulty": "Hard"},
+  {"question":"Which sport features the Billie Jean King Cup?","answers":["tennis","cycling","ice hockey","golf"],"correct":0,"explanation":"The Billie Jean King Cup is an international women's team competition.","difficulty": "Hard"},
   {"question":"Which athlete is known for winning the Olympic 100 and 200 metres at three consecutive Games?","answers":["Usain Bolt","Serena Williams","Diego Maradona","Michael Jordan"],"correct":0,"explanation":"Bolt won both sprint events in 2008, 2012 and 2016.","difficulty":"Medium"},
   {"question":"Which athlete is known for winning the 1986 men's football World Cup with Argentina?","answers":["Diego Maradona","Michael Jordan","Nadia Comăneci","Jesse Owens"],"correct":0,"explanation":"Maradona captained Argentina to victory in Mexico.","difficulty":"Medium"},
   {"question":"Which athlete is known for winning four Olympic gold medals in track and field at Berlin in 1936?","answers":["Jesse Owens","Muhammad Ali","Mizuki Noguchi","Momiji Nishiya"],"correct":0,"explanation":"Owens won the 100 metres, 200 metres, long jump and relay.","difficulty":"Medium"},
   {"question":"Which athlete is known for winning the heavyweight boxing title in the Rumble in the Jungle in 1974?","answers":["Muhammad Ali","Mizuki Noguchi","Momiji Nishiya","Rafael Nadal"],"correct":0,"explanation":"Ali defeated George Foreman in Kinshasa.","difficulty":"Medium"},
-  {"question":"Which athlete is known for winning the women's marathon at the 2004 Olympics?","answers":["Mizuki Noguchi","Momiji Nishiya","Rafael Nadal","Ashton Eaton"],"correct":0,"explanation":"Noguchi won the Olympic marathon in Athens.","difficulty":"Medium"},
-  {"question":"Which athlete is known for winning the first women's Olympic skateboard street gold in 2021?","answers":["Momiji Nishiya","Rafael Nadal","Ashton Eaton","Michael Phelps"],"correct":0,"explanation":"Nishiya won the event at the Tokyo Games.","difficulty":"Medium"},
+  {"question":"Which athlete is known for winning the women's marathon at the 2004 Olympics?","answers":["Mizuki Noguchi","Momiji Nishiya","Rafael Nadal","Ashton Eaton"],"correct":0,"explanation":"Noguchi won the Olympic marathon in Athens.","difficulty": "Hard"},
+  {"question":"Which athlete is known for winning the first women's Olympic skateboard street gold in 2021?","answers":["Momiji Nishiya","Rafael Nadal","Ashton Eaton","Michael Phelps"],"correct":0,"explanation":"Nishiya won the event at the Tokyo Games.","difficulty": "Hard"},
   {"question":"Which athlete is known for winning 14 French Open men's singles tennis titles?","answers":["Rafael Nadal","Ashton Eaton","Michael Phelps","Usain Bolt"],"correct":0,"explanation":"Nadal's victories at Roland-Garros span from 2005 to 2022.","difficulty":"Medium"},
-  {"question":"Which athlete is known for winning the men's decathlon at the 2012 and 2016 Olympics?","answers":["Ashton Eaton","Michael Phelps","Usain Bolt","Serena Williams"],"correct":0,"explanation":"Eaton won consecutive Olympic decathlon titles.","difficulty":"Medium"},
+  {"question":"Which athlete is known for winning the men's decathlon at the 2012 and 2016 Olympics?","answers":["Ashton Eaton","Michael Phelps","Usain Bolt","Serena Williams"],"correct":0,"explanation":"Eaton won consecutive Olympic decathlon titles.","difficulty": "Hard"},
   {"question":"In which sport would a competitor use a pommel horse?","answers":["artistic gymnastics","curling","archery","snooker"],"correct":0,"explanation":"The pommel horse is an apparatus in men's artistic gymnastics.","difficulty":"Medium"},
   {"question":"In which sport would a competitor use a stone and a broom on ice?","answers":["curling","archery","snooker","rowing"],"correct":0,"explanation":"Curlers sweep the ice in front of moving stones.","difficulty":"Medium"},
   {"question":"In which sport would a competitor use a bow and arrows aimed at a target?","answers":["archery","snooker","rowing","polo"],"correct":0,"explanation":"Archers score points by hitting a marked target.","difficulty":"Medium"},
@@ -516,8 +516,8 @@
   {"question":"What is the standard number of players on the field or court for one team in cricket on the field?","answers":["11","7","5","6"],"correct":0,"explanation":"A fielding cricket side has eleven players.","difficulty":"Medium"},
   {"question":"What is the standard number of players on the field or court for one team in netball?","answers":["7","5","11","6"],"correct":0,"explanation":"A netball team has seven players on court.","difficulty":"Medium"},
   {"question":"What is the standard number of players on the field or court for one team in futsal?","answers":["5","11","6","15"],"correct":0,"explanation":"A futsal side has four outfield players and a goalkeeper.","difficulty":"Medium"},
-  {"question":"Which country hosted the 2019 men's Rugby World Cup?","answers":["Japan","Canada","Germany","Spain"],"correct":0,"explanation":"Japan hosted the tournament won by South Africa.","difficulty":"Medium"},
-  {"question":"Which country hosted the 1988 Winter Olympics?","answers":["Canada","Germany","Spain","France"],"correct":0,"explanation":"Calgary hosted the Winter Games in Alberta.","difficulty":"Medium"},
+  {"question":"Which country hosted the 2019 men's Rugby World Cup?","answers":["Japan","Canada","Germany","Spain"],"correct":0,"explanation":"Japan hosted the tournament won by South Africa.","difficulty": "Hard"},
+  {"question":"Which country hosted the 1988 Winter Olympics?","answers":["Canada","Germany","Spain","France"],"correct":0,"explanation":"Calgary hosted the Winter Games in Alberta.","difficulty": "Hard"},
   {"question":"Which country hosted the 1998 men's FIFA World Cup?","answers":["France","South Korea","Mexico","Greece"],"correct":0,"explanation":"France hosted and won the 1998 tournament.","difficulty":"Medium"},
   {"question":"Which country hosted the 2018 Winter Olympics?","answers":["South Korea","Mexico","Greece","Qatar"],"correct":0,"explanation":"Pyeongchang hosted the Winter Games in 2018.","difficulty":"Medium"},
   {"question":"Which country hosted the 2004 Summer Olympics?","answers":["Greece","Qatar","Brazil","Australia"],"correct":0,"explanation":"The Games returned to Athens in 2004.","difficulty":"Medium"},
@@ -525,9 +525,9 @@
   {"question":"Which city hosted the 2012 Summer Olympics?","answers":["London","Sydney","Barcelona","Montreal"],"correct":0,"explanation":"London hosted the 2012 Summer Games.","difficulty":"Medium"},
   {"question":"Which city hosted the 2000 Summer Olympics?","answers":["Sydney","Barcelona","Montreal","Los Angeles"],"correct":0,"explanation":"Sydney hosted the 2000 Summer Games.","difficulty":"Medium"},
   {"question":"Which city hosted the 1992 Summer Olympics?","answers":["Barcelona","Montreal","Los Angeles","Seoul"],"correct":0,"explanation":"Barcelona hosted the 1992 Summer Games.","difficulty":"Medium"},
-  {"question":"Which city hosted the 1976 Summer Olympics?","answers":["Montreal","Los Angeles","Seoul","Athens"],"correct":0,"explanation":"Montreal hosted the 1976 Summer Games.","difficulty":"Medium"},
+  {"question":"Which city hosted the 1976 Summer Olympics?","answers":["Montreal","Los Angeles","Seoul","Athens"],"correct":0,"explanation":"Montreal hosted the 1976 Summer Games.","difficulty": "Hard"},
   {"question":"Which city hosted the 1984 Summer Olympics?","answers":["Los Angeles","Seoul","Athens","Rome"],"correct":0,"explanation":"Los Angeles hosted the 1984 Summer Games.","difficulty":"Medium"},
-  {"question":"Which city hosted the 1988 Summer Olympics?","answers":["Seoul","Athens","Rome","Rio de Janeiro"],"correct":0,"explanation":"Seoul hosted the 1988 Summer Games.","difficulty":"Medium"},
+  {"question":"Which city hosted the 1988 Summer Olympics?","answers":["Seoul","Athens","Rome","Rio de Janeiro"],"correct":0,"explanation":"Seoul hosted the 1988 Summer Games.","difficulty": "Hard"},
   {"question":"Which city hosted the 2004 Summer Olympics?","answers":["Athens","Rome","Rio de Janeiro","Beijing"],"correct":0,"explanation":"Athens hosted the 2004 Summer Games.","difficulty":"Medium"},
   {"question":"Which city hosted the 1960 Summer Olympics?","answers":["Rome","Rio de Janeiro","Beijing","London"],"correct":0,"explanation":"Rome hosted the 1960 Summer Games.","difficulty":"Medium"},
   {"question":"Which city hosted the 2016 Summer Olympics?","answers":["Rio de Janeiro","Beijing","London","Sydney"],"correct":0,"explanation":"Rio hosted the 2016 Summer Games.","difficulty":"Medium"},

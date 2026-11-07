@@ -9,6 +9,13 @@
 .quiz-intro-art { width: 105px; height: 105px; flex: none; border: 5px solid white; border-radius: 50%; background: #ffdf80 center 25% / cover; box-shadow: 0 8px 22px #17233b1a; transform: rotate(9deg); }
 .quiz-card { padding: clamp(24px, 5vw, 46px); border: 1px solid #eae8e2; border-radius: 20px; background: var(--white); box-shadow: 0 14px 40px #17233b0c; }
 .quiz-card [hidden] { display: none; }
+.quiz-settings { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin-bottom: 30px; padding-bottom: 22px; border-bottom: 1px solid #e9edf4; }
+.difficulty-control { flex: 1 1 180px; }
+.difficulty-control label { display: block; margin-bottom: 7px; color: var(--navy); font-size: 12px; font-weight: 800; }
+.difficulty-control select { width: 100%; min-height: 46px; padding: 0 12px; border: 1px solid #cbd4e2; border-radius: 9px; background: #fbfcfe; color: var(--navy); font: 700 14px var(--body); cursor: pointer; }
+.difficulty-control select:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
+.difficulty-start { min-height: 46px; border: 1px solid #cbd4e2; background: white; color: var(--navy); cursor: pointer; }
+.quiz-settings p { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .quiz-meta { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 12px; font-weight: 800; }
 .score-pill { padding: 8px 12px; border-radius: 30px; background: #fff3c8; white-space: nowrap; }
 .progress { height: 8px; margin-top: 16px; overflow: hidden; border-radius: 20px; background: #e9edf4; }
@@ -54,6 +61,7 @@
   .quiz-intro-art { width: 70px; height: 70px; }
   .quiz-intro h1 { font-size: 36px; }
   .quiz-card { padding: 24px 20px; }
+  .difficulty-control, .difficulty-start { flex-basis: 100%; }
   .question-heading { margin-top: 32px; }
   .answers { grid-template-columns: 1fr; }
   .answer { min-height: 58px; }

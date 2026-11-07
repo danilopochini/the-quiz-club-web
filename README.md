@@ -2,6 +2,8 @@
 
 A static, framework-free trivia platform. All twelve categories are playable, each with a bank of at least 100 questions; each game draws 10. The daily challenge is coming soon.
 
+Each quiz starts with Miscellaneous difficulty, drawing from all levels. Choose Easy, Medium, Hard, or Miscellaneous in the difficulty menu and select **Start new quiz** to apply it and reset the current game. **Play Again** also uses the selected difficulty.
+
 ## Run locally
 
 Serve this directory with a static file server so the quiz can load its JSON question bank. For example, from this directory run:
@@ -26,5 +28,6 @@ Opening pages directly as `file://` may prevent the quiz data from loading; use 
 - `js/quiz.js` — quiz state, answer feedback and results.
 - `data/` — separate JSON question banks for each category.
 - `tests/question-banks.test.cjs` — question-bank and category-link checks.
+- `tests/quiz-difficulty.test.cjs` — difficulty selection and game-flow checks.
 
-Run the data checks with `node --test tests/question-banks.test.cjs`.
+Run the checks with `node --test tests/*.test.cjs`.

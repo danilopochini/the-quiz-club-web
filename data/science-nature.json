@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Mars is associated with the moons Phobos and Deimos.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which planet is associated with the moon Titan?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Saturn is associated with the moon Titan.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which element has the chemical symbol O?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "The chemical symbol Cu represents Copper.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which element has the chemical symbol Hg?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "The chemical symbol Hg represents Mercury.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which animal is associated with echolocation and flight among mammals?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "Spider is associated with a web spun from silk.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which animal is associated with a distinctive black-and-white striped coat?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "Zebra is associated with a distinctive black-and-white striped coat.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which scientific term describes the conversion of light energy into chemical energy in plants?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "Nucleus describes the centre of an atom.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which scientific term describes the process by which living things develop inherited changes over generations?",
@@ -477,15 +477,15 @@
     ],
     "correct": 0,
     "explanation": "Evolution describes the process by which living things develop inherited changes over generations.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Which element has the chemical symbol Ca?","answers":["Calcium","Nitrogen","Hydrogen","Chlorine"],"correct":0,"explanation":"Calcium is important in bones and teeth.","difficulty":"Medium"},
   {"question":"Which element has the chemical symbol N?","answers":["Nitrogen","Hydrogen","Chlorine","Lead"],"correct":0,"explanation":"Nitrogen makes up most of Earth's atmosphere.","difficulty":"Medium"},
   {"question":"Which element has the chemical symbol H?","answers":["Hydrogen","Chlorine","Lead","Tin"],"correct":0,"explanation":"Hydrogen is the lightest chemical element.","difficulty":"Medium"},
   {"question":"Which element has the chemical symbol Cl?","answers":["Chlorine","Lead","Tin","Tungsten"],"correct":0,"explanation":"Chlorine is a halogen used in water treatment.","difficulty":"Medium"},
-  {"question":"Which element has the chemical symbol Pb?","answers":["Lead","Tin","Tungsten","Silicon"],"correct":0,"explanation":"The symbol Pb comes from the Latin word plumbum.","difficulty":"Medium"},
-  {"question":"Which element has the chemical symbol Sn?","answers":["Tin","Tungsten","Silicon","Aluminium"],"correct":0,"explanation":"The symbol Sn comes from the Latin word stannum.","difficulty":"Medium"},
-  {"question":"Which element has the chemical symbol W?","answers":["Tungsten","Silicon","Aluminium","Neon"],"correct":0,"explanation":"The symbol W comes from the name wolfram.","difficulty":"Medium"},
+  {"question":"Which element has the chemical symbol Pb?","answers":["Lead","Tin","Tungsten","Silicon"],"correct":0,"explanation":"The symbol Pb comes from the Latin word plumbum.","difficulty": "Hard"},
+  {"question":"Which element has the chemical symbol Sn?","answers":["Tin","Tungsten","Silicon","Aluminium"],"correct":0,"explanation":"The symbol Sn comes from the Latin word stannum.","difficulty": "Hard"},
+  {"question":"Which element has the chemical symbol W?","answers":["Tungsten","Silicon","Aluminium","Neon"],"correct":0,"explanation":"The symbol W comes from the name wolfram.","difficulty": "Hard"},
   {"question":"Which element has the chemical symbol Si?","answers":["Silicon","Aluminium","Neon","Zinc"],"correct":0,"explanation":"Silicon is widely used in semiconductor devices.","difficulty":"Medium"},
   {"question":"Which element has the chemical symbol Al?","answers":["Aluminium","Neon","Zinc","Magnesium"],"correct":0,"explanation":"Aluminium is a lightweight metal.","difficulty":"Medium"},
   {"question":"Which element has the chemical symbol Ne?","answers":["Neon","Zinc","Magnesium","Calcium"],"correct":0,"explanation":"Neon is a noble gas used in some illuminated signs.","difficulty":"Medium"},
@@ -495,21 +495,21 @@
   {"question":"Which part of a human cell produces much of its usable energy through cellular respiration?","answers":["mitochondrion","cell membrane","ribosome","Golgi apparatus"],"correct":0,"explanation":"Mitochondria make ATP through cellular respiration.","difficulty":"Medium"},
   {"question":"Which part of a human cell forms the boundary that controls substances entering and leaving?","answers":["cell membrane","ribosome","Golgi apparatus","lysosome"],"correct":0,"explanation":"The cell membrane regulates movement into and out of the cell.","difficulty":"Medium"},
   {"question":"Which part of a human cell assembles proteins from amino acids?","answers":["ribosome","Golgi apparatus","lysosome","cytoskeleton"],"correct":0,"explanation":"Ribosomes translate genetic instructions to build proteins.","difficulty":"Medium"},
-  {"question":"Which part of a human cell modifies and packages proteins for transport?","answers":["Golgi apparatus","lysosome","cytoskeleton","cytoplasm"],"correct":0,"explanation":"The Golgi apparatus processes and sorts cell products.","difficulty":"Medium"},
-  {"question":"Which part of a human cell helps break down waste using digestive enzymes?","answers":["lysosome","cytoskeleton","cytoplasm","DNA"],"correct":0,"explanation":"Lysosomes contain enzymes that break down cellular material.","difficulty":"Medium"},
-  {"question":"Which part of a human cell forms a network of fibres that helps maintain shape?","answers":["cytoskeleton","cytoplasm","DNA","messenger RNA"],"correct":0,"explanation":"The cytoskeleton also assists movement and transport inside cells.","difficulty":"Medium"},
+  {"question":"Which part of a human cell modifies and packages proteins for transport?","answers":["Golgi apparatus","lysosome","cytoskeleton","cytoplasm"],"correct":0,"explanation":"The Golgi apparatus processes and sorts cell products.","difficulty": "Hard"},
+  {"question":"Which part of a human cell helps break down waste using digestive enzymes?","answers":["lysosome","cytoskeleton","cytoplasm","DNA"],"correct":0,"explanation":"Lysosomes contain enzymes that break down cellular material.","difficulty": "Hard"},
+  {"question":"Which part of a human cell forms a network of fibres that helps maintain shape?","answers":["cytoskeleton","cytoplasm","DNA","messenger RNA"],"correct":0,"explanation":"The cytoskeleton also assists movement and transport inside cells.","difficulty": "Hard"},
   {"question":"Which part of a human cell contains the fluid in which many cell reactions occur?","answers":["cytoplasm","DNA","messenger RNA","mitotic spindle"],"correct":0,"explanation":"The cytoplasm includes the fluid and structures outside the nucleus.","difficulty":"Medium"},
   {"question":"Which part of a human cell stores genetic information in a double helix?","answers":["DNA","messenger RNA","mitotic spindle","rough endoplasmic reticulum"],"correct":0,"explanation":"DNA carries genetic instructions in its sequence of bases.","difficulty":"Medium"},
   {"question":"Which part of a human cell copies genetic instructions for protein production?","answers":["messenger RNA","mitotic spindle","rough endoplasmic reticulum","nucleus"],"correct":0,"explanation":"Messenger RNA carries a copy of instructions from DNA to ribosomes.","difficulty":"Medium"},
-  {"question":"Which part of a human cell separates chromosomes during cell division?","answers":["mitotic spindle","rough endoplasmic reticulum","nucleus","mitochondrion"],"correct":0,"explanation":"The mitotic spindle is made of microtubules.","difficulty":"Medium"},
-  {"question":"Which part of a human cell transports materials through a membrane network studded with ribosomes?","answers":["rough endoplasmic reticulum","nucleus","mitochondrion","cell membrane"],"correct":0,"explanation":"Ribosomes attached to this membrane network make proteins.","difficulty":"Medium"},
+  {"question":"Which part of a human cell separates chromosomes during cell division?","answers":["mitotic spindle","rough endoplasmic reticulum","nucleus","mitochondrion"],"correct":0,"explanation":"The mitotic spindle is made of microtubules.","difficulty": "Hard"},
+  {"question":"Which part of a human cell transports materials through a membrane network studded with ribosomes?","answers":["rough endoplasmic reticulum","nucleus","mitochondrion","cell membrane"],"correct":0,"explanation":"Ribosomes attached to this membrane network make proteins.","difficulty": "Hard"},
   {"question":"Which animal is the world's largest living reptile?","answers":["saltwater crocodile","bat","emperor penguin","narwhal"],"correct":0,"explanation":"Saltwater crocodiles live in parts of Asia and Australia.","difficulty":"Medium"},
   {"question":"Which animal is the only living mammal capable of sustained powered flight?","answers":["bat","emperor penguin","narwhal","echidna"],"correct":0,"explanation":"Bats fly using wings formed by skin stretched over elongated fingers.","difficulty":"Medium"},
   {"question":"Which animal is the largest living species of penguin?","answers":["emperor penguin","narwhal","echidna","African elephant"],"correct":0,"explanation":"Emperor penguins breed on Antarctic sea ice.","difficulty":"Medium"},
   {"question":"Which animal is a marine mammal with a long spiral tusk?","answers":["narwhal","echidna","African elephant","aye-aye"],"correct":0,"explanation":"The narwhal's tusk is an elongated tooth.","difficulty":"Medium"},
   {"question":"Which animal is an egg-laying mammal native to Australia and New Guinea with a spiny coat?","answers":["echidna","African elephant","aye-aye","octopus"],"correct":0,"explanation":"Echidnas are monotremes, a group of egg-laying mammals.","difficulty":"Medium"},
   {"question":"Which animal is an African mammal with a trunk and large ears?","answers":["African elephant","aye-aye","octopus","kiwi"],"correct":0,"explanation":"African elephants use their trunks for breathing, smelling and grasping.","difficulty":"Medium"},
-  {"question":"Which animal is a nocturnal primate native to Madagascar with an elongated middle finger?","answers":["aye-aye","octopus","kiwi","koala"],"correct":0,"explanation":"The aye-aye uses its long finger to find insect larvae.","difficulty":"Medium"},
+  {"question":"Which animal is a nocturnal primate native to Madagascar with an elongated middle finger?","answers":["aye-aye","octopus","kiwi","koala"],"correct":0,"explanation":"The aye-aye uses its long finger to find insect larvae.","difficulty": "Hard"},
   {"question":"Which animal is a marine invertebrate with eight arms and three hearts?","answers":["octopus","kiwi","koala","polar bear"],"correct":0,"explanation":"Octopuses have two hearts that pump blood to the gills and one systemic heart.","difficulty":"Medium"},
   {"question":"Which animal is a flightless bird native to New Zealand with nostrils near the tip of its beak?","answers":["kiwi","koala","polar bear","sea lion"],"correct":0,"explanation":"Kiwis use their sense of smell to locate food.","difficulty":"Medium"},
   {"question":"Which animal is a marsupial that feeds mostly on eucalyptus leaves?","answers":["koala","polar bear","sea lion","saltwater crocodile"],"correct":0,"explanation":"Koalas are tree-dwelling marsupials native to Australia.","difficulty":"Medium"},
@@ -534,9 +534,9 @@
   {"question":"Which scientific term describes the transfer of heat through direct contact?","answers":["conduction","convection","freezing","deposition"],"correct":0,"explanation":"Conduction transfers thermal energy between neighbouring particles.","difficulty":"Medium"},
   {"question":"Which scientific term describes the movement of heat by circulating fluid?","answers":["convection","freezing","deposition","electrical resistance"],"correct":0,"explanation":"Convection transfers heat through the motion of liquids or gases.","difficulty":"Medium"},
   {"question":"Which scientific term describes the change from liquid to solid?","answers":["freezing","deposition","electrical resistance","frequency"],"correct":0,"explanation":"Freezing occurs when a liquid solidifies.","difficulty":"Medium"},
-  {"question":"Which scientific term describes the change from gas to solid without becoming liquid?","answers":["deposition","electrical resistance","frequency","extinction"],"correct":0,"explanation":"Frost can form when water vapour deposits as ice.","difficulty":"Medium"},
+  {"question":"Which scientific term describes the change from gas to solid without becoming liquid?","answers":["deposition","electrical resistance","frequency","extinction"],"correct":0,"explanation":"Frost can form when water vapour deposits as ice.","difficulty": "Hard"},
   {"question":"Which scientific term describes a material's resistance to electric current?","answers":["electrical resistance","frequency","extinction","mutualism"],"correct":0,"explanation":"Resistance is measured in ohms.","difficulty":"Medium"},
   {"question":"Which scientific term describes the number of wave cycles passing a point per second?","answers":["frequency","extinction","mutualism","refraction"],"correct":0,"explanation":"Frequency is measured in hertz.","difficulty":"Medium"},
   {"question":"Which scientific term describes the process by which a species disappears entirely?","answers":["extinction","mutualism","refraction","nuclear fission"],"correct":0,"explanation":"An extinct species has no surviving individuals.","difficulty":"Medium"},
-  {"question":"Which scientific term describes the relationship in which both species benefit?","answers":["mutualism","refraction","nuclear fission","nuclear fusion"],"correct":0,"explanation":"Pollination can be an example of mutualism.","difficulty":"Medium"}
+  {"question":"Which scientific term describes the relationship in which both species benefit?","answers":["mutualism","refraction","nuclear fission","nuclear fusion"],"correct":0,"explanation":"Pollination can be an example of mutualism.","difficulty": "Hard"}
 ]

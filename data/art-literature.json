@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Homer wrote The Odyssey.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Who wrote The Handmaid's Tale?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Margaret Atwood wrote The Handmaid's Tale.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which artist created The Starry Night?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "Johannes Vermeer created Girl with a Pearl Earring.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which artist created Water Lilies paintings?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "Claude Monet created Water Lilies paintings.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which literary character appears in The Adventures of Sherlock Holmes?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "Tom Sawyer appears in The Adventures of Tom Sawyer.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which literary character appears in A Christmas Carol?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "Ebenezer Scrooge appears in A Christmas Carol.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which term is associated with a poem of fourteen lines?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "Protagonist describes the central character of a narrative.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which term is associated with a picture made from small pieces of stone or glass?",
@@ -477,21 +477,21 @@
     ],
     "correct": 0,
     "explanation": "Mosaic describes a picture made from small pieces of stone or glass.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Who wrote The Picture of Dorian Gray?","answers":["Oscar Wilde","Franz Kafka","Virginia Woolf","Alice Walker"],"correct":0,"explanation":"Wilde's novel explores beauty, vanity and moral corruption.","difficulty":"Medium"},
-  {"question":"Who wrote The Trial?","answers":["Franz Kafka","Virginia Woolf","Alice Walker","Fyodor Dostoevsky"],"correct":0,"explanation":"Kafka's novel follows Josef K. through an opaque legal system.","difficulty":"Medium"},
+  {"question":"Who wrote The Trial?","answers":["Franz Kafka","Virginia Woolf","Alice Walker","Fyodor Dostoevsky"],"correct":0,"explanation":"Kafka's novel follows Josef K. through an opaque legal system.","difficulty": "Hard"},
   {"question":"Who wrote Mrs Dalloway?","answers":["Virginia Woolf","Alice Walker","Fyodor Dostoevsky","Albert Camus"],"correct":0,"explanation":"Woolf's novel unfolds over a single day in London.","difficulty":"Medium"},
   {"question":"Who wrote The Color Purple?","answers":["Alice Walker","Fyodor Dostoevsky","Albert Camus","Franz Kafka"],"correct":0,"explanation":"Walker's novel is told partly through letters.","difficulty":"Medium"},
   {"question":"Who wrote The Brothers Karamazov?","answers":["Fyodor Dostoevsky","Albert Camus","Franz Kafka","Ralph Ellison"],"correct":0,"explanation":"Dostoevsky's novel centres on the Karamazov family.","difficulty":"Medium"},
   {"question":"Who wrote The Stranger?","answers":["Albert Camus","Franz Kafka","Ralph Ellison","Kazuo Ishiguro"],"correct":0,"explanation":"Camus's novel follows a man named Meursault in Algeria.","difficulty":"Medium"},
   {"question":"Who wrote The Metamorphosis?","answers":["Franz Kafka","Ralph Ellison","Kazuo Ishiguro","Zora Neale Hurston"],"correct":0,"explanation":"Kafka's novella begins with Gregor Samsa transformed into an insect-like creature.","difficulty":"Medium"},
   {"question":"Who wrote Invisible Man?","answers":["Ralph Ellison","Kazuo Ishiguro","Zora Neale Hurston","Umberto Eco"],"correct":0,"explanation":"Ellison's novel follows an unnamed Black narrator in America.","difficulty":"Medium"},
-  {"question":"Who wrote The Remains of the Day?","answers":["Kazuo Ishiguro","Zora Neale Hurston","Umberto Eco","Haruki Murakami"],"correct":0,"explanation":"Ishiguro's novel is narrated by the butler Stevens.","difficulty":"Medium"},
-  {"question":"Who wrote Their Eyes Were Watching God?","answers":["Zora Neale Hurston","Umberto Eco","Haruki Murakami","Isabel Allende"],"correct":0,"explanation":"Hurston's novel follows Janie Crawford in Florida.","difficulty":"Medium"},
-  {"question":"Who wrote The Name of the Rose?","answers":["Umberto Eco","Haruki Murakami","Isabel Allende","Oscar Wilde"],"correct":0,"explanation":"Eco's mystery is set in a medieval monastery.","difficulty":"Medium"},
-  {"question":"Who wrote The Wind-Up Bird Chronicle?","answers":["Haruki Murakami","Isabel Allende","Oscar Wilde","Franz Kafka"],"correct":0,"explanation":"Murakami's novel follows Toru Okada in Tokyo.","difficulty":"Medium"},
-  {"question":"Who wrote The House of the Spirits?","answers":["Isabel Allende","Oscar Wilde","Franz Kafka","Virginia Woolf"],"correct":0,"explanation":"Allende's novel follows generations of the Trueba family.","difficulty":"Medium"},
+  {"question":"Who wrote The Remains of the Day?","answers":["Kazuo Ishiguro","Zora Neale Hurston","Umberto Eco","Haruki Murakami"],"correct":0,"explanation":"Ishiguro's novel is narrated by the butler Stevens.","difficulty": "Hard"},
+  {"question":"Who wrote Their Eyes Were Watching God?","answers":["Zora Neale Hurston","Umberto Eco","Haruki Murakami","Isabel Allende"],"correct":0,"explanation":"Hurston's novel follows Janie Crawford in Florida.","difficulty": "Hard"},
+  {"question":"Who wrote The Name of the Rose?","answers":["Umberto Eco","Haruki Murakami","Isabel Allende","Oscar Wilde"],"correct":0,"explanation":"Eco's mystery is set in a medieval monastery.","difficulty": "Hard"},
+  {"question":"Who wrote The Wind-Up Bird Chronicle?","answers":["Haruki Murakami","Isabel Allende","Oscar Wilde","Franz Kafka"],"correct":0,"explanation":"Murakami's novel follows Toru Okada in Tokyo.","difficulty": "Hard"},
+  {"question":"Who wrote The House of the Spirits?","answers":["Isabel Allende","Oscar Wilde","Franz Kafka","Virginia Woolf"],"correct":0,"explanation":"Allende's novel follows generations of the Trueba family.","difficulty": "Hard"},
   {"question":"Which artist created The Birth of Venus?","answers":["Sandro Botticelli","Rembrandt","Edvard Munch","Edward Hopper"],"correct":0,"explanation":"Botticelli painted the goddess arriving on a shell.","difficulty":"Medium"},
   {"question":"Which artist created The Night Watch?","answers":["Rembrandt","Edvard Munch","Edward Hopper","Diego Velázquez"],"correct":0,"explanation":"Rembrandt's group portrait depicts an Amsterdam civic guard.","difficulty":"Medium"},
   {"question":"Which artist created The Scream?","answers":["Edvard Munch","Edward Hopper","Diego Velázquez","Georges Seurat"],"correct":0,"explanation":"Munch made several versions of this anguished image.","difficulty":"Medium"},
@@ -500,10 +500,10 @@
   {"question":"Which artist created A Sunday Afternoon on the Island of La Grande Jatte?","answers":["Georges Seurat","Frida Kahlo","René Magritte","Jan van Eyck"],"correct":0,"explanation":"Seurat used small touches of colour in this large painting.","difficulty":"Medium"},
   {"question":"Which artist created The Two Fridas?","answers":["Frida Kahlo","René Magritte","Jan van Eyck","Hieronymus Bosch"],"correct":0,"explanation":"Kahlo's double self-portrait was painted in 1939.","difficulty":"Medium"},
   {"question":"Which artist created The Son of Man?","answers":["René Magritte","Jan van Eyck","Hieronymus Bosch","Henri Rousseau"],"correct":0,"explanation":"Magritte placed a floating green apple in front of the figure's face.","difficulty":"Medium"},
-  {"question":"Which artist created The Arnolfini Portrait?","answers":["Jan van Eyck","Hieronymus Bosch","Henri Rousseau","Piet Mondrian"],"correct":0,"explanation":"Van Eyck's painting is noted for its convex mirror.","difficulty":"Medium"},
-  {"question":"Which artist created The Garden of Earthly Delights?","answers":["Hieronymus Bosch","Henri Rousseau","Piet Mondrian","Sandro Botticelli"],"correct":0,"explanation":"Bosch's triptych presents a fantastical vision of paradise and sin.","difficulty":"Medium"},
+  {"question":"Which artist created The Arnolfini Portrait?","answers":["Jan van Eyck","Hieronymus Bosch","Henri Rousseau","Piet Mondrian"],"correct":0,"explanation":"Van Eyck's painting is noted for its convex mirror.","difficulty": "Hard"},
+  {"question":"Which artist created The Garden of Earthly Delights?","answers":["Hieronymus Bosch","Henri Rousseau","Piet Mondrian","Sandro Botticelli"],"correct":0,"explanation":"Bosch's triptych presents a fantastical vision of paradise and sin.","difficulty": "Hard"},
   {"question":"Which artist created The Sleeping Gypsy?","answers":["Henri Rousseau","Piet Mondrian","Sandro Botticelli","Rembrandt"],"correct":0,"explanation":"Rousseau painted a lion inspecting a sleeping figure in a desert.","difficulty":"Medium"},
-  {"question":"Which artist created Broadway Boogie Woogie?","answers":["Piet Mondrian","Sandro Botticelli","Rembrandt","Edvard Munch"],"correct":0,"explanation":"Mondrian's grid painting was inspired by New York and music.","difficulty":"Medium"},
+  {"question":"Which artist created Broadway Boogie Woogie?","answers":["Piet Mondrian","Sandro Botticelli","Rembrandt","Edvard Munch"],"correct":0,"explanation":"Mondrian's grid painting was inspired by New York and music.","difficulty": "Hard"},
   {"question":"Which term describes a story's sequence of events?","answers":["plot","allusion","onomatopoeia","mood"],"correct":0,"explanation":"Plot is the arrangement of events in a narrative.","difficulty":"Medium"},
   {"question":"Which term describes a reference to another work or event?","answers":["allusion","onomatopoeia","mood","paradox"],"correct":0,"explanation":"An allusion indirectly refers to something outside the text.","difficulty":"Medium"},
   {"question":"Which term describes a word that imitates a sound?","answers":["onomatopoeia","mood","paradox","hyperbole"],"correct":0,"explanation":"Words such as buzz imitate sounds.","difficulty":"Medium"},
@@ -523,11 +523,11 @@
   {"question":"Which artistic technique uses thread or yarn to form interlocking loops?","answers":["knitting","throwing","woodcut","encaustic"],"correct":0,"explanation":"Knitting forms fabric from interlocking loops.","difficulty":"Medium"},
   {"question":"Which artistic technique uses a potter's wheel and shaped clay to make vessels?","answers":["throwing","woodcut","encaustic","stained glass"],"correct":0,"explanation":"Throwing shapes clay on a rotating wheel.","difficulty":"Medium"},
   {"question":"Which artistic technique uses carving a design into a block so raised areas print?","answers":["woodcut","encaustic","stained glass","chiaroscuro"],"correct":0,"explanation":"A woodcut is a relief print made from a carved block.","difficulty":"Medium"},
-  {"question":"Which artistic technique uses pigment suspended in wax and applied with heat?","answers":["encaustic","stained glass","chiaroscuro","watercolour"],"correct":0,"explanation":"Encaustic painting uses heated wax as a medium.","difficulty":"Medium"},
+  {"question":"Which artistic technique uses pigment suspended in wax and applied with heat?","answers":["encaustic","stained glass","chiaroscuro","watercolour"],"correct":0,"explanation":"Encaustic painting uses heated wax as a medium.","difficulty": "Hard"},
   {"question":"Which artistic technique uses coloured glass assembled into a window?","answers":["stained glass","chiaroscuro","watercolour","lithography"],"correct":0,"explanation":"Stained-glass windows assemble pieces of coloured glass.","difficulty":"Medium"},
   {"question":"Which artistic technique uses strong contrasts between light and dark?","answers":["chiaroscuro","watercolour","lithography","pointillism"],"correct":0,"explanation":"Chiaroscuro models forms using contrasts of light and shade.","difficulty":"Medium"},
   {"question":"Which artistic technique uses water-soluble pigment applied in transparent washes?","answers":["watercolour","lithography","pointillism","intaglio"],"correct":0,"explanation":"Watercolour pigment is suspended in a water-based medium.","difficulty":"Medium"},
-  {"question":"Which artistic technique uses a press to transfer an image from a flat treated stone?","answers":["lithography","pointillism","intaglio","stencilling"],"correct":0,"explanation":"Lithography relies on the resistance between oil and water.","difficulty":"Medium"},
+  {"question":"Which artistic technique uses a press to transfer an image from a flat treated stone?","answers":["lithography","pointillism","intaglio","stencilling"],"correct":0,"explanation":"Lithography relies on the resistance between oil and water.","difficulty": "Hard"},
   {"question":"Which character appears in The Wonderful Wizard of Oz?","answers":["Dorothy Gale","Pip","Heathcliff","Count Dracula"],"correct":0,"explanation":"Dorothy travels to Oz after a cyclone carries away her house.","difficulty":"Medium"},
   {"question":"Which character appears in Great Expectations?","answers":["Pip","Heathcliff","Count Dracula","Holden Caulfield"],"correct":0,"explanation":"Pip narrates Charles Dickens's novel about his life and expectations.","difficulty":"Medium"},
   {"question":"Which character appears in Wuthering Heights?","answers":["Heathcliff","Count Dracula","Holden Caulfield","Mowgli"],"correct":0,"explanation":"Heathcliff is a central character in Emily Brontë's novel.","difficulty":"Medium"},

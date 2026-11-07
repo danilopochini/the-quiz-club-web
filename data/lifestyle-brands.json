@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Starbucks is associated with the green mermaid coffeehouse logo.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which brand is associated with the red-and-white script logo on a cola drink?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Coca-Cola is associated with the red-and-white script logo on a cola drink.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which material is associated with fabric made from silkworm fibre?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "Aluminium is associated with a lightweight metal often used in drink cans.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which material is associated with a natural material harvested from cork oak bark?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "Cork is associated with a natural material harvested from cork oak bark.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which item is most closely associated with telling time on the wrist?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "A Umbrella is associated with keeping rain off a person's head.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which item is most closely associated with decorating a finger?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "A Ring is associated with decorating a finger.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which drink is traditionally associated with espresso prepared under pressure?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "Lemonade is associated with a drink made from lemons, water and sugar.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which drink is traditionally associated with water containing dissolved carbon dioxide?",
@@ -477,20 +477,20 @@
     ],
     "correct": 0,
     "explanation": "Sparkling water is associated with water containing dissolved carbon dioxide.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Which brand is known for the Air Jordan range of trainers?","answers":["Nike","Hermès","Levi's","Burberry"],"correct":0,"explanation":"Air Jordan originated with a signature shoe for Michael Jordan.","difficulty":"Medium"},
   {"question":"Which brand is known for the Birkin handbag?","answers":["Hermès","Levi's","Burberry","Omega"],"correct":0,"explanation":"The Birkin is a handbag made by the French fashion house.","difficulty":"Medium"},
   {"question":"Which brand is known for the 501 jeans?","answers":["Levi's","Hermès","Burberry","Omega"],"correct":0,"explanation":"Levi's 501 is a long-running jeans style.","difficulty":"Medium"},
-  {"question":"Which brand is known for the Kelly handbag?","answers":["Hermès","Burberry","Omega","Converse"],"correct":0,"explanation":"The bag is named after Grace Kelly.","difficulty":"Medium"},
+  {"question":"Which brand is known for the Kelly handbag?","answers":["Hermès","Burberry","Omega","Converse"],"correct":0,"explanation":"The bag is named after Grace Kelly.","difficulty": "Hard"},
   {"question":"Which brand is known for the trench coat popularised by a British luxury house with a distinctive check?","answers":["Burberry","Omega","Converse","Little Trees"],"correct":0,"explanation":"Burberry's check became a signature lining and pattern.","difficulty":"Medium"},
-  {"question":"Which brand is known for the Speedmaster watch worn during Apollo missions?","answers":["Omega","Converse","Little Trees","KitchenAid"],"correct":0,"explanation":"Omega's Speedmaster became known as the Moonwatch.","difficulty":"Medium"},
+  {"question":"Which brand is known for the Speedmaster watch worn during Apollo missions?","answers":["Omega","Converse","Little Trees","KitchenAid"],"correct":0,"explanation":"Omega's Speedmaster became known as the Moonwatch.","difficulty": "Hard"},
   {"question":"Which brand is known for the Chuck Taylor All Star trainer?","answers":["Converse","Little Trees","KitchenAid","Instant Pot"],"correct":0,"explanation":"The shoe was named for basketball player Chuck Taylor.","difficulty":"Medium"},
   {"question":"Which brand is known for tree-shaped car air fresheners?","answers":["Little Trees","KitchenAid","Instant Pot","Bialetti"],"correct":0,"explanation":"The tree-shaped air freshener was introduced in the 1950s.","difficulty":"Medium"},
   {"question":"Which brand is known for the Artisan range of stand mixers?","answers":["KitchenAid","Instant Pot","Bialetti","Faber-Castell"],"correct":0,"explanation":"The brand's stand mixers are common kitchen appliances.","difficulty":"Medium"},
   {"question":"Which brand is known for a multicooker combining pressure cooking and slow cooking?","answers":["Instant Pot","Bialetti","Faber-Castell","Post-it"],"correct":0,"explanation":"The Instant Pot combines several cooking functions.","difficulty":"Medium"},
-  {"question":"Which brand is known for the octagonal Moka Express stovetop coffee maker?","answers":["Bialetti","Faber-Castell","Post-it","Nike"],"correct":0,"explanation":"Alfonso Bialetti introduced the Moka Express in the 1930s.","difficulty":"Medium"},
-  {"question":"Which brand is known for the green Castell 9000 drawing pencil?","answers":["Faber-Castell","Post-it","Nike","Hermès"],"correct":0,"explanation":"The German company produces pencils and other writing tools.","difficulty":"Medium"},
+  {"question":"Which brand is known for the octagonal Moka Express stovetop coffee maker?","answers":["Bialetti","Faber-Castell","Post-it","Nike"],"correct":0,"explanation":"Alfonso Bialetti introduced the Moka Express in the 1930s.","difficulty": "Hard"},
+  {"question":"Which brand is known for the green Castell 9000 drawing pencil?","answers":["Faber-Castell","Post-it","Nike","Hermès"],"correct":0,"explanation":"The German company produces pencils and other writing tools.","difficulty": "Hard"},
   {"question":"Which brand is known for small removable adhesive notes commonly sold in yellow?","answers":["Post-it","Nike","Hermès","Levi's"],"correct":0,"explanation":"Post-it Notes use a low-tack adhesive that allows repositioning.","difficulty":"Medium"},
   {"question":"Which ingredient is traditionally central to hummus?","answers":["chickpeas","basil","avocado","soybeans"],"correct":0,"explanation":"Hummus is typically made with chickpeas, tahini, lemon and garlic.","difficulty":"Medium"},
   {"question":"Which ingredient is traditionally central to pesto alla genovese?","answers":["basil","avocado","soybeans","cornmeal"],"correct":0,"explanation":"This Ligurian sauce is made with basil, pine nuts, cheese and olive oil.","difficulty":"Medium"},
@@ -499,13 +499,13 @@
   {"question":"Which ingredient is traditionally central to polenta?","answers":["cornmeal","almonds","soybeans","parsley"],"correct":0,"explanation":"Polenta is made by cooking ground maize in liquid.","difficulty":"Medium"},
   {"question":"Which ingredient is traditionally central to marzipan?","answers":["almonds","soybeans","parsley","sesame seeds"],"correct":0,"explanation":"Marzipan is a sweet paste made largely from almonds and sugar.","difficulty":"Medium"},
   {"question":"Which ingredient is traditionally central to miso?","answers":["soybeans","parsley","sesame seeds","fermented soybeans"],"correct":0,"explanation":"Miso is a fermented paste typically made from soybeans.","difficulty":"Medium"},
-  {"question":"Which ingredient is traditionally central to tabbouleh?","answers":["parsley","sesame seeds","fermented soybeans","rice"],"correct":0,"explanation":"Traditional tabbouleh contains plenty of finely chopped parsley.","difficulty":"Medium"},
+  {"question":"Which ingredient is traditionally central to tabbouleh?","answers":["parsley","sesame seeds","fermented soybeans","rice"],"correct":0,"explanation":"Traditional tabbouleh contains plenty of finely chopped parsley.","difficulty": "Hard"},
   {"question":"Which ingredient is traditionally central to tahini?","answers":["sesame seeds","fermented soybeans","rice","chickpeas or fava beans"],"correct":0,"explanation":"Tahini is a paste made from ground sesame seeds.","difficulty":"Medium"},
-  {"question":"Which ingredient is traditionally central to tempeh?","answers":["fermented soybeans","rice","chickpeas or fava beans","chickpeas"],"correct":0,"explanation":"Tempeh is an Indonesian food made from fermented soybeans.","difficulty":"Medium"},
+  {"question":"Which ingredient is traditionally central to tempeh?","answers":["fermented soybeans","rice","chickpeas or fava beans","chickpeas"],"correct":0,"explanation":"Tempeh is an Indonesian food made from fermented soybeans.","difficulty": "Hard"},
   {"question":"Which ingredient is traditionally central to risotto?","answers":["rice","chickpeas or fava beans","chickpeas","basil"],"correct":0,"explanation":"Risotto is an Italian dish made by gradually cooking rice in stock.","difficulty":"Medium"},
   {"question":"Which ingredient is traditionally central to falafel?","answers":["chickpeas or fava beans","chickpeas","basil","avocado"],"correct":0,"explanation":"Falafel consists of fried patties or balls made from ground legumes.","difficulty":"Medium"},
-  {"question":"Which material is obtained from the fleece of the Angora goat?","answers":["mohair","cashmere","linen","silk"],"correct":0,"explanation":"Mohair is a lustrous fibre from Angora goats.","difficulty":"Medium"},
-  {"question":"Which material is obtained from the husk of a coconut?","answers":["coir","natural rubber","alpaca fibre","sisal"],"correct":0,"explanation":"Coir is a coarse fibre used in ropes and mats.","difficulty":"Medium"},
+  {"question":"Which material is obtained from the fleece of the Angora goat?","answers":["mohair","cashmere","linen","silk"],"correct":0,"explanation":"Mohair is a lustrous fibre from Angora goats.","difficulty": "Hard"},
+  {"question":"Which material is obtained from the husk of a coconut?","answers":["coir","natural rubber","alpaca fibre","sisal"],"correct":0,"explanation":"Coir is a coarse fibre used in ropes and mats.","difficulty": "Hard"},
   {"question":"Which material is obtained from the latex of a rubber tree?","answers":["natural rubber","alpaca fibre","sisal","cotton"],"correct":0,"explanation":"Natural rubber is made from latex tapped from rubber trees.","difficulty":"Medium"},
   {"question":"Which material is obtained from the fleece of an alpaca?","answers":["alpaca fibre","sisal","cotton","wool"],"correct":0,"explanation":"Alpaca fibre is used to make warm textiles.","difficulty":"Medium"},
   {"question":"Which cooking technique involves cooking food slowly in a small amount of liquid in a covered pot?","answers":["braising","blanching","steaming","deep-frying"],"correct":0,"explanation":"Braising often starts by browning the food before slow cooking.","difficulty":"Medium"},
@@ -513,7 +513,7 @@
   {"question":"Which cooking technique involves cooking food over gently simmering water in its steam?","answers":["steaming","deep-frying","sautéing","sous vide"],"correct":0,"explanation":"Steaming cooks food without immersing it in the water.","difficulty":"Medium"},
   {"question":"Which cooking technique involves cooking food submerged in hot fat?","answers":["deep-frying","sautéing","sous vide","baking"],"correct":0,"explanation":"Deep-frying surrounds the food with hot oil or fat.","difficulty":"Medium"},
   {"question":"Which cooking technique involves cooking food rapidly in a small amount of fat in a pan?","answers":["sautéing","sous vide","baking","grilling"],"correct":0,"explanation":"Sautéing uses relatively high heat and a small amount of fat.","difficulty":"Medium"},
-  {"question":"Which cooking technique involves cooking food in a sealed bag in temperature-controlled water?","answers":["sous vide","baking","grilling","curing"],"correct":0,"explanation":"Sous vide uses precise temperature control over a long period.","difficulty":"Medium"},
+  {"question":"Which cooking technique involves cooking food in a sealed bag in temperature-controlled water?","answers":["sous vide","baking","grilling","curing"],"correct":0,"explanation":"Sous vide uses precise temperature control over a long period.","difficulty": "Hard"},
   {"question":"Which cooking technique involves using dry heat in an oven to cook bread?","answers":["baking","grilling","curing","curdling"],"correct":0,"explanation":"Baking uses dry heat in an enclosed oven.","difficulty":"Medium"},
   {"question":"Which cooking technique involves cooking food directly over a heat source on a grate?","answers":["grilling","curing","curdling","caramelising"],"correct":0,"explanation":"Grilling exposes food to direct radiant heat.","difficulty":"Medium"},
   {"question":"Which cooking technique involves preserving food with salt?","answers":["curing","curdling","caramelising","whipping"],"correct":0,"explanation":"Salt curing helps preserve food by drawing out moisture.","difficulty":"Medium"},
@@ -534,8 +534,8 @@
   {"question":"Which design term describes the gradual change from one colour to another?","answers":["gradient","pattern","typography","value contrast"],"correct":0,"explanation":"A gradient creates a smooth transition between colours.","difficulty":"Medium"},
   {"question":"Which cuisine is traditionally associated with the rice dish paella?","answers":["Spanish","Vietnamese","Korean","Ethiopian"],"correct":0,"explanation":"Paella originated in the Valencia region of Spain.","difficulty":"Medium"},
   {"question":"Which cuisine is traditionally associated with the soup pho?","answers":["Vietnamese","Korean","Ethiopian","Polish"],"correct":0,"explanation":"Pho is a Vietnamese noodle soup.","difficulty":"Medium"},
-  {"question":"Which cuisine is traditionally associated with the dish bibimbap?","answers":["Korean","Ethiopian","Polish","Thai"],"correct":0,"explanation":"Bibimbap combines rice with vegetables and other toppings.","difficulty":"Medium"},
-  {"question":"Which cuisine is traditionally associated with the flatbread injera?","answers":["Ethiopian","Polish","Thai","Greek"],"correct":0,"explanation":"Injera is a fermented flatbread traditionally made with teff.","difficulty":"Medium"},
+  {"question":"Which cuisine is traditionally associated with the dish bibimbap?","answers":["Korean","Ethiopian","Polish","Thai"],"correct":0,"explanation":"Bibimbap combines rice with vegetables and other toppings.","difficulty": "Hard"},
+  {"question":"Which cuisine is traditionally associated with the flatbread injera?","answers":["Ethiopian","Polish","Thai","Greek"],"correct":0,"explanation":"Injera is a fermented flatbread traditionally made with teff.","difficulty": "Hard"},
   {"question":"Which cuisine is traditionally associated with the dumplings pierogi?","answers":["Polish","Thai","Greek","Indian"],"correct":0,"explanation":"Pierogi are filled dumplings common in Polish cuisine.","difficulty":"Medium"},
   {"question":"Which cuisine is traditionally associated with the dish moussaka?","answers":["Greek","Indian","Canadian","Brazilian"],"correct":0,"explanation":"Greek moussaka often layers aubergine, meat and béchamel.","difficulty":"Medium"},
   {"question":"Which cuisine is traditionally associated with the rice dish biryani?","answers":["Indian","Canadian","Brazilian","Moroccan"],"correct":0,"explanation":"Biryani is a spiced rice dish with many regional variations.","difficulty":"Medium"}

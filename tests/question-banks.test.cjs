@@ -25,7 +25,7 @@ test('all category banks contain complete, unique questions', () => {
       assert.ok(['Easy', 'Medium', 'Hard'].includes(item.difficulty), item.question);
     }
     for (const difficulty of ['Easy', 'Medium', 'Hard']) {
-      assert.ok(bank.some(item => item.difficulty === difficulty), `${category} missing ${difficulty}`);
+      assert.ok(bank.filter(item => item.difficulty === difficulty).length >= 11, `${category} needs at least 11 ${difficulty} questions`);
     }
   }
 });
@@ -36,6 +36,15 @@ test('Olympic host questions do not include a city in the prompt', () => {
   assert.ok(hostQuestions.length > 0, 'expected Olympic host questions');
   for (const item of hostQuestions) {
     assert.match(item.question, /^Which (?:country|city) hosted the \d{4} (?:Summer|Winter) Olympics\?$/, item.question);
+  }
+});
+
+test('quiz difficulty menu defaults to miscellaneous and offers every level', () => {
+  const quiz = fs.readFileSync(path.join(root, 'quiz.html'), 'utf8');
+  assert.match(quiz, /<label for="difficulty-select">Difficulty<\/label>/);
+  assert.match(quiz, /<option value="Miscellaneous" selected>Miscellaneous<\/option>/);
+  for (const level of ['Easy', 'Medium', 'Hard']) {
+    assert.ok(quiz.includes(`<option value="${level}">${level}</option>`), `missing ${level} option`);
   }
 });
 

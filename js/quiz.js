@@ -1,5 +1,6 @@
 (() => {
   const gameLength = 10;
+  const difficultyLevels = ['Easy', 'Medium', 'Hard'];
   const categories = {
     'geography': 'Geography',
     'movies-television': 'Movies & Television',
@@ -21,6 +22,9 @@
     loading: document.querySelector('#loading'),
     error: document.querySelector('#load-error'),
     retry: document.querySelector('#retry'),
+    settings: document.querySelector('#quiz-settings'),
+    difficultySelect: document.querySelector('#difficulty-select'),
+    startNew: document.querySelector('#start-new'),
     game: document.querySelector('#game'),
     count: document.querySelector('#question-count'),
     score: document.querySelector('#score'),
@@ -70,7 +74,7 @@
       new Set(item.answers).size === 4 && Number.isInteger(item.correct) &&
       item.correct >= 0 && item.correct < 4 &&
       typeof item.explanation === 'string' && item.explanation.trim() &&
-      ['Easy', 'Medium', 'Hard'].includes(item.difficulty);
+      difficultyLevels.includes(item.difficulty);
   }
 
   async function loadQuestions() {
@@ -82,11 +86,13 @@
       if (!response.ok) throw new Error(`Question bank request failed (${response.status})`);
       const data = await response.json();
       if (!Array.isArray(data) || data.length < gameLength + 1 ||
-          !data.every(validQuestion) || new Set(data.map(item => item.question)).size !== data.length) {
+          !data.every(validQuestion) || new Set(data.map(item => item.question)).size !== data.length ||
+          difficultyLevels.some(level => data.filter(item => item.difficulty === level).length < gameLength + 1)) {
         throw new Error('The question bank is invalid or does not contain enough unique questions.');
       }
       bank = data;
       elements.loading.hidden = true;
+      elements.settings.hidden = false;
       startGame();
     } catch (error) {
       console.error('Unable to load the quiz:', error);
@@ -100,9 +106,20 @@
   }
 
   function startGame() {
-    const selection = shuffle(bank).slice(0, gameLength);
+    const level = elements.difficultySelect.value;
+    const eligible = level === 'Miscellaneous' ? bank : bank.filter(question => question.difficulty === level);
+    if (eligible.length < gameLength + 1) {
+      console.error(`Unable to start quiz: not enough questions for difficulty "${level}".`);
+      elements.error.querySelector('p').textContent = 'There are not enough questions for this difficulty. Please try again.';
+      elements.settings.hidden = true;
+      elements.game.hidden = true;
+      elements.results.hidden = true;
+      elements.error.hidden = false;
+      return;
+    }
+    const selection = shuffle(eligible).slice(0, gameLength);
     if (previousQuestions.length && selection.every(question => previousQuestions.includes(question))) {
-      selection[gameLength - 1] = shuffle(bank.filter(question => !previousQuestions.includes(question)))[0];
+      selection[gameLength - 1] = shuffle(eligible.filter(question => !previousQuestions.includes(question)))[0];
     }
     questions = selection;
     previousQuestions = selection;
@@ -192,6 +209,7 @@
     }
   });
   elements.playAgain.addEventListener('click', startGame);
+  elements.startNew.addEventListener('click', startGame);
   elements.retry.addEventListener('click', loadQuestions);
   loadQuestions();
 })();

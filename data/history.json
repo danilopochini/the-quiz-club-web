@@ -105,7 +105,7 @@
     ],
     "correct": 0,
     "explanation": "Maya are associated with the city of Chichén Itzá.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which ancient civilisation is associated with the city of Persepolis?",
@@ -117,7 +117,7 @@
     ],
     "correct": 0,
     "explanation": "Achaemenid Persians are associated with the city of Persepolis.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is associated with the leadership of India’s nonviolent independence movement?",
@@ -225,7 +225,7 @@
     ],
     "correct": 0,
     "explanation": "Qin Shi Huang is known for the first emperor of a unified China.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which person is associated with the leadership of Britain for most of the Second World War?",
@@ -237,7 +237,7 @@
     ],
     "correct": 0,
     "explanation": "Winston Churchill is known for the leadership of Britain for most of the Second World War.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "In which century did the Battle of Hastings in 1066 occur?",
@@ -345,7 +345,7 @@
     ],
     "correct": 0,
     "explanation": "The Black Death reaching Europe in 1347 took place in the 14th century.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "In which century did the Protestant Reformation beginning in 1517 occur?",
@@ -357,7 +357,7 @@
     ],
     "correct": 0,
     "explanation": "The Protestant Reformation beginning in 1517 took place in the 16th century.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which historical event is associated with a ship named Mayflower arriving in North America in 1620?",
@@ -465,7 +465,7 @@
     ],
     "correct": 0,
     "explanation": "The French Revolution is associated with the end of French royal rule in 1792.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "question": "Which historical event is associated with the 79 CE eruption that buried Pompeii?",
@@ -477,36 +477,36 @@
     ],
     "correct": 0,
     "explanation": "The eruption of Vesuvius is associated with the 79 CE eruption that buried Pompeii.",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {"question":"Which event took place in 1956 when Hungary rose against Soviet influence?","answers":["Hungarian Revolution","Chernobyl disaster","eruption of Krakatoa","Suez Crisis"],"correct":0,"explanation":"Soviet forces suppressed the uprising.","difficulty":"Medium"},
   {"question":"Which event took place in 1986 when a nuclear reactor exploded in Soviet Ukraine?","answers":["Chernobyl disaster","eruption of Krakatoa","Suez Crisis","San Francisco earthquake"],"correct":0,"explanation":"The disaster released radioactive material across a wide area.","difficulty":"Medium"},
   {"question":"Which event took place in 1883 when an Indonesian volcano erupted with global effects?","answers":["eruption of Krakatoa","Suez Crisis","San Francisco earthquake","Hungarian Revolution"],"correct":0,"explanation":"The eruption generated tsunamis and sent ash high into the atmosphere.","difficulty":"Medium"},
-  {"question":"Which event took place in 1956 when Britain, France and Israel invaded Egypt after a canal was nationalised?","answers":["Suez Crisis","San Francisco earthquake","Hungarian Revolution","Chernobyl disaster"],"correct":0,"explanation":"The crisis followed Egypt's nationalisation of the Suez Canal.","difficulty":"Medium"},
+  {"question":"Which event took place in 1956 when Britain, France and Israel invaded Egypt after a canal was nationalised?","answers":["Suez Crisis","San Francisco earthquake","Hungarian Revolution","Chernobyl disaster"],"correct":0,"explanation":"The crisis followed Egypt's nationalisation of the Suez Canal.","difficulty": "Hard"},
   {"question":"Which event took place in 1906 when a major earthquake struck a Californian city?","answers":["San Francisco earthquake","Hungarian Revolution","Chernobyl disaster","eruption of Krakatoa"],"correct":0,"explanation":"The earthquake and subsequent fires devastated San Francisco.","difficulty":"Medium"},
   {"question":"Who was the Egyptian queen who allied with Julius Caesar and Mark Antony?","answers":["Cleopatra VII","Qin Shi Huang","Mansa Musa","Napoleon Bonaparte"],"correct":0,"explanation":"Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt.","difficulty":"Medium"},
-  {"question":"Who was the Mali emperor whose pilgrimage to Mecca took place in 1324?","answers":["Mansa Musa","Napoleon Bonaparte","Elizabeth I","Toussaint Louverture"],"correct":0,"explanation":"Mansa Musa's pilgrimage became famous for its display of wealth.","difficulty":"Medium"},
+  {"question":"Who was the Mali emperor whose pilgrimage to Mecca took place in 1324?","answers":["Mansa Musa","Napoleon Bonaparte","Elizabeth I","Toussaint Louverture"],"correct":0,"explanation":"Mansa Musa's pilgrimage became famous for its display of wealth.","difficulty": "Hard"},
   {"question":"Who was the French military leader defeated at Waterloo in 1815?","answers":["Napoleon Bonaparte","Elizabeth I","Toussaint Louverture","Winston Churchill"],"correct":0,"explanation":"Napoleon's defeat at Waterloo ended his rule during the Hundred Days.","difficulty":"Medium"},
   {"question":"Who was the English queen who reigned during the defeat of the Spanish Armada?","answers":["Elizabeth I","Toussaint Louverture","Winston Churchill","Nikita Khrushchev"],"correct":0,"explanation":"The English defeated the Spanish Armada in 1588.","difficulty":"Medium"},
-  {"question":"Who was the Haitian revolutionary who became governor-general of Saint-Domingue?","answers":["Toussaint Louverture","Winston Churchill","Nikita Khrushchev","Kwame Nkrumah"],"correct":0,"explanation":"Louverture was a leading figure in the Haitian Revolution.","difficulty":"Medium"},
+  {"question":"Who was the Haitian revolutionary who became governor-general of Saint-Domingue?","answers":["Toussaint Louverture","Winston Churchill","Nikita Khrushchev","Kwame Nkrumah"],"correct":0,"explanation":"Louverture was a leading figure in the Haitian Revolution.","difficulty": "Hard"},
   {"question":"Who was the British prime minister for much of the Second World War?","answers":["Winston Churchill","Nikita Khrushchev","Kwame Nkrumah","Joseph Stalin"],"correct":0,"explanation":"Churchill became prime minister in 1940.","difficulty":"Medium"},
   {"question":"Who was the Soviet leader during the Cuban Missile Crisis?","answers":["Nikita Khrushchev","Kwame Nkrumah","Joseph Stalin","Abraham Lincoln"],"correct":0,"explanation":"Khrushchev led the Soviet Union during the 1962 crisis.","difficulty":"Medium"},
-  {"question":"Who was the first president of independent Ghana?","answers":["Kwame Nkrumah","Joseph Stalin","Abraham Lincoln","Tutankhamun"],"correct":0,"explanation":"Nkrumah led Ghana to independence in 1957.","difficulty":"Medium"},
+  {"question":"Who was the first president of independent Ghana?","answers":["Kwame Nkrumah","Joseph Stalin","Abraham Lincoln","Tutankhamun"],"correct":0,"explanation":"Nkrumah led Ghana to independence in 1957.","difficulty": "Hard"},
   {"question":"Who was the leader of the Soviet Union during most of the Second World War?","answers":["Joseph Stalin","Abraham Lincoln","Tutankhamun","Cleopatra VII"],"correct":0,"explanation":"Stalin led the USSR when it fought Nazi Germany.","difficulty":"Medium"},
   {"question":"Who was the US president who issued the Emancipation Proclamation?","answers":["Abraham Lincoln","Tutankhamun","Cleopatra VII","Qin Shi Huang"],"correct":0,"explanation":"Lincoln issued the proclamation during the American Civil War.","difficulty":"Medium"},
   {"question":"Who was the Egyptian pharaoh whose tomb was found largely intact in 1922?","answers":["Tutankhamun","Cleopatra VII","Qin Shi Huang","Mansa Musa"],"correct":0,"explanation":"Howard Carter's team found Tutankhamun's tomb in the Valley of the Kings.","difficulty":"Medium"},
   {"question":"In which year did German reunification occur?","answers":["1990","1947","1964","1961"],"correct":0,"explanation":"East and West Germany were formally reunited on 3 October 1990.","difficulty":"Medium"},
   {"question":"In which year did Indian independence from British rule occur?","answers":["1947","1964","1961","1903"],"correct":0,"explanation":"India became independent on 15 August 1947.","difficulty":"Medium"},
-  {"question":"In which year did the signing of the US Civil Rights Act occur?","answers":["1964","1961","1903","1929"],"correct":0,"explanation":"The law prohibited discrimination in a range of areas.","difficulty":"Medium"},
-  {"question":"In which year did the start of construction of the Berlin Wall occur?","answers":["1961","1903","1929","1953"],"correct":0,"explanation":"East Germany began sealing the border in August 1961.","difficulty":"Medium"},
+  {"question":"In which year did the signing of the US Civil Rights Act occur?","answers":["1964","1961","1903","1929"],"correct":0,"explanation":"The law prohibited discrimination in a range of areas.","difficulty": "Hard"},
+  {"question":"In which year did the start of construction of the Berlin Wall occur?","answers":["1961","1903","1929","1953"],"correct":0,"explanation":"East Germany began sealing the border in August 1961.","difficulty": "Hard"},
   {"question":"In which year did the first powered flight by the Wright brothers occur?","answers":["1903","1929","1953","1957"],"correct":0,"explanation":"The Wright brothers flew at Kitty Hawk in 1903.","difficulty":"Medium"},
   {"question":"In which year did the beginning of the Great Depression following the Wall Street crash occur?","answers":["1929","1953","1957","1969"],"correct":0,"explanation":"The 1929 crash preceded a prolonged worldwide depression.","difficulty":"Medium"},
   {"question":"In which year did the first confirmed ascent of Mount Everest occur?","answers":["1953","1957","1969","1919"],"correct":0,"explanation":"Edmund Hillary and Tenzing Norgay reached the summit in 1953.","difficulty":"Medium"},
   {"question":"In which year did the launch of Sputnik 1 occur?","answers":["1957","1969","1919","1861"],"correct":0,"explanation":"The Soviet Union launched the first artificial satellite in 1957.","difficulty":"Medium"},
   {"question":"In which year did the first human landing on the Moon occur?","answers":["1969","1919","1861","1945"],"correct":0,"explanation":"Apollo 11 landed on the Moon in July 1969.","difficulty":"Medium"},
-  {"question":"In which year did the signing of the Treaty of Versailles occur?","answers":["1919","1861","1945","1990"],"correct":0,"explanation":"The treaty was signed after the First World War.","difficulty":"Medium"},
-  {"question":"In which year did the proclamation of the Kingdom of Italy occur?","answers":["1861","1945","1990","1947"],"correct":0,"explanation":"Victor Emmanuel II became king of the newly proclaimed kingdom.","difficulty":"Medium"},
-  {"question":"In which year did the signing of the United Nations Charter occur?","answers":["1945","1990","1947","1964"],"correct":0,"explanation":"The UN Charter was signed in San Francisco in 1945.","difficulty":"Medium"},
+  {"question":"In which year did the signing of the Treaty of Versailles occur?","answers":["1919","1861","1945","1990"],"correct":0,"explanation":"The treaty was signed after the First World War.","difficulty": "Hard"},
+  {"question":"In which year did the proclamation of the Kingdom of Italy occur?","answers":["1861","1945","1990","1947"],"correct":0,"explanation":"Victor Emmanuel II became king of the newly proclaimed kingdom.","difficulty": "Hard"},
+  {"question":"In which year did the signing of the United Nations Charter occur?","answers":["1945","1990","1947","1964"],"correct":0,"explanation":"The UN Charter was signed in San Francisco in 1945.","difficulty": "Hard"},
   {"question":"Which event is associated with the storming of the Bastille in 1789?","answers":["French Revolution","American Revolution","American Civil War","First World War"],"correct":0,"explanation":"The storming of the Bastille became a symbol of the revolution.","difficulty":"Medium"},
   {"question":"Which event is associated with the American colonies declaring independence in 1776?","answers":["American Revolution","American Civil War","First World War","Second World War"],"correct":0,"explanation":"The Declaration of Independence was adopted during the American Revolution.","difficulty":"Medium"},
   {"question":"Which event is associated with fighting between the Union and Confederacy from 1861 to 1865?","answers":["American Civil War","First World War","Second World War","end of the Cold War"],"correct":0,"explanation":"The Union won the Civil War in 1865.","difficulty":"Medium"},
@@ -514,13 +514,13 @@
   {"question":"Which event is associated with the Allied landings in Normandy in 1944?","answers":["Second World War","end of the Cold War","Cuban Missile Crisis","October Revolution"],"correct":0,"explanation":"The Normandy landings opened a major Western front in France.","difficulty":"Medium"},
   {"question":"Which event is associated with the fall of the Berlin Wall in 1989?","answers":["end of the Cold War","Cuban Missile Crisis","October Revolution","Boston Tea Party"],"correct":0,"explanation":"The fall of the wall marked a turning point in the Cold War.","difficulty":"Medium"},
   {"question":"Which event is associated with the 1962 confrontation over Soviet missiles in Cuba?","answers":["Cuban Missile Crisis","October Revolution","Boston Tea Party","1918 influenza pandemic"],"correct":0,"explanation":"The crisis brought the United States and Soviet Union close to nuclear conflict.","difficulty":"Medium"},
-  {"question":"Which event is associated with the 1917 overthrow of the Russian provisional government by the Bolsheviks?","answers":["October Revolution","Boston Tea Party","1918 influenza pandemic","end of apartheid"],"correct":0,"explanation":"The October Revolution brought the Bolsheviks to power.","difficulty":"Medium"},
+  {"question":"Which event is associated with the 1917 overthrow of the Russian provisional government by the Bolsheviks?","answers":["October Revolution","Boston Tea Party","1918 influenza pandemic","end of apartheid"],"correct":0,"explanation":"The October Revolution brought the Bolsheviks to power.","difficulty": "Hard"},
   {"question":"Which event is associated with protests against tea taxation in colonial Boston in 1773?","answers":["Boston Tea Party","1918 influenza pandemic","end of apartheid","Dunkirk evacuation"],"correct":0,"explanation":"Protesters destroyed tea in Boston Harbor.","difficulty":"Medium"},
   {"question":"Which event is associated with the global influenza outbreak beginning in 1918?","answers":["1918 influenza pandemic","end of apartheid","Dunkirk evacuation","French Revolution"],"correct":0,"explanation":"The pandemic spread across the world near the end of the First World War.","difficulty":"Medium"},
   {"question":"Which event is associated with the abolition of apartheid laws and democratic elections in South Africa?","answers":["end of apartheid","Dunkirk evacuation","French Revolution","American Revolution"],"correct":0,"explanation":"South Africa held its first multiracial national elections in 1994.","difficulty":"Medium"},
   {"question":"Which event is associated with the escape of Allied troops from a French port in 1940?","answers":["Dunkirk evacuation","French Revolution","American Revolution","American Civil War"],"correct":0,"explanation":"Operation Dynamo evacuated troops from Dunkirk during the Second World War.","difficulty":"Medium"},
   {"question":"Which historical document is associated with the 1776 declaration by thirteen American colonies?","answers":["Declaration of Independence","Declaration of the Rights of Man and of the Citizen","Emancipation Proclamation","Treaty of Versailles"],"correct":0,"explanation":"The declaration announced the colonies' separation from Britain.","difficulty":"Medium"},
-  {"question":"Which historical document is associated with the French statement of rights adopted in 1789?","answers":["Declaration of the Rights of Man and of the Citizen","Emancipation Proclamation","Treaty of Versailles","UN Charter"],"correct":0,"explanation":"The declaration set out principles of rights and citizenship.","difficulty":"Medium"},
+  {"question":"Which historical document is associated with the French statement of rights adopted in 1789?","answers":["Declaration of the Rights of Man and of the Citizen","Emancipation Proclamation","Treaty of Versailles","UN Charter"],"correct":0,"explanation":"The declaration set out principles of rights and citizenship.","difficulty": "Hard"},
   {"question":"Which historical document is associated with the 1863 US order freeing enslaved people in rebelling states?","answers":["Emancipation Proclamation","Treaty of Versailles","UN Charter","Universal Declaration of Human Rights"],"correct":0,"explanation":"Lincoln's proclamation applied to states in rebellion.","difficulty":"Medium"},
   {"question":"Which historical document is associated with the post-First World War peace treaty signed with Germany?","answers":["Treaty of Versailles","UN Charter","Universal Declaration of Human Rights","Mayflower Compact"],"correct":0,"explanation":"The treaty was signed in 1919.","difficulty":"Medium"},
   {"question":"Which historical document is associated with the charter founding the United Nations in 1945?","answers":["UN Charter","Universal Declaration of Human Rights","Mayflower Compact","Napoleonic Code"],"correct":0,"explanation":"The charter established the United Nations after the Second World War.","difficulty":"Medium"},
