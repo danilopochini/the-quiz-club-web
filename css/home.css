@@ -66,7 +66,7 @@
 .category-card::after { background: linear-gradient(90deg, rgba(var(--cat-color), .96) 0%, rgba(var(--cat-color), .9) 30%, rgba(var(--cat-color), .45) 47%, rgba(var(--cat-color), 0) 62%); }
 .cat-number { position: relative; z-index: 2; padding: 5px 7px; margin: -5px 0 0 -7px; border-radius: 4px; background: #faf8f2e8; font-size: 9px; font-weight: 800; letter-spacing: 1px; }
 .cat-art { position: absolute; z-index: 0; inset: 0; display: block; background-size: cover; background-position: var(--art-position, center); transition: transform .3s ease, filter .3s ease; }
-.category-card[href$="#geography"] { --art-position: 48% 26%; }
+.category-card[href$="geography.html"] { --art-position: 48% 26%; }
 .category-card[href$="#movies-television"] { --art-position: 42% 38%; }
 .category-card[href$="#music"] { --art-position: 55% 40%; }
 .category-card[href$="#history"] { --art-position: 55% 28%; }

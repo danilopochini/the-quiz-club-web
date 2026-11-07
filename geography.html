@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f2">
+  <meta name="description" content="Put your knowledge of the world to the test with The Quiz Club's Geography quiz.">
+  <title>Geography Quiz — The Quiz Club</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/quiz.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="The Quiz Club home"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav class="site-nav" id="primary-navigation" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" href="explore.html">Explore</a><a class="nav-link" href="daily.html">Daily Challenge</a><a class="button button-dark nav-button" href="explore.html">Play Now <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main class="quiz-main">
+    <div class="quiz-shell">
+      <a class="quiz-back" href="explore.html#geography"><span aria-hidden="true">←</span> All categories</a>
+      <div class="quiz-intro">
+        <div><div class="section-kicker"><span>✳</span> THE WORLD IS YOUR PLAYGROUND</div><h1>Let's talk <em>Geography.</em></h1><p>Ten questions. One wonderfully big world. Ready to explore?</p></div>
+        <div class="quiz-intro-art" aria-hidden="true"></div>
+      </div>
+      <section class="quiz-card" aria-label="Geography quiz">
+        <div id="loading" role="status">Getting your questions ready...</div>
+        <div id="load-error" class="load-error" role="alert" hidden>
+          <h2>We couldn't load the quiz.</h2>
+          <p>Check your connection and try again. If you're opening this page from your computer, use a local web server to load the questions.</p>
+          <button class="button button-blue" id="retry" type="button">Try again <span aria-hidden="true">↗</span></button>
+        </div>
+        <noscript><style>#loading { display: none; }</style><p class="load-error">This quiz needs JavaScript. Enable it and reload the page to play.</p></noscript>
+        <div id="game" hidden>
+          <div class="quiz-meta"><span id="question-count">Question 1 of 10</span><span class="score-pill">✦ <span id="score">0</span> / 10 correct</span></div>
+          <div id="progress" class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" aria-valuetext="0 of 10 questions answered"><span id="progress-fill"></span></div>
+          <div class="question-heading"><span class="question-kicker">GEOGRAPHY <span aria-hidden="true">/</span> <span id="difficulty"></span></span><h2 id="question" tabindex="-1"></h2><p>Choose the answer you think is right.</p></div>
+          <div id="answers" class="answers" role="group" aria-labelledby="question"></div>
+          <div id="feedback" class="feedback" role="status" aria-live="polite" hidden>
+            <p id="feedback-title" class="feedback-title"></p><p id="explanation"></p>
+          </div>
+          <div class="quiz-actions"><span class="quiz-hint">A little curiosity goes a long way. ✦</span><button class="button button-blue" id="next" type="button" hidden>Next Question <span aria-hidden="true">→</span></button></div>
+        </div>
+        <div id="results" class="results" hidden>
+          <div class="section-kicker"><span>✳</span> YOUR JOURNEY, IN NUMBERS</div>
+          <div class="result-badge" aria-hidden="true"><span id="result-ring-score"></span><small>OUT OF 10</small></div>
+          <h2 id="result-title" tabindex="-1"></h2>
+          <p id="result-summary"></p>
+          <p class="result-note">Every answer is another reason to stay curious.</p>
+          <div class="result-actions"><button class="button button-blue" id="play-again" type="button">Play Again <span aria-hidden="true">↗</span></button><a class="button result-back" href="explore.html">Back to Categories <span aria-hidden="true">→</span></a></div>
+        </div>
+      </section>
+      <p class="quiz-footer-note">GOOD QUESTIONS. GOOD TIMES. <span aria-hidden="true">✦</span></p>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid">
+    <div class="footer-about"><a class="brand footer-brand" href="index.html"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a><p>For the curious, the competitive,<br>and everyone in between.</p></div>
+    <div><h2>EXPLORE</h2><a href="index.html">Home</a><a href="explore.html">Categories</a><a href="daily.html">Daily Challenge</a></div>
+    <div><h2>THE CLUB</h2><a href="about.html#about">About</a><a href="about.html#privacy">Privacy</a><a href="about.html#contact">Contact</a></div>
+    <div class="footer-signoff">STAY CURIOUS.<br><span>PLAY OFTEN.</span><span class="footer-star" aria-hidden="true">✳</span></div>
+  </div><div class="container footer-bottom"><span>© The Quiz Club. Made for curious minds.</span><span>GOOD QUESTIONS. GOOD TIMES. ✦</span></div></footer>
+</body>
+</html>
