@@ -57,6 +57,15 @@ test('homepage links to each quiz and category artwork exists', () => {
   }
 });
 
+test('homepage category and game-mode labels are not numbered', () => {
+  const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  for (const [className, count] of [['cat-number', 12], ['mode-index', 4]]) {
+    const labels = [...homepage.matchAll(new RegExp(`<span class="${className}">([^<]+)</span>`, 'g'))];
+    assert.equal(labels.length, count, className);
+    for (const [, label] of labels) assert.doesNotMatch(label, /^\s*\d+\s*\/\s*/, label);
+  }
+});
+
 test('quiz return links point to the homepage categories', () => {
   const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const quiz = fs.readFileSync(path.join(root, 'quiz.html'), 'utf8');
