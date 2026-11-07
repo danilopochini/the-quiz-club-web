@@ -18,7 +18,7 @@ Opening pages directly as `file://` may prevent the quiz data from loading; use 
 - `index.html` — homepage.
 - `quiz.html` — shared quiz page; choose a category with `?category=...`.
 - `geography.html` — compatibility link to the Geography quiz.
-- `explore.html`, `daily.html`, `about.html` — category directory and informational pages.
+- `daily.html`, `about.html` — informational pages.
 - `css/style.css` — shared design system and page styles.
 - `css/home.css` — homepage-specific styles and illustrations.
 - `css/quiz.css` — quiz interface styles.

@@ -67,9 +67,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 .placeholder-panel { padding: 36px; margin-bottom: 80px; background: white; border: 1px solid #e8e8e4; border-radius: 16px; }
 .placeholder-panel h2 { font: 700 24px var(--heading); margin: 0 0 10px; }
 .placeholder-panel p { color: var(--muted); line-height: 1.7; }
-.placeholder-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 28px; }
-.placeholder-list div { scroll-margin-top: 20px; background: var(--ivory); padding: 20px; border-radius: 10px; font-weight: 700; }
-.placeholder-list div:target, .info-section:target { outline: 3px solid var(--blue); outline-offset: 3px; }
+.info-section:target { outline: 3px solid var(--blue); outline-offset: 3px; }
 .info-section + .info-section { margin-top: 35px; }
 
 @media (max-width: 760px) {
@@ -85,13 +83,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
   .section-heading-side { max-width: 440px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 38px 20px; }
   .footer-bottom { margin-top: 45px; flex-wrap: wrap; }
-  .placeholder-list { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 420px) {
   .site-nav { align-items: stretch; flex-direction: column; }
   .nav-link { width: fit-content; }
-  .nav-button { align-self: flex-start; }
-  .placeholder-list { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

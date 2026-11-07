@@ -51,7 +51,6 @@
     document.querySelector('#category-title').textContent = `${category}.`;
     document.querySelector('#category-name').textContent = category;
     document.querySelector('#quiz-card').setAttribute('aria-label', `${category} quiz`);
-    document.querySelector('.quiz-back').href = `explore.html#${categoryId}`;
     document.querySelector('#category-art').style.backgroundImage = `url("assets/images/categories/${categoryId}.jpg")`;
   }
 
@@ -93,7 +92,7 @@
       console.error('Unable to load the quiz:', error);
       elements.loading.hidden = true;
       if (!category) {
-        elements.error.querySelector('p').textContent = 'This category is not available. Choose a category from Explore to play.';
+        elements.error.querySelector('p').textContent = 'This category is not available. Choose a category from the homepage to play.';
         elements.retry.hidden = true;
       }
       elements.error.hidden = false;

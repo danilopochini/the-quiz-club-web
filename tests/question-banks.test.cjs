@@ -30,13 +30,27 @@ test('all category banks contain complete, unique questions', () => {
   }
 });
 
-test('homepage and Explore link to each quiz and category artwork exists', () => {
+test('homepage links to each quiz and category artwork exists', () => {
   const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-  const explore = fs.readFileSync(path.join(root, 'explore.html'), 'utf8');
   for (const category of categories) {
     const link = `quiz.html?category=${category}`;
     assert.ok(homepage.includes(`href="${link}"`), `homepage missing ${category}`);
-    assert.ok(explore.includes(`href="${link}"`), `Explore missing ${category}`);
     assert.ok(fs.existsSync(path.join(root, 'assets', 'images', 'categories', `${category}.jpg`)), `artwork missing for ${category}`);
+  }
+});
+
+test('quiz return links point to the homepage categories', () => {
+  const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const quiz = fs.readFileSync(path.join(root, 'quiz.html'), 'utf8');
+  assert.match(homepage, /id="categories"/);
+  assert.match(quiz, /class="quiz-back" href="index\.html#categories"/);
+  assert.match(quiz, /class="button result-back" href="index\.html#categories"/);
+});
+
+test('site pages and scripts do not reference the removed category directory', () => {
+  const files = ['index.html', 'quiz.html', 'daily.html', 'about.html', 'geography.html', 'js/navigation.js', 'js/quiz.js'];
+  assert.equal(fs.existsSync(path.join(root, 'explore.html')), false);
+  for (const file of files) {
+    assert.doesNotMatch(fs.readFileSync(path.join(root, file), 'utf8'), /explore\.html/i, file);
   }
 });

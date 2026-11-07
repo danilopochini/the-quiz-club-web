@@ -7,7 +7,6 @@
 .hero h1 em { color: var(--blue); font-style: normal; }
 .coral { color: var(--coral); }
 .hero-copy > p { max-width: 430px; color: var(--muted); font-size: 16px; line-height: 1.75; }
-.hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 28px; margin-top: 30px; }
 .hero-note { display: flex; align-items: center; gap: 8px; margin-top: 48px; color: #788392; font-size: 11px; font-weight: 600; }
 .note-sparkle { color: var(--coral); font-size: 19px; }
 .hero-art { position: relative; height: 460px; display: grid; place-items: center; }
@@ -98,8 +97,6 @@
 .closing-inner { min-height: 100px; display: flex; align-items: center; gap: 18px; }
 .closing-inner > span { font-size: 35px; }
 .closing-inner p { flex: 1; font: 700 23px var(--heading); letter-spacing: -.7px; }
-.closing-inner a { font-size: 10px; font-weight: 800; letter-spacing: 1px; text-decoration: none; }
-.closing-inner a span { font-size: 18px; margin-left: 8px; }
 @media (max-width: 900px) {
   .hero-grid { gap: 10px; }
   .hero h1 { font-size: 60px; }
@@ -131,5 +128,4 @@
   .daily-copy { padding: 32px 25px; }
   .closing-inner { flex-wrap: wrap; padding-block: 20px; gap: 10px; }
   .closing-inner p { font-size: 19px; }
-  .closing-inner a { width: 100%; padding-left: 44px; }
 }
