@@ -27,7 +27,9 @@ Opening pages directly as `file://` may prevent the quiz data from loading; use 
 - `js/navigation.js` — accessible mobile navigation.
 - `js/quiz.js` — quiz state, answer feedback and results.
 - `data/` — separate JSON question banks for each category.
+- `assets/icons/` — SVG, PNG, ICO and Apple Touch favicon assets.
 - `tests/question-banks.test.cjs` — question-bank and category-link checks.
 - `tests/quiz-difficulty.test.cjs` — difficulty selection and game-flow checks.
+- `tests/favicon.test.cjs` — favicon asset and page-reference checks.
 
 Run the checks with `node --test tests/*.test.cjs`.
