@@ -6,6 +6,10 @@ Each quiz starts with Miscellaneous difficulty, drawing from all levels. Choose 
 
 Picture Perfect: Around the World is a separate visual Geography game. It draws 10 distinct questions from a bank of 50, with an explanation and image credit revealed after each answer. Play Again starts a new selection.
 
+Who Am I? offers six identity categories and a Mixed Mysteries option, drawing ten distinct mysteries per game. Mixed games include all six categories; replays prioritize identities not used in the previous game where possible. Each mystery has five progressive clues and one guess per clue: a correct guess earns five points on the first clue down to one point on the fifth. Answers match explicitly listed names and aliases, ignoring case, accents, punctuation and extra whitespace. Unfinished progress, completed games, recent selections and category-specific personal bests are saved in browser localStorage. Each individual category currently contains exactly ten mysteries, so replaying the same category necessarily repeats those identities.
+
+The original mystery clues, aliases, explanations and source links are maintained in `scripts/build-who-am-i-bank.cjs`; run `node scripts/build-who-am-i-bank.cjs` to regenerate `data/who-am-i.json` after editing. Verify new facts against the referenced sources, avoid duplicate identities, and run the tests. The category cards reuse existing category photography, while the game banner reuses the credited Who Am I? homepage image.
+
 Higher or Lower lets players choose any of the twelve categories and compare ten pairs of values. Answers are calculated from the values, and each response reveals a sourced explanation. A round never repeats a pair in either order; replays prioritize pairs not used in the preceding round in that category. Movie rounds also use each film at most once, choosing a set of ten disjoint pairs that minimizes reuse from the preceding round. Personal bests and the previous selection are saved per category in browser localStorage. Most categories contain 15 pairs derived from six sourced subjects and one measurement, so replays necessarily reuse some pairs. Movies & Television uses 20 films and excludes tied Oscar totals.
 
 The comparison cards use locally stored images documented in `data/higher-lower-images.json`. Each image has its creator, Wikimedia Commons source and licence displayed on the card; the downloaded images are resized or converted versions of the originals. Geography uses country locator maps, and Movies & Television uses posters for the films themselves. The posters are public domain in the United States; restrictions may apply in other jurisdictions. Video-game comparisons show the relevant console rather than copyrighted game artwork. Stadiums, scientific specimens and geometric diagrams illustrate subjects where appropriate.
@@ -37,6 +41,7 @@ Opening pages directly as `file://` may prevent the quiz data from loading; use 
 - `quiz.html` — shared quiz page; choose a category with `?category=...`.
 - `picture-perfect.html` — Picture Perfect: Around the World.
 - `higher-lower.html` — category-based Higher or Lower game.
+- `who-am-i.html` — progressive-clue identity game.
 - `daily.html` — date-based Daily Challenge game.
 - `geography.html`, `about.html` — compatibility and informational pages.
 - `css/style.css` — shared design system and page styles.
@@ -44,15 +49,18 @@ Opening pages directly as `file://` may prevent the quiz data from loading; use 
 - `css/quiz.css` — quiz interface styles.
 - `css/picture-perfect.css` — Picture Perfect image and welcome-screen styles.
 - `css/higher-lower.css` — comparison cards and responsive game styles.
+- `css/who-am-i.css` — mystery clues and answer form.
 - `css/daily.css` — Daily Challenge page styles.
 - `js/navigation.js` — accessible mobile navigation.
 - `js/quiz.js` — quiz state, answer feedback and results.
 - `js/picture-perfect.js` — visual game state, image loading and attribution.
 - `js/higher-lower.js` — comparison game, validation, results and personal bests.
+- `js/who-am-i.js` — mystery selection, guesses, scoring and saved progress.
 - `js/daily.js` — daily challenge loading, gameplay, local progress and streaks.
 - `data/` — separate JSON question banks for each category.
 - `data/daily-challenges.json` — date-keyed Daily Challenge content.
 - `data/higher-lower.json` — sourced comparison bank.
+- `data/who-am-i.json` — sourced mystery bank.
 - `scripts/build-higher-lower-bank.cjs` — source data and comparison-bank generator.
 - `assets/icons/` — SVG, PNG, ICO and Apple Touch favicon assets.
 - `tests/question-banks.test.cjs` — question-bank and category-link checks.

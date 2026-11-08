@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f2">
+  <meta name="description" content="Solve ten mysteries with progressive clues in Who Am I? from The Quiz Club.">
+  <title>Who Am I? — The Quiz Club</title>
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" sizes="180x180">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/higher-lower.css">
+  <link rel="stylesheet" href="css/who-am-i.css">
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/who-am-i.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="The Quiz Club home"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav class="site-nav" id="primary-navigation" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="daily.html">Daily Challenge</a></nav>
+  </div></header>
+  <main class="quiz-main mystery-main"><div class="higher-shell">
+    <a class="quiz-back" href="index.html"><span aria-hidden="true">←</span> Back to home</a>
+    <div class="quiz-intro higher-intro mystery-intro"><div><div class="section-kicker"><span>✳</span> THE MYSTERY</div><h1>Who Am I?</h1><p>Think you know your famous faces, historical figures and fictional characters? Solve the mystery using progressive clues.</p></div></div>
+    <div id="loading" role="status">Preparing the mysteries...</div>
+    <div id="load-error" class="quiz-card load-error" role="alert" hidden><h2>We couldn't load the mysteries.</h2><p>Check your connection and try again. If you're opening this page from your computer, use a local web server.</p><button class="button button-blue" id="retry" type="button">Try again ↗</button></div>
+    <noscript><style>#loading { display: none; }</style><p class="load-error">This game needs JavaScript. Enable it and reload the page to play.</p></noscript>
+    <p id="storage-warning" class="higher-warning" role="status" hidden></p>
+    <section id="categories" aria-labelledby="categories-title" hidden>
+      <div class="higher-section-heading"><div><div class="section-kicker"><span>✳</span> PICK YOUR MYSTERY</div><h2 id="categories-title" tabindex="-1">Choose a category.</h2></div><p>Ten mysteries. Five clues each.</p></div>
+      <p id="category-message" class="higher-warning" role="status" hidden></p>
+      <div id="category-grid" class="category-grid"></div>
+    </section>
+    <section id="game" class="quiz-card mystery-card" aria-label="Mystery round" hidden>
+      <div class="quiz-meta"><span id="round-count"></span><span class="score-pill">✦ <span id="score">0</span> / 50 points</span></div>
+      <div id="progress" class="progress" role="progressbar" aria-label="Game progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="progress-fill"></span></div>
+      <div class="mystery-banner" aria-hidden="true"></div>
+      <div class="question-heading"><span id="category-name" class="question-kicker"></span><h2 id="question" tabindex="-1"></h2><p id="points"></p></div>
+      <ol id="clues" class="mystery-clues" aria-label="Revealed clues"></ol>
+      <form id="guess-form" class="guess-form"><label for="guess">Your guess</label><div class="guess-controls"><input id="guess" type="text" autocomplete="off" maxlength="160" required placeholder="Enter a name"><button id="submit" class="button button-blue" type="submit">Submit Guess →</button></div></form>
+      <div id="feedback" class="feedback" role="status" aria-live="polite" hidden><p id="feedback-title" class="feedback-title"></p><p id="explanation"></p><p id="sources" class="mystery-sources"></p></div>
+      <div class="quiz-actions"><span class="quiz-hint">A little curiosity goes a long way. ✦</span><button class="button button-blue" id="reveal" type="button" hidden>Reveal next clue →</button><button class="button button-blue" id="next" type="button" hidden>Continue →</button></div>
+    </section>
+    <section id="results" class="quiz-card results higher-results" aria-labelledby="result-title" hidden>
+      <div class="section-kicker"><span>✳</span> CASE CLOSED</div><div class="result-badge" aria-hidden="true"><span id="result-score"></span><small>OUT OF 50</small></div>
+      <h2 id="result-title" tabindex="-1"></h2><p id="result-summary"></p><p id="result-breakdown" class="result-note"></p><p id="result-best" class="result-note"></p>
+      <div class="result-actions"><button class="button button-blue" id="play-again" type="button">Play Again ↗</button><button class="button result-back" id="choose-category" type="button">Choose Another Category →</button><a class="button result-back" href="index.html">Return to Homepage →</a></div>
+      <div class="higher-review"><h3>Your mysteries, reviewed.</h3><div id="review"></div></div>
+    </section>
+    <p class="quiz-footer-note">GOOD QUESTIONS. GOOD TIMES. <span aria-hidden="true">✦</span></p>
+  </div></main>
+  <footer class="site-footer"><div class="container footer-grid">
+    <div class="footer-about"><a class="brand footer-brand" href="index.html"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a><p>For the curious, the competitive,<br>and everyone in between.</p></div>
+    <div><h2>NAVIGATION</h2><a href="index.html">Home</a><a href="daily.html">Daily Challenge</a></div>
+    <div><h2>THE CLUB</h2><a href="about.html#about">About</a><a href="about.html#privacy">Privacy</a><a href="about.html#contact">Contact</a></div>
+    <div class="footer-signoff">STAY CURIOUS.<br><span>PLAY OFTEN.</span><span class="footer-star" aria-hidden="true">✳</span></div>
+  </div><div class="container footer-bottom"><span>© The Quiz Club. Made for curious minds.</span><span>GOOD QUESTIONS. GOOD TIMES. ✦</span></div></footer>
+</body>
+</html>

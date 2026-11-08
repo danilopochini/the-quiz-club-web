@@ -1,0 +1,27 @@
+.mystery-main { background: radial-gradient(circle at 85% 12%, #e5dcfa, transparent 30%), var(--ivory); }
+.mystery-intro h1 { color: #594393; }
+.mystery-card .progress span { background: #765bb7; }
+.mystery-banner { height: 145px; margin-top: 26px; border-radius: 12px; background: linear-gradient(90deg, #30254699, #30254622), url('../assets/images/game-modes/mystery.jpg') center 53% / cover; }
+.mystery-card .question-heading { margin-top: 28px; }
+.mystery-card .question-kicker { color: #7051a8; }
+.mystery-clues { display: grid; gap: 10px; padding: 0; list-style: none; counter-reset: clue; }
+.mystery-clues li { counter-increment: clue; padding: 16px; border: 1px solid #e4dcef; border-radius: 10px; background: #f7f3fd; line-height: 1.5; animation: clue-in .25s ease both; overflow-wrap: anywhere; }
+.mystery-clues li::before { content: counter(clue, decimal-leading-zero); margin-right: 12px; color: #7051a8; font-size: 11px; font-weight: 800; }
+.mystery-previous-guess { display: block; margin: 6px 0 0 28px; color: #5e5470; }
+@keyframes clue-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .mystery-clues li { animation: none; } }
+.guess-form { margin-top: 24px; }
+.guess-form label { display: block; margin-bottom: 8px; font-size: 12px; font-weight: 800; }
+.guess-controls { display: flex; gap: 10px; }
+.guess-controls input { flex: 1; min-width: 0; min-height: 48px; padding: 12px; border: 1px solid #c9bddc; border-radius: 9px; font: inherit; }
+.guess-controls input:focus-visible { outline: 3px solid #bca7e8; outline-offset: 2px; }
+.guess-controls button { border: 0; cursor: pointer; }
+.guess-controls button:disabled { opacity: .6; cursor: default; }
+.mystery-sources { padding-top: 8px; overflow-wrap: anywhere; }
+.mystery-sources a { color: #594393; }
+.mystery-review-clues { margin: 10px 0; padding-left: 22px; }
+@media (max-width: 600px) {
+  .mystery-banner { height: 105px; }
+  .guess-controls { flex-direction: column; }
+  .guess-controls button { width: 100%; }
+}
