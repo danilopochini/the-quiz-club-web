@@ -217,8 +217,8 @@
       home.textContent = `Completed · ${todaysProgress.score}/100 points · ${currentStreak()} day streak`;
       cta.textContent = 'Review today’s results';
     } else if (todaysProgress && todaysProgress.answers.some(answer => answer !== null)) {
-      home.textContent = `In progress · 5 questions · about 3 minutes · ${currentStreak()} day streak`;
-      cta.textContent = 'Resume today’s challenge';
+      home.textContent = `In progress · resume at Question ${todaysProgress.index + 1} of 5 · ${currentStreak()} day streak`;
+      cta.textContent = `Resume at Question ${todaysProgress.index + 1}`;
     } else {
       home.textContent = `${formattedDate(activeDate)} · 5 questions · about 3 minutes · up to 100 points`;
       cta.textContent = 'Start today’s challenge';
@@ -242,8 +242,10 @@
     const answered = Boolean(progress && progress.answers.some(answer => answer !== null));
     ui.welcomeStatus.textContent = completed
       ? `You’ve completed today’s challenge with ${progress.score}/100 points.`
-      : answered ? 'Your progress is saved. Pick up where you left off.' : 'Five questions. One official score. Ready?';
-    ui.start.textContent = completed ? 'Review your results' : answered ? 'Resume challenge' : 'Start challenge';
+      : answered ? `Your progress is saved. Resume at Question ${progress.index + 1} of 5.`
+        : 'Five questions. One official score. Ready?';
+    ui.start.textContent = completed ? 'Review your results' : answered
+      ? `Resume at Question ${progress.index + 1}` : 'Start challenge';
     const arrow = document.createElement('span');
     arrow.setAttribute('aria-hidden', 'true');
     arrow.textContent = '↗';

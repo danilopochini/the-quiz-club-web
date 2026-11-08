@@ -207,13 +207,19 @@ test('unfinished challenge resumes at the saved question and keeps the submitted
   answerCurrentQuestion(first.elements, day.questions[1], false);
 
   const resumed = await setup('2026-11-09', storage);
-  assert.match(resumed.elements.get('daily-welcome-status').textContent, /progress is saved/);
+  assert.equal(resumed.elements.get('daily-welcome-status').textContent,
+    'Your progress is saved. Resume at Question 2 of 5.');
+  assert.equal(resumed.elements.get('daily-start').textContent, 'Resume at Question 2');
   resumed.elements.get('daily-start').click();
   assert.equal(resumed.elements.get('daily-question').textContent, day.questions[1].question);
   assert.equal(resumed.elements.get('daily-feedback').hidden, false);
   assert.ok(resumed.elements.get('daily-answers').children.every(button => button.disabled));
   resumed.elements.get('daily-continue').click();
   assert.equal(resumed.elements.get('daily-question').textContent, day.questions[2].question);
+
+  const homepage = await setup('2026-11-09', storage, { homePage: true });
+  assert.match(homepage.elements.get('daily-home-status').textContent, /resume at Question 3 of 5/);
+  assert.equal(homepage.elements.get('daily-home-cta').textContent, 'Resume at Question 3');
 });
 
 test('streak increases on consecutive UTC dates and resets after a missed day', async () => {
