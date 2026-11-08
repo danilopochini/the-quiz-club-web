@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f2">
+  <meta name="description" content="Compare the numbers in Higher or Lower, a category-based game from The Quiz Club.">
+  <title>Higher or Lower — The Quiz Club</title>
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" sizes="180x180">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/higher-lower.css">
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/higher-lower.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="The Quiz Club home"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav class="site-nav" id="primary-navigation" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="daily.html">Daily Challenge</a></nav>
+  </div></header>
+  <main class="quiz-main">
+    <div class="higher-shell">
+      <a class="quiz-back" href="index.html"><span aria-hidden="true">←</span> Back to home</a>
+      <div class="quiz-intro higher-intro">
+        <div><div class="section-kicker"><span>✳</span> HIGHER OR LOWER</div><h1>Know your <em>numbers.</em></h1><p>How well do you know the numbers behind the world? Choose a category, compare the numbers and see how many you can get right.</p></div>
+      </div>
+      <div id="loading" role="status">Getting the comparisons ready...</div>
+      <div id="load-error" class="quiz-card load-error" role="alert" hidden><h2>We couldn't load the game.</h2><p>Check your connection and try again. If you're opening this page from your computer, use a local web server.</p><button class="button button-blue" id="retry" type="button">Try again ↗</button></div>
+      <noscript><style>#loading { display: none; }</style><p class="load-error">This game needs JavaScript. Enable it and reload the page to play.</p></noscript>
+      <p id="storage-warning" class="higher-warning" role="status" hidden></p>
+      <section id="categories" aria-labelledby="categories-title" hidden>
+        <div class="higher-section-heading"><div><div class="section-kicker"><span>✳</span> PICK YOUR KIND OF FUN</div><h2 id="categories-title" tabindex="-1">Choose a category.</h2></div><p>Ten comparisons. One curious mind.</p></div>
+        <p id="category-message" class="higher-warning" role="status" hidden></p>
+        <div id="category-grid" class="category-grid"></div>
+      </section>
+      <section id="game" class="quiz-card" aria-label="Higher or Lower comparison" hidden>
+        <div class="quiz-meta"><span id="question-count"></span><span class="score-pill">✦ <span id="score">0</span> / 10 correct</span></div>
+        <div id="progress" class="progress" role="progressbar" aria-label="Round progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="progress-fill"></span></div>
+        <div class="question-heading"><span id="category-name" class="question-kicker"></span><h2 id="question" tabindex="-1"></h2><p id="metric"></p></div>
+        <div class="comparison-grid">
+          <div class="comparison-item comparison-left">
+            <figure class="comparison-figure"><img id="left-image" alt="" width="700" height="460"><p id="left-image-error" class="comparison-image-error" role="status" hidden>Image unavailable.</p></figure>
+            <div class="comparison-copy"><span class="comparison-label">FIRST ITEM</span><h3 id="left-name"></h3><div id="left-value" class="comparison-value"></div></div>
+          </div>
+          <div class="comparison-item comparison-right">
+            <figure class="comparison-figure"><img id="right-image" alt="" width="700" height="460"><p id="right-image-error" class="comparison-image-error" role="status" hidden>Image unavailable.</p></figure>
+            <div class="comparison-copy"><span class="comparison-label">SECOND ITEM</span><h3 id="right-name"></h3><div id="right-value" class="comparison-value"></div></div>
+          </div>
+        </div>
+        <div class="higher-answers" role="group" aria-label="Is the second value higher or lower?">
+          <button id="higher" type="button">HIGHER <span aria-hidden="true">↑</span></button><button id="lower" type="button">LOWER <span aria-hidden="true">↓</span></button>
+        </div>
+        <div class="comparison-credits" aria-label="Image credits"><p id="left-image-credit"></p><p id="right-image-credit"></p></div>
+        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden><p id="feedback-title" class="feedback-title"></p><p id="explanation"></p><p class="higher-source">Source: <a id="source" target="_blank" rel="noopener noreferrer"></a> <span id="reference-year"></span></p></div>
+        <div class="quiz-actions"><span class="quiz-hint">Take your time. The answer can wait. ✦</span><button class="button button-blue" id="next" type="button" hidden>Continue →</button></div>
+      </section>
+      <section id="results" class="quiz-card results higher-results" aria-labelledby="result-title" hidden>
+        <div class="section-kicker"><span>✳</span> ROUND COMPLETE</div>
+        <div class="result-badge" aria-hidden="true"><span id="result-ring-score"></span><small>OUT OF 10</small></div>
+        <h2 id="result-title" tabindex="-1"></h2><p id="result-summary"></p><p id="result-breakdown" class="result-note"></p><p id="result-best" class="result-note"></p>
+        <div class="result-actions"><button class="button button-blue" id="play-again" type="button">Play Again ↗</button><button class="button result-back" id="choose-category" type="button">Choose Another Category →</button></div>
+        <div class="higher-review"><h3>Your round, reviewed.</h3><div id="review"></div></div>
+      </section>
+      <p class="quiz-footer-note">GOOD QUESTIONS. GOOD TIMES. <span aria-hidden="true">✦</span></p>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid">
+    <div class="footer-about"><a class="brand footer-brand" href="index.html"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a><p>For the curious, the competitive,<br>and everyone in between.</p></div>
+    <div><h2>NAVIGATION</h2><a href="index.html">Home</a><a href="daily.html">Daily Challenge</a></div>
+    <div><h2>THE CLUB</h2><a href="about.html#about">About</a><a href="about.html#privacy">Privacy</a><a href="about.html#contact">Contact</a></div>
+    <div class="footer-signoff">STAY CURIOUS.<br><span>PLAY OFTEN.</span><span class="footer-star" aria-hidden="true">✳</span></div>
+  </div><div class="container footer-bottom"><span>© The Quiz Club. Made for curious minds.</span><span>GOOD QUESTIONS. GOOD TIMES. ✦</span></div></footer>
+</body>
+</html>

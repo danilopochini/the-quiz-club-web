@@ -1,0 +1,602 @@
+{
+  "geography": [
+    {
+      "path": "assets/images/picture-perfect/geography/lake-baikal.jpg",
+      "alt": "Frozen Lake Baikal in Russia",
+      "creator": "TomZelinsky",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Baikal_frozen_surface_in_winter.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "path": "assets/images/higher-lower/geography-2.jpg",
+      "alt": "Moraine Lake in Banff National Park, Canada",
+      "creator": "Gorgo",
+      "source": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/picture-perfect/geography/grand-canyon.jpg",
+      "alt": "Grand Canyon in the United States",
+      "creator": "Tuxyso / Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/picture-perfect/geography/stone-forest.jpg",
+      "alt": "Stone Forest in Yunnan, China",
+      "creator": "CEphoto, Uwe Aranas",
+      "source": "https://commons.wikimedia.org/wiki/File:Shilin_Yunnan_China_Shilin-Stone-Forest-03a.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/picture-perfect/geography/lencois.jpg",
+      "alt": "Lençóis Maranhenses in Brazil",
+      "creator": "Julius Dadalti",
+      "source": "https://commons.wikimedia.org/wiki/File:Len%C3%A7%C3%B3is_Maranhenses_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "path": "assets/images/picture-perfect/geography/uluru.jpg",
+      "alt": "Uluru in Australia",
+      "creator": "Dietmar Rabich",
+      "source": "https://commons.wikimedia.org/wiki/File:Petermann_Ranges_(AU),_Uluru-Kata_Tjuta_National_Park,_Uluru_--_2019_--_3602-6.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "movies-television": [
+    {
+      "path": "assets/images/higher-lower/movies-television-1.jpg",
+      "alt": "RMS Titanic, the ship that inspired the film",
+      "creator": "Francis Godolphin Osbourne Stuart",
+      "source": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_(cropped_to_ship).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/movies-television-2.jpg",
+      "alt": "Natalie Wood, who starred in West Side Story",
+      "creator": "Allan warren",
+      "source": "https://commons.wikimedia.org/wiki/File:Natalie_Wood_Allan_Warren.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/movies-television-3.jpg",
+      "alt": "Leslie Caron, who starred in Gigi",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Leslie_Caron-publicity.JPG",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/movies-television-4.jpg",
+      "alt": "Wolfgang Amadeus Mozart, portrayed in Amadeus",
+      "creator": "Johann Nepomuk della Croce",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/movies-television-5.jpg",
+      "alt": "Oskar Schindler, portrayed in Schindler’s List",
+      "creator": "Unknown authorUnknown author",
+      "source": "https://commons.wikimedia.org/wiki/File:Schindler,_Oskar_(3x4_cropped).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/movies-television-6.jpg",
+      "alt": "Bette Davis, who starred in All About Eve",
+      "creator": "Studio Publicity",
+      "source": "https://commons.wikimedia.org/wiki/File:BetteDavis1935.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    }
+  ],
+  "music": [
+    {
+      "path": "assets/images/higher-lower/music-1.jpg",
+      "alt": "Lys Assia",
+      "creator": "J.D. Noske / Anefo",
+      "source": "https://commons.wikimedia.org/wiki/File:Lys_Assia_(1957).jpg",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/music-2.png",
+      "alt": "ABBA",
+      "creator": "AVRO",
+      "source": "https://commons.wikimedia.org/wiki/File:ABBA_-_TopPop_1974_5.png",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/music-3.png",
+      "alt": "Brotherhood of Man",
+      "creator": "NCRV",
+      "source": "https://commons.wikimedia.org/wiki/File:Brotherhood_of_Man_1.png",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/music-4.jpg",
+      "alt": "Johnny Logan",
+      "creator": "Frank Schwichtenberg",
+      "source": "https://commons.wikimedia.org/wiki/File:Johnny_Logan_-_NDR_Hafengeburtstag_2017_20.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "path": "assets/images/higher-lower/music-5.jpg",
+      "alt": "Céline Dion",
+      "creator": "Georges Biard",
+      "source": "https://commons.wikimedia.org/wiki/File:C%C3%A9line_Dion_2012.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/music-6.jpg",
+      "alt": "Måneskin",
+      "creator": "Paolo Santambrogio",
+      "source": "https://commons.wikimedia.org/wiki/File:Maneskin_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "history": [
+    {
+      "path": "assets/images/higher-lower/history-1.jpg",
+      "alt": "George Washington",
+      "creator": "Gilbert Stuart",
+      "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/history-2.jpg",
+      "alt": "John Adams",
+      "creator": "Gilbert Stuart",
+      "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart,_John_Adams,_c._1800-1815,_NGA_42933.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/history-3.jpg",
+      "alt": "Thomas Jefferson",
+      "creator": "Rembrandt Peale",
+      "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/history-4.jpg",
+      "alt": "James Madison",
+      "creator": "John Vanderlyn",
+      "source": "https://commons.wikimedia.org/wiki/File:James_Madison.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/history-5.jpg",
+      "alt": "James Monroe",
+      "creator": "Samuel Finley Breese Morse",
+      "source": "https://commons.wikimedia.org/wiki/File:James_Monroe_White_House_portrait_1819_(cropped)(2).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/history-6.jpg",
+      "alt": "John Quincy Adams",
+      "creator": "Mathew Brady",
+      "source": "https://commons.wikimedia.org/wiki/File:JQA_Photo_Crop_(cropped).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    }
+  ],
+  "sports": [
+    {
+      "path": "assets/images/higher-lower/sports-1.jpg",
+      "alt": "Stadium Australia, Sydney 2000 host stadium",
+      "creator": "Storm machine",
+      "source": "https://commons.wikimedia.org/wiki/File:2022_NRLGF_stadium.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "path": "assets/images/higher-lower/sports-2.jpg",
+      "alt": "Athens Olympic Stadium, Athens 2004 host stadium",
+      "creator": "Sportingn",
+      "source": "https://commons.wikimedia.org/wiki/File:Panathinaikos_Inter_CL2008_09_b.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/sports-3.jpg",
+      "alt": "Beijing National Stadium, Beijing 2008 host stadium",
+      "creator": "CEphoto, Uwe Aranas",
+      "source": "https://commons.wikimedia.org/wiki/File:Beijing_China_Beijing-National-Stadium-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/sports-4.jpg",
+      "alt": "London Stadium, London 2012 host stadium",
+      "creator": "Arne Müseler",
+      "source": "https://commons.wikimedia.org/wiki/File:London_Olympic_Stadium_West_Ham.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/sports-5.jpg",
+      "alt": "Maracanã Stadium, Rio 2016 ceremonies venue",
+      "creator": "Arne Müseler",
+      "source": "https://commons.wikimedia.org/wiki/File:Maracana_2022.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/sports-6.jpg",
+      "alt": "Japan National Stadium, Tokyo 2020 host stadium",
+      "creator": "Syced",
+      "source": "https://commons.wikimedia.org/wiki/File:Japan_National_Stadium_C-gate_on_2021_July_28.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
+  "science-nature": [
+    {
+      "path": "assets/images/higher-lower/science-nature-1.jpg",
+      "alt": "Mercury",
+      "creator": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/science-nature-2.jpg",
+      "alt": "Mars",
+      "creator": "Kevin Gill from Los Angeles, CA, United States",
+      "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "path": "assets/images/higher-lower/science-nature-3.jpg",
+      "alt": "Venus",
+      "creator": "NASA/JPL-Caltech",
+      "source": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/science-nature-4.jpg",
+      "alt": "Earth",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Earth_Eastern_Hemisphere.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/science-nature-5.jpg",
+      "alt": "Neptune",
+      "creator": "NASA / Voyager 2 / PDS / OPUS / Ardenau4",
+      "source": "https://commons.wikimedia.org/wiki/File:Neptune_Voyager2_color_calibrated.png",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/science-nature-6.jpg",
+      "alt": "Jupiter",
+      "creator": "NASA/STSCI (S.T.A.R.S)",
+      "source": "https://commons.wikimedia.org/wiki/File:Jupiter_OPAL_2024.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    }
+  ],
+  "art-literature": [
+    {
+      "path": "assets/images/higher-lower/art-literature-1.jpg",
+      "alt": "Rudyard Kipling",
+      "creator": "Elliott & Fry",
+      "source": "https://commons.wikimedia.org/wiki/File:Rudyard_Kipling_(portrait).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/art-literature-2.jpg",
+      "alt": "Ernest Hemingway",
+      "creator": "Lloyd Arnold",
+      "source": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/art-literature-3.jpg",
+      "alt": "John Steinbeck",
+      "creator": "McFadden Publications, Inc.; no photographer credited; photo likely the work of Sonya Noskowiak, as Steinbeck is wearing the same clothes from her 1935 studio session that produced the work shown here: https://www.si.edu/object/npg_NPG.2006.74",
+      "source": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/art-literature-4.jpg",
+      "alt": "Gabriel García Márquez",
+      "creator": "Jose Lara",
+      "source": "https://commons.wikimedia.org/wiki/File:Gabriel_Garcia_Marquez.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "path": "assets/images/higher-lower/art-literature-5.jpg",
+      "alt": "Toni Morrison",
+      "creator": "John Mathew Smith (celebrity-photos.com)",
+      "source": "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "path": "assets/images/higher-lower/art-literature-6.jpg",
+      "alt": "Bob Dylan",
+      "creator": "Raph_PH",
+      "source": "https://commons.wikimedia.org/wiki/File:DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  ],
+  "lifestyle-brands": [
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-1.png",
+      "alt": "Nintendo Entertainment System",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-2.png",
+      "alt": "Game Boy",
+      "creator": "Transfrom JPEG version and remove white background. Original by Evan-Amos.",
+      "source": "https://commons.wikimedia.org/wiki/File:Game-Boy-FL.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-3.png",
+      "alt": "Super Nintendo Entertainment System",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.png",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-4.jpg",
+      "alt": "Nintendo 64",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-64-wController-L.jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-5.png",
+      "alt": "GameCube",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:GameCube-Console-Set.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-6.png",
+      "alt": "Nintendo DS",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    }
+  ],
+  "people-places": [
+    {
+      "path": "assets/images/higher-lower/people-places-1.jpg",
+      "alt": "Burj Khalifa, Dubai",
+      "creator": "imran shahabuddin",
+      "source": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "path": "assets/images/higher-lower/people-places-2.jpg",
+      "alt": "Merdeka 118, Kuala Lumpur",
+      "creator": "Ahmad Ali Karim",
+      "source": "https://commons.wikimedia.org/wiki/File:Merdeka_Tower_20241022_-_full_2_(Cropped).jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/people-places-3.jpg",
+      "alt": "Shanghai Tower, Shanghai",
+      "creator": "Balon Greyjoy",
+      "source": "https://commons.wikimedia.org/wiki/File:20191114_Shanghai_Tower_(2).jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/people-places-4.jpg",
+      "alt": "Makkah Royal Clock Tower, Mecca",
+      "creator": "King Eliot",
+      "source": "https://commons.wikimedia.org/wiki/File:Abraj_Al_Bait_Tower_2017.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "path": "assets/images/higher-lower/people-places-5.jpg",
+      "alt": "Lotte World Tower, Seoul",
+      "creator": "Ox1997cow",
+      "source": "https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_near_Cheongdam_Bridge.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/people-places-6.jpg",
+      "alt": "Taipei 101, Taipei",
+      "creator": "AngMoKio",
+      "source": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
+  "mathematics-logic": [
+    {
+      "path": "assets/images/higher-lower/mathematics-logic-1.png",
+      "alt": "Triangle",
+      "creator": "Oleg Alexandrov, Optimised by 17jiangz1",
+      "source": "https://commons.wikimedia.org/wiki/File:Triangle_illustration.svg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/mathematics-logic-2.png",
+      "alt": "Quadrilaterals",
+      "creator": "Jim.belk",
+      "source": "https://commons.wikimedia.org/wiki/File:Six_Quadrilaterals.svg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/mathematics-logic-3.png",
+      "alt": "Pentagon",
+      "creator": "J Hokkanen",
+      "source": "https://commons.wikimedia.org/wiki/File:5-gon_cyclic_01.svg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/mathematics-logic-4.png",
+      "alt": "Hexagon",
+      "creator": "László Németh",
+      "source": "https://commons.wikimedia.org/wiki/File:Regular_polygon_6_annotated.svg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/mathematics-logic-5.png",
+      "alt": "Heptagon",
+      "creator": "László Németh",
+      "source": "https://commons.wikimedia.org/wiki/File:Regular_polygon_7_annotated.svg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "path": "assets/images/higher-lower/mathematics-logic-6.png",
+      "alt": "Octagon",
+      "creator": "László Németh",
+      "source": "https://commons.wikimedia.org/wiki/File:Regular_polygon_8_annotated.svg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ],
+  "pop-culture": [
+    {
+      "path": "assets/images/higher-lower/pop-culture-1.png",
+      "alt": "Game Boy Color, platform for Pokémon Gold and Silver",
+      "creator": "Evan-Amos, modified by Gunnar.offel",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-5.png",
+      "alt": "GameCube, platform for Super Mario Sunshine",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:GameCube-Console-Set.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-5.png",
+      "alt": "GameCube, platform for The Wind Waker",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:GameCube-Console-Set.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/pop-culture-4.png",
+      "alt": "Game Boy Advance, platform for Pokémon FireRed and LeafGreen",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Purple-FL.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/lifestyle-brands-6.png",
+      "alt": "Nintendo DS, platform for Animal Crossing: Wild World",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/pop-culture-6.png",
+      "alt": "Wii, platform for Super Mario Galaxy",
+      "creator": "Evan-Amos",
+      "source": "https://commons.wikimedia.org/wiki/File:Wii-Console.png",
+      "license": "Public domain",
+      "licenseUrl": ""
+    }
+  ],
+  "general-knowledge": [
+    {
+      "path": "assets/images/higher-lower/general-knowledge-1.jpg",
+      "alt": "Hydrogen discharge tube",
+      "creator": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+      "source": "https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg",
+      "license": "FAL",
+      "licenseUrl": "https://artlibre.org/licence/lal/en"
+    },
+    {
+      "path": "assets/images/higher-lower/general-knowledge-2.jpg",
+      "alt": "Graphite and diamond, forms of carbon",
+      "creator": "Robert M. Lavinsky",
+      "source": "https://commons.wikimedia.org/wiki/File:Graphite-and-diamond-with-scale.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/general-knowledge-3.jpg",
+      "alt": "Liquid oxygen",
+      "creator": "Staff Sgt. Nika Glover, U.S. Air Force",
+      "source": "https://commons.wikimedia.org/wiki/File:Liquid_oxygen_in_a_beaker_(cropped_and_retouched).jpg",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/general-knowledge-4.jpg",
+      "alt": "Sodium metal",
+      "creator": "The original uploader was Dnn87 at English Wikipedia.",
+      "source": "https://commons.wikimedia.org/wiki/File:Na_(Sodium).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/general-knowledge-5.jpg",
+      "alt": "Iron metal",
+      "creator": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+      "source": "https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg",
+      "license": "FAL",
+      "licenseUrl": "https://artlibre.org/licence/lal/en"
+    },
+    {
+      "path": "assets/images/higher-lower/general-knowledge-6.jpg",
+      "alt": "Gold crystals",
+      "creator": "Alchemist-hp (talk) www.pse-mendelejew.de",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold-crystals.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    }
+  ]
+}

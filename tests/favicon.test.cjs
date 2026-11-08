@@ -60,7 +60,7 @@ test('all pages reference each local favicon format in the head', () => {
     '<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">',
     '<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" sizes="180x180">'
   ];
-  for (const page of ['index.html', 'quiz.html', 'geography.html', 'daily.html', 'about.html', 'picture-perfect.html']) {
+  for (const page of ['index.html', 'quiz.html', 'geography.html', 'daily.html', 'about.html', 'picture-perfect.html', 'higher-lower.html']) {
     const html = fs.readFileSync(path.join(root, page), 'utf8');
     const head = html.match(/<head>([\s\S]*?)<\/head>/i);
     assert.ok(head, `${page} has no head`);
