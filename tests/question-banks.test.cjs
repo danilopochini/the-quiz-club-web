@@ -75,15 +75,10 @@ test('game-mode cards use local photographs and retain their availability', () =
     assert.match(card[1], /class="mode-art" aria-hidden="true"/);
     assert.ok(styles.includes(`../assets/images/game-modes/${mode}.jpg`), `missing ${mode} image reference`);
     assert.ok(fs.existsSync(path.join(root, 'assets', 'images', 'game-modes', `${mode}.jpg`)), `missing ${mode} image`);
-    if (mode !== 'classic') {
-      const links = { picture: /href="picture-perfect\.html"/, higher: /href="higher-lower\.html"/, mystery: /href="who-am-i\.html#categories"/ };
-      assert.match(card[1], links[mode]);
-      assert.match(card[1], /class="mode-arrow" aria-hidden="true"/);
-      if (mode !== 'picture') assert.match(card[1], /AVAILABLE NOW/);
-    } else {
-      assert.doesNotMatch(card[1], /<a\b/);
-      assert.match(card[1], /AVAILABLE NOW/);
-    }
+    const links = { classic: /href="#categories"/, picture: /href="picture-perfect\.html"/, higher: /href="higher-lower\.html"/, mystery: /href="who-am-i\.html#categories"/ };
+    assert.match(card[1], links[mode]);
+    assert.match(card[1], /class="mode-arrow" aria-hidden="true"/);
+    if (mode !== 'picture') assert.match(card[1], /AVAILABLE NOW/);
   }
 });
 
