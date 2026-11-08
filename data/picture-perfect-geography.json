@@ -23,7 +23,7 @@
   },
   {
     "id": "pamukkale",
-    "question": "These white terraces were formed by mineral-rich hot springs. In which country are they found?",
+    "question": "These bright-white terraces are a famous landmark in which country?",
     "image": "assets/images/picture-perfect/geography/pamukkale.jpg",
     "imageAlt": "White mineral terraces descend a hillside.",
     "answers": [
@@ -45,17 +45,17 @@
   },
   {
     "id": "giants-causeway",
-    "question": "The striking columns on this coast formed when which material cooled and fractured?",
+    "question": "The Giant’s Causeway, pictured here, is on which coastline?",
     "image": "assets/images/picture-perfect/geography/giants-causeway.jpg",
     "imageAlt": "Dark polygonal rock columns rise together.",
     "answers": [
-      "Basaltic lava",
-      "Glacial ice",
-      "Sandstone sediment",
-      "Coral limestone"
+      "County Antrim, Northern Ireland",
+      "County Donegal, Ireland",
+      "Isle of Skye, Scotland",
+      "Pembrokeshire, Wales"
     ],
     "correct": 0,
-    "explanation": "The Giant’s Causeway’s basalt columns formed as lava cooled and contracted.",
+    "explanation": "The Giant’s Causeway is on the Causeway Coast in County Antrim, Northern Ireland.",
     "difficulty": "Medium",
     "topic": "Unusual landscapes",
     "attribution": {
@@ -67,17 +67,17 @@
   },
   {
     "id": "danakil",
-    "question": "This arid depression is part of the Afar region, where tectonic plates are pulling apart. Which country contains much of it?",
+    "question": "The Danakil Depression lies in Ethiopia, close to which sea?",
     "image": "assets/images/picture-perfect/geography/danakil.jpg",
     "imageAlt": "An arid landscape in a low-lying desert region.",
     "answers": [
-      "Ethiopia",
-      "Algeria",
-      "Namibia",
-      "Ghana"
+      "Red Sea",
+      "Black Sea",
+      "Caspian Sea",
+      "Mediterranean Sea"
     ],
     "correct": 0,
-    "explanation": "The Danakil Depression extends across northeastern Ethiopia and into neighbouring countries.",
+    "explanation": "The Danakil Depression lies in Ethiopia’s Afar Region, near the Red Sea and Gulf of Aden.",
     "difficulty": "Hard",
     "topic": "Unusual landscapes",
     "attribution": {
@@ -89,17 +89,17 @@
   },
   {
     "id": "waitomo",
-    "question": "In the caves of New Zealand, the glow of tiny larvae is used primarily to attract what?",
+    "question": "The Waitomo cave system is on which of New Zealand’s two main islands?",
     "image": "assets/images/picture-perfect/geography/waitomo.jpg",
     "imageAlt": "A dark underground cave environment.",
     "answers": [
-      "Prey",
-      "A mate",
-      "Sunlight",
-      "Minerals"
+      "North Island",
+      "South Island",
+      "Stewart Island",
+      "Chatham Island"
     ],
     "correct": 0,
-    "explanation": "New Zealand glowworm larvae use light to lure small flying insects into sticky threads.",
+    "explanation": "The Waitomo cave system is in the Waikato region of New Zealand’s North Island.",
     "difficulty": "Hard",
     "topic": "Unusual landscapes",
     "attribution": {
@@ -111,17 +111,17 @@
   },
   {
     "id": "zhangye",
-    "question": "These multicoloured bands in northwest China are largely layers of what?",
+    "question": "These vividly banded hills are in which country?",
     "image": "assets/images/picture-perfect/geography/zhangye.jpg",
     "imageAlt": "Multicoloured bands of rock ripple across a landscape.",
     "answers": [
-      "Sedimentary rock",
-      "Glacial ice",
-      "Coral reef",
-      "Volcanic glass"
+      "China",
+      "Mongolia",
+      "India",
+      "Nepal"
     ],
     "correct": 0,
-    "explanation": "The colourful Zhangye landforms expose layers of sandstone and other sedimentary rocks.",
+    "explanation": "The colourful hills are part of Zhangye Danxia in northwestern China.",
     "difficulty": "Medium",
     "topic": "Unusual landscapes",
     "attribution": {
@@ -133,7 +133,7 @@
   },
   {
     "id": "lencois",
-    "question": "Seasonal rainwater collects between these coastal dunes in northeastern Brazil. What are the pools called?",
+    "question": "These coastal dunes and seasonal pools are in which country?",
     "image": "assets/images/picture-perfect/geography/lencois.jpg",
     "imageAlt": "Pale sand dunes surround pools of water.",
     "answers": [
@@ -155,17 +155,17 @@
   },
   {
     "id": "stone-forest",
-    "question": "This Chinese landscape is a karst formation. Which process is most responsible for shaping its limestone pillars?",
+    "question": "What is the name of this famous landscape in southwest China?",
     "image": "assets/images/picture-perfect/geography/stone-forest.jpg",
     "imageAlt": "Tall pale rock pillars form a rugged landscape.",
     "answers": [
-      "Dissolution by water",
-      "Deposition by glaciers",
-      "Cooling lava",
-      "Impact by a meteorite"
+      "The Stone Forest",
+      "The Li River",
+      "Tiger Leaping Gorge",
+      "The Yellow Mountains"
     ],
     "correct": 0,
-    "explanation": "Slightly acidic water dissolves limestone over long periods, producing karst formations.",
+    "explanation": "The Stone Forest, or Shilin, is a landmark landscape in Yunnan Province.",
     "difficulty": "Medium",
     "topic": "Unusual landscapes",
     "attribution": {
@@ -199,17 +199,17 @@
   },
   {
     "id": "richat",
-    "question": "This circular structure in Mauritania is visible from space. It is best understood as an eroded what?",
+    "question": "The concentric rings of the Richat Structure lie in which country?",
     "image": "assets/images/picture-perfect/geography/richat.jpg",
     "imageAlt": "Satellite view of concentric rocky rings in a desert.",
     "answers": [
-      "Geological dome",
-      "Coral atoll",
-      "Impact crater",
-      "Volcanic caldera"
+      "Mauritania",
+      "Algeria",
+      "Mali",
+      "Niger"
     ],
     "correct": 0,
-    "explanation": "The Richat Structure is an eroded geological dome whose layered rocks form concentric rings.",
+    "explanation": "The Richat Structure is a prominent ring-shaped landmark in the Sahara of Mauritania.",
     "difficulty": "Hard",
     "topic": "Satellite and aerial",
     "attribution": {
@@ -221,17 +221,17 @@
   },
   {
     "id": "lake-natron",
-    "question": "This highly alkaline lake in northern Tanzania can appear reddish because of which organisms?",
+    "question": "Lake Natron lies in which East African country?",
     "image": "assets/images/picture-perfect/geography/lake-natron.jpg",
     "imageAlt": "A satellite view of a reddish lake in an arid landscape.",
     "answers": [
-      "Salt-loving microorganisms",
-      "Coral polyps",
-      "Freshwater mussels",
-      "Mangrove trees"
+      "Tanzania",
+      "Kenya",
+      "Uganda",
+      "Rwanda"
     ],
     "correct": 0,
-    "explanation": "Pigments produced by microorganisms thrive in Lake Natron’s saline, alkaline water.",
+    "explanation": "Lake Natron is in northern Tanzania, close to the Kenyan border.",
     "difficulty": "Hard",
     "topic": "Satellite and aerial",
     "attribution": {
@@ -309,7 +309,7 @@
   },
   {
     "id": "mount-fuji",
-    "question": "This nearly symmetrical volcanic cone is on Honshu, the largest island of which country?",
+    "question": "Mount Fuji rises on Honshu, the largest island of which country?",
     "image": "assets/images/picture-perfect/geography/mount-fuji.jpg",
     "imageAlt": "Aerial view of a volcanic cone.",
     "answers": [
@@ -331,17 +331,17 @@
   },
   {
     "id": "sahara-oasis",
-    "question": "An oasis in the Sahara is possible mainly because water reaches the surface from where?",
+    "question": "This oasis landscape is Siwa, in which part of Egypt?",
     "image": "assets/images/picture-perfect/geography/sahara-oasis.jpg",
     "imageAlt": "A green settlement lies amid a dry desert landscape.",
     "answers": [
-      "Underground aquifers",
-      "Ocean tides",
-      "Glacial melt every summer",
-      "Monsoon-fed coral reefs"
+      "The Western Desert",
+      "The Nile Delta",
+      "The Sinai Peninsula",
+      "The Red Sea coast"
     ],
     "correct": 0,
-    "explanation": "Oases can form where groundwater reaches the surface or is brought up from aquifers.",
+    "explanation": "Siwa Oasis lies in Egypt’s Western Desert, near the border with Libya.",
     "difficulty": "Hard",
     "topic": "Satellite and aerial",
     "attribution": {
@@ -595,17 +595,17 @@
   },
   {
     "id": "lake-titicaca",
-    "question": "The floating islands on this Andean lake are traditionally made from which plant?",
+    "question": "Lake Titicaca sits across the border between which two countries?",
     "image": "assets/images/picture-perfect/geography/lake-titicaca.jpg",
     "imageAlt": "A reed-built island floats on a high-altitude lake.",
     "answers": [
-      "Totora reeds",
-      "Bamboo",
-      "Mangrove roots",
-      "Papyrus"
+      "Peru and Bolivia",
+      "Chile and Argentina",
+      "Ecuador and Colombia",
+      "Bolivia and Paraguay"
     ],
     "correct": 0,
-    "explanation": "The Uros people use totora reeds to build floating islands on Lake Titicaca.",
+    "explanation": "Lake Titicaca straddles the border between Peru and Bolivia in the Andes.",
     "difficulty": "Medium",
     "topic": "Rivers and lakes",
     "attribution": {
@@ -617,17 +617,17 @@
   },
   {
     "id": "lake-baikal",
-    "question": "This Siberian lake freezes in winter. What is remarkable about its depth?",
+    "question": "This enormous lake lies in which part of Russia?",
     "image": "assets/images/picture-perfect/geography/lake-baikal.jpg",
     "imageAlt": "A large frozen lake stretches towards distant mountains.",
     "answers": [
-      "It is the deepest lake on Earth",
-      "It is the shallowest lake on Earth",
-      "It has no measurable depth",
-      "It is entirely beneath the sea"
+      "Siberia",
+      "The Caucasus",
+      "Karelia",
+      "Kamchatka"
     ],
     "correct": 0,
-    "explanation": "Lake Baikal is the world’s deepest lake, reaching more than 1.6 kilometres at its deepest point.",
+    "explanation": "Lake Baikal is in southern Siberia, in eastern Russia.",
     "difficulty": "Medium",
     "topic": "Rivers and lakes",
     "attribution": {
@@ -639,17 +639,17 @@
   },
   {
     "id": "santorini",
-    "question": "The flooded basin at the centre of this Greek island group was shaped mainly by what?",
+    "question": "The white villages in this image look out over which sea?",
     "image": "assets/images/picture-perfect/geography/santorini.jpg",
     "imageAlt": "An island coastline curves around a sea-filled basin.",
     "answers": [
-      "A volcanic eruption",
-      "A coral reef",
-      "A meteor strike",
-      "A river delta"
+      "Aegean Sea",
+      "Adriatic Sea",
+      "Black Sea",
+      "Caspian Sea"
     ],
     "correct": 0,
-    "explanation": "Santorini’s caldera formed through major volcanic eruptions and collapse.",
+    "explanation": "Santorini is a Greek island in the southern Aegean Sea.",
     "difficulty": "Medium",
     "topic": "Islands and archipelagos",
     "attribution": {
@@ -683,17 +683,17 @@
   },
   {
     "id": "socotra",
-    "question": "The umbrella-shaped dragon’s blood trees are native to an island in which ocean?",
+    "question": "Socotra is an island belonging to which country?",
     "image": "assets/images/picture-perfect/geography/socotra.jpg",
     "imageAlt": "Umbrella-shaped trees stand on a rocky island landscape.",
     "answers": [
-      "Indian Ocean",
-      "Atlantic Ocean",
-      "Arctic Ocean",
-      "Southern Ocean"
+      "Yemen",
+      "Oman",
+      "Somalia",
+      "Eritrea"
     ],
     "correct": 0,
-    "explanation": "Socotra lies in the northwestern Indian Ocean near the Gulf of Aden.",
+    "explanation": "Socotra is a Yemeni archipelago in the Arabian Sea, near the Gulf of Aden.",
     "difficulty": "Hard",
     "topic": "Islands and archipelagos",
     "attribution": {
@@ -727,17 +727,17 @@
   },
   {
     "id": "iceland",
-    "question": "This island lies across the boundary between the North American and which other tectonic plate?",
+    "question": "This island nation lies in which ocean?",
     "image": "assets/images/picture-perfect/geography/iceland.jpg",
     "imageAlt": "A rugged volcanic island landscape.",
     "answers": [
-      "Eurasian Plate",
-      "Pacific Plate",
-      "African Plate",
-      "Antarctic Plate"
+      "North Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Southern Ocean"
     ],
     "correct": 0,
-    "explanation": "The Mid-Atlantic Ridge crosses Iceland where the North American and Eurasian plates diverge.",
+    "explanation": "Iceland is an island nation in the North Atlantic, between Greenland and Europe.",
     "difficulty": "Medium",
     "topic": "Islands and archipelagos",
     "attribution": {
@@ -793,7 +793,7 @@
   },
   {
     "id": "uluru",
-    "question": "This sandstone monolith lies in the arid interior of which country?",
+    "question": "This iconic red landmark lies in the interior of which country?",
     "image": "assets/images/picture-perfect/geography/uluru.jpg",
     "imageAlt": "A large reddish sandstone formation rises above a dry plain.",
     "answers": [
@@ -815,7 +815,7 @@
   },
   {
     "id": "wadi-rum",
-    "question": "This desert valley’s sandstone cliffs and sands are in which Middle Eastern country?",
+    "question": "This desert valley is in which Middle Eastern country?",
     "image": "assets/images/picture-perfect/geography/wadi-rum.jpg",
     "imageAlt": "Sandstone cliffs rise above a wide red desert valley.",
     "answers": [
@@ -837,7 +837,7 @@
   },
   {
     "id": "atacama",
-    "question": "This exceptionally dry desert lies chiefly between the Andes and which ocean?",
+    "question": "This desert in northern Chile lies between the Andes and which ocean?",
     "image": "assets/images/picture-perfect/geography/atacama.jpg",
     "imageAlt": "A dry desert plain lies beneath distant mountains.",
     "answers": [
@@ -859,7 +859,7 @@
   },
   {
     "id": "grand-canyon",
-    "question": "The river that carved this enormous canyon shares its name with which US state?",
+    "question": "The Colorado River runs through this canyon, which lies mostly in which US state?",
     "image": "assets/images/picture-perfect/geography/grand-canyon.jpg",
     "imageAlt": "A vast layered canyon cuts through a dry plateau.",
     "answers": [
@@ -991,17 +991,17 @@
   },
   {
     "id": "namib-coast",
-    "question": "Where a desert meets the sea, what is the most direct source of the sand shaped into coastal dunes?",
+    "question": "This long desert coastline runs beside which ocean?",
     "image": "assets/images/picture-perfect/geography/namib-coast.jpg",
     "imageAlt": "A broad desert meets the ocean along a coastline.",
     "answers": [
-      "Sediment transported to shore",
-      "Living coral on mountaintops",
-      "Deep ocean ice",
-      "Volcanic ash from the Moon"
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
     ],
     "correct": 0,
-    "explanation": "Wind reworks sand supplied to the Namib coast by rivers and ocean currents.",
+    "explanation": "The Namib Desert runs along Namibia’s Atlantic coastline.",
     "difficulty": "Medium",
     "topic": "Visual geographic details",
     "attribution": {
@@ -1013,17 +1013,17 @@
   },
   {
     "id": "mud-volcano",
-    "question": "These small cones release mud and gas rather than molten rock. What are they?",
+    "question": "This landscape near the Caspian Sea is in which country?",
     "image": "assets/images/picture-perfect/geography/mud-volcano.jpg",
     "imageAlt": "Small muddy cones and pools dot a dry plain.",
     "answers": [
-      "Mud volcanoes",
-      "Cinder cones",
-      "Glaciers",
-      "Coral atolls"
+      "Azerbaijan",
+      "Kazakhstan",
+      "Turkmenistan",
+      "Georgia"
     ],
     "correct": 0,
-    "explanation": "Mud volcanoes form when gas and water push sediment to the surface; Azerbaijan has many examples.",
+    "explanation": "The pictured mud-volcano landscape is in Gobustan, Azerbaijan.",
     "difficulty": "Hard",
     "topic": "Visual geographic details",
     "attribution": {
@@ -1035,17 +1035,17 @@
   },
   {
     "id": "rice-terrace",
-    "question": "These mountainside terraces are engineered chiefly to grow which crop?",
+    "question": "The Banaue rice terraces pictured here are on which Philippine island?",
     "image": "assets/images/picture-perfect/geography/rice-terrace.jpg",
     "imageAlt": "Green terraces step down a steep hillside.",
     "answers": [
-      "Rice",
-      "Wheat",
-      "Olives",
-      "Cocoa"
+      "Luzon",
+      "Mindanao",
+      "Cebu",
+      "Palawan"
     ],
     "correct": 0,
-    "explanation": "The Ifugao rice terraces of the Philippines use irrigation across mountain slopes.",
+    "explanation": "The Banaue rice terraces are in Ifugao Province on the island of Luzon.",
     "difficulty": "Easy",
     "topic": "Visual geographic details",
     "attribution": {
@@ -1057,17 +1057,17 @@
   },
   {
     "id": "giant-saguaro",
-    "question": "The tall branching cactus in this landscape is native to which North American desert?",
+    "question": "This cactus-dotted landscape is in which US state?",
     "image": "assets/images/picture-perfect/geography/giant-saguaro.jpg",
     "imageAlt": "Tall branching cacti rise above dry desert vegetation.",
     "answers": [
-      "Sonoran Desert",
-      "Sahara",
-      "Atacama Desert",
-      "Gobi"
+      "Arizona",
+      "Nevada",
+      "Florida",
+      "Oregon"
     ],
     "correct": 0,
-    "explanation": "Saguaro cacti are native to the Sonoran Desert of the southwestern United States and northwestern Mexico.",
+    "explanation": "The pictured saguaro landscape is in Arizona, in the Sonoran Desert.",
     "difficulty": "Easy",
     "topic": "Visual geographic details",
     "attribution": {
@@ -1079,17 +1079,17 @@
   },
   {
     "id": "fjord",
-    "question": "The steep-sided sea inlet shown here was primarily carved by what?",
+    "question": "The Geirangerfjord pictured here is in which country?",
     "image": "assets/images/picture-perfect/geography/fjord.jpg",
     "imageAlt": "Steep green mountains frame a long narrow sea inlet.",
     "answers": [
-      "A glacier",
-      "A coral reef",
-      "A meteorite",
-      "Wind-blown sand"
+      "Norway",
+      "Sweden",
+      "Finland",
+      "Iceland"
     ],
     "correct": 0,
-    "explanation": "Fjords are glacially carved valleys flooded by the sea after ice retreats.",
+    "explanation": "Geirangerfjord is in western Norway, in the Sunnmøre region.",
     "difficulty": "Medium",
     "topic": "Visual geographic details",
     "attribution": {
