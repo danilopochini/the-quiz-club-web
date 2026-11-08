@@ -140,6 +140,20 @@
       (value.completed ? Number.isInteger(value.score) && value.score >= 0 && value.score <= 100 : value.score === null);
   }
 
+  function getProgress(date) {
+    const saved = store.progress[date];
+    if (!saved) return null;
+    if (!validProgress(saved)) throw new Error(`Saved progress for ${date} has an invalid format.`);
+    if (!saved.completed) {
+      const skippedQuestion = saved.answers.slice(0, saved.index).findIndex(answer => answer === null);
+      if (skippedQuestion !== -1) {
+        saved.index = skippedQuestion;
+        saveStore();
+      }
+    }
+    return saved;
+  }
+
   function asUtcDate(date) {
     return new Date(`${date}T00:00:00.000Z`);
   }
@@ -196,12 +210,9 @@
       cta.textContent = 'Check today’s challenge';
       return;
     }
-    const todaysProgress = store.progress[activeDate];
+    const todaysProgress = getProgress(activeDate);
     title.textContent = challenge.title;
     description.textContent = challenge.description;
-    if (todaysProgress && !validProgress(todaysProgress)) {
-      throw new Error(`Saved progress for ${activeDate} has an invalid format.`);
-    }
     if (todaysProgress && todaysProgress.completed) {
       home.textContent = `Completed · ${todaysProgress.score}/100 points · ${currentStreak()} day streak`;
       cta.textContent = 'Review today’s results';
@@ -226,8 +237,7 @@
     ui.streak.textContent = currentStreak() ? `✦ ${currentStreak()} day streak` : '';
     ui.title.textContent = challenge.title;
     ui.description.textContent = challenge.description;
-    progress = store.progress[activeDate];
-    if (progress && !validProgress(progress)) throw new Error(`Saved progress for ${activeDate} has an invalid format.`);
+    progress = getProgress(activeDate);
     const completed = Boolean(progress && progress.completed);
     const answered = Boolean(progress && progress.answers.some(answer => answer !== null));
     ui.welcomeStatus.textContent = completed
@@ -376,8 +386,7 @@
   }
 
   function startOrReview() {
-    progress = store.progress[activeDate];
-    if (progress && !validProgress(progress)) throw new Error(`Saved progress for ${activeDate} has an invalid format.`);
+    progress = getProgress(activeDate);
     if (progress && progress.completed) {
       renderResults();
       return;

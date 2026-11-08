@@ -177,6 +177,26 @@ test('daily challenge scores answers, locks selections, saves completion, and pr
   assert.equal(afterReplay.streak, 1);
 });
 
+test('a fresh challenge starts at question 1 and inconsistent saved progress cannot skip unanswered questions', async () => {
+  const fresh = await setup('2026-11-08');
+  fresh.elements.get('daily-start').click();
+  assert.equal(fresh.elements.get('daily-question-count').textContent, 'Question 1 of 5');
+
+  const storage = new Map([['quizclub.daily.v1', JSON.stringify({
+    version: 1,
+    progress: {
+      '2026-11-08': { index: 1, answers: [null, null, null, null, null], completed: false, score: null }
+    },
+    streak: 0,
+    lastCompletedDate: null,
+    history: []
+  })]]);
+  const recovered = await setup('2026-11-08', storage);
+  recovered.elements.get('daily-start').click();
+  assert.equal(recovered.elements.get('daily-question-count').textContent, 'Question 1 of 5');
+  assert.equal(JSON.parse(storage.get('quizclub.daily.v1')).progress['2026-11-08'].index, 0);
+});
+
 test('unfinished challenge resumes at the saved question and keeps the submitted answer locked', async () => {
   const storage = new Map();
   const first = await setup('2026-11-09', storage);
