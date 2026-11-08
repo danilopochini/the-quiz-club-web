@@ -1,15 +1,15 @@
 [
   {
-    "question": "Which character is associated with the video-game series Super Mario?",
+    "question": "Which power-up gives Mario a raccoon tail in Super Mario Bros. 3?",
     "answers": [
-      "Mario",
-      "Pikachu",
-      "Batman",
-      "Spider-Man"
+      "Super Leaf",
+      "Fire Flower",
+      "Starman",
+      "Cape Feather"
     ],
     "correct": 0,
-    "explanation": "Mario is associated with the video-game series Super Mario.",
-    "difficulty": "Easy"
+    "explanation": "The Super Leaf gives Mario raccoon ears and a tail, which he can use to fly.",
+    "difficulty": "Medium"
   },
   {
     "question": "Which character is associated with the Pokémon franchise and electric attacks?",
