@@ -1,0 +1,61 @@
+.daily-main { min-height: 65vh; padding: 38px 0 70px; background: radial-gradient(circle at 82% 10%, #f9edc9, transparent 25%), var(--ivory); }
+.daily-shell { width: min(100% - 40px, 820px); margin: 0 auto; }
+.daily-intro { display: flex; justify-content: space-between; align-items: center; gap: 25px; padding: 30px 0; }
+.daily-intro h1 { margin: 12px 0; font: 700 clamp(38px, 6vw, 56px)/1.04 var(--heading); letter-spacing: -2px; }
+.daily-intro h1 em { color: var(--blue); font-style: normal; }
+.daily-intro p { max-width: 570px; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.daily-illustration { width: 122px; height: 122px; flex: none; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 7px solid white; border-radius: 50%; background: var(--yellow); box-shadow: 0 8px 22px #17233b1a; transform: rotate(7deg); }
+.daily-illustration > span { color: var(--coral); font-size: 17px; }
+.daily-illustration strong { font: 700 48px/.9 var(--heading); }
+.daily-illustration small { margin-top: 6px; font-size: 8px; font-weight: 800; letter-spacing: 1px; }
+.daily-card { min-height: 300px; padding: clamp(24px, 5vw, 48px); border: 1px solid #eae8e2; border-radius: 20px; background: white; box-shadow: 0 14px 40px #17233b0c; }
+.daily-card [hidden] { display: none; }
+.daily-message h2, .daily-welcome h2, .daily-results h2 { margin: 14px 0 10px; font: 700 clamp(25px, 4vw, 34px)/1.2 var(--heading); letter-spacing: -.8px; }
+.daily-message p, .daily-description { color: var(--muted); font-size: 14px; line-height: 1.7; }
+.daily-message .button { margin-top: 16px; }
+.daily-date-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; color: #596679; font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+.daily-streak { color: #9a5c00; letter-spacing: .3px; }
+.daily-description { max-width: 620px; }
+.daily-facts { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+.daily-facts span { padding: 9px 12px; border-radius: 30px; background: #f2f4f8; color: #46536a; font-size: 11px; font-weight: 700; }
+.daily-welcome-status { color: #536073; font-size: 13px; font-weight: 700; }
+.daily-game .question-heading { margin-top: 34px; }
+.daily-game .question-heading h2 { margin-top: 12px; }
+.daily-actions { display: flex; justify-content: space-between; align-items: center; gap: 15px; margin-top: 26px; }
+.daily-actions .button, .daily-result-actions button { border: 0; cursor: pointer; }
+.daily-results { text-align: center; }
+.daily-result-score { margin: 25px 0 10px; color: var(--navy); }
+.daily-result-score strong { font: 700 64px/.95 var(--heading); }
+.daily-result-score span { color: var(--muted); font-weight: 700; }
+.daily-results > p { color: var(--muted); line-height: 1.6; }
+.daily-results .daily-result-stats { font-size: 13px; font-weight: 700; }
+.daily-review-list { display: grid; gap: 12px; margin-top: 30px; text-align: left; }
+.daily-review-item { padding: 17px 18px; border: 1px solid #e5e9ef; border-radius: 10px; background: #fbfcfe; }
+.daily-review-item h3 { margin: 0 0 9px; font: 700 15px/1.45 var(--heading); }
+.daily-review-item p { margin: 5px 0; color: #536073; font-size: 12px; line-height: 1.55; }
+.daily-review-item .daily-review-correct { color: #147253; font-weight: 700; }
+.daily-review-item .daily-review-incorrect { color: #a93633; font-weight: 700; }
+.daily-review-item .daily-review-explanation { margin-top: 9px; color: var(--navy); }
+.daily-result-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
+.button-outline { border: 1px solid #dfe5ec !important; color: var(--navy); background: white; }
+.daily-share-status { min-height: 1.4em; font-size: 12px; }
+.daily-footnote { margin: 20px 0 0; color: #7a8796; text-align: center; font-size: 11px; line-height: 1.6; }
+.daily-card .answers { margin-top: 25px; }
+.daily-card .answer { min-height: 64px; }
+@media (max-width: 600px) {
+  .daily-main { padding-top: 28px; }
+  .daily-intro { padding-top: 25px; }
+  .daily-intro h1 { font-size: 38px; }
+  .daily-illustration { width: 78px; height: 78px; border-width: 4px; }
+  .daily-illustration strong { font-size: 31px; }
+  .daily-illustration small { font-size: 6px; }
+  .daily-card { padding: 24px 20px; }
+  .daily-card .answers { grid-template-columns: 1fr; }
+  .daily-actions { justify-content: flex-end; }
+  .daily-actions .quiz-hint { display: none; }
+  .daily-review-item { padding: 15px; }
+}
+@media (max-width: 380px) {
+  .daily-illustration { display: none; }
+  .daily-date-row { align-items: flex-start; flex-direction: column; gap: 8px; }
+}

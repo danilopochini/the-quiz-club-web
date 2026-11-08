@@ -47,6 +47,8 @@
 .daily-copy h2 { margin: 17px 0; font: 700 clamp(39px, 4.4vw, 55px)/1.03 var(--heading); letter-spacing: -2.5px; }
 .daily-copy h2 em { color: var(--yellow); font-style: normal; }
 .daily-copy p { max-width: 390px; color: #bdc9d8; font-size: 13px; line-height: 1.75; margin: 0 0 24px; }
+.daily-copy .daily-home-title { margin: -4px 0 10px; font: 700 16px/1.35 var(--heading); color: var(--yellow); }
+.daily-copy .daily-home-status { margin-top: -12px; font-size: 11px; }
 .daily-art { position: relative; display: grid; place-items: center; background: radial-gradient(circle, #334564 0 31%, transparent 31.3%); }
 .calendar { width: 205px; height: 240px; border-radius: 15px; background: var(--ivory); color: var(--navy); transform: rotate(8deg); box-shadow: 0 20px 35px #0003; overflow: hidden; }
 .calendar-top { display: flex; justify-content: space-between; background: var(--coral); padding: 15px 19px; font-size: 10px; font-weight: 800; letter-spacing: 1px; }

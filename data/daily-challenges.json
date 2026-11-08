@@ -1,0 +1,373 @@
+[
+  {
+    "date": "2026-11-08",
+    "type": "mixed",
+    "title": "A Little Bit of Everything",
+    "description": "Five stops through places, stories, music, history and science.",
+    "questions": [
+      {
+        "id": "2026-11-08-geography-lisbon",
+        "category": "Geography",
+        "difficulty": "Easy",
+        "question": "What is the capital of Portugal?",
+        "answers": ["Lisbon", "Porto", "Madrid", "Faro"],
+        "correct": 0,
+        "explanation": "Lisbon is Portugal’s capital, on the country’s Atlantic coast."
+      },
+      {
+        "id": "2026-11-08-movies-yellow-brick-road",
+        "category": "Movies & Television",
+        "difficulty": "Medium",
+        "question": "In which classic film does Dorothy follow the Yellow Brick Road?",
+        "answers": ["The Wizard of Oz", "Mary Poppins", "Bedknobs and Broomsticks", "Chitty Chitty Bang Bang"],
+        "correct": 0,
+        "explanation": "Dorothy travels toward the Emerald City in the 1939 film The Wizard of Oz."
+      },
+      {
+        "id": "2026-11-08-music-abbey-road",
+        "category": "Music",
+        "difficulty": "Medium",
+        "question": "Which band recorded the album Abbey Road?",
+        "answers": ["The Beatles", "The Rolling Stones", "The Kinks", "The Who"],
+        "correct": 0,
+        "explanation": "Abbey Road was released by the Beatles in 1969."
+      },
+      {
+        "id": "2026-11-08-history-magna-carta",
+        "category": "History",
+        "difficulty": "Hard",
+        "question": "Which English king agreed to the Magna Carta in 1215?",
+        "answers": ["John", "Henry II", "Richard I", "Edward I"],
+        "correct": 0,
+        "explanation": "King John sealed the Magna Carta at Runnymede in June 1215."
+      },
+      {
+        "id": "2026-11-08-science-tungsten",
+        "category": "Science & Nature",
+        "difficulty": "Expert",
+        "question": "Which element has the chemical symbol W?",
+        "answers": ["Tungsten", "Tin", "Tantalum", "Titanium"],
+        "correct": 0,
+        "explanation": "W is tungsten’s symbol, derived from its older name, wolfram."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "type": "mixed",
+    "title": "Culture, Sport & Surprises",
+    "description": "A quick tour from the tennis court to art, brands and numbers.",
+    "questions": [
+      {
+        "id": "2026-11-09-sports-wimbledon",
+        "category": "Sports",
+        "difficulty": "Easy",
+        "question": "What playing surface is used for the main courts at Wimbledon?",
+        "answers": ["Grass", "Clay", "Hard court", "Carpet"],
+        "correct": 0,
+        "explanation": "The Championships at Wimbledon are played on grass courts."
+      },
+      {
+        "id": "2026-11-09-art-vermeer",
+        "category": "Art & Literature",
+        "difficulty": "Medium",
+        "question": "Who painted the work commonly known as Girl with a Pearl Earring?",
+        "answers": ["Johannes Vermeer", "Rembrandt", "Frans Hals", "Vincent van Gogh"],
+        "correct": 0,
+        "explanation": "The Dutch painter Johannes Vermeer created the work around 1665."
+      },
+      {
+        "id": "2026-11-09-lifestyle-lego",
+        "category": "Lifestyle & Brands",
+        "difficulty": "Medium",
+        "question": "The LEGO Group began in which country?",
+        "answers": ["Denmark", "Sweden", "Germany", "The Netherlands"],
+        "correct": 0,
+        "explanation": "The LEGO Group was founded in Billund, Denmark."
+      },
+      {
+        "id": "2026-11-09-people-mandela",
+        "category": "People & Places",
+        "difficulty": "Hard",
+        "question": "Nelson Mandela was born in which present-day country?",
+        "answers": ["South Africa", "Botswana", "Zimbabwe", "Namibia"],
+        "correct": 0,
+        "explanation": "Mandela was born in Mvezo, in what is now South Africa."
+      },
+      {
+        "id": "2026-11-09-mathematics-prime-53",
+        "category": "Mathematics & Logic",
+        "difficulty": "Expert",
+        "question": "What is the smallest prime number greater than 50?",
+        "answers": ["53", "51", "57", "59"],
+        "correct": 0,
+        "explanation": "51 and 57 are divisible by 3, while 53 is prime."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "type": "themed",
+    "title": "Around the World",
+    "description": "Use rivers, coastlines and landmarks to find your way across the map.",
+    "questions": [
+      {
+        "id": "2026-11-10-geography-taj-mahal",
+        "category": "Geography",
+        "difficulty": "Easy",
+        "question": "The Taj Mahal stands in which Indian city?",
+        "answers": ["Agra", "Jaipur", "Mumbai", "Varanasi"],
+        "correct": 0,
+        "explanation": "The Taj Mahal is in Agra, in the northern Indian state of Uttar Pradesh."
+      },
+      {
+        "id": "2026-11-10-geography-danube",
+        "category": "Geography",
+        "difficulty": "Medium",
+        "question": "Which river flows through Budapest?",
+        "answers": ["Danube", "Rhine", "Seine", "Elbe"],
+        "correct": 0,
+        "explanation": "The Danube runs through Budapest, separating the historic areas of Buda and Pest."
+      },
+      {
+        "id": "2026-11-10-geography-reykjavik",
+        "category": "Geography",
+        "difficulty": "Medium",
+        "question": "Reykjavík is the capital of which island country?",
+        "answers": ["Iceland", "Ireland", "Cyprus", "Malta"],
+        "correct": 0,
+        "explanation": "Reykjavík is Iceland’s capital and largest city."
+      },
+      {
+        "id": "2026-11-10-geography-bosporus",
+        "category": "Geography",
+        "difficulty": "Hard",
+        "question": "The Bosporus connects the Black Sea to which smaller sea?",
+        "answers": ["Sea of Marmara", "Aegean Sea", "Adriatic Sea", "Caspian Sea"],
+        "correct": 0,
+        "explanation": "The Bosporus runs between the Black Sea and the Sea of Marmara in Türkiye."
+      },
+      {
+        "id": "2026-11-10-geography-iran-seas",
+        "category": "Geography",
+        "difficulty": "Expert",
+        "question": "Which country has coastlines on both the Caspian Sea and the Persian Gulf?",
+        "answers": ["Iran", "Iraq", "Azerbaijan", "Saudi Arabia"],
+        "correct": 0,
+        "explanation": "Iran borders the Caspian Sea to the north and the Persian Gulf to the south."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "type": "mixed",
+    "title": "Big Screen, Big Ideas",
+    "description": "A blend of film, music, history, science and geography.",
+    "questions": [
+      {
+        "id": "2026-11-11-geography-kyoto",
+        "category": "Geography",
+        "difficulty": "Easy",
+        "question": "Kyoto is a city in which country?",
+        "answers": ["Japan", "China", "South Korea", "Thailand"],
+        "correct": 0,
+        "explanation": "Kyoto is a historic city on Japan’s main island of Honshu."
+      },
+      {
+        "id": "2026-11-11-movies-jaws",
+        "category": "Movies & Television",
+        "difficulty": "Medium",
+        "question": "Who directed the 1975 film Jaws?",
+        "answers": ["Steven Spielberg", "George Lucas", "Francis Ford Coppola", "Martin Scorsese"],
+        "correct": 0,
+        "explanation": "Steven Spielberg directed Jaws, adapted from Peter Benchley’s novel."
+      },
+      {
+        "id": "2026-11-11-music-yoyo-ma",
+        "category": "Music",
+        "difficulty": "Medium",
+        "question": "Which instrument is Yo-Yo Ma best known for playing?",
+        "answers": ["Cello", "Viola", "Clarinet", "Double bass"],
+        "correct": 0,
+        "explanation": "Yo-Yo Ma is a renowned cellist who performs classical and other musical styles."
+      },
+      {
+        "id": "2026-11-11-history-hastings",
+        "category": "History",
+        "difficulty": "Hard",
+        "question": "Which Norman duke won the Battle of Hastings in 1066?",
+        "answers": ["William the Conqueror", "Harald Hardrada", "Robert the Bruce", "Henry V"],
+        "correct": 0,
+        "explanation": "William, Duke of Normandy, defeated King Harold II and later became king of England."
+      },
+      {
+        "id": "2026-11-11-science-neutral-ph",
+        "category": "Science & Nature",
+        "difficulty": "Expert",
+        "question": "At about 25°C, what pH value is neutral in pure water?",
+        "answers": ["7", "0", "10", "14"],
+        "correct": 0,
+        "explanation": "At approximately 25°C, pure water is neutral at pH 7."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "type": "mixed",
+    "title": "A World of Stories",
+    "description": "From France’s roads to a novel, a brand and some brain-teasing facts.",
+    "questions": [
+      {
+        "id": "2026-11-12-sports-tour-de-france",
+        "category": "Sports",
+        "difficulty": "Easy",
+        "question": "The Tour de France is an annual professional race in which sport?",
+        "answers": ["Road cycling", "Motor racing", "Running", "Sailing"],
+        "correct": 0,
+        "explanation": "The Tour de France is a multi-stage road cycling race held primarily in France."
+      },
+      {
+        "id": "2026-11-12-art-frankenstein",
+        "category": "Art & Literature",
+        "difficulty": "Medium",
+        "question": "Who wrote the novel Frankenstein?",
+        "answers": ["Mary Shelley", "Jane Austen", "Emily Brontë", "Mary Wollstonecraft"],
+        "correct": 0,
+        "explanation": "Mary Shelley wrote Frankenstein, first published anonymously in 1818."
+      },
+      {
+        "id": "2026-11-12-lifestyle-ikea",
+        "category": "Lifestyle & Brands",
+        "difficulty": "Medium",
+        "question": "IKEA was founded in which country?",
+        "answers": ["Sweden", "Norway", "Finland", "Denmark"],
+        "correct": 0,
+        "explanation": "Ingvar Kamprad founded IKEA in Älmhult, Sweden, in 1943."
+      },
+      {
+        "id": "2026-11-12-people-nightingale",
+        "category": "People & Places",
+        "difficulty": "Hard",
+        "question": "Florence Nightingale became known for her nursing work during which war?",
+        "answers": ["Crimean War", "Boer War", "Franco-Prussian War", "American Civil War"],
+        "correct": 0,
+        "explanation": "Nightingale and her team cared for British soldiers during the Crimean War."
+      },
+      {
+        "id": "2026-11-12-mathematics-euler",
+        "category": "Mathematics & Logic",
+        "difficulty": "Expert",
+        "question": "Which mathematical constant is approximately 2.71828?",
+        "answers": ["e", "π", "√2", "φ"],
+        "correct": 0,
+        "explanation": "The constant e, the base of natural logarithms, is approximately 2.71828."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "type": "themed",
+    "title": "Ideas That Changed the World",
+    "description": "Five milestones in the history of inventions and technology.",
+    "questions": [
+      {
+        "id": "2026-11-13-history-printing-press",
+        "category": "History",
+        "difficulty": "Easy",
+        "question": "Which inventor is associated with the movable-type printing press in 15th-century Europe?",
+        "answers": ["Johannes Gutenberg", "Leonardo da Vinci", "Galileo Galilei", "Nicolaus Copernicus"],
+        "correct": 0,
+        "explanation": "Johannes Gutenberg developed a practical movable-type printing system in Mainz."
+      },
+      {
+        "id": "2026-11-13-science-world-wide-web",
+        "category": "Science & Nature",
+        "difficulty": "Medium",
+        "question": "Who proposed the World Wide Web while working at CERN?",
+        "answers": ["Tim Berners-Lee", "Vint Cerf", "Steve Wozniak", "Alan Turing"],
+        "correct": 0,
+        "explanation": "Tim Berners-Lee proposed the World Wide Web at CERN in 1989."
+      },
+      {
+        "id": "2026-11-13-general-watt-engine",
+        "category": "General Knowledge",
+        "difficulty": "Medium",
+        "question": "Which Scottish engineer made major improvements to the steam engine in the 18th century?",
+        "answers": ["James Watt", "John Logie Baird", "Alexander Graham Bell", "James Clerk Maxwell"],
+        "correct": 0,
+        "explanation": "James Watt’s improvements made steam engines substantially more efficient."
+      },
+      {
+        "id": "2026-11-13-history-wright-flight",
+        "category": "History",
+        "difficulty": "Hard",
+        "question": "In 1903, the Wright brothers achieved the first what in Kitty Hawk, North Carolina?",
+        "answers": ["Controlled, powered airplane flight", "Crossing of the Atlantic by air", "Jet-powered flight", "Flight around the world"],
+        "correct": 0,
+        "explanation": "Orville and Wilbur Wright made the first controlled, sustained flight of a powered aircraft in 1903."
+      },
+      {
+        "id": "2026-11-13-people-telegraph",
+        "category": "People & Places",
+        "difficulty": "Expert",
+        "question": "Which American inventor sent the famous message “What hath God wrought” by telegraph in 1844?",
+        "answers": ["Samuel Morse", "Eli Whitney", "Robert Fulton", "Thomas Edison"],
+        "correct": 0,
+        "explanation": "Samuel Morse sent the message from Washington, D.C., to Baltimore in a public demonstration of the telegraph."
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "type": "mixed",
+    "title": "Curiosity, Connected",
+    "description": "Five fresh questions across the map, the arts, sport, music and science.",
+    "questions": [
+      {
+        "id": "2026-11-14-geography-aegean",
+        "category": "Geography",
+        "difficulty": "Easy",
+        "question": "Which sea lies between Greece and Türkiye?",
+        "answers": ["Aegean Sea", "Baltic Sea", "North Sea", "Red Sea"],
+        "correct": 0,
+        "explanation": "The Aegean Sea lies between the Greek mainland and the western coast of Türkiye."
+      },
+      {
+        "id": "2026-11-14-sports-olympic-rings",
+        "category": "Sports",
+        "difficulty": "Medium",
+        "question": "How many interlaced rings are on the Olympic symbol?",
+        "answers": ["Five", "Four", "Six", "Seven"],
+        "correct": 0,
+        "explanation": "The Olympic symbol has five interlaced rings."
+      },
+      {
+        "id": "2026-11-14-music-four-seasons",
+        "category": "Music",
+        "difficulty": "Medium",
+        "question": "Who composed the violin concertos known as The Four Seasons?",
+        "answers": ["Antonio Vivaldi", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "George Frideric Handel"],
+        "correct": 0,
+        "explanation": "Antonio Vivaldi published The Four Seasons as part of his collection Il cimento dell’armonia e dell’inventione."
+      },
+      {
+        "id": "2026-11-14-history-carthage",
+        "category": "History",
+        "difficulty": "Hard",
+        "question": "The ancient city of Carthage stood near the site of which modern capital?",
+        "answers": ["Tunis", "Algiers", "Tripoli", "Rabat"],
+        "correct": 0,
+        "explanation": "Carthage’s archaeological site lies near Tunis, the capital of Tunisia."
+      },
+      {
+        "id": "2026-11-14-science-candela",
+        "category": "Science & Nature",
+        "difficulty": "Expert",
+        "question": "Which SI base unit measures luminous intensity?",
+        "answers": ["Candela", "Lumen", "Lux", "Watt"],
+        "correct": 0,
+        "explanation": "The candela is the SI base unit for luminous intensity; lumen and lux are derived units."
+      }
+    ]
+  }
+]

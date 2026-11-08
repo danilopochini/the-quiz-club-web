@@ -4,14 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#faf8f2">
-  <meta name="description" content="A daily trivia challenge is coming to The Quiz Club.">
+  <meta name="description" content="Five fresh questions every day. Play The Quiz Club Daily Challenge and see how high you can score.">
   <title>Daily Challenge — The Quiz Club</title>
   <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
   <link rel="icon" href="assets/icons/favicon-32x32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" sizes="180x180">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/daily.css">
   <script defer src="js/navigation.js"></script>
+  <script defer src="js/daily.js"></script>
 </head>
 <body>
   <header class="site-header"><div class="container header-inner">
@@ -19,10 +21,66 @@
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
     <nav class="site-nav" id="primary-navigation" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" href="daily.html" aria-current="page">Daily Challenge</a></nav>
   </div></header>
-  <main class="placeholder-main"><div class="container">
-    <div class="placeholder-intro"><div class="section-kicker"><span>✳</span> SOMETHING TO LOOK FORWARD TO</div><h1>A little trivia, <em>every day.</em></h1><p>A fresh challenge for your daily dose of curiosity.</p></div>
-    <section class="placeholder-panel"><h2>The Daily Challenge is coming soon.</h2><p>We're getting the questions ready. In the meantime, quizzes are available on the homepage.</p></section>
-  </div></main>
+  <main class="daily-main">
+    <div class="daily-shell">
+      <a class="quiz-back" href="index.html"><span aria-hidden="true">←</span> The Quiz Club</a>
+      <div class="daily-intro">
+        <div><div class="section-kicker"><span>✳</span> FIVE QUESTIONS / ONE NEW DAY</div><h1>Your Daily <em>Challenge.</em></h1><p>A fresh little test of what you know. Take a moment, follow your curiosity, and see how you do.</p></div>
+        <div class="daily-illustration" aria-hidden="true"><span>✳</span><strong>5</strong><small>QUESTIONS</small></div>
+      </div>
+      <section class="daily-card" aria-label="Daily Challenge">
+        <div id="daily-loading" class="daily-message" role="status">Getting today’s challenge ready…</div>
+        <div id="daily-unavailable" class="daily-message" hidden>
+          <div class="section-kicker"><span>✳</span> A NEW CHALLENGE EVERY DAY</div>
+          <h2>Today’s challenge is on its way.</h2>
+          <p id="daily-unavailable-copy">There isn’t a challenge available for today yet. Please check back soon.</p>
+          <a class="button button-dark" href="index.html">Back to home <span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="daily-error" class="daily-message" role="alert" hidden>
+          <h2>We couldn’t load the challenge.</h2>
+          <p id="daily-error-copy">Please refresh the page and try again.</p>
+        </div>
+        <section id="daily-welcome" class="daily-welcome" hidden aria-labelledby="daily-title">
+          <div class="daily-date-row"><span id="daily-date"></span><span id="daily-streak" class="daily-streak"></span></div>
+          <h2 id="daily-title"></h2>
+          <p id="daily-description" class="daily-description"></p>
+          <div class="daily-facts" aria-label="Challenge details">
+            <span>5 questions</span><span>About 3 minutes</span><span>Up to 100 points</span>
+          </div>
+          <p id="daily-welcome-status" class="daily-welcome-status"></p>
+          <button class="button button-blue" id="daily-start" type="button">Start challenge <span aria-hidden="true">↗</span></button>
+        </section>
+        <section id="daily-game" class="daily-game" hidden aria-labelledby="daily-question">
+          <div class="quiz-meta"><span id="daily-question-count"></span><span class="score-pill"><span id="daily-score">0</span> / 100 points</span></div>
+          <div class="progress" id="daily-progress" role="progressbar" aria-label="Challenge progress" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" aria-valuetext="0 of 5 questions answered"><span id="daily-progress-fill"></span></div>
+          <div class="question-heading">
+            <div class="question-kicker"><span id="daily-category"></span><span aria-hidden="true"> / </span><span id="daily-difficulty"></span></div>
+            <h2 id="daily-question" tabindex="-1"></h2>
+          </div>
+          <div id="daily-answers" class="answers" role="group" aria-labelledby="daily-question"></div>
+          <div id="daily-feedback" class="feedback" aria-live="polite" hidden>
+            <p id="daily-feedback-title" class="feedback-title"></p>
+            <p id="daily-explanation"></p>
+          </div>
+          <div class="daily-actions"><span class="quiz-hint">One official attempt each day</span><button class="button button-blue" id="daily-continue" type="button" hidden>Continue <span aria-hidden="true">→</span></button></div>
+        </section>
+        <section id="daily-results" class="daily-results" hidden aria-labelledby="daily-result-heading">
+          <div class="section-kicker"><span>✳</span> CHALLENGE COMPLETE</div>
+          <div class="daily-result-score"><strong id="daily-result-score">0</strong><span>/ 100</span></div>
+          <h2 id="daily-result-heading">Your result</h2>
+          <p id="daily-result-message"></p>
+          <p id="daily-result-stats" class="daily-result-stats"></p>
+          <div id="daily-review-list" class="daily-review-list"></div>
+          <div class="daily-result-actions">
+            <a class="button button-dark" href="index.html">Back to home <span aria-hidden="true">↗</span></a>
+            <button class="button button-outline" id="daily-share" type="button">Share your score <span aria-hidden="true">↗</span></button>
+          </div>
+          <p id="daily-share-status" class="daily-share-status" role="status" aria-live="polite"></p>
+        </section>
+      </section>
+      <p class="daily-footnote">The same five questions for everyone, every day. Your progress stays on this device.</p>
+    </div>
+  </main>
   <footer class="site-footer"><div class="container footer-grid">
     <div class="footer-about"><a class="brand footer-brand" href="index.html"><span class="brand-icon" aria-hidden="true">q<span>.</span></span><span>the quiz club<span class="brand-period">.</span></span></a><p>For the curious, the competitive,<br>and everyone in between.</p></div>
     <div><h2>NAVIGATION</h2><a href="index.html">Home</a><a href="daily.html">Daily Challenge</a></div>

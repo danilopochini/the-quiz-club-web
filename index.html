@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/home.css">
   <script defer src="js/navigation.js"></script>
+  <script defer src="js/daily.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -67,10 +68,12 @@
       <div class="container">
         <div class="daily-card">
           <div class="daily-copy">
-            <div class="section-kicker light-kicker"><span>✳</span> A FRESH LITTLE CHALLENGE — COMING SOON</div>
+            <div class="section-kicker light-kicker"><span>✳</span> A FRESH LITTLE CHALLENGE</div>
             <h2 id="daily-title">Your daily dose<br>of <em>trivia.</em></h2>
-            <p>A new day, a new challenge. Make a little room in your routine for a whole lot of curiosity.</p>
-            <a class="button button-white" href="daily.html">Play Today's Challenge <span aria-hidden="true">↗</span></a>
+            <h3 class="daily-home-title" id="daily-home-title"></h3>
+            <p id="daily-home-description">A new day, a new challenge. Make a little room in your routine for a whole lot of curiosity.</p>
+            <p class="daily-home-status" id="daily-home-status" aria-live="polite"></p>
+            <a class="button button-white" id="daily-home-cta" href="daily.html">Play Today's Challenge <span aria-hidden="true">↗</span></a>
           </div>
           <div class="daily-art" aria-hidden="true">
             <span class="daily-star">✳</span>
