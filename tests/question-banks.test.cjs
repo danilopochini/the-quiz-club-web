@@ -66,6 +66,25 @@ test('homepage category and game-mode labels are not numbered', () => {
   }
 });
 
+test('game-mode cards use local photographs and retain their availability', () => {
+  const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const styles = fs.readFileSync(path.join(root, 'css', 'home.css'), 'utf8');
+  for (const mode of ['classic', 'picture', 'higher', 'mystery']) {
+    const card = homepage.match(new RegExp(`<article class="mode-card mode-${mode}">([\\s\\S]*?)</article>`));
+    assert.ok(card, `missing ${mode} card`);
+    assert.match(card[1], /class="mode-art" aria-hidden="true"/);
+    assert.ok(styles.includes(`../assets/images/game-modes/${mode}.jpg`), `missing ${mode} image reference`);
+    assert.ok(fs.existsSync(path.join(root, 'assets', 'images', 'game-modes', `${mode}.jpg`)), `missing ${mode} image`);
+    if (mode === 'picture') {
+      assert.match(card[1], /href="picture-perfect\.html"/);
+      assert.match(card[1], /class="mode-arrow" aria-hidden="true"/);
+    } else {
+      assert.doesNotMatch(card[1], /<a\b/);
+      assert.match(card[1], mode === 'classic' ? /AVAILABLE NOW/ : /COMING SOON/);
+    }
+  }
+});
+
 test('quiz return links point to the homepage categories', () => {
   const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const quiz = fs.readFileSync(path.join(root, 'quiz.html'), 'utf8');
