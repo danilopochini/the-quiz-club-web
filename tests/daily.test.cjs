@@ -18,6 +18,8 @@ class Element {
     this.attributes = {};
     this.listeners = {};
     this.value = '';
+    this.href = '';
+    this.open = false;
     this.classNames = new Set();
     this.classList = {
       add: name => this.classNames.add(name),
@@ -39,6 +41,8 @@ class Element {
   append(...children) { this.children.push(...children); }
   replaceChildren(...children) { this.children = children; }
   addEventListener(event, callback) { this.listeners[event] = callback; }
+  showModal() { this.open = true; }
+  close() { this.open = false; }
   focus() {}
   click() {
     if (!this.disabled && !this.hidden) this.listeners.click?.();
@@ -57,7 +61,9 @@ async function setup(date, storage = new Map(), options = {}) {
       'daily-category', 'daily-difficulty', 'daily-question', 'daily-answers',
       'daily-feedback', 'daily-feedback-title', 'daily-explanation', 'daily-continue',
       'daily-results', 'daily-result-score', 'daily-result-heading', 'daily-result-message',
-      'daily-result-stats', 'daily-review-list', 'daily-share', 'daily-share-status'
+      'daily-result-stats', 'daily-review-list', 'daily-share', 'daily-share-status',
+      'daily-share-dialog', 'daily-share-close', 'daily-share-whatsapp', 'daily-share-facebook',
+      'daily-share-device', 'daily-share-copy'
     ]);
   const document = {
     getElementById(id) {
@@ -80,6 +86,9 @@ async function setup(date, storage = new Map(), options = {}) {
     document,
     Date: FixedDate,
     Intl,
+    URL,
+    URLSearchParams,
+    location: { origin: 'https://the-quiz-club.com', pathname: '/daily' },
     console: { error: (...args) => errors.push(args) },
     localStorage: {
       getItem: key => storage.has(key) ? storage.get(key) : null,
@@ -267,7 +276,10 @@ test('share uses native sharing when available and clipboard fallback otherwise'
   });
   playDay(native.elements, bank[0]);
   await native.elements.get('daily-share').listeners.click();
+  assert.equal(native.elements.get('daily-share-dialog').open, true);
+  await native.elements.get('daily-share-device').listeners.click();
   assert.match(nativeCalls[0].text, /100\/100/);
+  assert.equal(native.elements.get('daily-share-dialog').open, false);
 
   let clipboardText = '';
   const fallback = await setup('2026-11-08', new Map(), {
@@ -275,6 +287,34 @@ test('share uses native sharing when available and clipboard fallback otherwise'
   });
   playDay(fallback.elements, bank[0]);
   await fallback.elements.get('daily-share').listeners.click();
+  assert.equal(fallback.elements.get('daily-share-device').hidden, true);
+  await fallback.elements.get('daily-share-copy').listeners.click();
   assert.match(clipboardText, /100\/100/);
   assert.match(fallback.elements.get('daily-share-status').textContent, /copied/);
+});
+
+test('share dialog contains WhatsApp and Facebook options without separate result buttons', async () => {
+  const { elements } = await setup('2026-11-08');
+  playDay(elements, bank[0], 2);
+  elements.get('daily-share').click();
+  assert.equal(elements.get('daily-share-dialog').open, true);
+
+  const whatsapp = new URL(elements.get('daily-share-whatsapp').href);
+  assert.equal(whatsapp.origin, 'https://wa.me');
+  assert.match(whatsapp.searchParams.get('text'), /80\/100/);
+  assert.match(whatsapp.searchParams.get('text'), /https:\/\/the-quiz-club\.com\/daily/);
+
+  const facebook = new URL(elements.get('daily-share-facebook').href);
+  assert.equal(facebook.origin, 'https://www.facebook.com');
+  assert.equal(facebook.pathname, '/sharer/sharer.php');
+  assert.equal(facebook.searchParams.get('u'), 'https://the-quiz-club.com/daily');
+  assert.match(facebook.searchParams.get('quote'), /80\/100/);
+  const html = fs.readFileSync(path.join(root, 'daily.html'), 'utf8');
+  assert.match(html, /id="daily-share-whatsapp"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
+  assert.match(html, /id="daily-share-facebook"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
+  assert.match(html, /<dialog id="daily-share-dialog"/);
+  assert.equal((html.match(/class="button button-whatsapp"/g) || []).length, 0);
+  assert.equal((html.match(/class="button button-facebook"/g) || []).length, 0);
+  assert.match(html, /property="og:title"/);
+  assert.match(html, /property="og:description"/);
 });

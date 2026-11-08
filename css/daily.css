@@ -38,6 +38,19 @@
 .daily-review-item .daily-review-explanation { margin-top: 9px; color: var(--navy); }
 .daily-result-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
 .button-outline { border: 1px solid #dfe5ec !important; color: var(--navy); background: white; }
+.button-whatsapp { color: white; background: #168b59; }
+.button-facebook { color: white; background: #1877f2; }
+.daily-share-dialog { width: min(100% - 32px, 430px); padding: 25px; border: 1px solid #e5e9ef; border-radius: 16px; color: var(--navy); background: white; box-shadow: 0 20px 60px #17233b30; }
+.daily-share-dialog::backdrop { background: #17233b80; }
+.daily-share-dialog-header { display: flex; justify-content: space-between; align-items: center; gap: 15px; }
+.daily-share-dialog-header h3 { margin: 0; font: 700 22px/1.2 var(--heading); }
+.daily-share-close { width: 36px; height: 36px; border: 0; border-radius: 50%; color: var(--navy); background: #f2f4f8; font-size: 24px; cursor: pointer; }
+.daily-share-dialog > p { margin: 10px 0 20px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.daily-share-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.daily-share-option { min-height: 48px; padding: 10px 12px; display: flex; justify-content: center; align-items: center; gap: 8px; border: 0; border-radius: 9px; color: white; font-size: 12px; font-weight: 800; text-align: center; text-decoration: none; cursor: pointer; }
+.daily-share-option span { font-size: 16px; }
+.button-device-share, .button-copy-share { color: var(--navy); background: #f2f4f8; }
+.daily-share-option[hidden] { display: none; }
 .daily-share-status { min-height: 1.4em; font-size: 12px; }
 .daily-footnote { margin: 20px 0 0; color: #7a8796; text-align: center; font-size: 11px; line-height: 1.6; }
 .daily-card .answers { margin-top: 25px; }
@@ -54,6 +67,7 @@
   .daily-actions { justify-content: flex-end; }
   .daily-actions .quiz-hint { display: none; }
   .daily-review-item { padding: 15px; }
+  .daily-share-options { grid-template-columns: 1fr; }
 }
 @media (max-width: 380px) {
   .daily-illustration { display: none; }

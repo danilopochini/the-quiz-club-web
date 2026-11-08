@@ -43,6 +43,12 @@
     resultStats: element('daily-result-stats'),
     reviewList: element('daily-review-list'),
     share: element('daily-share'),
+    shareDialog: element('daily-share-dialog'),
+    shareClose: element('daily-share-close'),
+    shareWhatsapp: element('daily-share-whatsapp'),
+    shareFacebook: element('daily-share-facebook'),
+    shareDevice: element('daily-share-device'),
+    shareCopy: element('daily-share-copy'),
     shareStatus: element('daily-share-status'),
     homeTitle: element('daily-home-title'),
     homeDescription: element('daily-home-description'),
@@ -336,6 +342,12 @@
     ui.resultScore.textContent = score;
     ui.resultMessage.textContent = performanceMessage(score);
     ui.resultStats.textContent = `${correctCount} of 5 correct · ${correctCount * 20}% · ${currentStreak()} day streak`;
+    const shareUrl = new URL(location.pathname, location.origin).href;
+    const shareText = `I scored ${score}/100 on today’s Quiz Club Daily Challenge! Can you beat me? ${shareUrl}`;
+    ui.shareWhatsapp.href = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
+    const facebookParams = new URLSearchParams({ u: shareUrl, quote: shareText });
+    ui.shareFacebook.href = `https://www.facebook.com/sharer/sharer.php?${facebookParams}`;
+    ui.shareDevice.hidden = typeof navigator === 'undefined' || typeof navigator.share !== 'function';
     ui.reviewList.replaceChildren();
     challenge.questions.forEach((item, index) => {
       const card = document.createElement('article');
@@ -401,29 +413,49 @@
     renderQuestion();
   }
 
-  async function shareResult() {
-    const text = `I scored ${progress.score}/100 on today’s Quiz Club Daily Challenge! Can you beat me?`;
+  function getShareText() {
+    const shareUrl = new URL(location.pathname, location.origin).href;
+    return `I scored ${progress.score}/100 on today’s Quiz Club Daily Challenge! Can you beat me? ${shareUrl}`;
+  }
+
+  function openShareOptions() {
     ui.shareStatus.textContent = '';
+    ui.shareDialog.showModal();
+  }
+
+  async function shareWithDevice() {
+    const text = getShareText();
     if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
       try {
-        await navigator.share({ title: 'The Quiz Club Daily Challenge', text });
+        await navigator.share({
+          title: 'The Quiz Club Daily Challenge',
+          text,
+          url: new URL(location.pathname, location.origin).href
+        });
         ui.shareStatus.textContent = 'Thanks for sharing!';
+        ui.shareDialog.close();
         return;
       } catch (error) {
         if (error && error.name === 'AbortError') return;
         console.error('Native sharing failed:', error);
       }
     }
+    ui.shareStatus.textContent = 'Device sharing is unavailable. Choose another option.';
+  }
+
+  async function copyShareText() {
+    const text = getShareText();
     if (typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
       try {
         await navigator.clipboard.writeText(text);
         ui.shareStatus.textContent = 'Score summary copied to your clipboard.';
+        ui.shareDialog.close();
       } catch (error) {
         console.error('Unable to copy the score summary:', error);
-        ui.shareStatus.textContent = 'Sharing is unavailable. You can copy your score summary manually.';
+        ui.shareStatus.textContent = 'Unable to copy the score summary. Please try again.';
       }
     } else {
-      ui.shareStatus.textContent = 'Sharing is unavailable. You can copy your score summary manually.';
+      ui.shareStatus.textContent = 'Clipboard access is unavailable in this browser.';
     }
   }
 
@@ -452,7 +484,12 @@
         renderWelcome();
         ui.start.addEventListener('click', () => runAction(startOrReview));
         ui.continue.addEventListener('click', () => runAction(continueChallenge));
-        ui.share.addEventListener('click', shareResult);
+        ui.share.addEventListener('click', openShareOptions);
+        ui.shareClose.addEventListener('click', () => ui.shareDialog.close());
+        ui.shareDevice.addEventListener('click', shareWithDevice);
+        ui.shareCopy.addEventListener('click', copyShareText);
+        ui.shareWhatsapp.addEventListener('click', () => ui.shareDialog.close());
+        ui.shareFacebook.addEventListener('click', () => ui.shareDialog.close());
       }
     } catch (error) {
       console.error('Unable to initialize the Daily Challenge:', error);
