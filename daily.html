@@ -11,6 +11,7 @@
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" sizes="180x180">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
   <link rel="stylesheet" href="css/daily.css">
   <script defer src="js/navigation.js"></script>
   <script defer src="js/daily.js"></script>
@@ -21,14 +22,14 @@
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
     <nav class="site-nav" id="primary-navigation" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" href="daily.html" aria-current="page">Daily Challenge</a></nav>
   </div></header>
-  <main class="daily-main">
-    <div class="daily-shell">
+  <main class="quiz-main daily-main">
+    <div class="quiz-shell daily-shell">
       <a class="quiz-back" href="index.html"><span aria-hidden="true">←</span> The Quiz Club</a>
-      <div class="daily-intro">
+      <div class="quiz-intro daily-intro">
         <div><div class="section-kicker"><span>✳</span> FIVE QUESTIONS / ONE NEW DAY</div><h1>Your Daily <em>Challenge.</em></h1><p>A fresh little test of what you know. Take a moment, follow your curiosity, and see how you do.</p></div>
-        <div class="daily-illustration" aria-hidden="true"><span>✳</span><strong>5</strong><small>QUESTIONS</small></div>
+        <div class="quiz-intro-art daily-illustration" aria-hidden="true"><span>✳</span><strong>5</strong><small>QUESTIONS</small></div>
       </div>
-      <section class="daily-card" aria-label="Daily Challenge">
+      <section class="quiz-card daily-card" aria-label="Daily Challenge">
         <div id="daily-loading" class="daily-message" role="status">Getting today’s challenge ready…</div>
         <div id="daily-unavailable" class="daily-message" hidden>
           <div class="section-kicker"><span>✳</span> A NEW CHALLENGE EVERY DAY</div>
