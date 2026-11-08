@@ -1,101 +1,213 @@
 {
   "geography": [
     {
-      "path": "assets/images/picture-perfect/geography/lake-baikal.jpg",
-      "alt": "Frozen Lake Baikal in Russia",
-      "creator": "TomZelinsky",
-      "source": "https://commons.wikimedia.org/wiki/File:Lake_Baikal_frozen_surface_in_winter.jpg",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-    },
-    {
-      "path": "assets/images/higher-lower/geography-2.jpg",
-      "alt": "Moraine Lake in Banff National Park, Canada",
-      "creator": "Gorgo",
-      "source": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg",
-      "license": "Public domain",
-      "licenseUrl": ""
-    },
-    {
-      "path": "assets/images/picture-perfect/geography/grand-canyon.jpg",
-      "alt": "Grand Canyon in the United States",
-      "creator": "Tuxyso / Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg",
+      "path": "assets/images/higher-lower/map-russia.png",
+      "alt": "Map highlighting Russia",
+      "creator": "TUBS",
+      "source": "https://commons.wikimedia.org/wiki/File:Russia_on_the_globe_(Eurasia_centered).svg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
     {
-      "path": "assets/images/picture-perfect/geography/stone-forest.jpg",
-      "alt": "Stone Forest in Yunnan, China",
-      "creator": "CEphoto, Uwe Aranas",
-      "source": "https://commons.wikimedia.org/wiki/File:Shilin_Yunnan_China_Shilin-Stone-Forest-03a.jpg",
+      "path": "assets/images/higher-lower/map-canada.png",
+      "alt": "Map highlighting Canada",
+      "creator": "TUBS",
+      "source": "https://commons.wikimedia.org/wiki/File:Canada_in_North_America_(relief)_(-mini_map).svg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
     {
-      "path": "assets/images/picture-perfect/geography/lencois.jpg",
-      "alt": "Lençóis Maranhenses in Brazil",
-      "creator": "Julius Dadalti",
-      "source": "https://commons.wikimedia.org/wiki/File:Len%C3%A7%C3%B3is_Maranhenses_2018.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      "path": "assets/images/higher-lower/map-united-states.png",
+      "alt": "Map highlighting United States",
+      "creator": "TUBS",
+      "source": "https://commons.wikimedia.org/wiki/File:United_States_in_North_America_(relief)_(%2Bterritories)_(-mini_map).svg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
     {
-      "path": "assets/images/picture-perfect/geography/uluru.jpg",
-      "alt": "Uluru in Australia",
-      "creator": "Dietmar Rabich",
-      "source": "https://commons.wikimedia.org/wiki/File:Petermann_Ranges_(AU),_Uluru-Kata_Tjuta_National_Park,_Uluru_--_2019_--_3602-6.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      "path": "assets/images/higher-lower/map-china.png",
+      "alt": "Map highlighting China",
+      "creator": "TUBS",
+      "source": "https://commons.wikimedia.org/wiki/File:China_in_Asia_(relief)_(de-facto)_(-mini_map).svg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/map-brazil.png",
+      "alt": "Map highlighting Brazil",
+      "creator": "TUBS",
+      "source": "https://commons.wikimedia.org/wiki/File:Brazil_in_South_America_(relief)_(-mini_map).svg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "path": "assets/images/higher-lower/map-australia.png",
+      "alt": "Map highlighting Australia",
+      "creator": "TUBS",
+      "source": "https://commons.wikimedia.org/wiki/File:Australia_in_Oceania_(relief)_(-mini_map).svg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     }
   ],
   "movies-television": [
     {
-      "path": "assets/images/higher-lower/movies-television-1.jpg",
-      "alt": "RMS Titanic, the ship that inspired the film",
-      "creator": "Francis Godolphin Osbourne Stuart",
-      "source": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_(cropped_to_ship).jpg",
-      "license": "Public domain",
+      "path": "assets/images/higher-lower/film-ben-hur-1959.jpg",
+      "alt": "Film poster for Ben-Hur (1959)",
+      "creator": "Reynold Brown",
+      "source": "https://commons.wikimedia.org/wiki/File:Ben_Hur_1959_film_Poster.jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
       "licenseUrl": ""
     },
     {
-      "path": "assets/images/higher-lower/movies-television-2.jpg",
-      "alt": "Natalie Wood, who starred in West Side Story",
-      "creator": "Allan warren",
-      "source": "https://commons.wikimedia.org/wiki/File:Natalie_Wood_Allan_Warren.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-    },
-    {
-      "path": "assets/images/higher-lower/movies-television-3.jpg",
-      "alt": "Leslie Caron, who starred in Gigi",
-      "creator": "Unknown photographer",
-      "source": "https://commons.wikimedia.org/wiki/File:Leslie_Caron-publicity.JPG",
-      "license": "Public domain",
+      "path": "assets/images/higher-lower/film-west-side-story-1961.jpg",
+      "alt": "Film poster for West Side Story (1961)",
+      "creator": "Joe Caroff",
+      "source": "https://commons.wikimedia.org/wiki/File:West_Side_Story_1961_film_poster.jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
       "licenseUrl": ""
     },
     {
-      "path": "assets/images/higher-lower/movies-television-4.jpg",
-      "alt": "Wolfgang Amadeus Mozart, portrayed in Amadeus",
-      "creator": "Johann Nepomuk della Croce",
-      "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
-      "license": "Public domain",
+      "path": "assets/images/higher-lower/film-gigi-1958.jpg",
+      "alt": "Film poster for Gigi (1958)",
+      "creator": "Loew's Incorporated (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:Gigi_(1958_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
       "licenseUrl": ""
     },
     {
-      "path": "assets/images/higher-lower/movies-television-5.jpg",
-      "alt": "Oskar Schindler, portrayed in Schindler’s List",
-      "creator": "Unknown authorUnknown author",
-      "source": "https://commons.wikimedia.org/wiki/File:Schindler,_Oskar_(3x4_cropped).jpg",
-      "license": "Public domain",
+      "path": "assets/images/higher-lower/film-gone-with-the-wind-1939.jpg",
+      "alt": "Film poster for Gone with the Wind (1939)",
+      "creator": "Armando Seguso (per Heritage Auctions)",
+      "source": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
       "licenseUrl": ""
     },
     {
-      "path": "assets/images/higher-lower/movies-television-6.jpg",
-      "alt": "Bette Davis, who starred in All About Eve",
-      "creator": "Studio Publicity",
-      "source": "https://commons.wikimedia.org/wiki/File:BetteDavis1935.jpg",
-      "license": "Public domain",
+      "path": "assets/images/higher-lower/film-from-here-to-eternity-1953.jpg",
+      "alt": "Film poster for From Here to Eternity (1953)",
+      "creator": "Columbia Pictures Corp. (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:From_Here_to_Eternity_(1953_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-on-the-waterfront-1954.jpg",
+      "alt": "Film poster for On the Waterfront (1954)",
+      "creator": "Columbia Pictures Corp. (publisher; illustrator unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:On_the_Waterfront_(1954_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-going-my-way-1944.jpg",
+      "alt": "Film poster for Going My Way (1944)",
+      "creator": "Paramount Pictures Inc. (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:Going_My_Way_(1944_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-the-best-years-of-our-lives-1946.jpg",
+      "alt": "Film poster for The Best Years of Our Lives (1946)",
+      "creator": "RKO Radio Pictures Inc. (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Best_Years_of_Our_Lives_(1946_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-the-bridge-on-the-river-kwai-1957.jpg",
+      "alt": "Film poster for The Bridge on the River Kwai (1957)",
+      "creator": "Columbia Pictures Corporation (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Bridge_on_the_River_Kwai_(1958_US_poster_-_Style_A).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-lawrence-of-arabia-1962.jpg",
+      "alt": "Film poster for Lawrence of Arabia (1962)",
+      "creator": "Incorporates artwork by Howard Terpning",
+      "source": "https://commons.wikimedia.org/wiki/File:Lawrence_of_arabia_ver3_xxlg.jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-the-sting-1973.jpg",
+      "alt": "Film poster for The Sting (1973)",
+      "creator": "Illustrator unknown; presumably a work-for-hire for Universal Pictures",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Sting_(1973_alt_poster).jpeg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-mrs-miniver-1942.jpg",
+      "alt": "Film poster for Mrs. Miniver (1942)",
+      "creator": "Loew's Incorporated (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:Mrs._Miniver_(1942_poster_-_Style_C).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-all-about-eve-1950.jpg",
+      "alt": "Film poster for All About Eve (1950)",
+      "creator": "Twentieth Century-Fox Film Corp. (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:All_About_Eve_(1950_poster_-_retouch).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-a-place-in-the-sun-1951.jpg",
+      "alt": "Film poster for A Place in the Sun (1951)",
+      "creator": "Paramount Pictures Corporation (publisher; designer unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Place_in_the_Sun_(1951_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-an-american-in-paris-1951.jpg",
+      "alt": "Film poster for An American in Paris (1951)",
+      "creator": "Loew's Incorporated (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:An_American_in_Paris_(1951_film_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-it-happened-one-night-1934.jpg",
+      "alt": "Film poster for It Happened One Night (1934)",
+      "creator": "Columbia Pictures Corp.",
+      "source": "https://commons.wikimedia.org/wiki/File:It-happened-one-night-poster.jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-how-green-was-my-valley-1941.jpg",
+      "alt": "Film poster for How Green Was My Valley (1941)",
+      "creator": "Twentieth Century-Fox Film Corp. (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:How_Green_Was_My_Valley_(1941_poster_-_Style_A).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-the-bad-and-the-beautiful-1952.jpg",
+      "alt": "Film poster for The Bad and the Beautiful (1952)",
+      "creator": "Loew's Incorporated (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Bad_and_the_Beautiful_(1952_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-the-apartment-1960.jpg",
+      "alt": "Film poster for The Apartment (1960)",
+      "creator": "United Artists Corporation (publisher; artist unknown)",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Apartment_(1960_poster).jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
+      "licenseUrl": ""
+    },
+    {
+      "path": "assets/images/higher-lower/film-the-sound-of-music-1965.jpg",
+      "alt": "Film poster for The Sound of Music (1965)",
+      "creator": "20th Century Fox, the publisher of the film or the graphic artist",
+      "source": "https://commons.wikimedia.org/wiki/File:Sound_of_music.jpg",
+      "license": "Public domain (US; restrictions may apply elsewhere)",
       "licenseUrl": ""
     }
   ],

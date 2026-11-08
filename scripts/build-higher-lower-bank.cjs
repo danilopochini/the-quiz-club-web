@@ -22,12 +22,26 @@ const groups = [
     question: 'Did the second film win more or fewer competitive Oscars?',
     sourceName: 'Academy of Motion Picture Arts and Sciences, film statistics', source: 'https://awardsdatabase.oscars.org/Help/Statistics?file=Gen-Films5awards.pdf', referenceYear: 'through the 88th awards, 2016',
     items: [
-      ['Titanic (1997)', 11, 'Titanic shares the 11-win milestone with two other films.'],
+      ['Ben-Hur (1959)', 11, 'Ben-Hur shares the 11-win milestone with two other films.'],
       ['West Side Story (1961)', 10, 'West Side Story won the best picture Oscar.'],
       ['Gigi (1958)', 9, 'Gigi won every competitive Oscar for which it was nominated.'],
-      ['Amadeus (1984)', 8, 'Amadeus is a historical drama about Mozart and Salieri.'],
-      ["Schindler's List (1993)", 7, "Schindler's List won best picture."],
-      ['All About Eve (1950)', 6, 'All About Eve received 14 nominations.']
+      ['Gone with the Wind (1939)', 8, 'Gone with the Wind also received a special Oscar.'],
+      ['From Here to Eternity (1953)', 8, 'From Here to Eternity won best picture.'],
+      ['On the Waterfront (1954)', 8, 'On the Waterfront won best picture.'],
+      ['Going My Way (1944)', 7, 'Going My Way won best picture.'],
+      ['The Best Years of Our Lives (1946)', 7, 'The Best Years of Our Lives also earned a special Oscar for Harold Russell.'],
+      ['The Bridge on the River Kwai (1957)', 7, 'The Bridge on the River Kwai won best picture.'],
+      ['Lawrence of Arabia (1962)', 7, 'Lawrence of Arabia won best picture.'],
+      ['The Sting (1973)', 7, 'The Sting won best picture.'],
+      ['Mrs. Miniver (1942)', 6, 'Mrs. Miniver won best picture.'],
+      ['All About Eve (1950)', 6, 'All About Eve received 14 nominations.'],
+      ['A Place in the Sun (1951)', 6, 'A Place in the Sun received nine nominations.'],
+      ['An American in Paris (1951)', 6, 'An American in Paris won best picture.'],
+      ['It Happened One Night (1934)', 5, 'It Happened One Night won all five Oscars for which it was nominated.'],
+      ['How Green Was My Valley (1941)', 5, 'How Green Was My Valley won best picture.'],
+      ['The Bad and the Beautiful (1952)', 5, 'The Bad and the Beautiful received six nominations.'],
+      ['The Apartment (1960)', 5, 'The Apartment won best picture.'],
+      ['The Sound of Music (1965)', 5, 'The Sound of Music won best picture.']
     ]
   },
   {
@@ -169,9 +183,13 @@ for (const group of groups) {
     for (let j = i + 1; j < group.items.length; j++) {
       const [leftName, leftValue, leftFact] = group.items[i];
       const [rightName, rightValue, rightFact] = group.items[j];
+      if (leftValue === rightValue) continue;
       number++;
+      const movieId = name => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
       bank.push({
-        id: `${group.category}-${String(number).padStart(3, '0')}`,
+        id: group.category === 'movies-television'
+          ? `${group.category}-v2-${[movieId(leftName), movieId(rightName)].sort().join('--')}`
+          : `${group.category}-${String(number).padStart(3, '0')}`,
         category: group.category, metric: group.metric, question: group.question, unit: group.unit,
         left: { name: leftName, value: leftValue, image: images[group.category][i] },
         right: { name: rightName, value: rightValue, image: images[group.category][j] },

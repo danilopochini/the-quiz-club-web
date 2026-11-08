@@ -66,6 +66,55 @@
       ...[item.left.name.trim().toLowerCase(), item.right.name.trim().toLowerCase()].sort()]);
   }
 
+  function selectMovieRound(pool, last = new Set()) {
+    const subjectKey = subject => subject.name.trim().toLowerCase();
+    const edges = pool.map(item => ({
+      item, left: subjectKey(item.left), right: subjectKey(item.right), old: last.has(item.id)
+    }));
+    const subjects = [...new Set(edges.flatMap(edge => [edge.left, edge.right]))];
+    if (subjects.length < gameLength * 2) return null;
+
+    function find(available, needed, oldBudget, memo) {
+      if (needed === 0) return [];
+      if (available.size < needed * 2) return null;
+      const state = `${[...available].sort().join('\u0000')}\u0001${needed}\u0001${oldBudget}`;
+      if (memo.has(state)) return null;
+      const candidates = edges.filter(edge => available.has(edge.left) && available.has(edge.right) &&
+        (!edge.old || oldBudget > 0));
+      const connected = new Set(candidates.flatMap(edge => [edge.left, edge.right]));
+      if (connected.size < needed * 2) return null;
+      let pivot;
+      let choices;
+      for (const subject of connected) {
+        const adjacent = candidates.filter(edge => edge.left === subject || edge.right === subject);
+        if (!choices || adjacent.length < choices.length) {
+          pivot = subject;
+          choices = adjacent;
+        }
+      }
+      choices.sort((a, b) => Number(a.old) - Number(b.old));
+      for (const edge of choices) {
+        const remaining = new Set(available);
+        remaining.delete(edge.left);
+        remaining.delete(edge.right);
+        const rest = find(remaining, needed - 1, oldBudget - Number(edge.old), memo);
+        if (rest) return [edge.item, ...rest];
+      }
+      const remaining = new Set(available);
+      remaining.delete(pivot);
+      const skipped = find(remaining, needed, oldBudget, memo);
+      if (skipped) return skipped;
+      memo.add(state);
+      return null;
+    }
+
+    for (let budget = 0; budget <= gameLength; budget++) {
+      const result = find(new Set(subjects), gameLength, budget, new Set());
+      if (result) return result;
+    }
+    return null;
+  }
+
   function validateBank(data) {
     if (!Array.isArray(data)) throw new Error('Comparison bank must be an array.');
     const ids = new Set();
@@ -153,7 +202,9 @@
     el['category-message'].hidden = true;
     el['category-grid'].replaceChildren();
     for (const [id, name, color, label] of categories) {
-      const count = bank.filter(item => item.category === id).length;
+      const pool = bank.filter(item => item.category === id);
+      const available = pool.length >= gameLength &&
+        (id !== 'movies-television' || selectMovieRound(pool) !== null);
       const button = makeElement('button', `category-card higher-category ${color}`);
       button.type = 'button';
       const art = makeElement('span', 'cat-art');
@@ -161,10 +212,10 @@
       art.style.backgroundImage = `url("assets/images/categories/${id}.jpg")`;
       const best = bests[id] === undefined ? 'No personal best yet' : `Personal best: ${bests[id]} / 10`;
       button.append(makeElement('span', 'cat-number', label), art, makeElement('span', 'cat-name', name),
-        makeElement('span', 'cat-description', count < gameLength ? 'More comparisons coming soon' : best));
+        makeElement('span', 'cat-description', available ? best : 'More comparisons coming soon'));
       const arrow = makeElement('span', 'cat-arrow', '↗');
       arrow.setAttribute('aria-hidden', 'true');
-      if (count >= gameLength) button.append(arrow);
+      if (available) button.append(arrow);
       button.addEventListener('click', () => startGame(id));
       el['category-grid'].append(button);
     }
@@ -173,15 +224,17 @@
 
   function startGame(id) {
     const pool = bank.filter(item => item.category === id);
-    if (pool.length < gameLength) {
+    const last = previous.get(id) || new Set();
+    const round = id === 'movies-television'
+      ? selectMovieRound(shuffle(pool), last)
+      : [...shuffle(pool.filter(item => !last.has(item.id))), ...shuffle(pool.filter(item => last.has(item.id)))].slice(0, gameLength);
+    if (!round || round.length < gameLength) {
       el['category-message'].textContent = 'More comparisons are being added to this category. Please choose another one.';
       el['category-message'].hidden = false;
       return;
     }
     category = id;
-    const last = previous.get(id) || new Set();
-    selected = [...shuffle(pool.filter(item => !last.has(item.id))), ...shuffle(pool.filter(item => last.has(item.id)))]
-      .slice(0, gameLength).map(item => Math.random() < 0.5 ? item : { ...item, left: item.right, right: item.left });
+    selected = shuffle(round).map(item => Math.random() < 0.5 ? item : { ...item, left: item.right, right: item.left });
     previous.set(id, new Set(selected.map(item => item.id)));
     try {
       localStorage.setItem(historyKey, JSON.stringify(Object.fromEntries(

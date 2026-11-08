@@ -33,7 +33,7 @@ class Element {
   click() { if (!this.disabled && this.listeners.click) this.listeners.click(); }
 }
 
-async function setup(data = bank, storage = {}) {
+async function setup(data = bank, storage = {}, random = () => 0.25) {
   const elements = new Map();
   const document = {
     getElementById(id) {
@@ -48,7 +48,7 @@ async function setup(data = bank, storage = {}) {
   };
   const errors = [];
   const math = Object.create(Math);
-  math.random = () => 0.25;
+  math.random = random;
   vm.runInNewContext(script, {
     document, Math: math, Intl,
     localStorage: {
@@ -70,12 +70,19 @@ function choose(el, name) {
 
 function playRound(el, category, desiredCorrect = 10) {
   const seen = new Set();
+  const subjects = new Set();
   for (let i = 0; i < 10; i++) {
     assert.equal(el.get('question-count').textContent, `Comparison ${i + 1} of 10`);
     assert.equal(el.get('category-name').textContent, names[categories.indexOf(category)]);
     assert.equal(el.get('right-value').textContent, '?');
     const left = el.get('left-name').textContent;
     const right = el.get('right-name').textContent;
+    if (category === 'movies-television') {
+      assert.ok(!subjects.has(left), `repeated film: ${left}`);
+      assert.ok(!subjects.has(right), `repeated film: ${right}`);
+      subjects.add(left);
+      subjects.add(right);
+    }
     const item = bank.find(q => q.category === category &&
       [q.left.name, q.right.name].includes(left) && [q.left.name, q.right.name].includes(right));
     assert.ok(item);
@@ -166,7 +173,15 @@ test('every subject has a valid local image with accessible licensing details', 
       imageBySubject.set(key, image);
     }
   }
-  assert.equal(imageBySubject.size, 72);
+  assert.equal(imageBySubject.size, 86);
+  for (const [key, image] of imageBySubject) {
+    if (key.startsWith('geography/')) assert.match(image.alt, /^Map highlighting /);
+    if (key.startsWith('movies-television/')) {
+      assert.equal(image.alt, `Film poster for ${key.slice('movies-television/'.length)}`);
+      assert.match(image.path, /\/film-/);
+      assert.match(image.license, /^Public domain/);
+    }
+  }
 });
 
 test('all twelve categories play complete rounds and replay prioritizes new pairs', async () => {
@@ -177,10 +192,90 @@ test('all twelve categories play complete rounds and replay prioritizes new pair
     const first = playRound(el, categories[i], i % 2 ? 5 : 10);
     el.get('play-again').click();
     const second = playRound(el, categories[i], 0);
-    assert.equal([...second].filter(pair => !first.has(pair)).length, 5);
+    assert.equal([...second].filter(pair => !first.has(pair)).length, categories[i] === 'movies-television' ? 10 : 5);
     el.get('choose-category').click();
   }
   assert.equal(errors.length, 0);
+});
+
+test('movie rounds use twenty distinct films and prefer unused pairs across many random seeds', async () => {
+  for (let seed = 1; seed <= 30; seed++) {
+    let state = seed;
+    const random = () => {
+      state = (state * 16807) % 2147483647;
+      return (state - 1) / 2147483646;
+    };
+    const { el } = await setup(bank, {}, random);
+    choose(el, 'Movies & Television');
+    const first = playRound(el, 'movies-television');
+    el.get('play-again').click();
+    const second = playRound(el, 'movies-television');
+    assert.equal([...second].filter(pair => first.has(pair)).length, 0);
+  }
+});
+
+test('movie category reports shortage when ten comparisons do not form ten disjoint pairs', async () => {
+  const movies = bank.filter(item => item.category === 'movies-television');
+  const star = movies.filter(item => item.left.name === 'Ben-Hur (1959)').slice(0, 10);
+  assert.equal(star.length, 10);
+  const { el } = await setup(star);
+  const card = el.get('category-grid').children[1];
+  assert.equal(card.children[3].textContent, 'More comparisons coming soon');
+  choose(el, 'Movies & Television');
+  assert.equal(el.get('category-message').hidden, false);
+  assert.notEqual(el.get('game').hidden, false);
+
+  const disconnectedStars = Array.from({ length: 20 }, (_, i) => ({
+    ...movies[i],
+    id: `test-star-${i}`,
+    left: { ...movies[i].left, name: `Hub ${Math.floor(i / 10)}` },
+    right: { ...movies[i].right, name: `Leaf ${i}` }
+  }));
+  const sparse = await setup(disconnectedStars);
+  assert.equal(sparse.el.get('category-grid').children[1].children[3].textContent, 'More comparisons coming soon');
+  choose(sparse.el, 'Movies & Television');
+  assert.equal(sparse.el.get('category-message').hidden, false);
+});
+
+test('movie matching finds the available disjoint round and minimizes previous pairs', async () => {
+  const movies = bank.filter(item => item.category === 'movies-television');
+  const first = await setup();
+  choose(first.el, 'Movies & Television');
+  const pairs = playRound(first.el, 'movies-television');
+  const chosen = movies.filter(item => pairs.has([item.left.name, item.right.name].sort().join('|')));
+  assert.equal(chosen.length, 10);
+  const storage = {
+    'quiz-club-higher-lower-previous-v1': JSON.stringify({
+      'movies-television': [chosen[0].id]
+    })
+  };
+  const { el } = await setup(chosen, storage);
+  choose(el, 'Movies & Television');
+  assert.equal(playRound(el, 'movies-television').size, 10);
+  const saved = JSON.parse(storage['quiz-club-higher-lower-previous-v1'])['movies-television'];
+  assert.ok(saved.includes(chosen[0].id));
+
+  let alternatives;
+  for (let i = 0; i < chosen.length && !alternatives; i++) {
+    for (let j = i + 1; j < chosen.length && !alternatives; j++) {
+      const a = chosen[i], b = chosen[j];
+      const findPair = (x, y) => movies.find(item =>
+        [item.left.name, item.right.name].includes(x) && [item.left.name, item.right.name].includes(y));
+      const one = findPair(a.left.name, b.left.name);
+      const two = findPair(a.right.name, b.right.name);
+      if (one && two) alternatives = { a, b, one, two };
+    }
+  }
+  assert.ok(alternatives);
+  const { a, b, one, two } = alternatives;
+  const replayStorage = {
+    'quiz-club-higher-lower-previous-v1': JSON.stringify({ 'movies-television': [a.id, b.id] })
+  };
+  const replay = await setup([...chosen, one, two], replayStorage);
+  choose(replay.el, 'Movies & Television');
+  playRound(replay.el, 'movies-television');
+  const replayIds = JSON.parse(replayStorage['quiz-club-higher-lower-previous-v1'])['movies-television'];
+  assert.ok(!replayIds.includes(a.id) && !replayIds.includes(b.id));
 });
 
 test('personal bests persist independently and never decrease', async () => {
