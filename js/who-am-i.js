@@ -11,7 +11,8 @@
     ['mixed', 'Mixed Mysteries', 'general-knowledge']
   ];
   const ids = ['loading', 'load-error', 'retry', 'storage-warning', 'categories', 'categories-title',
-    'category-grid', 'category-message', 'game', 'round-count', 'score', 'progress', 'progress-fill',
+    'category-grid', 'category-message', 'saved-game', 'saved-game-message', 'resume-game', 'game-categories',
+    'game', 'round-count', 'score', 'progress', 'progress-fill',
     'category-name', 'question', 'points', 'clues', 'guess-form', 'guess', 'submit', 'feedback',
     'feedback-title', 'explanation', 'sources', 'reveal', 'next', 'results', 'result-score',
     'result-title', 'result-summary', 'result-breakdown', 'result-best', 'play-again', 'choose-category', 'review'];
@@ -75,16 +76,16 @@
     if (value.completed && value.rounds.length !== length) return false;
     return value.rounds.every((round, index) => {
       if (!round || !Number.isInteger(round.clue) || round.clue < 0 || round.clue > 4 ||
-          !Array.isArray(round.guesses) || !round.guesses.every(text) ||
+          !Array.isArray(round.guesses) || !round.guesses.every(guess => guess === null || text(guess)) ||
           !['guess', 'incorrect', 'solved', 'failed'].includes(round.phase)) return false;
       const answers = byId.get(value.ids[index]).acceptedAnswers.map(normalize);
-      const correct = round.guesses.map(guess => answers.includes(normalize(guess)));
+      const correct = round.guesses.map(guess => guess !== null && answers.includes(normalize(guess)));
       const last = correct[correct.length - 1] === true;
       if (correct.slice(0, -1).some(Boolean)) return false;
       if (round.phase === 'guess' && (round.guesses.length !== round.clue || correct.some(Boolean))) return false;
-      if (round.phase === 'incorrect' && (round.guesses.length !== round.clue + 1 || round.clue === 4 || last)) return false;
+      if (round.phase === 'incorrect' && (round.guesses.length !== round.clue + 1 || round.clue === 4 || !text(round.guesses.at(-1)) || last)) return false;
       if (round.phase === 'solved' && (round.guesses.length !== round.clue + 1 || !last)) return false;
-      if (round.phase === 'failed' && (round.clue !== 4 || round.guesses.length !== 5 || last)) return false;
+      if (round.phase === 'failed' && (round.clue !== 4 || round.guesses.length !== 5 || !text(round.guesses.at(-1)) || last)) return false;
       if ((index < value.rounds.length - 1 || value.completed) && !['solved', 'failed'].includes(round.phase)) return false;
       return true;
     });
@@ -132,6 +133,14 @@
     el.results.hidden = true;
     el.categories.hidden = false;
     el['category-message'].hidden = true;
+    el['saved-game'].hidden = !state;
+    if (state) {
+      const name = categories.find(category => category[0] === state.category)[1];
+      el['saved-game-message'].textContent = state.completed
+        ? `Your ${name} results are available.`
+        : `Your ${name} game is saved. Starting another category will replace it.`;
+      el['resume-game'].textContent = state.completed ? 'View Results →' : 'Resume Game →';
+    }
     el['category-grid'].replaceChildren();
     for (const [id, name, image] of categories) {
       const pool = id === 'mixed' ? bank : bank.filter(item => item.category === id);
@@ -176,7 +185,12 @@
     state = { category, ids: shuffle(selected).map(item => item.id), rounds: [{ clue: 0, guesses: [], phase: 'guess' }], completed: false };
     store.previous[category] = [...state.ids];
     save();
+    clearCategoryAnchor();
     renderGame(true);
+  }
+
+  function clearCategoryAnchor() {
+    if (location.hash === '#categories') history.replaceState(null, '', `${location.pathname}${location.search}`);
   }
 
   function points(round) {
@@ -215,7 +229,8 @@
     el.submit.disabled = round.phase !== 'guess';
     el.feedback.hidden = round.phase === 'guess';
     el.feedback.classList.toggle('is-incorrect', round.phase === 'incorrect' || round.phase === 'failed');
-    el.reveal.hidden = round.phase !== 'incorrect';
+    el.reveal.hidden = round.clue === 4 || !['guess', 'incorrect'].includes(round.phase);
+    el.reveal.textContent = `Reveal next clue (${4 - round.clue} ${4 - round.clue === 1 ? 'point' : 'points'}) →`;
     el.next.hidden = !['solved', 'failed'].includes(round.phase);
     el.explanation.textContent = '';
     el.sources.replaceChildren();
@@ -302,7 +317,8 @@
       byId = new Map(bank.map(item => [item.id, item]));
       readStore();
       el.loading.hidden = true;
-      if (state && state.completed) showResults();
+      if (location.hash === '#categories') showCategories();
+      else if (state && state.completed) showResults();
       else if (state) renderGame();
       else showCategories();
     } catch (error) {
@@ -315,7 +331,8 @@
   el['guess-form'].addEventListener('submit', submitGuess);
   el.reveal.addEventListener('click', () => {
     const round = state.rounds.at(-1);
-    if (round.phase !== 'incorrect') return;
+    if (round.clue === 4 || !['guess', 'incorrect'].includes(round.phase)) return;
+    if (round.phase === 'guess') round.guesses.push(null);
     round.clue++;
     round.phase = 'guess';
     save();
@@ -332,6 +349,13 @@
     }
   });
   el['play-again'].addEventListener('click', () => start(state.category));
+  el['game-categories'].addEventListener('click', () => showCategories(true));
+  el['resume-game'].addEventListener('click', () => {
+    if (!state) return;
+    clearCategoryAnchor();
+    if (state.completed) showResults(true);
+    else renderGame(true);
+  });
   el['choose-category'].addEventListener('click', () => {
     state = null;
     save();

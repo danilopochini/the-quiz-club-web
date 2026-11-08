@@ -4,6 +4,12 @@
 .mystery-banner { height: 145px; margin-top: 26px; border-radius: 12px; background: linear-gradient(90deg, #30254699, #30254622), url('../assets/images/game-modes/mystery.jpg') center 53% / cover; }
 .mystery-card .question-heading { margin-top: 28px; }
 .mystery-card .question-kicker { color: #7051a8; }
+.mystery-saved-game { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; padding: 16px 18px; border-radius: 10px; background: #f0eafa; }
+.mystery-saved-game[hidden] { display: none; }
+.mystery-saved-game p { margin: 0; line-height: 1.5; font-size: 13px; }
+.mystery-saved-game button { cursor: pointer; }
+.mystery-category-link { margin-top: 16px; padding: 0; border: 0; background: transparent; color: #594393; font: 700 13px var(--body); cursor: pointer; }
+.mystery-category-link:hover { text-decoration: underline; }
 .mystery-clues { display: grid; gap: 10px; padding: 0; list-style: none; counter-reset: clue; }
 .mystery-clues li { counter-increment: clue; padding: 16px; border: 1px solid #e4dcef; border-radius: 10px; background: #f7f3fd; line-height: 1.5; animation: clue-in .25s ease both; overflow-wrap: anywhere; }
 .mystery-clues li::before { content: counter(clue, decimal-leading-zero); margin-right: 12px; color: #7051a8; font-size: 11px; font-weight: 800; }

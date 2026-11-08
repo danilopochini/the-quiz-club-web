@@ -28,7 +28,7 @@ class Element {
   submit() { this.listeners.submit({ preventDefault() {} }); }
 }
 
-async function setup(storage = {}, data = bank) {
+async function setup(storage = {}, data = bank, hash = '') {
   const elements = new Map();
   const document = {
     getElementById(id) {
@@ -38,8 +38,10 @@ async function setup(storage = {}, data = bank) {
     createElement() { return new Element(); }
   };
   const errors = [];
+  const location = { hash, pathname: '/who-am-i.html', search: '' };
+  const history = { replaceState(_state, _title, url) { location.hash = ''; location.replaced = url; } };
   vm.runInNewContext(script, {
-    document, Intl, Date,
+    document, Intl, Date, location, history,
     localStorage: {
       getItem(name) { if (storage.error) throw Error('Unavailable'); return storage[name] || null; },
       setItem(name, value) { if (storage.error) throw Error('Unavailable'); storage[name] = value; }
@@ -48,7 +50,7 @@ async function setup(storage = {}, data = bank) {
     console: { error: (...args) => errors.push(args) }
   });
   await new Promise(resolve => setImmediate(resolve));
-  return { el: elements, errors };
+  return { el: elements, errors, location };
 }
 
 function choose(el, name) {
@@ -143,6 +145,119 @@ test('clues, locked guesses, aliases and refresh preserve scoring and progress',
   assert.equal(el.get('next').hidden, false);
   el.get('next').click();
   assert.equal(el.get('round-count').textContent, 'Mystery 2 of 10');
+});
+
+test('clues can be revealed without guessing, and skipped clues survive refresh', async () => {
+  const storage = {};
+  let { el } = await setup(storage);
+  choose(el, 'Historical Figures');
+  const mystery = current(storage);
+  for (let clue = 0; clue < 4; clue++) {
+    assert.equal(el.get('reveal').hidden, false);
+    assert.match(el.get('reveal').textContent, new RegExp(`${4 - clue} point`));
+    el.get('reveal').click();
+    assert.equal(el.get('clues').children.length, clue + 2);
+    assert.equal(el.get('clues').children[clue + 1].textContent, mystery.clues[clue + 1]);
+    assert.match(el.get('points').textContent, new RegExp(`${4 - clue} point`));
+    ({ el } = await setup(storage));
+    assert.equal(el.get('game').hidden, false);
+    assert.equal(el.get('guess').disabled, false);
+    assert.equal(el.get('clues').children.length, clue + 2);
+  }
+  assert.deepEqual(state(storage).active.rounds[0].guesses, [null, null, null, null]);
+  assert.equal(el.get('reveal').hidden, true);
+  el.get('reveal').click();
+  assert.equal(el.get('clues').children.length, 5);
+  guess(el, mystery.answer);
+  assert.equal(el.get('score').textContent, 1);
+  assert.equal(el.get('reveal').hidden, true);
+  ({ el } = await setup(storage));
+  assert.equal(el.get('score').textContent, 1);
+  assert.equal(el.get('next').hidden, false);
+});
+
+test('skipping and wrong guesses keep their clue positions and final guess rules', async () => {
+  const storage = {};
+  let { el } = await setup(storage);
+  choose(el, 'Historical Figures');
+  const mystery = current(storage);
+  el.get('reveal').click();
+  guess(el, 'wrong on clue two');
+  assert.equal(el.get('guess').disabled, true);
+  guess(el, mystery.answer);
+  assert.deepEqual(state(storage).active.rounds[0].guesses, [null, 'wrong on clue two']);
+  ({ el } = await setup(storage));
+  assert.equal(el.get('guess').disabled, true);
+  assert.equal(el.get('clues').children[0].children.length, 0);
+  assert.match(el.get('clues').children[1].children[0].textContent, /wrong on clue two/);
+  el.get('reveal').click();
+  el.get('reveal').click();
+  el.get('reveal').click();
+  assert.equal(el.get('reveal').hidden, true);
+  guess(el, 'incorrect final guess');
+  assert.match(el.get('feedback-title').textContent, /answer was/);
+  assert.equal(el.get('score').textContent, 0);
+  ({ el } = await setup(storage));
+  assert.equal(el.get('next').hidden, false);
+  assert.equal(el.get('score').textContent, 0);
+});
+
+test('homepage entry shows categories and can resume a saved unfinished game', async () => {
+  const storage = {};
+  const first = await setup(storage);
+  choose(first.el, 'Historical Figures');
+  guess(first.el, 'incorrect guess');
+  const saved = state(storage).active;
+  const homeEntry = await setup(storage, bank, '#categories');
+  assert.equal(homeEntry.el.get('categories').hidden, false);
+  assert.equal(homeEntry.el.get('game').hidden, true);
+  assert.equal(homeEntry.el.get('category-grid').children.length, 7);
+  assert.equal(homeEntry.el.get('saved-game').hidden, false);
+  assert.match(homeEntry.el.get('saved-game-message').textContent, /replace it/);
+  assert.deepEqual(state(storage).active, saved);
+  homeEntry.el.get('resume-game').click();
+  assert.equal(homeEntry.el.get('game').hidden, false);
+  assert.equal(homeEntry.el.get('guess').disabled, true);
+  assert.deepEqual(state(storage).active, saved);
+  assert.equal(homeEntry.location.replaced, '/who-am-i.html');
+  const refreshed = await setup(storage);
+  assert.equal(refreshed.el.get('game').hidden, false);
+  assert.equal(refreshed.el.get('guess').disabled, true);
+});
+
+test('category selection allows a saved game to be replaced or restored', async () => {
+  const storage = {};
+  const first = await setup(storage);
+  choose(first.el, 'Historical Figures');
+  first.el.get('game-categories').click();
+  assert.equal(first.el.get('categories').hidden, false);
+  assert.equal(first.el.get('saved-game').hidden, false);
+  first.el.get('resume-game').click();
+  assert.equal(first.el.get('game').hidden, false);
+  const homeEntry = await setup(storage, bank, '#categories');
+  choose(homeEntry.el, 'Sports Legends');
+  assert.equal(state(storage).active.category, 'sports-legends');
+  assert.equal(homeEntry.location.hash, '');
+  const refresh = await setup(storage);
+  assert.equal(refresh.el.get('game').hidden, false);
+  assert.equal(state(storage).active.category, 'sports-legends');
+});
+
+test('homepage entry offers previous results without counting completion twice', async () => {
+  const storage = {};
+  const first = await setup(storage);
+  choose(first.el, 'Mixed Mysteries');
+  for (let i = 0; i < 10; i++) {
+    guess(first.el, current(storage).answer);
+    first.el.get('next').click();
+  }
+  const homeEntry = await setup(storage, bank, '#categories');
+  assert.equal(homeEntry.el.get('categories').hidden, false);
+  assert.equal(homeEntry.el.get('resume-game').textContent, 'View Results →');
+  homeEntry.el.get('resume-game').click();
+  assert.equal(homeEntry.el.get('results').hidden, false);
+  assert.equal(state(storage).completed.length, 1);
+  assert.equal(homeEntry.location.hash, '');
 });
 
 test('final guess, zero score, full review, completion persistence and replay preferences', async () => {

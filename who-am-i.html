@@ -33,11 +33,13 @@
     <p id="storage-warning" class="higher-warning" role="status" hidden></p>
     <section id="categories" aria-labelledby="categories-title" hidden>
       <div class="higher-section-heading"><div><div class="section-kicker"><span>✳</span> PICK YOUR MYSTERY</div><h2 id="categories-title" tabindex="-1">Choose a category.</h2></div><p>Ten mysteries. Five clues each.</p></div>
+      <div id="saved-game" class="mystery-saved-game" hidden><p id="saved-game-message"></p><button class="button result-back" id="resume-game" type="button"></button></div>
       <p id="category-message" class="higher-warning" role="status" hidden></p>
       <div id="category-grid" class="category-grid"></div>
     </section>
     <section id="game" class="quiz-card mystery-card" aria-label="Mystery round" hidden>
       <div class="quiz-meta"><span id="round-count"></span><span class="score-pill">✦ <span id="score">0</span> / 50 points</span></div>
+      <button id="game-categories" class="mystery-category-link" type="button">← Choose a category</button>
       <div id="progress" class="progress" role="progressbar" aria-label="Game progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="progress-fill"></span></div>
       <div class="mystery-banner" aria-hidden="true"></div>
       <div class="question-heading"><span id="category-name" class="question-kicker"></span><h2 id="question" tabindex="-1"></h2><p id="points"></p></div>
